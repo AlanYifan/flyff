@@ -1,0 +1,22 @@
+/**
+ * @file variables.scss
+ * @description SCSS 全局变量文件
+ * @description 通过 vite.config.js 的 additionalData 自动注入到所有 SCSS 编译中
+ * @note 此文件为项目 SCSS 变量的唯一来源，组件内不应重复定义同名变量
+ */
+
+/* ==================== 颜色 ==================== */
+$primary: #344c7da6;
+$primary-solid: #344c7d;
+$secondary: #fd7001;
+$success: #28a745;
+$error: #dc3545;
+$warning: #f0ad4e;
+$dark: #343a40;
+$light: #f8f9fa;
+
+/* ==================== 间距与圆角 ==================== */
+$border-radius: 8px;
+
+/* ==================== 阴影 ==================== */
+$box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
