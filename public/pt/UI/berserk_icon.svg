@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+  <!-- 狂暴图标 - 火焰/愤怒效果 -->
+  <defs>
+    <linearGradient id="berserkGradient" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" style="stop-color:#ff0000;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#ff4444;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ffaa00;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="1" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <!-- 火焰主体 -->
+  <path d="M12 2C12 2 8 6 8 10C8 12 9 14 12 16C15 14 16 12 16 10C16 6 12 2 12 2Z" 
+        fill="url(#berserkGradient)" 
+        stroke="#ff3300" 
+        stroke-width="1"
+        filter="url(#glow)"/>
+  <!-- 内部火焰 -->
+  <path d="M12 6C12 6 10 8 10 10C10 11 11 12 12 13C13 12 14 11 14 10C14 8 12 6 12 6Z" 
+        fill="#ffcc00" 
+        opacity="0.9"/>
+  <!-- 眼睛效果 -->
+  <circle cx="10" cy="9" r="1" fill="#000"/>
+  <circle cx="14" cy="9" r="1" fill="#000"/>
+  <!-- 愤怒眉毛 -->
+  <path d="M8 7L11 8" stroke="#000" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M16 7L13 8" stroke="#000" stroke-width="1.5" stroke-linecap="round"/>
+  <!-- 底部光芒 -->
+  <path d="M6 18L8 16" stroke="#ff4400" stroke-width="1.5" stroke-linecap="round" opacity="0.8"/>
+  <path d="M18 18L16 16" stroke="#ff4400" stroke-width="1.5" stroke-linecap="round" opacity="0.8"/>
+  <path d="M12 20L12 17" stroke="#ff4400" stroke-width="1.5" stroke-linecap="round" opacity="0.8"/>
+</svg>
