@@ -1,0 +1,252 @@
+[
+  {
+    "line": 174380,
+    "value": "We need some sort of lightning rod to attract the storm's fury away from the airships heading into Saint City...",
+    "escapedValue": "We need some sort of lightning rod to attract the storm\\'s fury away from the airships heading into Saint City..."
+  },
+  {
+    "line": 174426,
+    "value": "The largest piece of unrefined metal in Saint Morning hangs off the head of the Giant Dumb Bull... Defeat the giant and collect the Metallurgical Bull Ring!",
+    "escapedValue": "The largest piece of unrefined metal in Saint Morning hangs off the head of the Giant Dumb Bull... Defeat the giant and collect the Metallurgical Bull Ring!"
+  },
+  {
+    "line": 174474,
+    "value": "You have found the ring!",
+    "escapedValue": "You have found the ring!"
+  },
+  {
+    "line": 174524,
+    "value": "Kill Nutty Wheels",
+    "escapedValue": "Kill Nutty Wheels"
+  },
+  {
+    "line": 174579,
+    "value": "The $QUEST_END_KILL_NAME$ has been spotted somewhere in Madrigal. Check your map for hints for where they may be hiding!",
+    "escapedValue": "The $QUEST_END_KILL_NAME$ has been spotted somewhere in Madrigal. Check your map for hints for where they may be hiding!"
+  },
+  {
+    "line": 174602,
+    "value": "Welcome! Another request has come in to clear out $QUEST_END_KILL_NAME$. Could you please work together to defeat the $QUEST_END_KILL_NAME$, and return to me once you are done?",
+    "escapedValue": "Welcome! Another request has come in to clear out $QUEST_END_KILL_NAME$. Could you please work together to defeat the $QUEST_END_KILL_NAME$, and return to me once you are done?"
+  },
+  {
+    "line": 174626,
+    "value": "The $QUEST_END_KILL_NAME$ has been spotted somewhere in Madrigal. Check your map for hints for where they may be hiding!",
+    "escapedValue": "The $QUEST_END_KILL_NAME$ has been spotted somewhere in Madrigal. Check your map for hints for where they may be hiding!"
+  },
+  {
+    "line": 174650,
+    "value": "Some days we don't feel productive. I understand.",
+    "escapedValue": "Some days we don\\'t feel productive. I understand."
+  },
+  {
+    "line": 174674,
+    "value": "The power of your love have vanquished the $QUEST_END_KILL_NAME$ threat, thank you!",
+    "escapedValue": "The power of your love have vanquished the $QUEST_END_KILL_NAME$ threat, thank you!"
+  },
+  {
+    "line": 174698,
+    "value": "Were you unable to find and defeat $QUEST_END_KILL_NAME$ yet? Track them down to prove your love is true!",
+    "escapedValue": "Were you unable to find and defeat $QUEST_END_KILL_NAME$ yet? Track them down to prove your love is true!"
+  },
+  {
+    "line": 174935,
+    "value": "You may find $QUEST_END_ITEM_NAME$ from Naga around Coral Island.",
+    "escapedValue": "You may find $QUEST_END_ITEM_NAME$ from Naga around Coral Island."
+  },
+  {
+    "line": 174980,
+    "value": "The Naga are powerful warriors of the sea... their $QUEST_END_ITEM_NAME$ are said to hold magical powers that can be used to harness purple energy. I have a healthy fear of Purple Magic, but what doesn't kill you only makes you stronger.",
+    "escapedValue": "The Naga are powerful warriors of the sea... their $QUEST_END_ITEM_NAME$ are said to hold magical powers that can be used to harness purple energy. I have a healthy fear of Purple Magic, but what doesn\\'t kill you only makes you stronger."
+  },
+  {
+    "line": 175004,
+    "value": "You may find $QUEST_END_ITEM_NAME$ from Naga around Coral Island.",
+    "escapedValue": "You may find $QUEST_END_ITEM_NAME$ from Naga around Coral Island."
+  },
+  {
+    "line": 175028,
+    "value": "Please, don't make me go collect $QUEST_END_ITEM_NAME$ all on my own... I'm too busy dreaming up new inventions!",
+    "escapedValue": "Please, don\\'t make me go collect $QUEST_END_ITEM_NAME$ all on my own... I\\'m too busy dreaming up new inventions!"
+  },
+  {
+    "line": 175052,
+    "value": "Thank you for collecting all those $QUEST_END_ITEM_NAME$, adventurer! Soon I'll know more about this Purple Magic... Perhaps one day enough to stop its evil from taking over Coral Island.",
+    "escapedValue": "Thank you for collecting all those $QUEST_END_ITEM_NAME$, adventurer! Soon I\\'ll know more about this Purple Magic... Perhaps one day enough to stop its evil from taking over Coral Island."
+  },
+  {
+    "line": 175076,
+    "value": "That isn't nearly enough $QUEST_END_ITEM_NAME$ for me to build one of my grand inventions... come back with more!",
+    "escapedValue": "That isn\\'t nearly enough $QUEST_END_ITEM_NAME$ for me to build one of my grand inventions... come back with more!"
+  },
+  {
+    "line": 175313,
+    "value": "You may find $QUEST_END_ITEM_NAME$ from the Meral patroling the beaches.",
+    "escapedValue": "You may find $QUEST_END_ITEM_NAME$ from the Meral patroling the beaches."
+  },
+  {
+    "line": 175358,
+    "value": "The glass inside a Meral's $QUEST_END_ITEM_NAME$ can enhance a person's vision thrice their normal spotting distance. Collect me enough and I could build a telescope to peer halfway across the globe!",
+    "escapedValue": "The glass inside a Meral\\'s $QUEST_END_ITEM_NAME$ can enhance a person\\'s vision thrice their normal spotting distance. Collect me enough and I could build a telescope to peer halfway across the globe!"
+  },
+  {
+    "line": 175382,
+    "value": "You may find $QUEST_END_ITEM_NAME$ from the Meral patroling the beaches.",
+    "escapedValue": "You may find $QUEST_END_ITEM_NAME$ from the Meral patroling the beaches."
+  },
+  {
+    "line": 175406,
+    "value": "Please, don't make me go collect $QUEST_END_ITEM_NAME$ all on my own... I'm too busy dreaming up new inventions!",
+    "escapedValue": "Please, don\\'t make me go collect $QUEST_END_ITEM_NAME$ all on my own... I\\'m too busy dreaming up new inventions!"
+  },
+  {
+    "line": 175430,
+    "value": "Thank you for collecting all those $QUEST_END_ITEM_NAME$, adventurer! Soon I'll be able to see the sights without ever leaving my home!",
+    "escapedValue": "Thank you for collecting all those $QUEST_END_ITEM_NAME$, adventurer! Soon I\\'ll be able to see the sights without ever leaving my home!"
+  },
+  {
+    "line": 175454,
+    "value": "That isn't nearly enough $QUEST_END_ITEM_NAME$ for me to build one of my grand inventions... come back with more!",
+    "escapedValue": "That isn\\'t nearly enough $QUEST_END_ITEM_NAME$ for me to build one of my grand inventions... come back with more!"
+  },
+  {
+    "line": 175692,
+    "value": "Meet with Marche.",
+    "escapedValue": "Meet with Marche."
+  },
+  {
+    "line": 175783,
+    "value": "Marche has always been an expert on the magical properties of the plant life in the region... Go speak with Marche to learn more about the magic within the Flaris fungi.",
+    "escapedValue": "Marche has always been an expert on the magical properties of the plant life in the region... Go speak with Marche to learn more about the magic within the Flaris fungi."
+  },
+  {
+    "line": 175807,
+    "value": "Magic is powerful, and sometimes scary. I understand if you do not want to speak to Marche.",
+    "escapedValue": "Magic is powerful, and sometimes scary. I understand if you do not want to speak to Marche."
+  },
+  {
+    "line": 175831,
+    "value": "Oh, hello! So Sotta sent you to me. I wonder if you are prepared to seek out the magic behind these mushrooms...",
+    "escapedValue": "Oh, hello! So Sotta sent you to me. I wonder if you are prepared to seek out the magic behind these mushrooms..."
+  },
+  {
+    "line": 175855,
+    "value": "Speak to Marche to learn more about the magic of Flaris fungi.",
+    "escapedValue": "Speak to Marche to learn more about the magic of Flaris fungi."
+  },
+  {
+    "line": 175941,
+    "value": "Kill Fefern",
+    "escapedValue": "Kill Fefern"
+  },
+  {
+    "line": 175996,
+    "value": "The $QUEST_END_KILL_NAME$ has been spotted somewhere in Madrigal. Check your map for hints for where they may be hiding!",
+    "escapedValue": "The $QUEST_END_KILL_NAME$ has been spotted somewhere in Madrigal. Check your map for hints for where they may be hiding!"
+  },
+  {
+    "line": 176019,
+    "value": "Welcome! Another request has come in to clear out $QUEST_END_KILL_NAME$. Could you please work together to defeat the $QUEST_END_KILL_NAME$, and return to me once you are done?",
+    "escapedValue": "Welcome! Another request has come in to clear out $QUEST_END_KILL_NAME$. Could you please work together to defeat the $QUEST_END_KILL_NAME$, and return to me once you are done?"
+  },
+  {
+    "line": 176043,
+    "value": "The $QUEST_END_KILL_NAME$ has been spotted somewhere in Madrigal. Check your map for hints for where they may be hiding!",
+    "escapedValue": "The $QUEST_END_KILL_NAME$ has been spotted somewhere in Madrigal. Check your map for hints for where they may be hiding!"
+  },
+  {
+    "line": 176067,
+    "value": "Some days we don't feel productive. I understand.",
+    "escapedValue": "Some days we don\\'t feel productive. I understand."
+  },
+  {
+    "line": 176091,
+    "value": "The power of your love have vanquished the $QUEST_END_KILL_NAME$ threat, thank you!",
+    "escapedValue": "The power of your love have vanquished the $QUEST_END_KILL_NAME$ threat, thank you!"
+  },
+  {
+    "line": 176115,
+    "value": "Were you unable to find and defeat $QUEST_END_KILL_NAME$ yet? Track them down to prove your love is true!",
+    "escapedValue": "Were you unable to find and defeat $QUEST_END_KILL_NAME$ yet? Track them down to prove your love is true!"
+  },
+  {
+    "line": 176141,
+    "value": "Smithing Class",
+    "escapedValue": "Smithing Class"
+  },
+  {
+    "line": 176173,
+    "value": "You can make furniture out of wood. Would you like to learn carpenting?",
+    "escapedValue": "You can make furniture out of wood. Would you like to learn carpenting?"
+  },
+  {
+    "line": 176197,
+    "value": "Okay, try anything at the nearest crafting tool. The tools are near the jewelry.",
+    "escapedValue": "Okay, try anything at the nearest crafting tool. The tools are near the jewelry."
+  },
+  {
+    "line": 176221,
+    "value": "There you go. It's easier than you think, isn't it? Just remember, the most important thing is to do 'a lot'.",
+    "escapedValue": "There you go. It\\'s easier than you think, isn\\'t it? Just remember, the most important thing is to do \\'a lot\\'."
+  },
+  {
+    "line": 176245,
+    "value": "Try anything at the nearest crafting tool. The tools are near the jewelry.",
+    "escapedValue": "Try anything at the nearest crafting tool. The tools are near the jewelry."
+  },
+  {
+    "line": 176301,
+    "value": "Kill Steam Walkers",
+    "escapedValue": "Kill Steam Walkers"
+  },
+  {
+    "line": 176356,
+    "value": "The $QUEST_END_KILL_NAME$ has been spotted somewhere in Madrigal. Check your map for hints for where they may be hiding!",
+    "escapedValue": "The $QUEST_END_KILL_NAME$ has been spotted somewhere in Madrigal. Check your map for hints for where they may be hiding!"
+  },
+  {
+    "line": 176379,
+    "value": "Welcome! Another request has come in to clear out $QUEST_END_KILL_NAME$. Could you please work together to defeat the $QUEST_END_KILL_NAME$, and return to me once you are done?",
+    "escapedValue": "Welcome! Another request has come in to clear out $QUEST_END_KILL_NAME$. Could you please work together to defeat the $QUEST_END_KILL_NAME$, and return to me once you are done?"
+  },
+  {
+    "line": 176403,
+    "value": "The $QUEST_END_KILL_NAME$ has been spotted somewhere in Madrigal. Check your map for hints for where they may be hiding!",
+    "escapedValue": "The $QUEST_END_KILL_NAME$ has been spotted somewhere in Madrigal. Check your map for hints for where they may be hiding!"
+  },
+  {
+    "line": 176427,
+    "value": "Some days we don't feel productive. I understand.",
+    "escapedValue": "Some days we don\\'t feel productive. I understand."
+  },
+  {
+    "line": 176451,
+    "value": "The power of your love have vanquished the $QUEST_END_KILL_NAME$ threat, thank you!",
+    "escapedValue": "The power of your love have vanquished the $QUEST_END_KILL_NAME$ threat, thank you!"
+  },
+  {
+    "line": 176475,
+    "value": "Were you unable to find and defeat $QUEST_END_KILL_NAME$ yet? Track them down to prove your love is true!",
+    "escapedValue": "Were you unable to find and defeat $QUEST_END_KILL_NAME$ yet? Track them down to prove your love is true!"
+  },
+  {
+    "line": 176501,
+    "value": "Purple Reign",
+    "escapedValue": "Purple Reign"
+  },
+  {
+    "line": 176739,
+    "value": "Often potent magic leaves behind a trail in its wake of destruction. If Purple Magic was used to destroy the Guardiane Sanctuary... the people inside that turned into those creatures may have a small essence of purple energy still hanging on.",
+    "escapedValue": "Often potent magic leaves behind a trail in its wake of destruction. If Purple Magic was used to destroy the Guardiane Sanctuary... the people inside that turned into those creatures may have a small essence of purple energy still hanging on."
+  },
+  {
+    "line": 176787,
+    "value": "Little is known about the effects of Purple Magic on the body... a healthy fear of it may be for the best.",
+    "escapedValue": "Little is known about the effects of Purple Magic on the body... a healthy fear of it may be for the best."
+  },
+  {
+    "line": 176811,
+    "value": "The evidence is clear... the only magician powerful enough to cast Purple Magic of this potency is the Purple Magician herself, Lapranche.",
+    "escapedValue": "The evidence is clear... the only magician powerful enough to cast Purple Magic of this potency is the Purple Magician herself, Lapranche."
+  }
+]

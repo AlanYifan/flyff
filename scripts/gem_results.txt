@@ -1,0 +1,689 @@
+=== 终极珠宝盒子相关物品 ===
+
+共找到 97 个 ultimatejewel 物品
+
+其中完整宝石: 97 个
+
+碎片: 0 个
+
+
+=== 完整宝石（需要修改描述和名称） ===
+
+ID: 7057
+中文名称: 闪耀红宝石（5个）
+英文名称: Shining Ruby (5)
+中文描述: Gives +5 Strength when applied to a ultimate weapon. Can only be attached once.
+英文描述: Gives +5 Strength when applied to a ultimate weapon. Can only be attached once.
+---
+
+ID: 8177
+中文名称: 闪耀紫水晶（10个）
+英文名称: Shining Amethyst (10)
+中文描述: Gives +10 Stamina when applied to a ultimate weapon. Can only be attached once.
+英文描述: Gives +10 Stamina when applied to a ultimate weapon. Can only be attached once.
+---
+
+ID: 8441
+中文名称: 闪耀蓝宝石（6个）
+英文名称: Shining Sapphire (6)
+中文描述: Gives +6 Intelligence when applied to a ultimate weapon. Can only be attached once.
+英文描述: Gives +6 Intelligence when applied to a ultimate weapon. Can only be attached once.
+---
+
+ID: 10073
+中文名称: 彩虹珠宝（3个）
+英文名称: Rainbow Jewel (3)
+中文描述: Gives +3 All stat when applied to a ultimate weapon. Can only be attached once.
+英文描述: Gives +3 All stat when applied to a ultimate weapon. Can only be attached once.
+---
+
+ID: 10143
+中文名称: 闪耀蓝宝石（8个）
+英文名称: Shining Sapphire (8)
+中文描述: Gives +8 Intelligence when applied to a ultimate weapon. Can only be attached once.
+英文描述: Gives +8 Intelligence when applied to a ultimate weapon. Can only be attached once.
+---
+
+ID: 10170
+中文名称: 闪耀紫水晶（8个）
+英文名称: Shining Amethyst (8)
+中文描述: Gives +8 Stamina when applied to a ultimate weapon. Can only be attached once.
+英文描述: Gives +8 Stamina when applied to a ultimate weapon. Can only be attached once.
+---
+
+ID: 10370
+中文名称: 近战格挡符文
+英文名称: Rune of Block Melee
+中文描述: Gives +10% melee block when applied to a ultimate weapon. Can only be attached once.
+英文描述: Gives +10% melee block when applied to a ultimate weapon. Can only be attached once.
+---
+
+ID: 10511
+中文名称: 远程格挡符文
+英文名称: Rune of Block Range
+中文描述: Gives +10% range block when applied to a ultimate weapon. Can only be attached once.
+英文描述: Gives +10% range block when applied to a ultimate weapon. Can only be attached once.
+---
+
+ID: 10639
+中文名称: 闪耀玛瑙（9个）
+英文名称: Shining Onyx (9)
+中文描述: Gives +90 Attack Power when applied to a ultimate weapon. Can only be attached once.
+英文描述: Gives +90 Attack Power when applied to a ultimate weapon. Can only be attached once.
+---
+
+ID: 10726
+中文名称: 闪耀黄玉（1个）
+英文名称: Shining Topaz (1)
+中文描述: Gives +5 Defense when applied to a ultimate weapon. Can only be attached once.
+英文描述: Gives +5 Defense when applied to a ultimate weapon. Can only be attached once.
+---
+
+ID: 10730
+中文名称: 闪耀钻石（1个）
+英文名称: Shining Diamond (1)
+中文描述: Gives +50 HP when applied to a ultimate weapon. Can only be attached once.
+英文描述: Gives +50 HP when applied to a ultimate weapon. Can only be attached once.
+---
+
+ID: 10781
+中文名称: 闪耀紫水晶（5个）
+英文名称: Shining Amethyst (5)
+中文描述: Gives +5 Stamina when applied to a ultimate weapon. Can only be attached once.
+英文描述: Gives +5 Stamina when applied to a ultimate weapon. Can only be attached once.
+---
+
+ID: 10787
+中文名称: 闪耀玛瑙（2个）
+英文名称: Shining Onyx (2)
+中文描述: Gives +20 Attack Power when applied to a ultimate weapon. Can only be attached once.
+英文描述: Gives +20 Attack Power when applied to a ultimate weapon. Can only be attached once.
+---
+
+ID: 10910
+中文名称: 彩虹珠宝（7个）
+英文名称: Rainbow Jewel (7)
+中文描述: Gives +7 All stat when applied to a ultimate weapon. Can only be attached once.
+英文描述: Gives +7 All stat when applied to a ultimate weapon. Can only be attached once.
+---
+
+ID: 10978
+中文名称: 闪耀蓝宝石（4个）
+英文名称: Shining Sapphire (4)
+中文描述: Gives +4 Intelligence when applied to a ultimate weapon. Can only be attached once.
+英文描述: Gives +4 Intelligence when applied to a ultimate weapon. Can only be attached once.
+---
+
+ID: 11097
+中文名称: 闪耀蓝宝石（5个）
+英文名称: Shining Sapphire (5)
+中文描述: Gives +5 Intelligence when applied to a ultimate weapon. Can only be attached once.
+英文描述: Gives +5 Intelligence when applied to a ultimate weapon. Can only be attached once.
+---
+
+ID: 11116
+中文名称: 命中率符文
+英文名称: Rune of Hit Rate
+中文描述: Gives +10% hit rate when applied to a ultimate weapon. Can only be attached once.
+英文描述: Gives +10% hit rate when applied to a ultimate weapon. Can only be attached once.
+---
+
+ID: 11230
+中文名称: 闪耀红宝石（10个）
+英文名称: Shining Ruby (10)
+中文描述: Gives +10 Strength when applied to a ultimate weapon. Can only be attached once.
+英文描述: Gives +10 Strength when applied to a ultimate weapon. Can only be attached once.
+---
+
+ID: 11257
+中文名称: 彩虹珠宝（10个）
+英文名称: Rainbow Jewel (10)
+中文描述: Gives +10 All stat when applied to a ultimate weapon. Can only be attached once.
+英文描述: Gives +10 All stat when applied to a ultimate weapon. Can only be attached once.
+---
+
+ID: 11515
+中文名称: 增加FP符文
+英文名称: Rune of Increasing FP
+中文描述: Gives +10% FP when applied to a ultimate weapon. Can only be attached once.
+英文描述: Gives +10% FP when applied to a ultimate weapon. Can only be attached once.
+---
+
+ID: 11570
+中文名称: 闪耀红宝石（1个）
+英文名称: Shining Ruby (1)
+中文描述: Gives +1 Strength when applied to a ultimate weapon. Can only be attached once.
+英文描述: Gives +1 Strength when applied to a ultimate weapon. Can only be attached once.
+---
+
+ID: 11635
+中文名称: 闪耀玛瑙（6个）
+英文名称: Shining Onyx (6)
+中文描述: Gives +60 Attack Power when applied to a ultimate weapon. Can only be attached once.
+英文描述: Gives +60 Attack Power when applied to a ultimate weapon. Can only be attached once.
+---
+
+ID: 11665
+中文名称: 闪耀翡翠（7个）
+英文名称: Shining Emerald (7)
+中文描述: Gives +7 Dexterity when applied to a ultimate weapon. Can only be attached once.
+英文描述: Gives +7 Dexterity when applied to a ultimate weapon. Can only be attached once.
+---
+
+ID: 11776
+中文名称: 闪耀黄玉（6个）
+英文名称: Shining Topaz (6)
+中文描述: Gives +30 Defense when applied to a ultimate weapon. Can only be attached once.
+英文描述: Gives +30 Defense when applied to a ultimate weapon. Can only be attached once.
+---
+
+ID: 11810
+中文名称: 闪耀紫水晶（6个）
+英文名称: Shining Amethyst (6)
+中文描述: Gives +6 Stamina when applied to a ultimate weapon. Can only be attached once.
+英文描述: Gives +6 Stamina when applied to a ultimate weapon. Can only be attached once.
+---
+
+ID: 11921
+中文名称: 技能范围符文
+英文名称: Rune of Skill Range
+中文描述: Gives +10% skill range when applied to a ultimate weapon. Can only be attached once.
+英文描述: Gives +10% skill range when applied to a ultimate weapon. Can only be attached once.
+---
+
+ID: 12209
+中文名称: 闪耀钻石（6个）
+英文名称: Shining Diamond (6)
+中文描述: Gives +300 HP when applied to a ultimate weapon. Can only be attached once.
+英文描述: Gives +300 HP when applied to a ultimate weapon. Can only be attached once.
+---
+
+ID: 12270
+中文名称: 闪耀紫水晶（7个）
+英文名称: Shining Amethyst (7)
+中文描述: Gives +7 Stamina when applied to a ultimate weapon. Can only be attached once.
+英文描述: Gives +7 Stamina when applied to a ultimate weapon. Can only be attached once.
+---
+
+ID: 12386
+中文名称: 彩虹珠宝（2个）
+英文名称: Rainbow Jewel (2)
+中文描述: Gives +2 All stat when applied to a ultimate weapon. Can only be attached once.
+英文描述: Gives +2 All stat when applied to a ultimate weapon. Can only be attached once.
+---
+
+ID: 12402
+中文名称: 闪耀黄玉（10个）
+英文名称: Shining Topaz (10)
+中文描述: Gives +50 Defense when applied to a ultimate weapon. Can only be attached once.
+英文描述: Gives +50 Defense when applied to a ultimate weapon. Can only be attached once.
+---
+
+ID: 12419
+中文名称: 闪耀绿宝石（6个）
+英文名称: Shining Emerald (6)
+中文描述: Gives +6 Dexterity when applied to a ultimate weapon. Can only be attached once.
+英文描述: Gives +6 Dexterity when applied to a ultimate weapon. Can only be attached once.
+---
+
+ID: 12456
+中文名称: 闪耀黄玉（3个）
+英文名称: Shining Topaz (3)
+中文描述: Gives +15 Defense when applied to a ultimate weapon. Can only be attached once.
+英文描述: Gives +15 Defense when applied to a ultimate weapon. Can only be attached once.
+---
+
+ID: 12532
+中文名称: 闪耀蓝宝石（7个）
+英文名称: Shining Sapphire (7)
+中文描述: Gives +7 Intelligence when applied to a ultimate weapon. Can only be attached once.
+英文描述: Gives +7 Intelligence when applied to a ultimate weapon. Can only be attached once.
+---
+
+ID: 12545
+中文名称: 闪耀钻石（9个）
+英文名称: Shining Diamond (9)
+中文描述: Gives +450 HP when applied to a ultimate weapon. Can only be attached once.
+英文描述: Gives +450 HP when applied to a ultimate weapon. Can only be attached once.
+---
+
+ID: 12684
+中文名称: 闪耀红宝石（3个）
+英文名称: Shining Ruby (3)
+中文描述: Gives +3 Strength when applied to a ultimate weapon. Can only be attached once.
+英文描述: Gives +3 Strength when applied to a ultimate weapon. Can only be attached once.
+---
+
+ID: 12984
+中文名称: 闪耀紫水晶（2个）
+英文名称: Shining Amethyst (2)
+中文描述: Gives +2 Stamina when applied to a ultimate weapon. Can only be attached once.
+英文描述: Gives +2 Stamina when applied to a ultimate weapon. Can only be attached once.
+---
+
+ID: 13522
+中文名称: 闪耀玛瑙（10个）
+英文名称: Shining Onyx (10)
+中文描述: Gives +100 Attack Power when applied to a ultimate weapon. Can only be attached once.
+英文描述: Gives +100 Attack Power when applied to a ultimate weapon. Can only be attached once.
+---
+
+ID: 13541
+中文名称: 闪耀黄玉（7个）
+英文名称: Shining Topaz (7)
+中文描述: Gives +35 Defense when applied to a ultimate weapon. Can only be attached once.
+英文描述: Gives +35 Defense when applied to a ultimate weapon. Can only be attached once.
+---
+
+ID: 13766
+中文名称: 暴击加成符文
+英文名称: Rune of Critical Bonus
+中文描述: Gives +10% critical bonus when applied to a ultimate weapon. Can only be attached once.
+英文描述: Gives +10% critical bonus when applied to a ultimate weapon. Can only be attached once.
+---
+
+ID: 13777
+中文名称: 速度符文
+英文名称: Rune of Speed
+中文描述: Gives +10% speed when applied to a ultimate weapon. Can only be attached once.
+英文描述: Gives +10% speed when applied to a ultimate weapon. Can only be attached once.
+---
+
+ID: 13837
+中文名称: 彩虹珠宝（5个）
+英文名称: Rainbow Jewel (5)
+中文描述: Gives +5 All stat when applied to a ultimate weapon. Can only be attached once.
+英文描述: Gives +5 All stat when applied to a ultimate weapon. Can only be attached once.
+---
+
+ID: 13861
+中文名称: 闪耀黄玉（4个）
+英文名称: Shining Topaz (4)
+中文描述: Gives +20 Defense when applied to a ultimate weapon. Can only be attached once.
+英文描述: Gives +20 Defense when applied to a ultimate weapon. Can only be attached once.
+---
+
+ID: 13964
+中文名称: 闪耀绿宝石（1个）
+英文名称: Shining Emerald (1)
+中文描述: Gives +1 Dexterity when applied to a ultimate weapon. Can only be attached once.
+英文描述: Gives +1 Dexterity when applied to a ultimate weapon. Can only be attached once.
+---
+
+ID: 14011
+中文名称: 闪耀钻石（4个）
+英文名称: Shining Diamond (4)
+中文描述: Gives +200 HP when applied to a ultimate weapon. Can only be attached once.
+英文描述: Gives +200 HP when applied to a ultimate weapon. Can only be attached once.
+---
+
+ID: 14389
+中文名称: 闪耀红宝石（8个）
+英文名称: Shining Ruby (8)
+中文描述: Gives +8 Strength when applied to a ultimate weapon. Can only be attached once.
+英文描述: Gives +8 Strength when applied to a ultimate weapon. Can only be attached once.
+---
+
+ID: 14434
+中文名称: 彩虹珠宝（6个）
+英文名称: Rainbow Jewel (6)
+中文描述: Gives +6 All stat when applied to a ultimate weapon. Can only be attached once.
+英文描述: Gives +6 All stat when applied to a ultimate weapon. Can only be attached once.
+---
+
+ID: 14557
+中文名称: 彩虹珠宝 (8个)
+英文名称: Rainbow Jewel (8)
+中文描述: Gives +8 All stat when applied to a ultimate weapon. Can only be attached once.
+英文描述: Gives +8 All stat when applied to a ultimate weapon. Can only be attached once.
+---
+
+ID: 14657
+中文名称: 闪耀绿宝石 (2个)
+英文名称: Shining Emerald (2)
+中文描述: Gives +2 Dexterity when applied to a ultimate weapon. Can only be attached once.
+英文描述: Gives +2 Dexterity when applied to a ultimate weapon. Can only be attached once.
+---
+
+ID: 14796
+中文名称: 彩虹珠宝 (9个)
+英文名称: Rainbow Jewel (9)
+中文描述: Gives +9 All stat when applied to a ultimate weapon. Can only be attached once.
+英文描述: Gives +9 All stat when applied to a ultimate weapon. Can only be attached once.
+---
+
+ID: 14892
+中文名称: 闪耀紫水晶 (9个)
+英文名称: Shining Amethyst (9)
+中文描述: Gives +9 Stamina when applied to a ultimate weapon. Can only be attached once.
+英文描述: Gives +9 Stamina when applied to a ultimate weapon. Can only be attached once.
+---
+
+ID: 15120
+中文名称: 暴击几率符文
+英文名称: Rune of Critical Chance
+中文描述: Gives +10% critical chance when applied to a ultimate weapon. Can only be attached once.
+英文描述: Gives +10% critical chance when applied to a ultimate weapon. Can only be attached once.
+---
+
+ID: 15186
+中文名称: 闪耀黄玉 (8个)
+英文名称: Shining Topaz (8)
+中文描述: Gives +40 Defense when applied to a ultimate weapon. Can only be attached once.
+英文描述: Gives +40 Defense when applied to a ultimate weapon. Can only be attached once.
+---
+
+ID: 15307
+中文名称: 闪耀绿宝石 (3个)
+英文名称: Shining Emerald (3)
+中文描述: Gives +3 Dexterity when applied to a ultimate weapon. Can only be attached once.
+英文描述: Gives +3 Dexterity when applied to a ultimate weapon. Can only be attached once.
+---
+
+ID: 15689
+中文名称: 彩虹珠宝 (1个)
+英文名称: Rainbow Jewel (1)
+中文描述: Gives +1 All stat when applied to a ultimate weapon. Can only be attached once.
+英文描述: Gives +1 All stat when applied to a ultimate weapon. Can only be attached once.
+---
+
+ID: 15816
+中文名称: 闪耀红宝石 (9个)
+英文名称: Shining Ruby (9)
+中文描述: Gives +9 Strength when applied to a ultimate weapon. Can only be attached once.
+英文描述: Gives +9 Strength when applied to a ultimate weapon. Can only be attached once.
+---
+
+ID: 15911
+中文名称: 闪耀钻石 (5个)
+英文名称: Shining Diamond (5)
+中文描述: Gives +250 HP when applied to a ultimate weapon. Can only be attached once.
+英文描述: Gives +250 HP when applied to a ultimate weapon. Can only be attached once.
+---
+
+ID: 16150
+中文名称: 暴击抗性符文
+英文名称: Rune of Critical Resistance
+中文描述: Gives +10% critical resistance when applied to a ultimate weapon. Can only be attached once.
+英文描述: Gives +10% critical resistance when applied to a ultimate weapon. Can only be attached once.
+---
+
+ID: 16168
+中文名称: 闪耀钻石 (3个)
+英文名称: Shining Diamond (3)
+中文描述: Gives +150 HP when applied to a ultimate weapon. Can only be attached once.
+英文描述: Gives +150 HP when applied to a ultimate weapon. Can only be attached once.
+---
+
+ID: 16199
+中文名称: 闪耀蓝宝石 (9个)
+英文名称: Shining Sapphire (9)
+中文描述: Gives +9 Intelligence when applied to a ultimate weapon. Can only be attached once.
+英文描述: Gives +9 Intelligence when applied to a ultimate weapon. Can only be attached once.
+---
+
+ID: 16480
+中文名称: 闪耀绿宝石 (5个)
+英文名称: Shining Emerald (5)
+中文描述: Gives +5 Dexterity when applied to a ultimate weapon. Can only be attached once.
+英文描述: Gives +5 Dexterity when applied to a ultimate weapon. Can only be attached once.
+---
+
+ID: 16518
+中文名称: 闪耀黑玛瑙 (3个)
+英文名称: Shining Onyx (3)
+中文描述: Gives +30 Attack Power when applied to a ultimate weapon. Can only be attached once.
+英文描述: Gives +30 Attack Power when applied to a ultimate weapon. Can only be attached once.
+---
+
+ID: 16591
+中文名称: 闪耀绿宝石 (9个)
+英文名称: Shining Emerald (9)
+中文描述: Gives +9 Dexterity when applied to a ultimate weapon. Can only be attached once.
+英文描述: Gives +9 Dexterity when applied to a ultimate weapon. Can only be attached once.
+---
+
+ID: 16598
+中文名称: 闪耀紫水晶 (3个)
+英文名称: Shining Amethyst (3)
+中文描述: Gives +3 Stamina when applied to a ultimate weapon. Can only be attached once.
+英文描述: Gives +3 Stamina when applied to a ultimate weapon. Can only be attached once.
+---
+
+ID: 16653
+中文名称: 彩虹珠宝 (4个)
+英文名称: Rainbow Jewel (4)
+中文描述: Gives +4 All stat when applied to a ultimate weapon. Can only be attached once.
+英文描述: Gives +4 All stat when applied to a ultimate weapon. Can only be attached once.
+---
+
+ID: 16881
+中文名称: 闪耀紫水晶 (1个)
+英文名称: Shining Amethyst (1)
+中文描述: Gives +1 Stamina when applied to a ultimate weapon. Can only be attached once.
+英文描述: Gives +1 Stamina when applied to a ultimate weapon. Can only be attached once.
+---
+
+ID: 16920
+中文名称: 闪耀红宝石 (4个)
+英文名称: Shining Ruby (4)
+中文描述: Gives +4 Strength when applied to a ultimate weapon. Can only be attached once.
+英文描述: Gives +4 Strength when applied to a ultimate weapon. Can only be attached once.
+---
+
+ID: 17006
+中文名称: 闪耀绿宝石 (10个)
+英文名称: Shining Emerald (10)
+中文描述: Gives +10 Dexterity when applied to a ultimate weapon. Can only be attached once.
+英文描述: Gives +10 Dexterity when applied to a ultimate weapon. Can only be attached once.
+---
+
+ID: 17069
+中文名称: 闪耀绿宝石 (8个)
+英文名称: Shining Emerald (8)
+中文描述: Gives +8 Dexterity when applied to a ultimate weapon. Can only be attached once.
+英文描述: Gives +8 Dexterity when applied to a ultimate weapon. Can only be attached once.
+---
+
+ID: 17105
+中文名称: 攻击符文
+英文名称: Rune of Attack
+中文描述: Gives +10% attack power when applied to a ultimate weapon. Can only be attached once.
+英文描述: Gives +10% attack power when applied to a ultimate weapon. Can only be attached once.
+---
+
+ID: 17176
+中文名称: 闪耀钻石 (7个)
+英文名称: Shining Diamond (7)
+中文描述: Gives +350 HP when applied to a ultimate weapon. Can only be attached once.
+英文描述: Gives +350 HP when applied to a ultimate weapon. Can only be attached once.
+---
+
+ID: 17409
+中文名称: 魔法抗性符文
+英文名称: Rune of Magic Resist
+中文描述: Gives +10% magic resist when applied to a ultimate weapon. Can only be attached once.
+英文描述: Gives +10% magic resist when applied to a ultimate weapon. Can only be attached once.
+---
+
+ID: 17472
+中文名称: 闪耀玛瑙（1个）
+英文名称: Shining Onyx (1)
+中文描述: Gives +10 Attack Power when applied to a ultimate weapon. Can only be attached once.
+英文描述: Gives +10 Attack Power when applied to a ultimate weapon. Can only be attached once.
+---
+
+ID: 17482
+中文名称: 斗气值减少率符文
+英文名称: Rune of FP Decrease Rate
+中文描述: Gives +10% FP comsumption decrease when applied to a ultimate weapon. Can only be attached once.
+英文描述: Gives +10% FP comsumption decrease when applied to a ultimate weapon. Can only be attached once.
+---
+
+ID: 17545
+中文名称: 闪耀玛瑙（5个）
+英文名称: Shining Onyx (5)
+中文描述: Gives +50 Attack Power when applied to a ultimate weapon. Can only be attached once.
+英文描述: Gives +50 Attack Power when applied to a ultimate weapon. Can only be attached once.
+---
+
+ID: 17844
+中文名称: 闪耀玛瑙（4个）
+英文名称: Shining Onyx (4)
+中文描述: Gives +40 Attack Power when applied to a ultimate weapon. Can only be attached once.
+英文描述: Gives +40 Attack Power when applied to a ultimate weapon. Can only be attached once.
+---
+
+ID: 17873
+中文名称: 闪耀蓝宝石（1个）
+英文名称: Shining Sapphire (1)
+中文描述: Gives +1 Intelligence when applied to a ultimate weapon. Can only be attached once.
+英文描述: Gives +1 Intelligence when applied to a ultimate weapon. Can only be attached once.
+---
+
+ID: 17927
+中文名称: 闪耀玛瑙（8个）
+英文名称: Shining Onyx (8)
+中文描述: Gives +80 Attack Power when applied to a ultimate weapon. Can only be attached once.
+英文描述: Gives +80 Attack Power when applied to a ultimate weapon. Can only be attached once.
+---
+
+ID: 17958
+中文名称: 闪耀钻石（2个）
+英文名称: Shining Diamond (2)
+中文描述: Gives +100 HP when applied to a ultimate weapon. Can only be attached once.
+英文描述: Gives +100 HP when applied to a ultimate weapon. Can only be attached once.
+---
+
+ID: 18013
+中文名称: 闪耀红宝石（7个）
+英文名称: Shining Ruby (7)
+中文描述: Gives +7 Strength when applied to a ultimate weapon. Can only be attached once.
+英文描述: Gives +7 Strength when applied to a ultimate weapon. Can only be attached once.
+---
+
+ID: 18158
+中文名称: 闪耀玛瑙（7个）
+英文名称: Shining Onyx (7)
+中文描述: Gives +70 Attack Power when applied to a ultimate weapon. Can only be attached once.
+英文描述: Gives +70 Attack Power when applied to a ultimate weapon. Can only be attached once.
+---
+
+ID: 18225
+中文名称: 闪耀托帕石（5个）
+英文名称: Shining Topaz (5)
+中文描述: Gives +25 Defense when applied to a ultimate weapon. Can only be attached once.
+英文描述: Gives +25 Defense when applied to a ultimate weapon. Can only be attached once.
+---
+
+ID: 18320
+中文名称: 闪耀托帕石（2个）
+英文名称: Shining Topaz (2)
+中文描述: Gives +10 Defense when applied to a ultimate weapon. Can only be attached once.
+英文描述: Gives +10 Defense when applied to a ultimate weapon. Can only be attached once.
+---
+
+ID: 18376
+中文名称: 防御符文
+英文名称: Rune of Defense
+中文描述: Gives +10% defense when applied to a ultimate weapon. Can only be attached once.
+英文描述: Gives +10% defense when applied to a ultimate weapon. Can only be attached once.
+---
+
+ID: 18409
+中文名称: 闪耀钻石（8个）
+英文名称: Shining Diamond (8)
+中文描述: Gives +400 HP when applied to a ultimate weapon. Can only be attached once.
+英文描述: Gives +400 HP when applied to a ultimate weapon. Can only be attached once.
+---
+
+ID: 18554
+中文名称: 攻击速度符文
+英文名称: Rune of Attack Speed
+中文描述: Gives +10% attack speed when applied to a ultimate weapon. Can only be attached once.
+英文描述: Gives +10% attack speed when applied to a ultimate weapon. Can only be attached once.
+---
+
+ID: 18686
+中文名称: 闪耀红宝石（6个）
+英文名称: Shining Ruby (6)
+中文描述: Gives +6 Strength when applied to a ultimate weapon. Can only be attached once.
+英文描述: Gives +6 Strength when applied to a ultimate weapon. Can only be attached once.
+---
+
+ID: 18787
+中文名称: 增加HP符文
+英文名称: Rune of Increasing HP
+中文描述: Gives +10% HP when applied to a ultimate weapon. Can only be attached once.
+英文描述: Gives +10% HP when applied to a ultimate weapon. Can only be attached once.
+---
+
+ID: 18960
+中文名称: 闪耀托帕石（9个）
+英文名称: Shining Topaz (9)
+中文描述: Gives +45 Defense when applied to a ultimate weapon. Can only be attached once.
+英文描述: Gives +45 Defense when applied to a ultimate weapon. Can only be attached once.
+---
+
+ID: 19152
+中文名称: 闪耀紫水晶（4个）
+英文名称: Shining Amethyst (4)
+中文描述: Gives +4 Stamina when applied to a ultimate weapon. Can only be attached once.
+英文描述: Gives +4 Stamina when applied to a ultimate weapon. Can only be attached once.
+---
+
+ID: 19243
+中文名称: MP减少率符文
+英文名称: Rune of MP Decrease Rate
+中文描述: Gives +10% MP comsumption decrease when applied to a ultimate weapon. Can only be attached once.
+英文描述: Gives +10% MP comsumption decrease when applied to a ultimate weapon. Can only be attached once.
+---
+
+ID: 19602
+中文名称: 闪耀蓝宝石（10个）
+英文名称: Shining Sapphire (10)
+中文描述: Gives +10 Intelligence when applied to a ultimate weapon. Can only be attached once.
+英文描述: Gives +10 Intelligence when applied to a ultimate weapon. Can only be attached once.
+---
+
+ID: 19720
+中文名称: 增加MP符文
+英文名称: Rune of Increasing MP
+中文描述: Gives +10% MP when applied to a ultimate weapon. Can only be attached once.
+英文描述: Gives +10% MP when applied to a ultimate weapon. Can only be attached once.
+---
+
+ID: 19755
+中文名称: 闪耀绿宝石（4个）
+英文名称: Shining Emerald (4)
+中文描述: Gives +4 Dexterity when applied to a ultimate weapon. Can only be attached once.
+英文描述: Gives +4 Dexterity when applied to a ultimate weapon. Can only be attached once.
+---
+
+ID: 19817
+中文名称: 闪耀钻石（10个）
+英文名称: Shining Diamond (10)
+中文描述: Gives +500 HP when applied to a ultimate weapon. Can only be attached once.
+英文描述: Gives +500 HP when applied to a ultimate weapon. Can only be attached once.
+---
+
+ID: 19834
+中文名称: 闪耀红宝石（2个）
+英文名称: Shining Ruby (2)
+中文描述: Gives +2 Strength when applied to a ultimate weapon. Can only be attached once.
+英文描述: Gives +2 Strength when applied to a ultimate weapon. Can only be attached once.
+---
+
+ID: 19917
+中文名称: 闪耀蓝宝石（3个）
+英文名称: Shining Sapphire (3)
+中文描述: Gives +3 Intelligence when applied to a ultimate weapon. Can only be attached once.
+英文描述: Gives +3 Intelligence when applied to a ultimate weapon. Can only be attached once.
+---
+
+ID: 19989
+中文名称: 闪耀蓝宝石（2个）
+英文名称: Shining Sapphire (2)
+中文描述: Gives +2 Intelligence when applied to a ultimate weapon. Can only be attached once.
+英文描述: Gives +2 Intelligence when applied to a ultimate weapon. Can only be attached once.
+---

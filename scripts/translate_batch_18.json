@@ -1,0 +1,252 @@
+[
+  {
+    "line": 211286,
+    "value": "Oh, adventurer, do you have a moment? You’re looking for traces of the vanished expedition, right?",
+    "escapedValue": "Oh, adventurer, do you have a moment? You’re looking for traces of the vanished expedition, right?"
+  },
+  {
+    "line": 211308,
+    "value": "While hunting, I found tracks that didn’t belong to Myurang or Lycan. Interested?",
+    "escapedValue": "While hunting, I found tracks that didn’t belong to Myurang or Lycan. Interested?"
+  },
+  {
+    "line": 211356,
+    "value": "No worries. I’ll keep a record of it, so come back whenever you want the location again.",
+    "escapedValue": "No worries. I’ll keep a record of it, so come back whenever you want the location again."
+  },
+  {
+    "line": 211404,
+    "value": "Well… that’s not exactly what I saw, but…",
+    "escapedValue": "Well… that’s not exactly what I saw, but…"
+  },
+  {
+    "line": 211430,
+    "value": "The New Beginning",
+    "escapedValue": "The New Beginning"
+  },
+  {
+    "line": 211560,
+    "value": "The ritual definitely worked. Take a bit more time to reflect on yourself, then come to me again.",
+    "escapedValue": "The ritual definitely worked. Take a bit more time to reflect on yourself, then come to me again."
+  },
+  {
+    "line": 211584,
+    "value": "Welcome, adventurer. Have you finally awakened?\nThis is my first time seeing a transcendent in person.",
+    "escapedValue": "Welcome, adventurer. Have you finally awakened?\\nThis is my first time seeing a transcendent in person."
+  },
+  {
+    "line": 211606,
+    "value": "You say you haven’t awakened, yet I can clearly sense your power.\nSo, what happened?",
+    "escapedValue": "You say you haven’t awakened, yet I can clearly sense your power.\\nSo, what happened?"
+  },
+  {
+    "line": 211678,
+    "value": "Peace at Last?",
+    "escapedValue": "Peace at Last?"
+  },
+  {
+    "line": 211907,
+    "value": "Meet with the Mayor of Saint City",
+    "escapedValue": "Meet with the Mayor of Saint City"
+  },
+  {
+    "line": 211952,
+    "value": "Whatever the truth, you’ve saved this land from the demon and those filthy beasts. You have my deepest thanks. Trade with your continent? Of course. I fully support it. I’ll guarantee free passage for anyone coming to our village. Take this approval token.",
+    "escapedValue": "Whatever the truth, you’ve saved this land from the demon and those filthy beasts. You have my deepest thanks. Trade with your continent? Of course. I fully support it. I’ll guarantee free passage for anyone coming to our village. Take this approval token."
+  },
+  {
+    "line": 212000,
+    "value": "Still, some formalities must be followed, don’t you think?",
+    "escapedValue": "Still, some formalities must be followed, don’t you think?"
+  },
+  {
+    "line": 212074,
+    "value": "The New Beginning",
+    "escapedValue": "The New Beginning"
+  },
+  {
+    "line": 212204,
+    "value": "The ritual definitely worked. Take a bit more time to reflect on yourself, then come to me again.",
+    "escapedValue": "The ritual definitely worked. Take a bit more time to reflect on yourself, then come to me again."
+  },
+  {
+    "line": 212228,
+    "value": "Welcome, adventurer. Have you finally awakened?\nThis is my first time seeing a transcendent in person.",
+    "escapedValue": "Welcome, adventurer. Have you finally awakened?\\nThis is my first time seeing a transcendent in person."
+  },
+  {
+    "line": 212250,
+    "value": "You say you haven’t awakened, yet I can clearly sense your power.\nSo, what happened?",
+    "escapedValue": "You say you haven’t awakened, yet I can clearly sense your power.\\nSo, what happened?"
+  },
+  {
+    "line": 212566,
+    "value": "Kill 25 Kyouchish",
+    "escapedValue": "Kill 25 Kyouchish"
+  },
+  {
+    "line": 212613,
+    "value": "They’re near the enemy camp.",
+    "escapedValue": "They’re near the enemy camp."
+  },
+  {
+    "line": 212940,
+    "value": "Meet with Kaela",
+    "escapedValue": "Meet with Kaela"
+  },
+  {
+    "line": 213035,
+    "value": "My parents sent you?",
+    "escapedValue": "My parents sent you?"
+  },
+  {
+    "line": 213317,
+    "value": "Kill 50 Samosets",
+    "escapedValue": "Kill 50 Samosets"
+  },
+  {
+    "line": 213340,
+    "value": "Samosets have been swarming the grasslands lately, making patrols difficult. Could you thin them out a bit?",
+    "escapedValue": "Samosets have been swarming the grasslands lately, making patrols difficult. Could you thin them out a bit?"
+  },
+  {
+    "line": 213364,
+    "value": "Thank you. You know where to find them, don’t you?",
+    "escapedValue": "Thank you. You know where to find them, don’t you?"
+  },
+  {
+    "line": 213436,
+    "value": "This should be an easy job for you.",
+    "escapedValue": "This should be an easy job for you."
+  },
+  {
+    "line": 213462,
+    "value": "Let’s Find the Real Clue",
+    "escapedValue": "Let’s Find the Real Clue"
+  },
+  {
+    "line": 213517,
+    "value": "Kill $QUEST_END_KILL_COUNT$ $QUEST_END_KILL_NAME$s",
+    "escapedValue": "Kill $QUEST_END_KILL_COUNT$ $QUEST_END_KILL_NAME$s"
+  },
+  {
+    "line": 213540,
+    "value": "Oh… this has nothing to do with awakening.",
+    "escapedValue": "Oh… this has nothing to do with awakening."
+  },
+  {
+    "line": 213584,
+    "value": "This is exactly the kind of thing the Strange Collector in Saint City loves. He’d be thrilled if you brought it to him.",
+    "escapedValue": "This is exactly the kind of thing the Strange Collector in Saint City loves. He’d be thrilled if you brought it to him."
+  },
+  {
+    "line": 213606,
+    "value": "Now then… shall we speak about your awakening?",
+    "escapedValue": "Now then… shall we speak about your awakening?"
+  },
+  {
+    "line": 213630,
+    "value": "True strength awakens when you fight with your life on the line. It’s always been that way.",
+    "escapedValue": "True strength awakens when you fight with your life on the line. It’s always been that way."
+  },
+  {
+    "line": 213700,
+    "value": "Well done. But you still haven’t awakened? How strange…",
+    "escapedValue": "Well done. But you still haven’t awakened? How strange…"
+  },
+  {
+    "line": 213768,
+    "value": "You haven’t finished yet? Hmm… I thought you’d be done by now.",
+    "escapedValue": "You haven’t finished yet? Hmm… I thought you’d be done by now."
+  },
+  {
+    "line": 213863,
+    "value": "Yes, I heard everything from Radyon.",
+    "escapedValue": "Yes, I heard everything from Radyon."
+  },
+  {
+    "line": 213953,
+    "value": "Why not dive in? You might find something unique and awaken your true potential.",
+    "escapedValue": "Why not dive in? You might find something unique and awaken your true potential."
+  },
+  {
+    "line": 214025,
+    "value": "You should hurry. If others get there first, there might be nothing left to find.",
+    "escapedValue": "You should hurry. If others get there first, there might be nothing left to find."
+  },
+  {
+    "line": 214120,
+    "value": "Yes, I heard everything from Radyon.",
+    "escapedValue": "Yes, I heard everything from Radyon."
+  },
+  {
+    "line": 214210,
+    "value": "Why not dive in? You might find something unique and awaken your true potential.",
+    "escapedValue": "Why not dive in? You might find something unique and awaken your true potential."
+  },
+  {
+    "line": 214282,
+    "value": "You should hurry. If others get there first, there might be nothing left to find.",
+    "escapedValue": "You should hurry. If others get there first, there might be nothing left to find."
+  },
+  {
+    "line": 214540,
+    "value": "Kill 50 Small Kanonicus",
+    "escapedValue": "Kill 50 Small Kanonicus"
+  },
+  {
+    "line": 214635,
+    "value": "You did a great job. Now I can finally tell everyone they’re safe.",
+    "escapedValue": "You did a great job. Now I can finally tell everyone they’re safe."
+  },
+  {
+    "line": 214659,
+    "value": "You know where it is, don’t you?",
+    "escapedValue": "You know where it is, don’t you?"
+  },
+  {
+    "line": 214685,
+    "value": "Seeking the Witness… 2",
+    "escapedValue": "Seeking the Witness… 2"
+  },
+  {
+    "line": 214921,
+    "value": "Meet with Inisis",
+    "escapedValue": "Meet with Inisis"
+  },
+  {
+    "line": 214966,
+    "value": "There was no one on board, even when I searched it the first time. Not a single body. I checked around to see if there was anything useful, but all I found was a book full of strange codes. Curious what it says?",
+    "escapedValue": "There was no one on board, even when I searched it the first time. Not a single body. I checked around to see if there was anything useful, but all I found was a book full of strange codes. Curious what it says?"
+  },
+  {
+    "line": 215014,
+    "value": "Not curious? Well, that’s your choice.",
+    "escapedValue": "Not curious? Well, that’s your choice."
+  },
+  {
+    "line": 215088,
+    "value": "Let’s Find the Real Clue",
+    "escapedValue": "Let’s Find the Real Clue"
+  },
+  {
+    "line": 215143,
+    "value": "Kill $QUEST_END_KILL_COUNT$ $QUEST_END_KILL_NAME$s",
+    "escapedValue": "Kill $QUEST_END_KILL_COUNT$ $QUEST_END_KILL_NAME$s"
+  },
+  {
+    "line": 215166,
+    "value": "Oh… this has nothing to do with awakening.",
+    "escapedValue": "Oh… this has nothing to do with awakening."
+  },
+  {
+    "line": 215210,
+    "value": "This is exactly the kind of thing the Strange Collector in Saint City loves. He’d be thrilled if you brought it to him.",
+    "escapedValue": "This is exactly the kind of thing the Strange Collector in Saint City loves. He’d be thrilled if you brought it to him."
+  },
+  {
+    "line": 215232,
+    "value": "Now then… shall we speak about your awakening?",
+    "escapedValue": "Now then… shall we speak about your awakening?"
+  }
+]

@@ -1,0 +1,252 @@
+[
+  {
+    "line": 225940,
+    "value": "See the orbs scattered around Kaillun? Choose the one that draws you and bring it to me. I need to look into your past.",
+    "escapedValue": "See the orbs scattered around Kaillun? Choose the one that draws you and bring it to me. I need to look into your past."
+  },
+  {
+    "line": 226032,
+    "value": "Stay right where you are.\nIt’s done. I need to rest now, so you may leave.",
+    "escapedValue": "Stay right where you are.\\nIt’s done. I need to rest now, so you may leave."
+  },
+  {
+    "line": 226082,
+    "value": "Proficiency Test",
+    "escapedValue": "Proficiency Test"
+  },
+  {
+    "line": 226319,
+    "value": "Kill 20 Hundur Sharpfoots",
+    "escapedValue": "Kill 20 Hundur Sharpfoots"
+  },
+  {
+    "line": 226342,
+    "value": "Oy! Halt! Who are you? …That’s quite a story. Suspicious. Are you a Lycan spy? If not, prove it.",
+    "escapedValue": "Oy! Halt! Who are you? …That’s quite a story. Suspicious. Are you a Lycan spy? If not, prove it."
+  },
+  {
+    "line": 226438,
+    "value": "What? You can’t even handle that? Pathetic. There’s no way I can let you into the village like this.",
+    "escapedValue": "What? You can’t even handle that? Pathetic. There’s no way I can let you into the village like this."
+  },
+  {
+    "line": 226464,
+    "value": "Reunion 3",
+    "escapedValue": "Reunion 3"
+  },
+  {
+    "line": 226693,
+    "value": "Meet with Livia",
+    "escapedValue": "Meet with Livia"
+  },
+  {
+    "line": 226740,
+    "value": "Now it’s Livia’s turn. I’m not sure what she has planned either, but I’m sure it’ll be something special.",
+    "escapedValue": "Now it’s Livia’s turn. I’m not sure what she has planned either, but I’m sure it’ll be something special."
+  },
+  {
+    "line": 226764,
+    "value": "There’s no hurry. Go when you’re ready.",
+    "escapedValue": "There’s no hurry. Go when you’re ready."
+  },
+  {
+    "line": 226788,
+    "value": "So in the end, that turned out to be something completely different… In any case, I can only imagine how much you’ve endured for us, even though we aren’t of the same kind. This is just a small token of our gratitude. Please accept it.",
+    "escapedValue": "So in the end, that turned out to be something completely different… In any case, I can only imagine how much you’ve endured for us, even though we aren’t of the same kind. This is just a small token of our gratitude. Please accept it."
+  },
+  {
+    "line": 227075,
+    "value": "Kill 25 Small Samosets",
+    "escapedValue": "Kill 25 Small Samosets"
+  },
+  {
+    "line": 227122,
+    "value": "Kill 25 Small Samosets. That’ll at least get us talking.",
+    "escapedValue": "Kill 25 Small Samosets. That’ll at least get us talking."
+  },
+  {
+    "line": 227449,
+    "value": "Meet with Rohan",
+    "escapedValue": "Meet with Rohan"
+  },
+  {
+    "line": 227826,
+    "value": "Kill 30 Captain Samosets",
+    "escapedValue": "Kill 30 Captain Samosets"
+  },
+  {
+    "line": 227849,
+    "value": "Those Captain Samosets keep slipping into the forest. Could you clear some of them out?",
+    "escapedValue": "Those Captain Samosets keep slipping into the forest. Could you clear some of them out?"
+  },
+  {
+    "line": 227873,
+    "value": "We’re grateful for your help. You know the area well enough to track them, right?",
+    "escapedValue": "We’re grateful for your help. You know the area well enough to track them, right?"
+  },
+  {
+    "line": 227945,
+    "value": "This should be a simple task for you.",
+    "escapedValue": "This should be a simple task for you."
+  },
+  {
+    "line": 227971,
+    "value": "This Is Nothing",
+    "escapedValue": "This Is Nothing"
+  },
+  {
+    "line": 228208,
+    "value": "Kill 30 Small Taiahas",
+    "escapedValue": "Kill 30 Small Taiahas"
+  },
+  {
+    "line": 228231,
+    "value": "So, you’ve met everyone now? The Lycans are moving faster than we expected. I thought they’d need more time to regroup, but they’re already organizing their forces.",
+    "escapedValue": "So, you’ve met everyone now? The Lycans are moving faster than we expected. I thought they’d need more time to regroup, but they’re already organizing their forces."
+  },
+  {
+    "line": 228277,
+    "value": "Thank you. I couldn’t ask for a more reliable ally.",
+    "escapedValue": "Thank you. I couldn’t ask for a more reliable ally."
+  },
+  {
+    "line": 228325,
+    "value": "You’ve done wonderfully.",
+    "escapedValue": "You’ve done wonderfully."
+  },
+  {
+    "line": 228375,
+    "value": "Let’s Find the Real Clue",
+    "escapedValue": "Let’s Find the Real Clue"
+  },
+  {
+    "line": 228430,
+    "value": "Kill $QUEST_END_KILL_COUNT$ $QUEST_END_KILL_NAME$s",
+    "escapedValue": "Kill $QUEST_END_KILL_COUNT$ $QUEST_END_KILL_NAME$s"
+  },
+  {
+    "line": 228453,
+    "value": "Oh… this has nothing to do with awakening.",
+    "escapedValue": "Oh… this has nothing to do with awakening."
+  },
+  {
+    "line": 228497,
+    "value": "This is exactly the kind of thing the Strange Collector in Saint City loves. He’d be thrilled if you brought it to him.",
+    "escapedValue": "This is exactly the kind of thing the Strange Collector in Saint City loves. He’d be thrilled if you brought it to him."
+  },
+  {
+    "line": 228519,
+    "value": "Now then… shall we speak about your awakening?",
+    "escapedValue": "Now then… shall we speak about your awakening?"
+  },
+  {
+    "line": 228543,
+    "value": "True strength awakens when you fight with your life on the line. It’s always been that way.",
+    "escapedValue": "True strength awakens when you fight with your life on the line. It’s always been that way."
+  },
+  {
+    "line": 228613,
+    "value": "Well done. But you still haven’t awakened? How strange…",
+    "escapedValue": "Well done. But you still haven’t awakened? How strange…"
+  },
+  {
+    "line": 228681,
+    "value": "You haven’t finished yet? Hmm… I thought you’d be done by now.",
+    "escapedValue": "You haven’t finished yet? Hmm… I thought you’d be done by now."
+  },
+  {
+    "line": 228707,
+    "value": "Searching for Clues… 1",
+    "escapedValue": "Searching for Clues… 1"
+  },
+  {
+    "line": 228936,
+    "value": "Meet with Amadolka",
+    "escapedValue": "Meet with Amadolka"
+  },
+  {
+    "line": 229055,
+    "value": "You haven’t left yet?",
+    "escapedValue": "You haven’t left yet?"
+  },
+  {
+    "line": 229081,
+    "value": "Searching for Clues… 2",
+    "escapedValue": "Searching for Clues… 2"
+  },
+  {
+    "line": 229339,
+    "value": "That sharp woman… How did she know to send you without me saying anything? Do you really need this?",
+    "escapedValue": "That sharp woman… How did she know to send you without me saying anything? Do you really need this?"
+  },
+  {
+    "line": 229363,
+    "value": "Sigh… Fine, take it. You can find it right next to me. I tried to analyze that material at Erons Factory, but I couldn’t even figure out what it’s made of.",
+    "escapedValue": "Sigh… Fine, take it. You can find it right next to me. I tried to analyze that material at Erons Factory, but I couldn’t even figure out what it’s made of."
+  },
+  {
+    "line": 229411,
+    "value": "This logbook…!",
+    "escapedValue": "This logbook…!"
+  },
+  {
+    "line": 229435,
+    "value": "So I can keep this? Tch… the more I look at it, the more uneasy I feel. Just take it and go.",
+    "escapedValue": "So I can keep this? Tch… the more I look at it, the more uneasy I feel. Just take it and go."
+  },
+  {
+    "line": 229461,
+    "value": "To Awakening",
+    "escapedValue": "To Awakening"
+  },
+  {
+    "line": 229495,
+    "value": "Meet [Mercenary Master] Andy.",
+    "escapedValue": "Meet [Mercenary Master] Andy."
+  },
+  {
+    "line": 229518,
+    "value": "Welcome, adventurer. I can sense great power within you.",
+    "escapedValue": "Welcome, adventurer. I can sense great power within you."
+  },
+  {
+    "line": 229540,
+    "value": "Oh ho… this is interesting. It seems your experiences are finally paying off.",
+    "escapedValue": "Oh ho… this is interesting. It seems your experiences are finally paying off."
+  },
+  {
+    "line": 229562,
+    "value": "That power is the foundation of awakening as a transcendent being.",
+    "escapedValue": "That power is the foundation of awakening as a transcendent being."
+  },
+  {
+    "line": 229654,
+    "value": "This is the first step toward something much greater. Why hesitate? If you change your mind, you know where to find me.",
+    "escapedValue": "This is the first step toward something much greater. Why hesitate? If you change your mind, you know where to find me."
+  },
+  {
+    "line": 229678,
+    "value": "Long time no see, adventurer.",
+    "escapedValue": "Long time no see, adventurer."
+  },
+  {
+    "line": 229702,
+    "value": "You still haven’t gone to see him? He’s probably waiting impatiently.",
+    "escapedValue": "You still haven’t gone to see him? He’s probably waiting impatiently."
+  },
+  {
+    "line": 229892,
+    "value": "These days, my master is secretly building a tower. He should still be there.",
+    "escapedValue": "These days, my master is secretly building a tower. He should still be there."
+  },
+  {
+    "line": 229914,
+    "value": "Show him my letter. He won’t ignore it.",
+    "escapedValue": "Show him my letter. He won’t ignore it."
+  },
+  {
+    "line": 229962,
+    "value": "Only a handful of people know I’m here. Who are you, and what do you want?",
+    "escapedValue": "Only a handful of people know I’m here. Who are you, and what do you want?"
+  }
+]

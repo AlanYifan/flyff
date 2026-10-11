@@ -1,0 +1,252 @@
+[
+  {
+    "line": 150145,
+    "value": "The Mystery of Leren Chasm Part 3",
+    "escapedValue": "The Mystery of Leren Chasm Part 3"
+  },
+  {
+    "line": 150175,
+    "value": "The Black Magician Returns",
+    "escapedValue": "The Black Magician Returns"
+  },
+  {
+    "line": 150379,
+    "value": "Report to the Mayor of Darken City.",
+    "escapedValue": "Report to the Mayor of Darken City."
+  },
+  {
+    "line": 150402,
+    "value": "Throughout history the Black Magician has changed from person to person... the two best known are Great Magician Loala and the one you've just released... Lapranche.",
+    "escapedValue": "Throughout history the Black Magician has changed from person to person... the two best known are Great Magician Loala and the one you\\'ve just released... Lapranche."
+  },
+  {
+    "line": 150424,
+    "value": "While Loala has stood down from her post as the Black Magician, Lapranche's mind was enslaved by Shade, and granted an incredible dark power...",
+    "escapedValue": "While Loala has stood down from her post as the Black Magician, Lapranche\\'s mind was enslaved by Shade, and granted an incredible dark power..."
+  },
+  {
+    "line": 150468,
+    "value": "You should go speak to the Mayor of Darken City as quickly as possible to see if anything has been reported...",
+    "escapedValue": "You should go speak to the Mayor of Darken City as quickly as possible to see if anything has been reported..."
+  },
+  {
+    "line": 150516,
+    "value": "Whyyyy, why won't you help us? Are you secretly working with Shade!?",
+    "escapedValue": "Whyyyy, why won\\'t you help us? Are you secretly working with Shade!?"
+  },
+  {
+    "line": 150540,
+    "value": "So Lapranche was released from her prison after all these years... ",
+    "escapedValue": "So Lapranche was released from her prison after all these years... "
+  },
+  {
+    "line": 150620,
+    "value": "Remnant of Ishirut Part 3",
+    "escapedValue": "Remnant of Ishirut Part 3"
+  },
+  {
+    "line": 151253,
+    "value": "The dream of building a new weapon to defend Madgrial is starting to feel real. The only thing standing in our way is the Crystal Demon Lord.",
+    "escapedValue": "The dream of building a new weapon to defend Madgrial is starting to feel real. The only thing standing in our way is the Crystal Demon Lord."
+  },
+  {
+    "line": 151301,
+    "value": "Without the Clockworks Core there is no hope to build a new weapon.",
+    "escapedValue": "Without the Clockworks Core there is no hope to build a new weapon."
+  },
+  {
+    "line": 151325,
+    "value": "This is incredible!!! My kin was in Storm Peak all along... and a Clockworks Core was being guarded there, too!? Perhaps the future of Madrigal is brighter than I thought...",
+    "escapedValue": "This is incredible!!! My kin was in Storm Peak all along... and a Clockworks Core was being guarded there, too!? Perhaps the future of Madrigal is brighter than I thought..."
+  },
+  {
+    "line": 151630,
+    "value": "Welcome hero! Another request has come in to clear out $QUEST_END_KILL_NAME$ from the Forsaken Tower. Could you please slay 50 $QUEST_END_KILL_NAME$, and return to me once you are done?",
+    "escapedValue": "Welcome hero! Another request has come in to clear out $QUEST_END_KILL_NAME$ from the Forsaken Tower. Could you please slay 50 $QUEST_END_KILL_NAME$, and return to me once you are done?"
+  },
+  {
+    "line": 151726,
+    "value": "You haven't defeated the $QUEST_END_KILL_NAME$ yet? That's okay, just return once you have.",
+    "escapedValue": "You haven\\'t defeated the $QUEST_END_KILL_NAME$ yet? That\\'s okay, just return once you have."
+  },
+  {
+    "line": 151882,
+    "value": "Some days we don't feel productive. I understand.",
+    "escapedValue": "Some days we don\\'t feel productive. I understand."
+  },
+  {
+    "line": 151988,
+    "value": "Once you learn the alchemy, you can brew your own buff potion to carry with. Want to learn?",
+    "escapedValue": "Once you learn the alchemy, you can brew your own buff potion to carry with. Want to learn?"
+  },
+  {
+    "line": 152036,
+    "value": "There you go. It's easier than you think, isn't it? Just remember, the most important thing is to do 'a lot'.",
+    "escapedValue": "There you go. It\\'s easier than you think, isn\\'t it? Just remember, the most important thing is to do \\'a lot\\'."
+  },
+  {
+    "line": 152060,
+    "value": "Try anything on the caldron nearby. Caldron is near the magic shop.",
+    "escapedValue": "Try anything on the caldron nearby. Caldron is near the magic shop."
+  },
+  {
+    "line": 152086,
+    "value": "Supercharged",
+    "escapedValue": "Supercharged"
+  },
+  {
+    "line": 152381,
+    "value": "Without power the lightning rod we've built has no use...",
+    "escapedValue": "Without power the lightning rod we\\'ve built has no use..."
+  },
+  {
+    "line": 152405,
+    "value": "Thank you for delivering the lightning rod! I believe with this installed our airships will be safe.",
+    "escapedValue": "Thank you for delivering the lightning rod! I believe with this installed our airships will be safe."
+  },
+  {
+    "line": 152429,
+    "value": "You cannot deliver the lightning rod until has been supercharged...",
+    "escapedValue": "You cannot deliver the lightning rod until has been supercharged..."
+  },
+  {
+    "line": 152455,
+    "value": "Shot Through the Heart",
+    "escapedValue": "Shot Through the Heart"
+  },
+  {
+    "line": 152721,
+    "value": "Reports show that all the inhabitants were killed and raised as bloodthirsty masquerpets... this is no doubt the doing of Lapranche. She is causing chaos to bide time, just as we expected!",
+    "escapedValue": "Reports show that all the inhabitants were killed and raised as bloodthirsty masquerpets... this is no doubt the doing of Lapranche. She is causing chaos to bide time, just as we expected!"
+  },
+  {
+    "line": 152815,
+    "value": "Laola sent word of your arrival. The events that Lapranche have put into place are tragic... all the inhabitants of the Guardiane Sanctuary are dead. And yet... they live.",
+    "escapedValue": "Laola sent word of your arrival. The events that Lapranche have put into place are tragic... all the inhabitants of the Guardiane Sanctuary are dead. And yet... they live."
+  },
+  {
+    "line": 153468,
+    "value": "Many dangers lie ahead... but I trust you to take them head on and emerge victorious, warrior. Enter the Storm Peak and find out what lies ahead.",
+    "escapedValue": "Many dangers lie ahead... but I trust you to take them head on and emerge victorious, warrior. Enter the Storm Peak and find out what lies ahead."
+  },
+  {
+    "line": 153566,
+    "value": "Rumble in the Mountains",
+    "escapedValue": "Rumble in the Mountains"
+  },
+  {
+    "line": 153764,
+    "value": "Meet with Martinyc.",
+    "escapedValue": "Meet with Martinyc."
+  },
+  {
+    "line": 153857,
+    "value": "Leren Mountains is a dangerous place. I do not blame you for wanting to stay within the safety of Flarine.",
+    "escapedValue": "Leren Mountains is a dangerous place. I do not blame you for wanting to stay within the safety of Flarine."
+  },
+  {
+    "line": 153881,
+    "value": "Oh... the Mayor sent you! And he says that there has been a disturbance in the Leren Mountains...",
+    "escapedValue": "Oh... the Mayor sent you! And he says that there has been a disturbance in the Leren Mountains..."
+  },
+  {
+    "line": 154183,
+    "value": "Kill 20 Old Ruts, 10 Bolt Otem, and the Temple Guardian.",
+    "escapedValue": "Kill 20 Old Ruts, 10 Bolt Otem, and the Temple Guardian."
+  },
+  {
+    "line": 154206,
+    "value": "So many mysteries still to unfold... but I believe you are now close to the heart of the catacombs.",
+    "escapedValue": "So many mysteries still to unfold... but I believe you are now close to the heart of the catacombs."
+  },
+  {
+    "line": 154372,
+    "value": "The Twisted Sanctuary Part 2",
+    "escapedValue": "The Twisted Sanctuary Part 2"
+  },
+  {
+    "line": 155058,
+    "value": "Please, don't make me go collect $QUEST_END_ITEM_NAME$ all on my own... I'm too busy dreaming up new inventions!",
+    "escapedValue": "Please, don\\'t make me go collect $QUEST_END_ITEM_NAME$ all on my own... I\\'m too busy dreaming up new inventions!"
+  },
+  {
+    "line": 155082,
+    "value": "Thank you for collecting all those $QUEST_END_ITEM_NAME$, adventurer! Soon I'll have armor enough to defend Coral Island against all evil!",
+    "escapedValue": "Thank you for collecting all those $QUEST_END_ITEM_NAME$, adventurer! Soon I\\'ll have armor enough to defend Coral Island against all evil!"
+  },
+  {
+    "line": 155106,
+    "value": "That isn't nearly enough $QUEST_END_ITEM_NAME$ for me to build one of my grand inventions... come back with more!",
+    "escapedValue": "That isn\\'t nearly enough $QUEST_END_ITEM_NAME$ for me to build one of my grand inventions... come back with more!"
+  },
+  {
+    "line": 155132,
+    "value": "Lizard People",
+    "escapedValue": "Lizard People"
+  },
+  {
+    "line": 155438,
+    "value": "Okay hero, go out there and defeat the Naga before they come eat us!",
+    "escapedValue": "Okay hero, go out there and defeat the Naga before they come eat us!"
+  },
+  {
+    "line": 155462,
+    "value": "The Naga are ferocious, there's no shame in saying no.",
+    "escapedValue": "The Naga are ferocious, there\\'s no shame in saying no."
+  },
+  {
+    "line": 155532,
+    "value": "Keep going! You need to defeat more Naga.",
+    "escapedValue": "Keep going! You need to defeat more Naga."
+  },
+  {
+    "line": 155558,
+    "value": "The Third Eye Opens",
+    "escapedValue": "The Third Eye Opens"
+  },
+  {
+    "line": 155875,
+    "value": "With these items I can perform the ritual to read from the fabric of time. We will finally know the true meaning of these storms!",
+    "escapedValue": "With these items I can perform the ritual to read from the fabric of time. We will finally know the true meaning of these storms!"
+  },
+  {
+    "line": 156156,
+    "value": "Ultimate Crafting",
+    "escapedValue": "Ultimate Crafting"
+  },
+  {
+    "line": 156179,
+    "value": "The great Sea King of Coral Island has finally returned to wreck havoc upon the land.",
+    "escapedValue": "The great Sea King of Coral Island has finally returned to wreck havoc upon the land."
+  },
+  {
+    "line": 156201,
+    "value": "The locals told me that getting near the beast could cause mortals to lose their mind...",
+    "escapedValue": "The locals told me that getting near the beast could cause mortals to lose their mind..."
+  },
+  {
+    "line": 156223,
+    "value": "This battle will take all the strength we can muster. If you make it out alive, go back to Darken City, and let the mayor know about all that happened here.",
+    "escapedValue": "This battle will take all the strength we can muster. If you make it out alive, go back to Darken City, and let the mayor know about all that happened here."
+  },
+  {
+    "line": 156247,
+    "value": "The only path forward to end the curse of the Sea King is to slay the beast in its lair. Go forth and do the deed, for Coral Island!",
+    "escapedValue": "The only path forward to end the curse of the Sea King is to slay the beast in its lair. Go forth and do the deed, for Coral Island!"
+  },
+  {
+    "line": 156271,
+    "value": "Those who lose their mind to the Sea King are said to become faceless.",
+    "escapedValue": "Those who lose their mind to the Sea King are said to become faceless."
+  },
+  {
+    "line": 156295,
+    "value": "Welcome back from Coral Island, hero! And what a story to tell, it's true that Coral Island is a fascinating place.",
+    "escapedValue": "Welcome back from Coral Island, hero! And what a story to tell, it\\'s true that Coral Island is a fascinating place."
+  },
+  {
+    "line": 156341,
+    "value": "The Sea King consumes all who look into the void.",
+    "escapedValue": "The Sea King consumes all who look into the void."
+  }
+]

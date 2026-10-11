@@ -1,0 +1,67 @@
+[
+  {
+    "line": 245124,
+    "value": "What do you want now?",
+    "escapedValue": "What do you want now?"
+  },
+  {
+    "line": 245148,
+    "value": "“Find a foolish child, play along, and turn them into a perfect puppet to sow chaos in the village.” So I was just a piece in their stupid game…? Ugh… I can’t believe I fell for it. You want me to go home and apologize to my parents? Tch, I already know that much.",
+    "escapedValue": "“Find a foolish child, play along, and turn them into a perfect puppet to sow chaos in the village.” So I was just a piece in their stupid game…? Ugh… I can’t believe I fell for it. You want me to go home and apologize to my parents? Tch, I already know that much."
+  },
+  {
+    "line": 245430,
+    "value": "Kill 50 Kanonicus",
+    "escapedValue": "Kill 50 Kanonicus"
+  },
+  {
+    "line": 245575,
+    "value": "Let’s Find the Real Clue",
+    "escapedValue": "Let’s Find the Real Clue"
+  },
+  {
+    "line": 245630,
+    "value": "Kill $QUEST_END_KILL_COUNT$ $QUEST_END_KILL_NAME$s",
+    "escapedValue": "Kill $QUEST_END_KILL_COUNT$ $QUEST_END_KILL_NAME$s"
+  },
+  {
+    "line": 245653,
+    "value": "Oh… this has nothing to do with awakening.",
+    "escapedValue": "Oh… this has nothing to do with awakening."
+  },
+  {
+    "line": 245697,
+    "value": "This is exactly the kind of thing the Strange Collector in Saint City loves. He’d be thrilled if you brought it to him.",
+    "escapedValue": "This is exactly the kind of thing the Strange Collector in Saint City loves. He’d be thrilled if you brought it to him."
+  },
+  {
+    "line": 245719,
+    "value": "Now then… shall we speak about your awakening?",
+    "escapedValue": "Now then… shall we speak about your awakening?"
+  },
+  {
+    "line": 245743,
+    "value": "True strength awakens when you fight with your life on the line. It’s always been that way.",
+    "escapedValue": "True strength awakens when you fight with your life on the line. It’s always been that way."
+  },
+  {
+    "line": 245813,
+    "value": "Well done. But you still haven’t awakened? How strange…",
+    "escapedValue": "Well done. But you still haven’t awakened? How strange…"
+  },
+  {
+    "line": 245881,
+    "value": "You haven’t finished yet? Hmm… I thought you’d be done by now.",
+    "escapedValue": "You haven’t finished yet? Hmm… I thought you’d be done by now."
+  },
+  {
+    "line": 246248,
+    "value": "What’s wrong? Are you afraid now that you have to face a demon? It’s too late for that.",
+    "escapedValue": "What’s wrong? Are you afraid now that you have to face a demon? It’s too late for that."
+  },
+  {
+    "line": 246272,
+    "value": "What happened? Is Ankou defeated? The handwriting on this page… so the traitor is gone as well.",
+    "escapedValue": "What happened? Is Ankou defeated? The handwriting on this page… so the traitor is gone as well."
+  }
+]

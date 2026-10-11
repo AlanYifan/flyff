@@ -1,0 +1,252 @@
+[
+  {
+    "line": 177094,
+    "value": "Welcome hero! Another request has come in to clear out $QUEST_END_KILL_NAME$ from the Forsaken Tower. Could you please slay 50 $QUEST_END_KILL_NAME$, and return to me once you are done?",
+    "escapedValue": "Welcome hero! Another request has come in to clear out $QUEST_END_KILL_NAME$ from the Forsaken Tower. Could you please slay 50 $QUEST_END_KILL_NAME$, and return to me once you are done?"
+  },
+  {
+    "line": 177190,
+    "value": "You haven't defeated the $QUEST_END_KILL_NAME$ yet? That's okay, just return once you have.",
+    "escapedValue": "You haven\\'t defeated the $QUEST_END_KILL_NAME$ yet? That\\'s okay, just return once you have."
+  },
+  {
+    "line": 177835,
+    "value": "With a sample of Mothbee Spores I may be able to recreate the potent vitality mushrooms that may have allowed a troll to live much longer than normal...",
+    "escapedValue": "With a sample of Mothbee Spores I may be able to recreate the potent vitality mushrooms that may have allowed a troll to live much longer than normal..."
+  },
+  {
+    "line": 177859,
+    "value": "The wings of Mothbees shed spores constantly. Please, go defeat the Mothbees flying above Flaris, and bring me a sample of the spores!",
+    "escapedValue": "The wings of Mothbees shed spores constantly. Please, go defeat the Mothbees flying above Flaris, and bring me a sample of the spores!"
+  },
+  {
+    "line": 177883,
+    "value": "Mothbees can be vicious creatures. If you don't want to get knocked off your broom, it is best if you leave them alone.",
+    "escapedValue": "Mothbees can be vicious creatures. If you don\\'t want to get knocked off your broom, it is best if you leave them alone."
+  },
+  {
+    "line": 177957,
+    "value": "Ring of Power",
+    "escapedValue": "Ring of Power"
+  },
+  {
+    "line": 178161,
+    "value": "Meet with the Strange Collector.",
+    "escapedValue": "Meet with the Strange Collector."
+  },
+  {
+    "line": 178208,
+    "value": "The Strange Collector may know more about what the bull ring can do.",
+    "escapedValue": "The Strange Collector may know more about what the bull ring can do."
+  },
+  {
+    "line": 178232,
+    "value": "Keakoon are not that scary...",
+    "escapedValue": "Keakoon are not that scary..."
+  },
+  {
+    "line": 178384,
+    "value": "What could be more romantic than frolicking near the Bangs of Northern Flaris? A picnic outside of Mars Mine sounds outstanding!",
+    "escapedValue": "What could be more romantic than frolicking near the Bangs of Northern Flaris? A picnic outside of Mars Mine sounds outstanding!"
+  },
+  {
+    "line": 178408,
+    "value": "Wonderful, then the date is set. Enjoy your time sightseeing at the Mars Mine!",
+    "escapedValue": "Wonderful, then the date is set. Enjoy your time sightseeing at the Mars Mine!"
+  },
+  {
+    "line": 178432,
+    "value": "Not a fan of Bangs? Well, there's always the Nyangnyangs.",
+    "escapedValue": "Not a fan of Bangs? Well, there\\'s always the Nyangnyangs."
+  },
+  {
+    "line": 178480,
+    "value": "Oh, so the Bangs were too distracting after all. Maybe you need to take a cold bath?",
+    "escapedValue": "Oh, so the Bangs were too distracting after all. Maybe you need to take a cold bath?"
+  },
+  {
+    "line": 178506,
+    "value": "Letter in a Bottle",
+    "escapedValue": "Letter in a Bottle"
+  },
+  {
+    "line": 178717,
+    "value": "You may find $QUEST_END_ITEM_NAME$ inside the bellies of the deep-sea Kraken.",
+    "escapedValue": "You may find $QUEST_END_ITEM_NAME$ inside the bellies of the deep-sea Kraken."
+  },
+  {
+    "line": 178762,
+    "value": "With the $QUEST_END_ITEM_NAME$ from the Kraken, I could finally write to all my friends across the oceans. There's never enough time to keep up with everyone...",
+    "escapedValue": "With the $QUEST_END_ITEM_NAME$ from the Kraken, I could finally write to all my friends across the oceans. There\\'s never enough time to keep up with everyone..."
+  },
+  {
+    "line": 178786,
+    "value": "You may find $QUEST_END_ITEM_NAME$ inside the bellies of the deep-sea Kraken.",
+    "escapedValue": "You may find $QUEST_END_ITEM_NAME$ inside the bellies of the deep-sea Kraken."
+  },
+  {
+    "line": 178810,
+    "value": "Please, don't make me go collect $QUEST_END_ITEM_NAME$ all on my own... I'm too busy dreaming up new inventions!",
+    "escapedValue": "Please, don\\'t make me go collect $QUEST_END_ITEM_NAME$ all on my own... I\\'m too busy dreaming up new inventions!"
+  },
+  {
+    "line": 178834,
+    "value": "Thank you for collecting all those $QUEST_END_ITEM_NAME$, adventurer! I've decided to write these letters and deliver them myself. Thank you for everything... I hope to see you again one day!",
+    "escapedValue": "Thank you for collecting all those $QUEST_END_ITEM_NAME$, adventurer! I\\'ve decided to write these letters and deliver them myself. Thank you for everything... I hope to see you again one day!"
+  },
+  {
+    "line": 178858,
+    "value": "That isn't nearly enough $QUEST_END_ITEM_NAME$ for me to build one of my grand inventions... come back with more!",
+    "escapedValue": "That isn\\'t nearly enough $QUEST_END_ITEM_NAME$ for me to build one of my grand inventions... come back with more!"
+  },
+  {
+    "line": 178884,
+    "value": "Kill Demian Thieves",
+    "escapedValue": "Kill Demian Thieves"
+  },
+  {
+    "line": 178939,
+    "value": "The $QUEST_END_KILL_NAME$ has been spotted somewhere in Madrigal. Check your map for hints for where they may be hiding!",
+    "escapedValue": "The $QUEST_END_KILL_NAME$ has been spotted somewhere in Madrigal. Check your map for hints for where they may be hiding!"
+  },
+  {
+    "line": 178962,
+    "value": "Welcome! Another request has come in to clear out $QUEST_END_KILL_NAME$. Could you please work together to defeat the $QUEST_END_KILL_NAME$, and return to me once you are done?",
+    "escapedValue": "Welcome! Another request has come in to clear out $QUEST_END_KILL_NAME$. Could you please work together to defeat the $QUEST_END_KILL_NAME$, and return to me once you are done?"
+  },
+  {
+    "line": 178986,
+    "value": "The $QUEST_END_KILL_NAME$ has been spotted somewhere in Madrigal. Check your map for hints for where they may be hiding!",
+    "escapedValue": "The $QUEST_END_KILL_NAME$ has been spotted somewhere in Madrigal. Check your map for hints for where they may be hiding!"
+  },
+  {
+    "line": 179010,
+    "value": "Some days we don't feel productive. I understand.",
+    "escapedValue": "Some days we don\\'t feel productive. I understand."
+  },
+  {
+    "line": 179034,
+    "value": "The power of your love have vanquished the $QUEST_END_KILL_NAME$ threat, thank you!",
+    "escapedValue": "The power of your love have vanquished the $QUEST_END_KILL_NAME$ threat, thank you!"
+  },
+  {
+    "line": 179058,
+    "value": "Were you unable to find and defeat $QUEST_END_KILL_NAME$ yet? Track them down to prove your love is true!",
+    "escapedValue": "Were you unable to find and defeat $QUEST_END_KILL_NAME$ yet? Track them down to prove your love is true!"
+  },
+  {
+    "line": 179157,
+    "value": "Welcome hero! Another request has come in to clear out the boss masquerpets within Madrigal's dungeons. Could you please slay 50 dungeon bosses on Nightmare or higher difficulty, and return to me once you are done?",
+    "escapedValue": "Welcome hero! Another request has come in to clear out the boss masquerpets within Madrigal\\'s dungeons. Could you please slay 50 dungeon bosses on Nightmare or higher difficulty, and return to me once you are done?"
+  },
+  {
+    "line": 179205,
+    "value": "The dungeons are filled with dangerous masquerpets. I understand if you do not wish to take the risk.",
+    "escapedValue": "The dungeons are filled with dangerous masquerpets. I understand if you do not wish to take the risk."
+  },
+  {
+    "line": 179229,
+    "value": "The threat from within the dungeons has been reduced thanks to you, hero. Please accept a weapon piercing card as thanks for your efforts!",
+    "escapedValue": "The threat from within the dungeons has been reduced thanks to you, hero. Please accept a weapon piercing card as thanks for your efforts!"
+  },
+  {
+    "line": 179253,
+    "value": "You haven't defeated the bosses yet? That's okay, just return once you have.",
+    "escapedValue": "You haven\\'t defeated the bosses yet? That\\'s okay, just return once you have."
+  },
+  {
+    "line": 179490,
+    "value": "You may find $QUEST_END_ITEM_NAME$ from any of the Atrox crawling around the island.",
+    "escapedValue": "You may find $QUEST_END_ITEM_NAME$ from any of the Atrox crawling around the island."
+  },
+  {
+    "line": 179559,
+    "value": "You may find $QUEST_END_ITEM_NAME$ from any of the Atrox crawling around the island.",
+    "escapedValue": "You may find $QUEST_END_ITEM_NAME$ from any of the Atrox crawling around the island."
+  },
+  {
+    "line": 179583,
+    "value": "Please, don't make me go collect $QUEST_END_ITEM_NAME$ all on my own... I'm too busy dreaming up new inventions!",
+    "escapedValue": "Please, don\\'t make me go collect $QUEST_END_ITEM_NAME$ all on my own... I\\'m too busy dreaming up new inventions!"
+  },
+  {
+    "line": 179607,
+    "value": "Thank you for collecting all those $QUEST_END_ITEM_NAME$, adventurer! Soon I'll be soaring the skies with ease. See you at the Rainbow Race!",
+    "escapedValue": "Thank you for collecting all those $QUEST_END_ITEM_NAME$, adventurer! Soon I\\'ll be soaring the skies with ease. See you at the Rainbow Race!"
+  },
+  {
+    "line": 179631,
+    "value": "That isn't nearly enough $QUEST_END_ITEM_NAME$ for me to build one of my grand inventions... come back with more!",
+    "escapedValue": "That isn\\'t nearly enough $QUEST_END_ITEM_NAME$ for me to build one of my grand inventions... come back with more!"
+  },
+  {
+    "line": 179657,
+    "value": "Remnant of Ishirut Part 2",
+    "escapedValue": "Remnant of Ishirut Part 2"
+  },
+  {
+    "line": 179687,
+    "value": "There's Something in the Water",
+    "escapedValue": "There\\'s Something in the Water"
+  },
+  {
+    "line": 179995,
+    "value": "Without your help, who knows when I'll have time to investigate this matter...",
+    "escapedValue": "Without your help, who knows when I\\'ll have time to investigate this matter..."
+  },
+  {
+    "line": 180043,
+    "value": "The hormones of these Syliaca seem to affect how aggressive they will become. And their teeth are somehow much sharper than before...",
+    "escapedValue": "The hormones of these Syliaca seem to affect how aggressive they will become. And their teeth are somehow much sharper than before..."
+  },
+  {
+    "line": 180069,
+    "value": "Mining Class",
+    "escapedValue": "Mining Class"
+  },
+  {
+    "line": 180101,
+    "value": "You can dig up ores with a pickaxe. Would you like to learn mining?",
+    "escapedValue": "You can dig up ores with a pickaxe. Would you like to learn mining?"
+  },
+  {
+    "line": 180149,
+    "value": "There you go. It's easier than you think, isn't it? Just remember, the most important thing is to do 'a lot'.",
+    "escapedValue": "There you go. It\\'s easier than you think, isn\\'t it? Just remember, the most important thing is to do \\'a lot\\'."
+  },
+  {
+    "line": 180272,
+    "value": "Welcome hero! Another request has come in to clear out the boss masquerpets within Madrigal's dungeons. Could you please slay 35 dungeon bosses on Extra Hard or higher difficulty, and return to me once you are done?",
+    "escapedValue": "Welcome hero! Another request has come in to clear out the boss masquerpets within Madrigal\\'s dungeons. Could you please slay 35 dungeon bosses on Extra Hard or higher difficulty, and return to me once you are done?"
+  },
+  {
+    "line": 180320,
+    "value": "The dungeons are filled with dangerous masquerpets. I understand if you do not wish to take the risk.",
+    "escapedValue": "The dungeons are filled with dangerous masquerpets. I understand if you do not wish to take the risk."
+  },
+  {
+    "line": 180344,
+    "value": "The threat from within the dungeons has been reduced thanks to you, hero. Please accept a weapon piercing card as thanks for your efforts!",
+    "escapedValue": "The threat from within the dungeons has been reduced thanks to you, hero. Please accept a weapon piercing card as thanks for your efforts!"
+  },
+  {
+    "line": 180368,
+    "value": "You haven't defeated the bosses yet? That's okay, just return once you have.",
+    "escapedValue": "You haven\\'t defeated the bosses yet? That\\'s okay, just return once you have."
+  },
+  {
+    "line": 180474,
+    "value": "There you go. It's easier than you think, isn't it? Just remember, the most important thing is to do 'a lot'.",
+    "escapedValue": "There you go. It\\'s easier than you think, isn\\'t it? Just remember, the most important thing is to do \\'a lot\\'."
+  },
+  {
+    "line": 180498,
+    "value": "Try anything on the oven nearby. Oven is near the food shop.",
+    "escapedValue": "Try anything on the oven nearby. Oven is near the food shop."
+  },
+  {
+    "line": 180780,
+    "value": "The Dorian have risen from the seas around our island! Please defeat them and collect their $QUEST_END_ITEM_NAME$ as proof. My inventions can only hold them back for so long...",
+    "escapedValue": "The Dorian have risen from the seas around our island! Please defeat them and collect their $QUEST_END_ITEM_NAME$ as proof. My inventions can only hold them back for so long..."
+  }
+]

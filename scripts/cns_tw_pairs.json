@@ -1,0 +1,1472 @@
+[
+  {
+    "questId": 1361,
+    "field": "dialogsBegin",
+    "cns": "If her essence remains, this is very bad… Stored in the Temple of Iblis is the Parchment of War. Please head there and retrieve it for me.",
+    "tw": "如果她的精華還在，那就很糟糕了…… 伊普里斯神殿中存放著依普利斯的記錄。 請前往那里為我取回它。 "
+  },
+  {
+    "questId": 1361,
+    "field": "dialogsFail",
+    "cns": "Please bring the Parchment of War after defeating 10 Iblis Crashers and an Iblis Guardian.",
+    "tw": "請在擊敗 10 個地穴妖獸和 1 個地穴護獸後帶上依普利斯的紀錄。 "
+  },
+  {
+    "questId": 1434,
+    "field": "dialogsBegin",
+    "cns": "Ever since the Red Meteonyker has been wreaking havoc in his chamber, the armies of Shade have swarmed this place. Cyclops X are everywhere, and the entrance is now kept by undead guardians.",
+    "tw": "自從炙焰飛龍在他的房間裡肆虐以來，史瑞德的軍隊就蜂擁到了這個地方。 鐳射眼 X 無處不在，入口現在由複活的不死守護者守衛。"
+  },
+  {
+    "questId": 2358,
+    "field": "dialogsAccept",
+    "cns": "Thank you. There are two kinds of Roach - Pink and Blue. Break open their eggs and hunt down the larva.",
+    "tw": "謝謝你喔！巨械毒花有分２種，一種是粉紅毒花、另一種是藍毒花。只要得到他們的卵，在卵裡面的乳蟲就可以得到他們的血液了。"
+  },
+  {
+    "questId": 3170,
+    "field": "dialogsBegin",
+    "cns": "For your final task, I want you to travel to the west of Flaris and defeat the creature known as Seido. He has been harassing some of the residents of Flarine as of late.",
+    "tw": "為了你的最後一個任務，我希望你前往布拉里斯的西部並擊敗名為塞多的怪物。 他最近一直在騷擾布拉里斯的一些居民。"
+  },
+  {
+    "questId": 3170,
+    "field": "dialogsBegin",
+    "cns": "Once Seido is defeated, speak with Magician Instructor Lopaze in Eastern Flarine. She will conclude your training.",
+    "tw": "一旦塞多被擊敗，與布拉里斯東部的魔法使訓練助教螺波提尼 交談。 她會結束你的訓練。"
+  },
+  {
+    "questId": 3247,
+    "field": "dialogsBegin",
+    "cns": "Lapranche was there, at the end of the Hero War, she was made the slave of One of the three Clown Gods. Shade, Goddess of Evil. Shade, marrying her Godly presence to the great power of Laola, attempted to destroy Bubble, God of Good, while Iblis, God of Neutrality, watched unmoved. Bubble rallied the heroes of Madrigal and stood against Shade with the strongest army our world has ever know at her back.",
+    "tw": "拉普朗什在那裡，在英雄戰爭結束時，她成為了三個小丑神之一的奴隸。 史瑞德，邪惡女神，史瑞德將她的神性與羅拉的強大力量結合起來，試圖摧毀善良之神泡泡，而中立之神伊普里司則無動於衷。神泡泡召集了瑪德利賈的英雄，並以我們世界所知道的最強大的軍隊在她背後對抗史瑞德。 "
+  },
+  {
+    "questId": 3247,
+    "field": "dialogsBegin",
+    "cns": "Poor Lapranche, the things she must have gone through And all this history has been distorted by the History Society. Curse them!",
+    "tw": "可憐的拉普朗什，她一定經歷過什麼事情，這一切都被歷史學會歪曲了。詛咒他們！ "
+  },
+  {
+    "questId": 3384,
+    "field": "dialogsAccept",
+    "cns": "I guarantee you a Garbagespider ate the ring. They eat anything and everything! Please head to Western Darkon and defeat Garbagespiders until you can recover the ring!",
+    "tw": "海奈爾的戒指被不管是什麼東西都會吞食的清掃夫機械給吞下去了。消滅清掃夫機械，然後找回海奈爾的戒指吧。"
+  },
+  {
+    "questId": 4398,
+    "field": "dialogsBegin",
+    "cns": "Now for the next step in your training. There is a creature named Shuraiture in the north of Flarine who is causing some trouble for residents there.",
+    "tw": "現在是您培訓的下一步。布拉里斯北部有一種叫做休賴扎的怪物，它給那裡的居民帶來了一些麻煩。"
+  },
+  {
+    "questId": 4398,
+    "field": "dialogsBegin",
+    "cns": "Shuraiture has been terrorizing some of the locals in Flaris. I want you to go there and put an end to him once and for all. Bring news of your victory to Tailer, the Acrobat Instructor in Flarine.",
+    "tw": "休賴扎一直在恐嚇布拉里斯的一些當地人。我要你去那裡一勞永逸地結束他。將你的勝利消息告訴布拉里斯的雜技訓練教官塔利爾。"
+  },
+  {
+    "questId": 4860,
+    "field": "dialogsBegin",
+    "cns": "For starters, let\\'s go with something easy. I would like you to hunt $QUEST_END_KILL_COUNT$ $QUEST_END_KILL_NAME$s.",
+    "tw": "對於初學者，讓我們做一些簡單的事情。 我想讓你獵殺 $QUEST_END_KILL_COUNT$ $QUEST_END_KILL_NAME$s。"
+  },
+  {
+    "questId": 5032,
+    "field": "dialogsBegin",
+    "cns": "I want you to return to collect 10 Twinkle Stones from Aibatts in the area, 5 Peakyrinds from Peakyturtles and 1 Slain from Lawolf.",
+    "tw": "我要你回來，從該地區的獨眼蝙蝠那裡收集 10 個閃耀石，從戰車蟲那裡收集 5 個戰車蟲硬皮，從布魯狼那裡收集 1 個賤狼指甲。 "
+  },
+  {
+    "questId": 5082,
+    "field": "dialogsBegin",
+    "cns": "To defeat them, you\\'ll need a well-armed team. Ah, but there\\'s one detail I forgot to mention. You\\'ll need 1,000,000 Penya to open the door, but for now, collecting 30 Blood Trillipy Shells and defeating 3 Mutant Keakoon Workers will be enough. Are you ready to accept this challenge?",
+    "tw": "要打敗他們，你需要一支裝備精良的隊伍。 啊，但是有一個細節我忘了說：你需要 1,000,000 金幣才能打開門，但現在，30 個噬血蜈蚣背甲和 3 個模範奇昆工頭就足夠了。 你準備好接受這個挑戰了嗎？"
+  },
+  {
+    "questId": 5180,
+    "field": "dialogsBegin",
+    "cns": "Welcome back hero! There are reports of a new threat in the Forsaken Tower. Please seek out and get rid of the $QUEST_END_KILL_NAME$. ",
+    "tw": "歡迎回來的英雄！ 有報告稱被遺忘之塔出現了新的威脅。 請找出並擺脫 $QUEST_END_KILL_NAME$。"
+  },
+  {
+    "questId": 5180,
+    "field": "dialogsAccept",
+    "cns": "The $QUEST_END_KILL_NAME$ has been spotted on the third floor of the Forsaken Tower.",
+    "tw": "$QUEST_END_KILL_NAME$ 被發現在被遺忘之塔的三樓。"
+  },
+  {
+    "questId": 5180,
+    "field": "dialogsDecline",
+    "cns": "The Tower is filled with dangerous masquerpets. I understand if you do not wish to take the risk.",
+    "tw": "塔內充滿了危險的怪物。 如果您不想冒險，我可以理解。"
+  },
+  {
+    "questId": 5180,
+    "field": "dialogsComplete",
+    "cns": "Thank you hero, the $QUEST_END_KILL_NAME$ threat has been eliminated.",
+    "tw": "謝謝英雄，$QUEST_END_KILL_NAME$ 威脅已被消除。"
+  },
+  {
+    "questId": 5180,
+    "field": "dialogsFail",
+    "cns": "You weren\\'t able to kill the $QUEST_END_KILL_NAME$ yet? That\\'s alright, please return after you\\'ve won against the giant!",
+    "tw": "你還沒能殺死 $QUEST_END_KILL_NAME$？ 沒關係，打敗巨人後請回來！"
+  },
+  {
+    "questId": 5272,
+    "field": "dialogsAccept",
+    "cns": "Please defeat the Elite Keakoon Guard Leader and bring me the Chief Sign that proves I am the one true Chief of the Keakoon. Would you also please bring me the cargo my son Drian is keeping safe for me?",
+    "tw": "我有2件事情想拜託你，首先、我要證明我是奇昆族的族長，需要獵殺奇昆的頭目幫我找回印章。第2件事情就是，請你去找我兒子，拿回我的行李。"
+  },
+  {
+    "questId": 5578,
+    "field": "dialogsAccept",
+    "cns": "Green Trillipy are down the hall to the right. The room to the left is blocked.",
+    "tw": "綠色毒甲蜈蚣出沒在，你進來的反方向那邊的通路，再往右邊進去就會看到牠們了，應該是不難找啦！ "
+  },
+  {
+    "questId": 5809,
+    "field": "dialogsBegin",
+    "cns": "Something still bothers me... why are these storms happening at all? Maybe the Chairman of the History Society, Gothante, might know.",
+    "tw": "有些事情仍然困擾著我……為什麼會發生這些風暴？ 說不定歷史學會會長高譚提拉知道。"
+  },
+  {
+    "questId": 5809,
+    "field": "dialogsAccept",
+    "cns": "Seek out a forum with Gothante, and figure out what is going on with the weather.",
+    "tw": "尋找與高譚提拉的論壇，了解天氣情況。"
+  },
+  {
+    "questId": 5809,
+    "field": "dialogsFail",
+    "cns": "Find Gothante and see if he knows what is happening with the weather.",
+    "tw": "找到高譚提拉，看看他是否知道天氣情況。"
+  },
+  {
+    "questId": 6090,
+    "field": "dialogsBegin",
+    "cns": "She is the Black Magician. I was also the Black Magician at one point. We have often been confused for each other throughout history. *Sigh* It seems that Lapranche found out about them.",
+    "tw": "那個人就是黑暗魔法師，可能已經有聽說過了..其實，我也是黑暗魔法師。拉普朗什..可能已經發現了.."
+  },
+  {
+    "questId": 6090,
+    "field": "dialogsComplete",
+    "cns": "What a terrible... Where did they come from? Did you see them? Renegade Blades seemingly hired to kill me. It would appear that I know too much. What is that you have there?",
+    "tw": "好可怕……他們從哪裡來？ 你看到他們了嗎？ 叛逆暗殺者似乎是受僱來殺我的。 看來我知道的太多了。 你那裡有什麼？"
+  },
+  {
+    "questId": 6196,
+    "field": "dialogsBegin",
+    "cns": "Only a few of the mine workers go that deep into the mine. I don\\'t know much about them or the ID card they use to get down there. Oh! You should go speak with Bernard about this.",
+    "tw": "那裡只有少數的人才可以進去啦！對欲那個地方我是完全不懂啦。對了！你去找番若迪好了，說不定他會知道一些事情。 "
+  },
+  {
+    "questId": 6397,
+    "field": "dialogsBegin",
+    "cns": "Well... Not a bad deal... Can you collect 20 Blood Trillipy Shells and defeat a Mutant Keakoon Worker?",
+    "tw": "嗯……不錯的交易……你能在危險的凶惡噬血蜈蚣上獲得 20 個戰利品嗎？ "
+  },
+  {
+    "questId": 7176,
+    "field": "dialogsAccept",
+    "cns": "Garbagespiders were once used to assist workers in construction. They have since become cursed and are soley bent on destruction. Please defeat 20 Small Garbagespiders & 15 Garbagespiders.",
+    "tw": "清掃夫機械曾經被用來協助工人進行施工。 從那以後，他們受到了詛咒，一心想要毀滅。 請擊敗 20 隻清掃夫機械嘍囉和 15 隻清掃夫機械。 "
+  },
+  {
+    "questId": 7176,
+    "field": "dialogsFail",
+    "cns": "Please go defeat 20 Small Garbagespiders & 15 Garbagespiders in Darkon 1 while I finish reading this letter.",
+    "tw": "請在我讀完這封信的同時，到得肯 1 區擊敗20隻清掃夫機械嘍囉和15隻清掃夫機械。 "
+  },
+  {
+    "questId": 7802,
+    "field": "dialogsBegin",
+    "cns": "If you\\'re interested in helping, this little nuisance is just north of there. Will you slay 15 Captain Aibatts and 10 Small Burudengs to help us?",
+    "tw": "如果你有興趣幫忙，這個小麻煩就在北邊。你會殺死 15 名獨眼蝙蝠頭目和 10 隻小藍甲蟲來幫助我們嗎？"
+  },
+  {
+    "questId": 8782,
+    "field": "dialogsBegin",
+    "cns": "Bring me the blood of Pink and Blue Roach Queens so that I can make a vaccine.",
+    "tw": "我要製造預防這些病菌的藥水，你可以幫我在巨械毒花女王身上採取他的樹液給我。"
+  },
+  {
+    "questId": 8782,
+    "field": "dialogsComplete",
+    "cns": "Take this weapon as a token of gratitude and this card to venture deeper into the mine.",
+    "tw": "這個武器是我送給妳的，還有這張通行卡，可以進入礦山的裡面。 "
+  },
+  {
+    "questId": 10083,
+    "field": "dialogsAccept",
+    "cns": "The $QUEST_END_KILL_NAME$ has been spotted on the second floor of the Forsaken Tower.",
+    "tw": "$QUEST_END_KILL_NAME$ 被發現在被遺忘之塔的二樓。"
+  },
+  {
+    "questId": 10083,
+    "field": "dialogsDecline",
+    "cns": "The Tower is filled with dangerous masquerpets. I understand if you do not wish to take the risk.",
+    "tw": "塔內充滿了危險的怪物。 如果您不想冒險，我可以理解。"
+  },
+  {
+    "questId": 10083,
+    "field": "dialogsComplete",
+    "cns": "Thank you hero, the $QUEST_END_KILL_NAME$ threat has been eliminated.",
+    "tw": "謝謝英雄，$QUEST_END_KILL_NAME$ 威脅已被消除。"
+  },
+  {
+    "questId": 10096,
+    "field": "dialogsAccept",
+    "cns": "To safely take on the Naga, first you\\'ll need to gather bait made of their favorite foods. You can make bait from any type of Kingster or Creper! Meet up with Pau Pau and he\\'ll prepare everything.",
+    "tw": "為了安全地對付那迦，首先你需要收集他們最喜歡的食物製成的誘餌。 您可以用任何類型的金斯特或克雷普製作魚餌！ 與包包會面，他會準備好一切。"
+  },
+  {
+    "questId": 10096,
+    "field": "dialogsFail",
+    "cns": "Keep fighting Kingster or Creper until you\\'ve found enough bait.",
+    "tw": "繼續與金斯特或克雷普戰鬥，直到找到足夠的誘餌。"
+  },
+  {
+    "questId": 10161,
+    "field": "dialogsBegin",
+    "cns": "Welcome back hero! There are reports of a new threat in the Forsaken Tower. Please seek out and get rid of the $QUEST_END_KILL_NAME$. ",
+    "tw": "歡迎回來的英雄！ 有報告稱被遺忘之塔出現了新的威脅。 請找出並擺脫 $QUEST_END_KILL_NAME$。"
+  },
+  {
+    "questId": 10161,
+    "field": "dialogsDecline",
+    "cns": "The Tower is filled with dangerous masquerpets. I understand if you do not wish to take the risk.",
+    "tw": "塔內充滿了危險的怪物。 如果您不想冒險，我可以理解。"
+  },
+  {
+    "questId": 10161,
+    "field": "dialogsComplete",
+    "cns": "Thank you hero, the $QUEST_END_KILL_NAME$ threat has been eliminated.",
+    "tw": "謝謝英雄，$QUEST_END_KILL_NAME$ 威脅已被消除。"
+  },
+  {
+    "questId": 10161,
+    "field": "dialogsFail",
+    "cns": "You weren\\'t able to kill the $QUEST_END_KILL_NAME$ yet? That\\'s alright, please return after you\\'ve won against the giant!",
+    "tw": "你還沒能殺死 $QUEST_END_KILL_NAME$？ 沒關係，打敗巨人後請回來！"
+  },
+  {
+    "questId": 10179,
+    "field": "dialogsDecline",
+    "cns": "The Keeper stood guard over the grounds of the Guardiane Sanctuary, and dealt with intruders abruptly. Defeating the Keeper is a challenge even you may not be ready to handle.",
+    "tw": "守護者守衛著守護者聖域的地面，並突然對付入侵者。 擊敗守門員是一項挑戰，即使您可能還沒有準備好應對。"
+  },
+  {
+    "questId": 10179,
+    "field": "dialogsFail",
+    "cns": "Carefully scout the grounds of the twisted Guardiane Sanctuary, and defeat whatever remains of the Pyramid Keeper.",
+    "tw": "仔細偵察扭曲的守護者聖域的地面，並擊敗金字塔守護者的任何殘餘。"
+  },
+  {
+    "questId": 10428,
+    "field": "dialogsAccept",
+    "cns": "Alright, head back to Chenbing. Work with him to start crafting the armor we\\'ll need to win the battle against Lapranche!",
+    "tw": "好了，回到趁風身邊。 與他一起開始製作我們贏得與拉普朗什戰鬥所需的盔甲！"
+  },
+  {
+    "questId": 10428,
+    "field": "dialogsFail",
+    "cns": "Head back to Chenbing to help craft armaments.",
+    "tw": "回到趁風那裡幫助製造武器。"
+  },
+  {
+    "questId": 10475,
+    "field": "dialogsBegin",
+    "cns": "Welcome back hero! There are reports of a new threat in the Forsaken Tower. Please seek out and get rid of the $QUEST_END_KILL_NAME$. ",
+    "tw": "歡迎回來的英雄！ 有報告稱被遺忘之塔出現了新的威脅。 請找出並擺脫 $QUEST_END_KILL_NAME$。"
+  },
+  {
+    "questId": 10475,
+    "field": "dialogsDecline",
+    "cns": "The Tower is filled with dangerous masquerpets. I understand if you do not wish to take the risk.",
+    "tw": "塔內充滿了危險的怪物。 如果您不想冒險，我可以理解。"
+  },
+  {
+    "questId": 10475,
+    "field": "dialogsComplete",
+    "cns": "Thank you hero, the $QUEST_END_KILL_NAME$ threat has been eliminated.",
+    "tw": "謝謝英雄，$QUEST_END_KILL_NAME$ 威脅已被消除。"
+  },
+  {
+    "questId": 10475,
+    "field": "dialogsFail",
+    "cns": "You weren\\'t able to kill the $QUEST_END_KILL_NAME$ yet? That\\'s alright, please return after you\\'ve won against the giant!",
+    "tw": "你還沒能殺死 $QUEST_END_KILL_NAME$？ 沒關係，打敗巨人後請回來！"
+  },
+  {
+    "questId": 10686,
+    "field": "dialogsBegin",
+    "cns": "Welcome back hero! There are reports of a new threat in the Forsaken Tower. Please seek out and get rid of the $QUEST_END_KILL_NAME$. ",
+    "tw": "歡迎回來的英雄！ 有報告稱被遺忘之塔出現了新的威脅。 請找出並擺脫 $QUEST_END_KILL_NAME$。"
+  },
+  {
+    "questId": 10686,
+    "field": "dialogsAccept",
+    "cns": "The $QUEST_END_KILL_NAME$ has been spotted on the second floor of the Forsaken Tower.",
+    "tw": "$QUEST_END_KILL_NAME$ 被發現在被遺忘之塔的二樓。"
+  },
+  {
+    "questId": 10686,
+    "field": "dialogsDecline",
+    "cns": "The Tower is filled with dangerous masquerpets. I understand if you do not wish to take the risk.",
+    "tw": "塔內充滿了危險的怪物。 如果您不想冒險，我可以理解。"
+  },
+  {
+    "questId": 10686,
+    "field": "dialogsComplete",
+    "cns": "Thank you hero, the $QUEST_END_KILL_NAME$ threat has been eliminated.",
+    "tw": "謝謝英雄，$QUEST_END_KILL_NAME$ 威脅已被消除。"
+  },
+  {
+    "questId": 10686,
+    "field": "dialogsFail",
+    "cns": "You weren\\'t able to kill the $QUEST_END_KILL_NAME$ yet? That\\'s alright, please return after you\\'ve won against the giant!",
+    "tw": "你還沒能殺死 $QUEST_END_KILL_NAME$？ 沒關係，打敗巨人後請回來！"
+  },
+  {
+    "questId": 10753,
+    "field": "dialogsBegin",
+    "cns": "Now that we know where the Leren Chasm is, I have stationed a guard outside the cave to prevent anyone from accidently going inside.",
+    "tw": "既然知道了勒倫峽谷的位置，我就在洞外派了守衛，以防有人誤入其中。"
+  },
+  {
+    "questId": 10753,
+    "field": "dialogsBegin",
+    "cns": "From here on adventurer, you must delve into the Leren Chasm if we are ever to know the truth. Please speak to the Leren Chasm guard when you are ready to explore the caves.",
+    "tw": "冒險家從這裡開始，如果我們想知道真相，你必須深入勒倫峽谷，當您準備好探索洞穴時，請與勒倫峽谷守衛交談。"
+  },
+  {
+    "questId": 10753,
+    "field": "dialogsFail",
+    "cns": "Seek out the guard in front of the Leren Chasm.",
+    "tw": "找到勒倫峽谷前的守衛。"
+  },
+  {
+    "questId": 10796,
+    "field": "dialogsBegin",
+    "cns": "Welcome back hero! There are reports of a new threat in the Forsaken Tower. Please seek out and get rid of the $QUEST_END_KILL_NAME$. ",
+    "tw": "歡迎回來的英雄！ 有報告稱被遺忘之塔出現了新的威脅。 請找出並擺脫 $QUEST_END_KILL_NAME$。"
+  },
+  {
+    "questId": 10796,
+    "field": "dialogsDecline",
+    "cns": "The Tower is filled with dangerous masquerpets. I understand if you do not wish to take the risk.",
+    "tw": "塔內充滿了危險的怪物。 如果您不想冒險，我可以理解。"
+  },
+  {
+    "questId": 10796,
+    "field": "dialogsComplete",
+    "cns": "Thank you hero, the $QUEST_END_KILL_NAME$ threat has been eliminated.",
+    "tw": "謝謝英雄，$QUEST_END_KILL_NAME$ 威脅已被消除。"
+  },
+  {
+    "questId": 10796,
+    "field": "dialogsFail",
+    "cns": "You weren\\'t able to kill the $QUEST_END_KILL_NAME$ yet? That\\'s alright, please return after you\\'ve won against the giant!",
+    "tw": "你還沒能殺死 $QUEST_END_KILL_NAME$？ 沒關係，打敗巨人後請回來！"
+  },
+  {
+    "questId": 10870,
+    "field": "dialogsAccept",
+    "cns": "Your first order of duty is to eliminate the dead and find any clues that may lead to Lapranche.",
+    "tw": "你的首要任務是消滅死者並找到任何可能導致拉普朗什的線索。"
+  },
+  {
+    "questId": 10870,
+    "field": "dialogsFail",
+    "cns": "Clear out the undead minions inside the sanctuary, and search for any clue that could help us find Lapranche.",
+    "tw": "清除聖域內的亡靈爪牙，尋找任何能幫助我們找到拉普朗什的線索。"
+  },
+  {
+    "questId": 11323,
+    "field": "dialogsAccept",
+    "cns": "Colack from Saint City could certaintly craft such a device if you can find the rare ore!",
+    "tw": "聖城的克勒，要是能找到稀有礦石，肯定能做出這樣的裝置！"
+  },
+  {
+    "questId": 11323,
+    "field": "dialogsFail",
+    "cns": "Find Colack in Saint City and see if he can assist in crafting a lightning rod.",
+    "tw": "去聖城找克勒，看看他能不能幫忙製作避雷針。"
+  },
+  {
+    "questId": 11343,
+    "field": "dialogsBegin",
+    "cns": "For a while we were safe with Lapranche sealed away by Bubble\\'s magic, but Lapranche will surely send disasters our way to distract us while she builds her power back up.",
+    "tw": "有一段時間我們很安全，因為拉普朗什被泡泡的魔法封鎖了，但拉普朗什肯定會在她恢復力量的同時給我們帶來災難來分散我們的注意力。"
+  },
+  {
+    "questId": 11496,
+    "field": "dialogsBegin",
+    "cns": "Welcome back hero! There are reports of a new threat in the Forsaken Tower. Please seek out and get rid of the $QUEST_END_KILL_NAME$. ",
+    "tw": "歡迎回來的英雄！ 有報告稱被遺忘之塔出現了新的威脅。 請找出並擺脫 $QUEST_END_KILL_NAME$。"
+  },
+  {
+    "questId": 11496,
+    "field": "dialogsAccept",
+    "cns": "The $QUEST_END_KILL_NAME$ has been spotted on the first floor of the Forsaken Tower.",
+    "tw": "$QUEST_END_KILL_NAME$ 被發現在被遺忘之塔的一樓。"
+  },
+  {
+    "questId": 11496,
+    "field": "dialogsDecline",
+    "cns": "The Tower is filled with dangerous masquerpets. I understand if you do not wish to take the risk.",
+    "tw": "塔內充滿了危險的怪物。 如果您不想冒險，我可以理解。"
+  },
+  {
+    "questId": 11496,
+    "field": "dialogsComplete",
+    "cns": "Thank you hero, the $QUEST_END_KILL_NAME$ threat has been eliminated.",
+    "tw": "謝謝英雄，$QUEST_END_KILL_NAME$ 威脅已被消除。"
+  },
+  {
+    "questId": 11496,
+    "field": "dialogsFail",
+    "cns": "You weren\\'t able to kill the $QUEST_END_KILL_NAME$ yet? That\\'s alright, please return after you\\'ve won against the giant!",
+    "tw": "你還沒能殺死 $QUEST_END_KILL_NAME$？ 沒關係，打敗巨人後請回來！"
+  },
+  {
+    "questId": 11505,
+    "field": "dialogsComplete",
+    "cns": "I will spend my days trying to understand this Clockworks Core, perhaps one day Rankashin and I will successfully create the strongest Clockworks of all time!",
+    "tw": "我會花很多時間去理解這個時空毀滅者核心，也許有一天我和森林守衛者會成功地創造出有史以來最強大的時空毀滅者！"
+  },
+  {
+    "questId": 11579,
+    "field": "dialogsAccept",
+    "cns": "The $QUEST_END_KILL_NAME$ has been spotted on the third floor of the Forsaken Tower.",
+    "tw": "$QUEST_END_KILL_NAME$ 被發現在被遺忘之塔的三樓。"
+  },
+  {
+    "questId": 11579,
+    "field": "dialogsDecline",
+    "cns": "The Tower is filled with dangerous masquerpets. I understand if you do not wish to take the risk.",
+    "tw": "塔內充滿了危險的怪物。 如果您不想冒險，我可以理解。"
+  },
+  {
+    "questId": 11579,
+    "field": "dialogsComplete",
+    "cns": "Thank you hero, the $QUEST_END_KILL_NAME$ threat has been eliminated.",
+    "tw": "謝謝英雄，$QUEST_END_KILL_NAME$ 威脅已被消除。"
+  },
+  {
+    "questId": 11749,
+    "field": "dialogsAccept",
+    "cns": "Supercharge the lightning rod by visiting the Altar of Violet, then deliver the lightning rod to Tina and hope that it protects the Station.",
+    "tw": "拜訪紫羅蘭祭壇，為避雷針充電，然後將避雷針交給蒂娜，希望它能保護空間站。"
+  },
+  {
+    "questId": 11761,
+    "field": "dialogsBegin",
+    "cns": "A hole in the heart of the Guardiane Sanctuary has been torn asunder! Purple magic has ripped open a portal to a sad, twisted version of the once peaceful haven.",
+    "tw": "守護者聖域的中心被撕裂了一個洞！ 紫色魔法撕開了通往曾經和平避風港的悲傷扭曲視線的門戶。"
+  },
+  {
+    "questId": 11761,
+    "field": "dialogsBegin",
+    "cns": "For now we must pause our preparations to deal with the twisted Guardiane Sanctuary.",
+    "tw": "現在我們必須暫停我們的準備工作來處理扭曲的守護者聖域。"
+  },
+  {
+    "questId": 11761,
+    "field": "dialogsFail",
+    "cns": "Go find the guard posted outside the Guardiane Sanctuary portal, in the heart of Guardiane.",
+    "tw": "去守護者中心的守護者聖域門戶外找到守衛。"
+  },
+  {
+    "questId": 11916,
+    "field": "dialogsBegin",
+    "cns": "Welcome back hero! There are reports of a new threat in the Forsaken Tower. Please seek out and get rid of the $QUEST_END_KILL_NAME$. ",
+    "tw": "歡迎回來的英雄！ 有報告稱被遺忘之塔出現了新的威脅。 請找出並擺脫 $QUEST_END_KILL_NAME$。"
+  },
+  {
+    "questId": 11916,
+    "field": "dialogsAccept",
+    "cns": "The $QUEST_END_KILL_NAME$ has been spotted on the second floor of the Forsaken Tower.",
+    "tw": "$QUEST_END_KILL_NAME$ 被發現在被遺忘之塔的二樓。"
+  },
+  {
+    "questId": 11916,
+    "field": "dialogsDecline",
+    "cns": "The Tower is filled with dangerous masquerpets. I understand if you do not wish to take the risk.",
+    "tw": "塔內充滿了危險的怪物。 如果您不想冒險，我可以理解。"
+  },
+  {
+    "questId": 11916,
+    "field": "dialogsComplete",
+    "cns": "Thank you hero, the $QUEST_END_KILL_NAME$ threat has been eliminated.",
+    "tw": "謝謝英雄，$QUEST_END_KILL_NAME$ 威脅已被消除。"
+  },
+  {
+    "questId": 11916,
+    "field": "dialogsFail",
+    "cns": "You weren\\'t able to kill the $QUEST_END_KILL_NAME$ yet? That\\'s alright, please return after you\\'ve won against the giant!",
+    "tw": "你還沒能殺死 $QUEST_END_KILL_NAME$？ 沒關係，打敗巨人後請回來！"
+  },
+  {
+    "questId": 12049,
+    "field": "dialogsBegin",
+    "cns": "Strange sounds have been coming from the Leren Mountains. I recall Martinyc once speaking of a myth about creatures that roam deep within the mountain caves.",
+    "tw": "樂人山脈一直傳來奇怪的聲音，我記得馬特尼提特曾經說過一個關於在山洞深處漫遊的生物的神話。"
+  },
+  {
+    "questId": 12049,
+    "field": "dialogsBegin",
+    "cns": "Could you go check with her to see if she has any information about what could be causing this disturbance?",
+    "tw": "你能去跟她確認一下，看看她是否有任何有關導致這場騷亂的資訊嗎？"
+  },
+  {
+    "questId": 12049,
+    "field": "dialogsAccept",
+    "cns": "Martinyc is likely reading her books as always. Go speak with her to find out more information.",
+    "tw": "馬特尼提特可能會一如既往地閱讀她的書，去和她談談以了解更多信息。"
+  },
+  {
+    "questId": 12049,
+    "field": "dialogsFail",
+    "cns": "Seek out Martinyc for information on the rumblings of Leren Mountains.",
+    "tw": "尋找馬特尼提特，了解有關樂人山脈隆隆聲的信息。"
+  },
+  {
+    "questId": 12090,
+    "field": "dialogsComplete",
+    "cns": "What you have uncovered has tremendous impact on our knowledge of the past! Congratulations on making it through the deadly Rhisis Catacombs, and uncovering the secrets of the past.",
+    "tw": "你的發現對我們對過去的認識產生了巨大的影響！ 恭喜您成功穿越致命的黎席斯地下墓穴，並揭開了過去的秘密。"
+  },
+  {
+    "questId": 12090,
+    "field": "dialogsComplete",
+    "cns": "Based on the evidence you have gathered, we believe that the Rhisis Catacombs were once a holy ground for the god of earth, Shelid.",
+    "tw": "根據您收集到的證據，我們相信黎席斯地下墓穴曾經是大地之神謝利德的聖地。"
+  },
+  {
+    "questId": 12128,
+    "field": "dialogsBegin",
+    "cns": "Welcome back hero! There are reports of a new threat in the Forsaken Tower. Please seek out and get rid of the $QUEST_END_KILL_NAME$. ",
+    "tw": "歡迎回來的英雄！ 有報告稱被遺忘之塔出現了新的威脅。 請找出並擺脫 $QUEST_END_KILL_NAME$。"
+  },
+  {
+    "questId": 12128,
+    "field": "dialogsAccept",
+    "cns": "The $QUEST_END_KILL_NAME$ has been spotted on the fifth floor of the Forsaken Tower.",
+    "tw": "$QUEST_END_KILL_NAME$ 被發現在被遺忘之塔的五樓。"
+  },
+  {
+    "questId": 12128,
+    "field": "dialogsDecline",
+    "cns": "The Tower is filled with dangerous masquerpets. I understand if you do not wish to take the risk.",
+    "tw": "塔內充滿了危險的怪物。 如果您不想冒險，我可以理解。"
+  },
+  {
+    "questId": 12128,
+    "field": "dialogsComplete",
+    "cns": "Thank you hero, the $QUEST_END_KILL_NAME$ threat has been eliminated.",
+    "tw": "謝謝英雄，$QUEST_END_KILL_NAME$ 威脅已被消除。"
+  },
+  {
+    "questId": 12128,
+    "field": "dialogsFail",
+    "cns": "You weren\\'t able to kill the $QUEST_END_KILL_NAME$ yet? That\\'s alright, please return after you\\'ve won against the giant!",
+    "tw": "你還沒能殺死 $QUEST_END_KILL_NAME$？ 沒關係，打敗巨人後請回來！"
+  },
+  {
+    "questId": 12178,
+    "field": "dialogsBegin",
+    "cns": "After all that seafood I couldn\\'t eat another bite! For this next invention, I need $QUEST_END_ITEM_NAME$ from the large crabs called Creper. From their hard carapace I will craft the strongest of armors. I forsee a fate in which doning this armor will save Coral Island!",
+    "tw": "吃了這麼多海鮮，我再也吃不下去了！ 對於下一個發明，我需要來自名為克雷普的大螃蟹的 $QUEST_END_ITEM_NAME$。 我將從他們堅硬的甲殼中打造出最堅固的盔甲。 我預見了穿上這件盔甲將拯救珊瑚島的命運！"
+  },
+  {
+    "questId": 12178,
+    "field": "dialogsAccept",
+    "cns": "You may find tough $QUEST_END_ITEM_NAME$ from Creper around the beach area.",
+    "tw": "您可能會在海灘區附近的克雷普發現堅硬的$QUEST_END_ITEM_NAME$。"
+  },
+  {
+    "questId": 12194,
+    "field": "dialogsBegin",
+    "cns": "I hope you\\'re feeling rested after making all that bait with Pau Pau!",
+    "tw": "我希望您在用包包製作了所有誘餌後感到要休息了！"
+  },
+  {
+    "questId": 12205,
+    "field": "dialogsAccept",
+    "cns": "Please bring me a Black Curse Book and 5 Black Heroca from the Garden of Rhisis.",
+    "tw": "請帶給我一本黑色詛咒書和 5 個來自黎席斯花園的黑色英雄。"
+  },
+  {
+    "questId": 12205,
+    "field": "dialogsFail",
+    "cns": "Search the Garden of Rhisis for a Black Curse Book and the Black Heroca plant.",
+    "tw": "在黎席斯花園中尋找黑色詛咒書和黑色英雄植物。"
+  },
+  {
+    "questId": 12810,
+    "field": "dialogsBegin",
+    "cns": "We’re almost done, don’t worry. But for now, let’s keep going?",
+    "tw": "我們快完成了，別擔心。 但是現在，讓我們繼續前進？"
+  },
+  {
+    "questId": 12810,
+    "field": "dialogsBegin",
+    "cns": "And yes, as usual, same rules!",
+    "tw": "是的，和往常一樣，同樣的規則！"
+  },
+  {
+    "questId": 12810,
+    "field": "dialogsBegin",
+    "cns": "This time, it will be from level 90 to 100! So, shall we go?",
+    "tw": "這一次，是從90級到100級！ 那麼，我們走吧？"
+  },
+  {
+    "questId": 12810,
+    "field": "dialogsAccept",
+    "cns": "Great! Then I’ll wait here!",
+    "tw": "太好了！ 那我就在這裡等著！"
+  },
+  {
+    "questId": 12810,
+    "field": "dialogsDecline",
+    "cns": "No problem, just come back!",
+    "tw": "沒問題，回來就好！"
+  },
+  {
+    "questId": 12810,
+    "field": "dialogsComplete",
+    "cns": "Great! I expected no less from you. Here’s your reward.",
+    "tw": "太棒了！ 我對你的期望不低。 這是你的獎勵。"
+  },
+  {
+    "questId": 12810,
+    "field": "dialogsFail",
+    "cns": "You haven’t been able to complete our arrangement? Too bad, others will!",
+    "tw": "你還沒能完成我們的安排？ 太糟糕了，其他人會！"
+  },
+  {
+    "questId": 12840,
+    "field": "dialogsBegin",
+    "cns": "One more and then it’s the last!",
+    "tw": "還有一個，然後是最後一個！"
+  },
+  {
+    "questId": 12840,
+    "field": "dialogsBegin",
+    "cns": "This time, it will be from level 100 to 110! So, shall we go?",
+    "tw": "這一次，是從100級到110級！ 那麼，我們走吧？"
+  },
+  {
+    "questId": 12840,
+    "field": "dialogsAccept",
+    "cns": "Great! Then I’ll wait here!",
+    "tw": "太好了！ 那我就在這裡等著！"
+  },
+  {
+    "questId": 12840,
+    "field": "dialogsDecline",
+    "cns": "No problem, just come back!",
+    "tw": "沒問題，回來就好！"
+  },
+  {
+    "questId": 12840,
+    "field": "dialogsComplete",
+    "cns": "Great! I expected no less from you. Here’s your reward.",
+    "tw": "太棒了！ 我對你的期望不低。 這是你的獎勵。"
+  },
+  {
+    "questId": 12840,
+    "field": "dialogsFail",
+    "cns": "You haven’t been able to complete our arrangement? Too bad, others will!",
+    "tw": "你還沒能完成我們的安排？ 太糟糕了，其他人會！"
+  },
+  {
+    "questId": 12925,
+    "field": "dialogsDecline",
+    "cns": "The Tower is filled with dangerous masquerpets. I understand if you do not wish to take the risk.",
+    "tw": "塔內充滿了危險的怪物。 如果您不想冒險，我可以理解。"
+  },
+  {
+    "questId": 12925,
+    "field": "dialogsComplete",
+    "cns": "Thank you hero, the $QUEST_END_KILL_NAME$ threat has been eliminated.",
+    "tw": "謝謝英雄，$QUEST_END_KILL_NAME$ 威脅已被消除。"
+  },
+  {
+    "questId": 13032,
+    "field": "dialogsBegin",
+    "cns": "Welcome back hero! There are reports of a new threat in the Forsaken Tower. Please seek out and get rid of the $QUEST_END_KILL_NAME$. ",
+    "tw": "歡迎回來的英雄！ 有報告稱被遺忘之塔出現了新的威脅。 請找出並擺脫 $QUEST_END_KILL_NAME$。"
+  },
+  {
+    "questId": 13032,
+    "field": "dialogsAccept",
+    "cns": "The $QUEST_END_KILL_NAME$ has been spotted on the fifth floor of the Forsaken Tower.",
+    "tw": "$QUEST_END_KILL_NAME$ 被發現在被遺忘之塔的五樓。"
+  },
+  {
+    "questId": 13032,
+    "field": "dialogsDecline",
+    "cns": "The Tower is filled with dangerous masquerpets. I understand if you do not wish to take the risk.",
+    "tw": "塔內充滿了危險的怪物。 如果您不想冒險，我可以理解。"
+  },
+  {
+    "questId": 13032,
+    "field": "dialogsComplete",
+    "cns": "Thank you hero, the $QUEST_END_KILL_NAME$ threat has been eliminated.",
+    "tw": "謝謝英雄，$QUEST_END_KILL_NAME$ 威脅已被消除。"
+  },
+  {
+    "questId": 13032,
+    "field": "dialogsFail",
+    "cns": "You weren\\'t able to kill the $QUEST_END_KILL_NAME$ yet? That\\'s alright, please return after you\\'ve won against the giant!",
+    "tw": "你還沒能殺死 $QUEST_END_KILL_NAME$？ 沒關係，打敗巨人後請回來！"
+  },
+  {
+    "questId": 13469,
+    "field": "dialogsBegin",
+    "cns": "Like last time, I take your levels and you go back up! As simple as that!",
+    "tw": "和上次一樣，我測你的等級，然後你回去！ 就如此容易！"
+  },
+  {
+    "questId": 13469,
+    "field": "dialogsBegin",
+    "cns": "And like last time, if you want to resume your previous progression, you can cancel the quest, you will resume the progression of the latter by resuming the quest!",
+    "tw": "和上次一樣，如果你想恢復之前的進度，你可以取消任務，你將通過恢復任務來恢復後面的進度！"
+  },
+  {
+    "questId": 13469,
+    "field": "dialogsBegin",
+    "cns": "This time, it will be from level 70 to 80! So, shall we go?",
+    "tw": "這一次，是從70級到80級！ 那麼，我們去吧？"
+  },
+  {
+    "questId": 13469,
+    "field": "dialogsAccept",
+    "cns": "Great! Then I’ll wait here!",
+    "tw": "太好了！ 那我就在這裡等著！"
+  },
+  {
+    "questId": 13469,
+    "field": "dialogsDecline",
+    "cns": "No problem, just come back!",
+    "tw": "沒問題，回來就好！"
+  },
+  {
+    "questId": 13469,
+    "field": "dialogsComplete",
+    "cns": "Great! I expected no less from you. Here’s your reward.",
+    "tw": "太棒了！ 我對你的期望不低。 這是你的獎勵。"
+  },
+  {
+    "questId": 13469,
+    "field": "dialogsFail",
+    "cns": "You haven’t been able to complete our arrangement? Too bad, others will!",
+    "tw": "你還沒能完成我們的安排？ 太糟糕了，其他人會！"
+  },
+  {
+    "questId": 13497,
+    "field": "dialogsAccept",
+    "cns": "The $QUEST_END_KILL_NAME$ has been spotted on the third floor of the Forsaken Tower.",
+    "tw": "$QUEST_END_KILL_NAME$ 被發現在被遺忘之塔的三樓。"
+  },
+  {
+    "questId": 13497,
+    "field": "dialogsDecline",
+    "cns": "The Tower is filled with dangerous masquerpets. I understand if you do not wish to take the risk.",
+    "tw": "塔內充滿了危險的怪物。 如果您不想冒險，我可以理解。"
+  },
+  {
+    "questId": 13497,
+    "field": "dialogsComplete",
+    "cns": "Thank you hero, the $QUEST_END_KILL_NAME$ threat has been eliminated.",
+    "tw": "謝謝英雄，$QUEST_END_KILL_NAME$ 威脅已被消除。"
+  },
+  {
+    "questId": 13572,
+    "field": "dialogsDecline",
+    "cns": "The Tower is filled with dangerous masquerpets. I understand if you do not wish to take the risk.",
+    "tw": "塔內充滿了危險的怪物。 如果您不想冒險，我可以理解。"
+  },
+  {
+    "questId": 13572,
+    "field": "dialogsComplete",
+    "cns": "Thank you hero, the $QUEST_END_KILL_NAME$ threat has been eliminated.",
+    "tw": "謝謝英雄，$QUEST_END_KILL_NAME$ 威脅已被消除。"
+  },
+  {
+    "questId": 13775,
+    "field": "dialogsBegin",
+    "cns": "Welcome back hero! There are reports of a new threat in the Forsaken Tower. Please seek out and get rid of the $QUEST_END_KILL_NAME$. ",
+    "tw": "歡迎回來的英雄！ 有報告稱被遺忘之塔出現了新的威脅。 請找出並擺脫 $QUEST_END_KILL_NAME$。"
+  },
+  {
+    "questId": 13775,
+    "field": "dialogsAccept",
+    "cns": "The $QUEST_END_KILL_NAME$ has been spotted on the third floor of the Forsaken Tower.",
+    "tw": "$QUEST_END_KILL_NAME$ 被發現在被遺忘之塔的三樓。"
+  },
+  {
+    "questId": 13775,
+    "field": "dialogsDecline",
+    "cns": "The Tower is filled with dangerous masquerpets. I understand if you do not wish to take the risk.",
+    "tw": "塔內充滿了危險的怪物。 如果您不想冒險，我可以理解。"
+  },
+  {
+    "questId": 13775,
+    "field": "dialogsComplete",
+    "cns": "Thank you hero, the $QUEST_END_KILL_NAME$ threat has been eliminated.",
+    "tw": "謝謝英雄，$QUEST_END_KILL_NAME$ 威脅已被消除。"
+  },
+  {
+    "questId": 13775,
+    "field": "dialogsFail",
+    "cns": "You weren\\'t able to kill the $QUEST_END_KILL_NAME$ yet? That\\'s alright, please return after you\\'ve won against the giant!",
+    "tw": "你還沒能殺死 $QUEST_END_KILL_NAME$？ 沒關係，打敗巨人後請回來！"
+  },
+  {
+    "questId": 13842,
+    "field": "dialogsBegin",
+    "cns": "Welcome back hero! There are reports of a new threat in the Forsaken Tower. Please seek out and get rid of the $QUEST_END_KILL_NAME$. ",
+    "tw": "歡迎回來的英雄！ 有報告稱被遺忘之塔出現了新的威脅。 請找出並擺脫 $QUEST_END_KILL_NAME$。"
+  },
+  {
+    "questId": 13842,
+    "field": "dialogsAccept",
+    "cns": "The $QUEST_END_KILL_NAME$ has been spotted on the fourth floor of the Forsaken Tower.",
+    "tw": "$QUEST_END_KILL_NAME$ 在被遺忘之塔的四樓被發現。"
+  },
+  {
+    "questId": 13842,
+    "field": "dialogsDecline",
+    "cns": "The Tower is filled with dangerous masquerpets. I understand if you do not wish to take the risk.",
+    "tw": "塔內充滿了危險的怪物。 如果您不想冒險，我可以理解。"
+  },
+  {
+    "questId": 13842,
+    "field": "dialogsComplete",
+    "cns": "Thank you hero, the $QUEST_END_KILL_NAME$ threat has been eliminated.",
+    "tw": "謝謝英雄，$QUEST_END_KILL_NAME$ 威脅已被消除。"
+  },
+  {
+    "questId": 13842,
+    "field": "dialogsFail",
+    "cns": "You weren\\'t able to kill the $QUEST_END_KILL_NAME$ yet? That\\'s alright, please return after you\\'ve won against the giant!",
+    "tw": "你還沒能殺死 $QUEST_END_KILL_NAME$？ 沒關係，打敗巨人後請回來！"
+  },
+  {
+    "questId": 14045,
+    "field": "dialogsBegin",
+    "cns": "We rarely see the Dorian and Okean creatures approach the village. However with so many other Island evils defeated, I fear they may leave their lair to take advantage of the situation!",
+    "tw": "我們很少看到多利安和奧肯怪物接近村莊。 然而，隨著如此多的島嶼邪惡勢力被擊敗，我擔心他們可能會離開巢穴來乘虛而入！"
+  },
+  {
+    "questId": 14045,
+    "field": "dialogsAccept",
+    "cns": "Go seek out where the Dorian and Okean live. We\\'ll need as much information as we can get if we expect to defeat them!",
+    "tw": "去尋找多利安人和奧肯人居住的地方。 如果我們想要擊敗他們，我們需要更多的資訊！"
+  },
+  {
+    "questId": 14045,
+    "field": "dialogsComplete",
+    "cns": "Well done, hero! With this information we have a chance to defeat the Dorian and Okean before they can attack!",
+    "tw": "作得好，英雄！ 有了這些信息，我們就有機會在多利安人和奧肯人進攻之前擊敗他們！"
+  },
+  {
+    "questId": 14045,
+    "field": "dialogsFail",
+    "cns": "Keep searching, the Dorian and Okean make their homes in the waters of Coral Island.",
+    "tw": "繼續尋找，多利安人和奧肯人在珊瑚島的水域安了家。"
+  },
+  {
+    "questId": 14231,
+    "field": "dialogsAccept",
+    "cns": "The $QUEST_END_KILL_NAME$ has been spotted on the first floor of the Forsaken Tower.",
+    "tw": "$QUEST_END_KILL_NAME$ 被發現在被遺忘之塔的一樓。"
+  },
+  {
+    "questId": 14231,
+    "field": "dialogsDecline",
+    "cns": "The Tower is filled with dangerous masquerpets. I understand if you do not wish to take the risk.",
+    "tw": "塔內充滿了危險的怪物。 如果您不想冒險，我可以理解。"
+  },
+  {
+    "questId": 14231,
+    "field": "dialogsComplete",
+    "cns": "Thank you hero, the $QUEST_END_KILL_NAME$ threat has been eliminated.",
+    "tw": "謝謝英雄，$QUEST_END_KILL_NAME$ 威脅已被消除。"
+  },
+  {
+    "questId": 14566,
+    "field": "dialogsBegin",
+    "cns": "This time, it will be from level 110 to 120! So, shall we go?",
+    "tw": "這一次，從110級升到120級！ 那麼，我們走吧？"
+  },
+  {
+    "questId": 14566,
+    "field": "dialogsAccept",
+    "cns": "Great! Then I’ll wait here!",
+    "tw": "太好了！ 那我就在這裡等著！"
+  },
+  {
+    "questId": 14566,
+    "field": "dialogsDecline",
+    "cns": "No problem, just come back!",
+    "tw": "沒問題，回來就好！"
+  },
+  {
+    "questId": 14566,
+    "field": "dialogsComplete",
+    "cns": "Great! I expected no less from you. Here’s your reward.",
+    "tw": "太棒了！ 我對你的期望不低。 這是你的獎勵。"
+  },
+  {
+    "questId": 14566,
+    "field": "dialogsFail",
+    "cns": "You haven’t been able to complete our arrangement? Too bad, others will!",
+    "tw": "你還沒能完成我們的安排？ 太糟糕了，其他人會！"
+  },
+  {
+    "questId": 14693,
+    "field": "dialogsAccept",
+    "cns": "Out in the Village of Kan there is a talented craftsman named Chenbing Khan who can guide you further.",
+    "tw": "在坎村有一位天才工匠，名叫趁風可汗，他可以指導你進一步。"
+  },
+  {
+    "questId": 14693,
+    "field": "dialogsFail",
+    "cns": "Go find Chenbing in the Village of Kan and give him a hand collecting crafting materials.",
+    "tw": "去坎村找趁風，幫他收集製作材料。"
+  },
+  {
+    "questId": 14822,
+    "field": "dialogsAccept",
+    "cns": "The $QUEST_END_KILL_NAME$ has been spotted on the fourth floor of the Forsaken Tower.",
+    "tw": "$QUEST_END_KILL_NAME$ 在被遺忘之塔的四樓被發現。"
+  },
+  {
+    "questId": 14822,
+    "field": "dialogsDecline",
+    "cns": "The Tower is filled with dangerous masquerpets. I understand if you do not wish to take the risk.",
+    "tw": "塔內充滿了危險的怪物。 如果您不想冒險，我可以理解。"
+  },
+  {
+    "questId": 14822,
+    "field": "dialogsComplete",
+    "cns": "Thank you hero, the $QUEST_END_KILL_NAME$ threat has been eliminated.",
+    "tw": "謝謝英雄，$QUEST_END_KILL_NAME$ 威脅已被消除。"
+  },
+  {
+    "questId": 14934,
+    "field": "dialogsDecline",
+    "cns": "The Tower is filled with dangerous masquerpets. I understand if you do not wish to take the risk.",
+    "tw": "塔內充滿了危險的怪物。 如果您不想冒險，我可以理解。"
+  },
+  {
+    "questId": 14934,
+    "field": "dialogsComplete",
+    "cns": "Thank you hero, the $QUEST_END_KILL_NAME$ threat has been eliminated.",
+    "tw": "謝謝英雄，$QUEST_END_KILL_NAME$ 威脅已被消除。"
+  },
+  {
+    "questId": 14962,
+    "field": "dialogsBegin",
+    "cns": "There is no hope in standing against Lapranche on our own. We must build an army of warriors, ensuring each is equipped with the weapons and armor needed to succeed.",
+    "tw": "靠我們自己對抗拉普朗什是沒有希望的。 我們必須建立一支戰士軍隊，確保每個人都配備成功所需的武器和盔甲。"
+  },
+  {
+    "questId": 15174,
+    "field": "dialogsAccept",
+    "cns": "The Skeletal Militants are formidable foes. The Skeleton General is said to use sharp blades affixed to its back to rip through anything that gets in its way.",
+    "tw": "骷髏武裝分子是可怕的敵人。 據說骷髏將軍會使用固定在背部的鋒利刀片來撕裂任何擋道的東西。"
+  },
+  {
+    "questId": 17549,
+    "field": "dialogsAccept",
+    "cns": "Return to the ruins of the Guardiane Sanctuary, and collect the purple essence left behind on the bodies of the creatures within.",
+    "tw": "返回守護者聖域遺跡，收集留在裡面生物身上的紫色精華。"
+  },
+  {
+    "questId": 17549,
+    "field": "dialogsFail",
+    "cns": "Destroy the Enchanted AI and Enchanted Shaman in the twisted Guardiane Sanctuary to obtain 20 Purple Essence.",
+    "tw": "在扭曲的守護者聖域中摧毀魔法 AI 和魔法薩滿獲得 20 個紫色精華。"
+  },
+  {
+    "questId": 17566,
+    "field": "dialogsAccept",
+    "cns": "The $QUEST_END_KILL_NAME$ has been spotted on the fifth floor of the Forsaken Tower.",
+    "tw": "$QUEST_END_KILL_NAME$ 被發現在被遺忘之塔的五樓。"
+  },
+  {
+    "questId": 17566,
+    "field": "dialogsDecline",
+    "cns": "The Tower is filled with dangerous masquerpets. I understand if you do not wish to take the risk.",
+    "tw": "塔內充滿了危險的怪物。 如果您不想冒險，我可以理解。"
+  },
+  {
+    "questId": 17566,
+    "field": "dialogsComplete",
+    "cns": "Thank you hero, the $QUEST_END_KILL_NAME$ threat has been eliminated.",
+    "tw": "謝謝英雄，$QUEST_END_KILL_NAME$ 威脅已被消除。"
+  },
+  {
+    "questId": 17654,
+    "field": "dialogsBegin",
+    "cns": "Welcome back hero! There are reports of a new threat in the Forsaken Tower. Please seek out and get rid of the $QUEST_END_KILL_NAME$. ",
+    "tw": "歡迎回來的英雄！ 有報告稱被遺忘之塔出現了新的威脅。 請找出並擺脫 $QUEST_END_KILL_NAME$。"
+  },
+  {
+    "questId": 17654,
+    "field": "dialogsAccept",
+    "cns": "The $QUEST_END_KILL_NAME$ has been spotted on the fourth floor of the Forsaken Tower.",
+    "tw": "$QUEST_END_KILL_NAME$ 在被遺忘之塔的四樓被發現。"
+  },
+  {
+    "questId": 17654,
+    "field": "dialogsDecline",
+    "cns": "The Tower is filled with dangerous masquerpets. I understand if you do not wish to take the risk.",
+    "tw": "塔內充滿了危險的怪物。 如果您不想冒險，我可以理解。"
+  },
+  {
+    "questId": 17654,
+    "field": "dialogsComplete",
+    "cns": "Thank you hero, the $QUEST_END_KILL_NAME$ threat has been eliminated.",
+    "tw": "謝謝英雄，$QUEST_END_KILL_NAME$ 威脅已被消除。"
+  },
+  {
+    "questId": 17654,
+    "field": "dialogsFail",
+    "cns": "You weren\\'t able to kill the $QUEST_END_KILL_NAME$ yet? That\\'s alright, please return after you\\'ve won against the giant!",
+    "tw": "你還沒能殺死 $QUEST_END_KILL_NAME$？ 沒關係，打敗巨人後請回來！"
+  },
+  {
+    "questId": 18264,
+    "field": "dialogsAccept",
+    "cns": "You may find $QUEST_END_ITEM_NAME$ left behind by Dorian around Coral Island.",
+    "tw": "您可能會在珊瑚島附近找到多里安留下的$QUEST_END_ITEM_NAME$。"
+  },
+  {
+    "questId": 18264,
+    "field": "dialogsComplete",
+    "cns": "Thank you for collecting all those $QUEST_END_ITEM_NAME$, adventurer! Those fishy creatures have a strange power that makes them age slower than others. Perhaps studying their teeth can give us insight to the Dorian\\'s special powers.",
+    "tw": "感謝您收集所有這些 $QUEST_END_ITEM_NAME$，冒險家！ 那些魚類生物擁有一種奇怪的力量，讓它們比其他生物老得更慢。 也許研究他們的牙齒可以讓我們了解多利安人的特殊能力。"
+  },
+  {
+    "questId": 18269,
+    "field": "dialogsBegin",
+    "cns": "Perhaps it is time to go explore the Leren Chasm to find out more about the powers behind the Elixir of Vitality.",
+    "tw": "也許是時候去探索勒倫峽谷，以了解更多關於活力藥劑背後的力量。"
+  },
+  {
+    "questId": 18269,
+    "field": "dialogsAccept",
+    "cns": "The secret behind the longevity of the Leren Chasm trolls begins with finding the entrance to their cave. Search for the entrance to the Leren Chasm and return to me at once!",
+    "tw": "勒倫峽谷巨魔長壽的秘密始於找到他們洞穴的入口。 尋找勒倫峽谷的入口並立刻回到我身邊！"
+  },
+  {
+    "questId": 18269,
+    "field": "dialogsFail",
+    "cns": "Search for the entrance to the Leren Chasm, then return to me.",
+    "tw": "尋找勒倫峽谷的入口，然後回到我身邊。"
+  },
+  {
+    "questId": 18283,
+    "field": "dialogsAccept",
+    "cns": "Great! Then I’ll wait here!",
+    "tw": "太好了！ 那我就在這裡等著！"
+  },
+  {
+    "questId": 18283,
+    "field": "dialogsDecline",
+    "cns": "No problem, just come back!",
+    "tw": "沒問題，回來就好！"
+  },
+  {
+    "questId": 18283,
+    "field": "dialogsComplete",
+    "cns": "Great! I expected no less from you. Here’s your reward.",
+    "tw": "太棒了！ 我對你的期望不低。 這是你的獎勵。"
+  },
+  {
+    "questId": 18283,
+    "field": "dialogsFail",
+    "cns": "You haven’t been able to complete our arrangement? Too bad, others will!",
+    "tw": "你還沒能完成我們的安排？ 太糟糕了，其他人會！"
+  },
+  {
+    "questId": 18500,
+    "field": "dialogsComplete",
+    "cns": "*Hmmph* So you were sent by that man Gothante. Even so, I do not trust you one bit.",
+    "tw": "*哼*原來你是那個高譚提拉派來的。 即便如此，我一點也不信任你。"
+  },
+  {
+    "questId": 18729,
+    "field": "dialogsAccept",
+    "cns": "The $QUEST_END_KILL_NAME$ has been spotted on the first floor of the Forsaken Tower.",
+    "tw": "$QUEST_END_KILL_NAME$ 被發現在被遺忘之塔的一樓。"
+  },
+  {
+    "questId": 18729,
+    "field": "dialogsDecline",
+    "cns": "The Tower is filled with dangerous masquerpets. I understand if you do not wish to take the risk.",
+    "tw": "塔內充滿了危險的怪物。 如果您不想冒險，我可以理解。"
+  },
+  {
+    "questId": 18729,
+    "field": "dialogsComplete",
+    "cns": "Thank you hero, the $QUEST_END_KILL_NAME$ threat has been eliminated.",
+    "tw": "謝謝英雄，$QUEST_END_KILL_NAME$ 威脅已被消除。"
+  },
+  {
+    "questId": 18742,
+    "field": "dialogsAccept",
+    "cns": "The $QUEST_END_KILL_NAME$ has been spotted on the second floor of the Forsaken Tower.",
+    "tw": "$QUEST_END_KILL_NAME$ 被發現在被遺忘之塔的二樓。"
+  },
+  {
+    "questId": 18742,
+    "field": "dialogsDecline",
+    "cns": "The Tower is filled with dangerous masquerpets. I understand if you do not wish to take the risk.",
+    "tw": "塔內充滿了危險的怪物。 如果您不想冒險，我可以理解。"
+  },
+  {
+    "questId": 18742,
+    "field": "dialogsComplete",
+    "cns": "Thank you hero, the $QUEST_END_KILL_NAME$ threat has been eliminated.",
+    "tw": "謝謝英雄，$QUEST_END_KILL_NAME$ 威脅已被消除。"
+  },
+  {
+    "questId": 18869,
+    "field": "dialogsBegin",
+    "cns": "With the information you\\'ve brought back, our village has a real chance to take down the Dorian and Okean before they get to us!",
+    "tw": "有了你帶回來的信息，我們村莊就有機會在多利安人和奧肯人到達我們面前之前幹掉他們！"
+  },
+  {
+    "questId": 18869,
+    "field": "dialogsAccept",
+    "cns": "Go ahead and defeat as many Dorian and Okean as you can find, including their leaders! We trust you to take down the leaders, we\\'ll be helping with the smaller ones in the back.",
+    "tw": "繼續吧，擊敗更多的多利安和奧肯，包括他們的頭目！ 我們相信你能打倒頭目，我們會幫助後面的較小的怪物。"
+  },
+  {
+    "questId": 18869,
+    "field": "dialogsComplete",
+    "cns": "It\\'s been done, hero. We\\'ve defeated the Dorian and Okean, and can now rest easy.",
+    "tw": "已經完成了，英雄。 我們已經擊敗了多利安人和奧肯人，現在可以高枕無憂了。"
+  },
+  {
+    "questId": 18956,
+    "field": "dialogsBegin",
+    "cns": "Welcome back hero! There are reports of a new threat in the Forsaken Tower. Please seek out and get rid of the $QUEST_END_KILL_NAME$. ",
+    "tw": "歡迎回來的英雄！ 有報告稱被遺忘之塔出現了新的威脅。 請找出並擺脫 $QUEST_END_KILL_NAME$。"
+  },
+  {
+    "questId": 18956,
+    "field": "dialogsAccept",
+    "cns": "The $QUEST_END_KILL_NAME$ has been spotted on the first floor of the Forsaken Tower.",
+    "tw": "$QUEST_END_KILL_NAME$ 被發現在被遺忘之塔的一樓。"
+  },
+  {
+    "questId": 18956,
+    "field": "dialogsDecline",
+    "cns": "The Tower is filled with dangerous masquerpets. I understand if you do not wish to take the risk.",
+    "tw": "塔內充滿了危險的怪物。 如果您不想冒險，我可以理解。"
+  },
+  {
+    "questId": 18956,
+    "field": "dialogsComplete",
+    "cns": "Thank you hero, the $QUEST_END_KILL_NAME$ threat has been eliminated.",
+    "tw": "謝謝英雄，$QUEST_END_KILL_NAME$ 威脅已被消除。"
+  },
+  {
+    "questId": 18956,
+    "field": "dialogsFail",
+    "cns": "You weren\\'t able to kill the $QUEST_END_KILL_NAME$ yet? That\\'s alright, please return after you\\'ve won against the giant!",
+    "tw": "你還沒能殺死 $QUEST_END_KILL_NAME$？ 沒關係，打敗巨人後請回來！"
+  },
+  {
+    "questId": 19065,
+    "field": "dialogsBegin",
+    "cns": "Lapranche has twisted this once peaceful haven into the distorted Guardiane Sanctuary that you see before you. Your strength has carried you to do deeds that many others would be unable to stomach.",
+    "tw": "拉普朗什將這個曾經寧靜的避風港扭曲成您眼前扭曲的守護聖域。你的力量使你做出了許多其他人無法忍受的事情。"
+  },
+  {
+    "questId": 19065,
+    "field": "dialogsComplete",
+    "cns": "Guardiane needs time to heal, but soon we will speak again about the plan at hand. The army of Madrigal will rise again to defeat Shade and her puppet Lapranche.",
+    "tw": "守護者需要時間來療傷，但很快我們將再次討論手頭的計劃。 瑪德利賈的軍隊將再次崛起，以擊敗史瑞德和她的傀儡拉普朗什。"
+  },
+  {
+    "questId": 19166,
+    "field": "dialogsBegin",
+    "cns": "Do you really think you’re the strongest? You’re wrong. You can be stronger! Listen... What if I told you that you could... relive certain moments of your life? It would be crazy, wouldn’t it?",
+    "tw": "你真的認為你是最強的嗎？ 你錯了。 你可以變得更強！ 聽著……如果我告訴你你可以……重溫你生命中的某些時刻呢？ 這會很瘋狂，不是嗎？"
+  },
+  {
+    "questId": 19166,
+    "field": "dialogsBegin",
+    "cns": "I’m bringing you down to level 60, and when you get to level 70, come back to me! I’ll give you back your previous levels with a little gift.",
+    "tw": "我把你降到60級，等你升到70級再回來找我！ 我會用小禮物把你以前的等級還給你。"
+  },
+  {
+    "questId": 19166,
+    "field": "dialogsAccept",
+    "cns": "Perfect! I\\'ve taken your levels, come back to me when you reach the goal of our arrangement!",
+    "tw": "完美的！ 你的等級我已經考過了，等你達到我們安排的目標再回來找我！"
+  },
+  {
+    "questId": 19166,
+    "field": "dialogsDecline",
+    "cns": "Oh I see... you’re probably too weak.",
+    "tw": "哦，我明白了……你可能太弱了。"
+  },
+  {
+    "questId": 19166,
+    "field": "dialogsComplete",
+    "cns": "Wonderful! So I give you back your levels, and the little gift with it! Thank you for your help and see you soon!",
+    "tw": "精彩的！ 所以我把你的等級還給你，還有小禮物！ 感謝您的幫助，很快再見！"
+  },
+  {
+    "questId": 19166,
+    "field": "dialogsFail",
+    "cns": "You haven’t been able to complete our arrangement? Too bad, others will!",
+    "tw": "你還沒能完成我們的安排？ 太糟糕了，其他人會！"
+  },
+  {
+    "questId": 19217,
+    "field": "dialogsDecline",
+    "cns": "The Tower is filled with dangerous masquerpets. I understand if you do not wish to take the risk.",
+    "tw": "塔內充滿了危險的怪物。 如果您不想冒險，我可以理解。"
+  },
+  {
+    "questId": 19217,
+    "field": "dialogsComplete",
+    "cns": "Thank you hero, the $QUEST_END_KILL_NAME$ threat has been eliminated.",
+    "tw": "謝謝英雄，$QUEST_END_KILL_NAME$ 威脅已被消除。"
+  },
+  {
+    "questId": 19275,
+    "field": "dialogsBegin",
+    "cns": "Welcome back hero! There are reports of a new threat in the Forsaken Tower. Please seek out and get rid of the $QUEST_END_KILL_NAME$. ",
+    "tw": "歡迎回來的英雄！ 有報告稱被遺忘之塔出現了新的威脅。 請找出並擺脫 $QUEST_END_KILL_NAME$。"
+  },
+  {
+    "questId": 19275,
+    "field": "dialogsDecline",
+    "cns": "The Tower is filled with dangerous masquerpets. I understand if you do not wish to take the risk.",
+    "tw": "塔內充滿了危險的怪物。 如果您不想冒險，我可以理解。"
+  },
+  {
+    "questId": 19275,
+    "field": "dialogsComplete",
+    "cns": "Thank you hero, the $QUEST_END_KILL_NAME$ threat has been eliminated.",
+    "tw": "謝謝英雄，$QUEST_END_KILL_NAME$ 威脅已被消除。"
+  },
+  {
+    "questId": 19275,
+    "field": "dialogsFail",
+    "cns": "You weren\\'t able to kill the $QUEST_END_KILL_NAME$ yet? That\\'s alright, please return after you\\'ve won against the giant!",
+    "tw": "你還沒能殺死 $QUEST_END_KILL_NAME$？ 沒關係，打敗巨人後請回來！"
+  },
+  {
+    "questId": 19331,
+    "field": "dialogsAccept",
+    "cns": "The $QUEST_END_KILL_NAME$ has been spotted on the fourth floor of the Forsaken Tower.",
+    "tw": "$QUEST_END_KILL_NAME$ 在被遺忘之塔的四樓被發現。"
+  },
+  {
+    "questId": 19331,
+    "field": "dialogsDecline",
+    "cns": "The Tower is filled with dangerous masquerpets. I understand if you do not wish to take the risk.",
+    "tw": "塔內充滿了危險的怪物。 如果您不想冒險，我可以理解。"
+  },
+  {
+    "questId": 19331,
+    "field": "dialogsComplete",
+    "cns": "Thank you hero, the $QUEST_END_KILL_NAME$ threat has been eliminated.",
+    "tw": "謝謝英雄，$QUEST_END_KILL_NAME$ 威脅已被消除。"
+  },
+  {
+    "questId": 19452,
+    "field": "dialogsBegin",
+    "cns": "After unblocking the entrance to Leren Chasm, strange creatures have started coming out, causing havoc in the Leren Mountains.",
+    "tw": "勒倫峽谷的入口被打開後，奇怪的生物開始出現，在勒倫山脈造成了巨大的破壞。"
+  },
+  {
+    "questId": 19452,
+    "field": "dialogsBegin",
+    "cns": "Go inside the Leren Chasm and clear out the creatures that have been causing us problems.",
+    "tw": "進入勒倫峽谷並清除一直給我們帶來麻煩的生物。"
+  },
+  {
+    "questId": 19452,
+    "field": "dialogsAccept",
+    "cns": "Please speak to me when you are ready to enter the Leren Chasm. Inside you will find the Masquerpets I speak of.",
+    "tw": "當你準備好進入勒倫裂谷時，請與我交談。在裡面你會發現我所說的怪物。"
+  },
+  {
+    "questId": 19649,
+    "field": "dialogsBegin",
+    "cns": "The last time you finished your task in no time. What do you think? Let’s go back?",
+    "tw": "您上次很快就完成了任務。 你怎麼認為？ 我們回去吧？"
+  },
+  {
+    "questId": 19649,
+    "field": "dialogsBegin",
+    "cns": "The rules are not changing, so what are we waiting for?",
+    "tw": "規則沒有改變，我們還在等什麼？"
+  },
+  {
+    "questId": 19649,
+    "field": "dialogsBegin",
+    "cns": "This time, it will be from level 80 to 90! So, shall we go?",
+    "tw": "這次是80級到90級！ 那麼，我們去吧？"
+  },
+  {
+    "questId": 19649,
+    "field": "dialogsAccept",
+    "cns": "Great! Then I’ll wait here!",
+    "tw": "太好了！ 那我就在這裡等著！"
+  },
+  {
+    "questId": 19649,
+    "field": "dialogsDecline",
+    "cns": "No problem, just come back!",
+    "tw": "沒問題，回來就好！"
+  },
+  {
+    "questId": 19649,
+    "field": "dialogsComplete",
+    "cns": "Great! I expected no less from you. Here’s your reward.",
+    "tw": "太棒了！ 我對你的期望不低。 這是你的獎勵。"
+  },
+  {
+    "questId": 19649,
+    "field": "dialogsFail",
+    "cns": "You haven’t been able to complete our arrangement? Too bad, others will!",
+    "tw": "你還沒能完成我們的安排？ 太糟糕了，其他人會！"
+  },
+  {
+    "questId": 19912,
+    "field": "dialogsAccept",
+    "cns": "Take the cup from inside my chest and fill it with the powers from the nearby Altar of Violet.",
+    "tw": "從我胸口取出杯子，用附近紫羅蘭祭壇的力量填充它。"
+  },
+  {
+    "questId": 19912,
+    "field": "dialogsFail",
+    "cns": "You\\'re wasting time! Go to the Altar of Violet, now!!",
+    "tw": "你在浪費時間！ 現在去紫羅蘭祭壇！！"
+  },
+  {
+    "questId": 19916,
+    "field": "dialogsAccept",
+    "cns": "The $QUEST_END_KILL_NAME$ has been spotted on the fifth floor of the Forsaken Tower.",
+    "tw": "$QUEST_END_KILL_NAME$ 被發現在被遺忘之塔的五樓。"
+  },
+  {
+    "questId": 19916,
+    "field": "dialogsDecline",
+    "cns": "The Tower is filled with dangerous masquerpets. I understand if you do not wish to take the risk.",
+    "tw": "塔內充滿了危險的怪物。 如果您不想冒險，我可以理解。"
+  },
+  {
+    "questId": 19916,
+    "field": "dialogsComplete",
+    "cns": "Thank you hero, the $QUEST_END_KILL_NAME$ threat has been eliminated.",
+    "tw": "謝謝英雄，$QUEST_END_KILL_NAME$ 威脅已被消除。"
+  },
+  {
+    "questId": 19991,
+    "field": "dialogsBegin",
+    "cns": "The current Black Magician named Lapranche is also sometimes known as the Purple Magician. She has an incredible power that is lost to all of today\\'s magicians, including myself. Lapranche can summon the will of Shade to cast Purple Magic, recreating parts of the world in Shade\\'s image.",
+    "tw": "現任黑魔法師拉普朗雪有時也被稱為紫魔法師。 她擁有不可思議的力量，這是當今所有魔術師所不具備的，包括我自己。 拉普朗什可以召喚史瑞德的意志來施展紫色魔法，以史瑞德的形象重建世界的一部分。"
+  },
+  {
+    "questId": 19991,
+    "field": "dialogsDecline",
+    "cns": "If we are not prepared, Lapranche could unleash evil more terrible than us mortals could ever hope to face.",
+    "tw": "如果我們沒有做好準備，拉普朗什可能會釋放出比我們凡人所希望面對的更可怕的邪惡。"
+  },
+  {
+    "questId": 19991,
+    "field": "dialogsFail",
+    "cns": "Go defeat Bearnerky until you have collected 50 Bearnerky Fang.",
+    "tw": "去擊敗野熊王，直到你收集到 50 個野熊王獠牙。"
+  },
+  {
+    "questId": 24876,
+    "field": "dialogsAccept",
+    "cns": "Great! Then I’ll wait here!",
+    "tw": "太好了！ 那我就在這裡等著！"
+  },
+  {
+    "questId": 24876,
+    "field": "dialogsDecline",
+    "cns": "No problem, just come back!",
+    "tw": "沒問題，回來就好！"
+  },
+  {
+    "questId": 24876,
+    "field": "dialogsComplete",
+    "cns": "Great! I expected no less from you. Here’s your reward.",
+    "tw": "太棒了！ 我對你的期望不低。 這是你的獎勵。"
+  },
+  {
+    "questId": 24876,
+    "field": "dialogsFail",
+    "cns": "You haven’t been able to complete our arrangement? Too bad, others will!",
+    "tw": "你還沒能完成我們的安排？ 太糟糕了，其他人會！"
+  },
+  {
+    "questId": 26417,
+    "field": "dialogsAccept",
+    "cns": "Great! Then I’ll wait here!",
+    "tw": "太好了！ 那我就在這裡等著！"
+  },
+  {
+    "questId": 26417,
+    "field": "dialogsDecline",
+    "cns": "No problem, just come back!",
+    "tw": "沒問題，回來就好！"
+  },
+  {
+    "questId": 26417,
+    "field": "dialogsComplete",
+    "cns": "Great! I expected no less from you. Here’s your reward.",
+    "tw": "太棒了！ 我對你的期望不低。 這是你的獎勵。"
+  },
+  {
+    "questId": 26417,
+    "field": "dialogsFail",
+    "cns": "You haven’t been able to complete our arrangement? Too bad, others will!",
+    "tw": "你還沒能完成我們的安排？ 太糟糕了，其他人會！"
+  },
+  {
+    "questId": 26442,
+    "field": "dialogsAccept",
+    "cns": "Great! Then I’ll wait here!",
+    "tw": "太好了！ 那我就在這裡等著！"
+  },
+  {
+    "questId": 26442,
+    "field": "dialogsDecline",
+    "cns": "No problem, just come back!",
+    "tw": "沒問題，回來就好！"
+  },
+  {
+    "questId": 26442,
+    "field": "dialogsComplete",
+    "cns": "Great! I expected no less from you. Here’s your reward.",
+    "tw": "太棒了！ 我對你的期望不低。 這是你的獎勵。"
+  },
+  {
+    "questId": 26442,
+    "field": "dialogsFail",
+    "cns": "You haven’t been able to complete our arrangement? Too bad, others will!",
+    "tw": "你還沒能完成我們的安排？ 太糟糕了，其他人會！"
+  }
+]

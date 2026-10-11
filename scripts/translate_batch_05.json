@@ -1,0 +1,252 @@
+[
+  {
+    "line": 156651,
+    "value": "Please help us stave off the spawn of the Sea King!",
+    "escapedValue": "Please help us stave off the spawn of the Sea King!"
+  },
+  {
+    "line": 156675,
+    "value": "Thank you! Find where the Sea King has released their spawn, and defeat as many as you can. Let BoBu know once you've finished!",
+    "escapedValue": "Thank you! Find where the Sea King has released their spawn, and defeat as many as you can. Let BoBu know once you\\'ve finished!"
+  },
+  {
+    "line": 156699,
+    "value": "Soon the inky darkness will overflow Coral Island, and we will be engulfed...",
+    "escapedValue": "Soon the inky darkness will overflow Coral Island, and we will be engulfed..."
+  },
+  {
+    "line": 156747,
+    "value": "Will we become faceless like those that failed before us?",
+    "escapedValue": "Will we become faceless like those that failed before us?"
+  },
+  {
+    "line": 157089,
+    "value": "Madren Town is no place for commoners to travel. I could never expect you to risk your life for my book. Thank you for listening to me anyway.",
+    "escapedValue": "Madren Town is no place for commoners to travel. I could never expect you to risk your life for my book. Thank you for listening to me anyway."
+  },
+  {
+    "line": 157113,
+    "value": "You found my book, thank you so much! Now to find the legend of the Leren Chasm...",
+    "escapedValue": "You found my book, thank you so much! Now to find the legend of the Leren Chasm..."
+  },
+  {
+    "line": 157137,
+    "value": "Please find my book! I'm positive it is still in Madren Town.",
+    "escapedValue": "Please find my book! I\\'m positive it is still in Madren Town."
+  },
+  {
+    "line": 157415,
+    "value": "Word has been going around the village about a strong new visitor that can hold their own against the ferocities of Coral Island.",
+    "escapedValue": "Word has been going around the village about a strong new visitor that can hold their own against the ferocities of Coral Island."
+  },
+  {
+    "line": 157437,
+    "value": "The number of Tigars on the island have exploded recently, and we're not sure why. It's hardly safe to walk along the paths of Coral Island anymore.",
+    "escapedValue": "The number of Tigars on the island have exploded recently, and we\\'re not sure why. It\\'s hardly safe to walk along the paths of Coral Island anymore."
+  },
+  {
+    "line": 157485,
+    "value": "Perhaps no one is powerful enough to defeat the Tigars.",
+    "escapedValue": "Perhaps no one is powerful enough to defeat the Tigars."
+  },
+  {
+    "line": 157533,
+    "value": "Tigars hide in the grass, waiting to strike their prey. In just one NaNosecond they pounce to attack.",
+    "escapedValue": "Tigars hide in the grass, waiting to strike their prey. In just one NaNosecond they pounce to attack."
+  },
+  {
+    "line": 158199,
+    "value": "The $QUEST_END_KILL_NAME$ has been spotted on the sixth floor of the Forsaken Tower.",
+    "escapedValue": "The $QUEST_END_KILL_NAME$ has been spotted on the sixth floor of the Forsaken Tower."
+  },
+  {
+    "line": 158222,
+    "value": "Welcome hero! Another request has come in to clear out $QUEST_END_KILL_NAME$ from the Forsaken Tower. Could you please slay 50 $QUEST_END_KILL_NAME$, and return to me once you are done?",
+    "escapedValue": "Welcome hero! Another request has come in to clear out $QUEST_END_KILL_NAME$ from the Forsaken Tower. Could you please slay 50 $QUEST_END_KILL_NAME$, and return to me once you are done?"
+  },
+  {
+    "line": 158246,
+    "value": "The $QUEST_END_KILL_NAME$ has been spotted on the sixth floor of the Forsaken Tower.",
+    "escapedValue": "The $QUEST_END_KILL_NAME$ has been spotted on the sixth floor of the Forsaken Tower."
+  },
+  {
+    "line": 158318,
+    "value": "You haven't defeated the $QUEST_END_KILL_NAME$ yet? That's okay, just return once you have.",
+    "escapedValue": "You haven\\'t defeated the $QUEST_END_KILL_NAME$ yet? That\\'s okay, just return once you have."
+  },
+  {
+    "line": 158751,
+    "value": "The $QUEST_END_KILL_NAME$ has been spotted somewhere in Madrigal. Check your map for hints for where they may be hiding!",
+    "escapedValue": "The $QUEST_END_KILL_NAME$ has been spotted somewhere in Madrigal. Check your map for hints for where they may be hiding!"
+  },
+  {
+    "line": 158774,
+    "value": "Welcome! Another request has come in to clear out $QUEST_END_KILL_NAME$. Could you please work together to defeat the $QUEST_END_KILL_NAME$, and return to me once you are done?",
+    "escapedValue": "Welcome! Another request has come in to clear out $QUEST_END_KILL_NAME$. Could you please work together to defeat the $QUEST_END_KILL_NAME$, and return to me once you are done?"
+  },
+  {
+    "line": 158798,
+    "value": "The $QUEST_END_KILL_NAME$ has been spotted somewhere in Madrigal. Check your map for hints for where they may be hiding!",
+    "escapedValue": "The $QUEST_END_KILL_NAME$ has been spotted somewhere in Madrigal. Check your map for hints for where they may be hiding!"
+  },
+  {
+    "line": 158822,
+    "value": "Some days we don't feel productive. I understand.",
+    "escapedValue": "Some days we don\\'t feel productive. I understand."
+  },
+  {
+    "line": 158846,
+    "value": "The power of your love have vanquished the $QUEST_END_KILL_NAME$ threat, thank you!",
+    "escapedValue": "The power of your love have vanquished the $QUEST_END_KILL_NAME$ threat, thank you!"
+  },
+  {
+    "line": 158870,
+    "value": "Were you unable to find and defeat $QUEST_END_KILL_NAME$ yet? Track them down to prove your love is true!",
+    "escapedValue": "Were you unable to find and defeat $QUEST_END_KILL_NAME$ yet? Track them down to prove your love is true!"
+  },
+  {
+    "line": 158958,
+    "value": "Once you get to know thrill of fishing, it's hard to get away from it. What do you say, learn?",
+    "escapedValue": "Once you get to know thrill of fishing, it\\'s hard to get away from it. What do you say, learn?"
+  },
+  {
+    "line": 159006,
+    "value": "There you go. It's easier than you think, isn't it? Just remember, the most important thing is to do 'a lot'.",
+    "escapedValue": "There you go. It\\'s easier than you think, isn\\'t it? Just remember, the most important thing is to do \\'a lot\\'."
+  },
+  {
+    "line": 159537,
+    "value": "Welcome hero! Another request has come in to clear out $QUEST_END_KILL_NAME$ from the Forsaken Tower. Could you please slay 50 $QUEST_END_KILL_NAME$, and return to me once you are done?",
+    "escapedValue": "Welcome hero! Another request has come in to clear out $QUEST_END_KILL_NAME$ from the Forsaken Tower. Could you please slay 50 $QUEST_END_KILL_NAME$, and return to me once you are done?"
+  },
+  {
+    "line": 159633,
+    "value": "You haven't defeated the $QUEST_END_KILL_NAME$ yet? That's okay, just return once you have.",
+    "escapedValue": "You haven\\'t defeated the $QUEST_END_KILL_NAME$ yet? That\\'s okay, just return once you have."
+  },
+  {
+    "line": 159659,
+    "value": "Kill Trangfoma",
+    "escapedValue": "Kill Trangfoma"
+  },
+  {
+    "line": 159714,
+    "value": "The $QUEST_END_KILL_NAME$ has been spotted somewhere in Madrigal. Check your map for hints for where they may be hiding!",
+    "escapedValue": "The $QUEST_END_KILL_NAME$ has been spotted somewhere in Madrigal. Check your map for hints for where they may be hiding!"
+  },
+  {
+    "line": 159737,
+    "value": "Welcome! Another request has come in to clear out $QUEST_END_KILL_NAME$. Could you please work together to defeat the $QUEST_END_KILL_NAME$, and return to me once you are done?",
+    "escapedValue": "Welcome! Another request has come in to clear out $QUEST_END_KILL_NAME$. Could you please work together to defeat the $QUEST_END_KILL_NAME$, and return to me once you are done?"
+  },
+  {
+    "line": 159761,
+    "value": "The $QUEST_END_KILL_NAME$ has been spotted somewhere in Madrigal. Check your map for hints for where they may be hiding!",
+    "escapedValue": "The $QUEST_END_KILL_NAME$ has been spotted somewhere in Madrigal. Check your map for hints for where they may be hiding!"
+  },
+  {
+    "line": 159785,
+    "value": "Some days we don't feel productive. I understand.",
+    "escapedValue": "Some days we don\\'t feel productive. I understand."
+  },
+  {
+    "line": 159809,
+    "value": "The power of your love have vanquished the $QUEST_END_KILL_NAME$ threat, thank you!",
+    "escapedValue": "The power of your love have vanquished the $QUEST_END_KILL_NAME$ threat, thank you!"
+  },
+  {
+    "line": 159833,
+    "value": "Were you unable to find and defeat $QUEST_END_KILL_NAME$ yet? Track them down to prove your love is true!",
+    "escapedValue": "Were you unable to find and defeat $QUEST_END_KILL_NAME$ yet? Track them down to prove your love is true!"
+  },
+  {
+    "line": 160069,
+    "value": "The $QUEST_END_KILL_NAME$ has been spotted on the seventh floor of the Forsaken Tower.",
+    "escapedValue": "The $QUEST_END_KILL_NAME$ has been spotted on the seventh floor of the Forsaken Tower."
+  },
+  {
+    "line": 160092,
+    "value": "Welcome hero! Another request has come in to clear out $QUEST_END_KILL_NAME$ from the Forsaken Tower. Could you please slay 50 $QUEST_END_KILL_NAME$, and return to me once you are done?",
+    "escapedValue": "Welcome hero! Another request has come in to clear out $QUEST_END_KILL_NAME$ from the Forsaken Tower. Could you please slay 50 $QUEST_END_KILL_NAME$, and return to me once you are done?"
+  },
+  {
+    "line": 160116,
+    "value": "The $QUEST_END_KILL_NAME$ has been spotted on the seventh floor of the Forsaken Tower.",
+    "escapedValue": "The $QUEST_END_KILL_NAME$ has been spotted on the seventh floor of the Forsaken Tower."
+  },
+  {
+    "line": 160188,
+    "value": "You haven't defeated the $QUEST_END_KILL_NAME$ yet? That's okay, just return once you have.",
+    "escapedValue": "You haven\\'t defeated the $QUEST_END_KILL_NAME$ yet? That\\'s okay, just return once you have."
+  },
+  {
+    "line": 160441,
+    "value": "Long ago I sailed into the mist that surrounded this island, hoping to discover something new and untouched in the land of Madrigal.",
+    "escapedValue": "Long ago I sailed into the mist that surrounded this island, hoping to discover something new and untouched in the land of Madrigal."
+  },
+  {
+    "line": 160485,
+    "value": "The mist that covered the island held some magic that prevented those who arrived from escaping.",
+    "escapedValue": "The mist that covered the island held some magic that prevented those who arrived from escaping."
+  },
+  {
+    "line": 160509,
+    "value": "With Coral Island open to all, we may begin seeing more travelers arrive over time. For now, go introduce yourself to Sunny Pang. Sunny Pang will help you in your adventures around the island.",
+    "escapedValue": "With Coral Island open to all, we may begin seeing more travelers arrive over time. For now, go introduce yourself to Sunny Pang. Sunny Pang will help you in your adventures around the island."
+  },
+  {
+    "line": 160533,
+    "value": "Take your time, the island has a lot to offer. Come back to me when you are ready.",
+    "escapedValue": "Take your time, the island has a lot to offer. Come back to me when you are ready."
+  },
+  {
+    "line": 160557,
+    "value": "Wow, it's a real adventure! It's been so long since we've had anyone come visit Coral Island. I wasn't sure this day would ever come!",
+    "escapedValue": "Wow, it\\'s a real adventure! It\\'s been so long since we\\'ve had anyone come visit Coral Island. I wasn\\'t sure this day would ever come!"
+  },
+  {
+    "line": 160583,
+    "value": "Kill Cardpuppets",
+    "escapedValue": "Kill Cardpuppets"
+  },
+  {
+    "line": 160638,
+    "value": "The $QUEST_END_KILL_NAME$ has been spotted somewhere in Madrigal. Check your map for hints for where they may be hiding!",
+    "escapedValue": "The $QUEST_END_KILL_NAME$ has been spotted somewhere in Madrigal. Check your map for hints for where they may be hiding!"
+  },
+  {
+    "line": 160661,
+    "value": "Welcome! Another request has come in to clear out $QUEST_END_KILL_NAME$. Could you please work together to defeat the $QUEST_END_KILL_NAME$, and return to me once you are done?",
+    "escapedValue": "Welcome! Another request has come in to clear out $QUEST_END_KILL_NAME$. Could you please work together to defeat the $QUEST_END_KILL_NAME$, and return to me once you are done?"
+  },
+  {
+    "line": 160685,
+    "value": "The $QUEST_END_KILL_NAME$ has been spotted somewhere in Madrigal. Check your map for hints for where they may be hiding!",
+    "escapedValue": "The $QUEST_END_KILL_NAME$ has been spotted somewhere in Madrigal. Check your map for hints for where they may be hiding!"
+  },
+  {
+    "line": 160709,
+    "value": "Some days we don't feel productive. I understand.",
+    "escapedValue": "Some days we don\\'t feel productive. I understand."
+  },
+  {
+    "line": 160733,
+    "value": "The power of your love have vanquished the $QUEST_END_KILL_NAME$ threat, thank you!",
+    "escapedValue": "The power of your love have vanquished the $QUEST_END_KILL_NAME$ threat, thank you!"
+  },
+  {
+    "line": 160757,
+    "value": "Were you unable to find and defeat $QUEST_END_KILL_NAME$ yet? Track them down to prove your love is true!",
+    "escapedValue": "Were you unable to find and defeat $QUEST_END_KILL_NAME$ yet? Track them down to prove your love is true!"
+  },
+  {
+    "line": 160783,
+    "value": "Venomous Vendetta",
+    "escapedValue": "Venomous Vendetta"
+  },
+  {
+    "line": 161090,
+    "value": "Venture forth and cleanse The Wilds of the fearsome cobras and their master, the Twinstrike Den Mother. Clearing an opening will grant you the breathing space needed to strategize and prepare for what's to come.",
+    "escapedValue": "Venture forth and cleanse The Wilds of the fearsome cobras and their master, the Twinstrike Den Mother. Clearing an opening will grant you the breathing space needed to strategize and prepare for what\\'s to come."
+  }
+]

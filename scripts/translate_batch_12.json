@@ -1,0 +1,252 @@
+[
+  {
+    "line": 185538,
+    "value": "Seek out what remains of the Pyramid Guardian, and put it to rest.",
+    "escapedValue": "Seek out what remains of the Pyramid Guardian, and put it to rest."
+  },
+  {
+    "line": 185564,
+    "value": "Kill Scorpicon",
+    "escapedValue": "Kill Scorpicon"
+  },
+  {
+    "line": 185619,
+    "value": "The $QUEST_END_KILL_NAME$ has been spotted somewhere in Madrigal. Check your map for hints for where they may be hiding!",
+    "escapedValue": "The $QUEST_END_KILL_NAME$ has been spotted somewhere in Madrigal. Check your map for hints for where they may be hiding!"
+  },
+  {
+    "line": 185642,
+    "value": "Welcome! Another request has come in to clear out $QUEST_END_KILL_NAME$. Could you please work together to defeat the $QUEST_END_KILL_NAME$, and return to me once you are done?",
+    "escapedValue": "Welcome! Another request has come in to clear out $QUEST_END_KILL_NAME$. Could you please work together to defeat the $QUEST_END_KILL_NAME$, and return to me once you are done?"
+  },
+  {
+    "line": 185666,
+    "value": "The $QUEST_END_KILL_NAME$ has been spotted somewhere in Madrigal. Check your map for hints for where they may be hiding!",
+    "escapedValue": "The $QUEST_END_KILL_NAME$ has been spotted somewhere in Madrigal. Check your map for hints for where they may be hiding!"
+  },
+  {
+    "line": 185690,
+    "value": "Some days we don't feel productive. I understand.",
+    "escapedValue": "Some days we don\\'t feel productive. I understand."
+  },
+  {
+    "line": 185714,
+    "value": "The power of your love have vanquished the $QUEST_END_KILL_NAME$ threat, thank you!",
+    "escapedValue": "The power of your love have vanquished the $QUEST_END_KILL_NAME$ threat, thank you!"
+  },
+  {
+    "line": 185738,
+    "value": "Were you unable to find and defeat $QUEST_END_KILL_NAME$ yet? Track them down to prove your love is true!",
+    "escapedValue": "Were you unable to find and defeat $QUEST_END_KILL_NAME$ yet? Track them down to prove your love is true!"
+  },
+  {
+    "line": 186261,
+    "value": "Welcome hero! Another request has come in to clear out $QUEST_END_KILL_NAME$ from the Forsaken Tower. Could you please slay 50 $QUEST_END_KILL_NAME$, and return to me once you are done?",
+    "escapedValue": "Welcome hero! Another request has come in to clear out $QUEST_END_KILL_NAME$ from the Forsaken Tower. Could you please slay 50 $QUEST_END_KILL_NAME$, and return to me once you are done?"
+  },
+  {
+    "line": 186357,
+    "value": "You haven't defeated the $QUEST_END_KILL_NAME$ yet? That's okay, just return once you have.",
+    "escapedValue": "You haven\\'t defeated the $QUEST_END_KILL_NAME$ yet? That\\'s okay, just return once you have."
+  },
+  {
+    "line": 186590,
+    "value": "The $QUEST_END_KILL_NAME$ has been spotted on the seventh floor of the Forsaken Tower.",
+    "escapedValue": "The $QUEST_END_KILL_NAME$ has been spotted on the seventh floor of the Forsaken Tower."
+  },
+  {
+    "line": 186637,
+    "value": "The $QUEST_END_KILL_NAME$ has been spotted on the seventh floor of the Forsaken Tower.",
+    "escapedValue": "The $QUEST_END_KILL_NAME$ has been spotted on the seventh floor of the Forsaken Tower."
+  },
+  {
+    "line": 186968,
+    "value": "Welcome hero! Another request has come in to clear out $QUEST_END_KILL_NAME$ from the Forsaken Tower. Could you please slay 50 $QUEST_END_KILL_NAME$, and return to me once you are done?",
+    "escapedValue": "Welcome hero! Another request has come in to clear out $QUEST_END_KILL_NAME$ from the Forsaken Tower. Could you please slay 50 $QUEST_END_KILL_NAME$, and return to me once you are done?"
+  },
+  {
+    "line": 187064,
+    "value": "You haven't defeated the $QUEST_END_KILL_NAME$ yet? That's okay, just return once you have.",
+    "escapedValue": "You haven\\'t defeated the $QUEST_END_KILL_NAME$ yet? That\\'s okay, just return once you have."
+  },
+  {
+    "line": 187172,
+    "value": "Nyangnyangs possess charms bursting with the power of love. With a few of these charms, you can show Madrigal how strong your love is!",
+    "escapedValue": "Nyangnyangs possess charms bursting with the power of love. With a few of these charms, you can show Madrigal how strong your love is!"
+  },
+  {
+    "line": 187220,
+    "value": "Some days we don't feel productive. I understand.",
+    "escapedValue": "Some days we don\\'t feel productive. I understand."
+  },
+  {
+    "line": 187589,
+    "value": "Regardless of the reason, perhaps you should go pay a visit to the island and see what's new. ",
+    "escapedValue": "Regardless of the reason, perhaps you should go pay a visit to the island and see what\\'s new. "
+  },
+  {
+    "line": 187613,
+    "value": "Many years ago a skilled blacksmith from Darken City named BoBu traveled through the fog in search for rare materials. Go seek out Coral Island and see if BoBu managed to survive.",
+    "escapedValue": "Many years ago a skilled blacksmith from Darken City named BoBu traveled through the fog in search for rare materials. Go seek out Coral Island and see if BoBu managed to survive."
+  },
+  {
+    "line": 188010,
+    "value": "These unknown creatures are terribly dangerous. Do not approach them if you feel unprepared.",
+    "escapedValue": "These unknown creatures are terribly dangerous. Do not approach them if you feel unprepared."
+  },
+  {
+    "line": 188084,
+    "value": "Nippy Waters",
+    "escapedValue": "Nippy Waters"
+  },
+  {
+    "line": 188302,
+    "value": "You may find delicious $QUEST_END_ITEM_NAME$ from Kingsters in shallow waters around the island.",
+    "escapedValue": "You may find delicious $QUEST_END_ITEM_NAME$ from Kingsters in shallow waters around the island."
+  },
+  {
+    "line": 188371,
+    "value": "You may find delicious $QUEST_END_ITEM_NAME$ from Kingsters in shallow waters around the island.",
+    "escapedValue": "You may find delicious $QUEST_END_ITEM_NAME$ from Kingsters in shallow waters around the island."
+  },
+  {
+    "line": 188395,
+    "value": "Please, don't make me go collect $QUEST_END_ITEM_NAME$ all on my own... I'm too busy dreaming up new inventions!",
+    "escapedValue": "Please, don\\'t make me go collect $QUEST_END_ITEM_NAME$ all on my own... I\\'m too busy dreaming up new inventions!"
+  },
+  {
+    "line": 188419,
+    "value": "Thank you for collecting all those $QUEST_END_ITEM_NAME$, adventurer! We're going to be so full! Eat up, it's time to feast!",
+    "escapedValue": "Thank you for collecting all those $QUEST_END_ITEM_NAME$, adventurer! We\\'re going to be so full! Eat up, it\\'s time to feast!"
+  },
+  {
+    "line": 188443,
+    "value": "That isn't nearly enough $QUEST_END_ITEM_NAME$ for me to build one of my grand inventions... come back with more!",
+    "escapedValue": "That isn\\'t nearly enough $QUEST_END_ITEM_NAME$ for me to build one of my grand inventions... come back with more!"
+  },
+  {
+    "line": 188469,
+    "value": "YaoRin's Trust",
+    "escapedValue": "YaoRin\\'s Trust"
+  },
+  {
+    "line": 188753,
+    "value": "Prove your worth by bringing me the Hearts of Red Otem who reside in the Iblis Dungeon. If you can do that, then I will let you speak with our leader.",
+    "escapedValue": "Prove your worth by bringing me the Hearts of Red Otem who reside in the Iblis Dungeon. If you can do that, then I will let you speak with our leader."
+  },
+  {
+    "line": 188801,
+    "value": "We distrust you humans, but I see you have helped YaoRin in eliminating our mortal enemies, the Otems.",
+    "escapedValue": "We distrust you humans, but I see you have helped YaoRin in eliminating our mortal enemies, the Otems."
+  },
+  {
+    "line": 188851,
+    "value": "Pandora's Box",
+    "escapedValue": "Pandora\\'s Box"
+  },
+  {
+    "line": 189201,
+    "value": "Your incompetence is pathetic... GO! Defeat a Violet masquerpet to release the first binding.",
+    "escapedValue": "Your incompetence is pathetic... GO! Defeat a Violet masquerpet to release the first binding."
+  },
+  {
+    "line": 189696,
+    "value": "You are a powerful warrior... you may have even fought Clockworks at its prison in Darken City. But did you know Clockworks was once used to defend all life from the evils of the Goddess Shade? Shade corrupted our creation, turning the Clockworks against the world for her own desires.",
+    "escapedValue": "You are a powerful warrior... you may have even fought Clockworks at its prison in Darken City. But did you know Clockworks was once used to defend all life from the evils of the Goddess Shade? Shade corrupted our creation, turning the Clockworks against the world for her own desires."
+  },
+  {
+    "line": 189718,
+    "value": "My family is long gone now... but they always told tales about how Clockworks was built from mechanical parts formed in the mines around Madrigal.",
+    "escapedValue": "My family is long gone now... but they always told tales about how Clockworks was built from mechanical parts formed in the mines around Madrigal."
+  },
+  {
+    "line": 189786,
+    "value": "Thank you for helping me... it's rare that I work with humans who are so willing. Please go to the Azria Village and find someone who knows about the Azria Mine.",
+    "escapedValue": "Thank you for helping me... it\\'s rare that I work with humans who are so willing. Please go to the Azria Village and find someone who knows about the Azria Mine."
+  },
+  {
+    "line": 189858,
+    "value": "Speak to someone in Azria Village who knows about the Azria Mine.",
+    "escapedValue": "Speak to someone in Azria Village who knows about the Azria Mine."
+  },
+  {
+    "line": 189884,
+    "value": "Tale of Tanuki",
+    "escapedValue": "Tale of Tanuki"
+  },
+  {
+    "line": 190127,
+    "value": "The fight through the Wilds has only just begun. Armed with your newfound experience in the Wilds, you're ready to confront something even more perilous.",
+    "escapedValue": "The fight through the Wilds has only just begun. Armed with your newfound experience in the Wilds, you\\'re ready to confront something even more perilous."
+  },
+  {
+    "line": 190151,
+    "value": "Return to the Wilds and face the army of Tanuki warriors who stand as guardians of the King's lush garden.",
+    "escapedValue": "Return to the Wilds and face the army of Tanuki warriors who stand as guardians of the King\\'s lush garden."
+  },
+  {
+    "line": 190175,
+    "value": "The last fight certainly tested your mettle. Rest for a while, and let me know when you are ready to proceed.",
+    "escapedValue": "The last fight certainly tested your mettle. Rest for a while, and let me know when you are ready to proceed."
+  },
+  {
+    "line": 190199,
+    "value": "The King's army has begun to dwindle! Only the most powerful of his guardians remain to defend him.",
+    "escapedValue": "The King\\'s army has begun to dwindle! Only the most powerful of his guardians remain to defend him."
+  },
+  {
+    "line": 190223,
+    "value": "You're so close to victory adventurer, do not give up hope. Defeat the Tanuki, and march ever closer to the King's chambers.",
+    "escapedValue": "You\\'re so close to victory adventurer, do not give up hope. Defeat the Tanuki, and march ever closer to the King\\'s chambers."
+  },
+  {
+    "line": 190461,
+    "value": "Visit the Atlar of Violet in Darkon 1.",
+    "escapedValue": "Visit the Atlar of Violet in Darkon 1."
+  },
+  {
+    "line": 190532,
+    "value": "You could have had all the power... and now you will have nothing!",
+    "escapedValue": "You could have had all the power... and now you will have nothing!"
+  },
+  {
+    "line": 190839,
+    "value": "Welcome hero! Another request has come in to clear out $QUEST_END_KILL_NAME$ from the Forsaken Tower. Could you please slay 50 $QUEST_END_KILL_NAME$, and return to me once you are done?",
+    "escapedValue": "Welcome hero! Another request has come in to clear out $QUEST_END_KILL_NAME$ from the Forsaken Tower. Could you please slay 50 $QUEST_END_KILL_NAME$, and return to me once you are done?"
+  },
+  {
+    "line": 190935,
+    "value": "You haven't defeated the $QUEST_END_KILL_NAME$ yet? That's okay, just return once you have.",
+    "escapedValue": "You haven\\'t defeated the $QUEST_END_KILL_NAME$ yet? That\\'s okay, just return once you have."
+  },
+  {
+    "line": 191193,
+    "value": "There has been a disturbance in the flow of Madrigal's magic lately... I've heard rumors that an unsuspecting adventurer released the Black Magician from their prison. ",
+    "escapedValue": "There has been a disturbance in the flow of Madrigal\\'s magic lately... I\\'ve heard rumors that an unsuspecting adventurer released the Black Magician from their prison. "
+  },
+  {
+    "line": 191663,
+    "value": "You will? That’s incredible! This book holds secrets that could bring my story to life like never before! But be careful, such knowledge does not rest unguarded. I have no doubt you’ll succeed, though. Return to me as soon as you find it!",
+    "escapedValue": "You will? That’s incredible! This book holds secrets that could bring my story to life like never before! But be careful, such knowledge does not rest unguarded. I have no doubt you’ll succeed, though. Return to me as soon as you find it!"
+  },
+  {
+    "line": 191687,
+    "value": "Oh… I see. I won’t lie, I had high hopes. This book could be the key to my masterpiece… But I understand. If you change your mind, the offer still stands. And remember, I could help you in ways no ordinary teacher could.",
+    "escapedValue": "Oh… I see. I won’t lie, I had high hopes. This book could be the key to my masterpiece… But I understand. If you change your mind, the offer still stands. And remember, I could help you in ways no ordinary teacher could."
+  },
+  {
+    "line": 191711,
+    "value": "You found it? Let me see… This is… astonishing! The pages, the ink, the wisdom held within… It’s more than I ever imagined! With this, my novel will be remembered for generations! And as promised, I will help you take your next step. You’ve done so much for me it’s only fair that I return the favor!",
+    "escapedValue": "You found it? Let me see… This is… astonishing! The pages, the ink, the wisdom held within… It’s more than I ever imagined! With this, my novel will be remembered for generations! And as promised, I will help you take your next step. You’ve done so much for me it’s only fair that I return the favor!"
+  },
+  {
+    "line": 191735,
+    "value": "Still no sign of the Book of Techniques? I understand, it must be difficult to retrieve. But I assure you, this is no ordinary task. If you succeed, both of our fates could change forever. I believe in you, adventurer!",
+    "escapedValue": "Still no sign of the Book of Techniques? I understand, it must be difficult to retrieve. But I assure you, this is no ordinary task. If you succeed, both of our fates could change forever. I believe in you, adventurer!"
+  },
+  {
+    "line": 191996,
+    "value": "Listen, you should check if the treasure is still there! What treasure?! The treasure of Herneos, of course! You can’t miss it: gold, jewels, valuable items... a true legend!",
+    "escapedValue": "Listen, you should check if the treasure is still there! What treasure?! The treasure of Herneos, of course! You can’t miss it: gold, jewels, valuable items... a true legend!"
+  }
+]

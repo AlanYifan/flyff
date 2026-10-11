@@ -1,0 +1,252 @@
+[
+  {
+    "line": 170641,
+    "value": "Sage Advice",
+    "escapedValue": "Sage Advice"
+  },
+  {
+    "line": 170850,
+    "value": "Meet with Radion.",
+    "escapedValue": "Meet with Radion."
+  },
+  {
+    "line": 170895,
+    "value": "The wise sage Radion in the North of Leren Mountains has lived in Flaris longer than most residents have been alive. ",
+    "escapedValue": "The wise sage Radion in the North of Leren Mountains has lived in Flaris longer than most residents have been alive. "
+  },
+  {
+    "line": 170943,
+    "value": "Radion is a bit of a hermit, but he means no harm. I cannot force you to speak to him if you do not want to, though.",
+    "escapedValue": "Radion is a bit of a hermit, but he means no harm. I cannot force you to speak to him if you do not want to, though."
+  },
+  {
+    "line": 170991,
+    "value": "Speak with Radion to find out information about the magic within the Elixir of Vitality.",
+    "escapedValue": "Speak with Radion to find out information about the magic within the Elixir of Vitality."
+  },
+  {
+    "line": 171110,
+    "value": "Right. You just killed some Aibatts, and while that's something everyone is familiar with, there are some experiences that the veterans only know about.",
+    "escapedValue": "Right. You just killed some Aibatts, and while that\\'s something everyone is familiar with, there are some experiences that the veterans only know about."
+  },
+  {
+    "line": 171132,
+    "value": "Were you around when you had to level your skills by using them?! Yep, different world back then.",
+    "escapedValue": "Were you around when you had to level your skills by using them?! Yep, different world back then."
+  },
+  {
+    "line": 171248,
+    "value": "Wow! I never thought I'd see one of these in this condition again! This is an incredible gift for a weapons' master, I'll be spending all my time off work fixing this.",
+    "escapedValue": "Wow! I never thought I\\'d see one of these in this condition again! This is an incredible gift for a weapons\\' master, I\\'ll be spending all my time off work fixing this."
+  },
+  {
+    "line": 171298,
+    "value": "Orbs of Power",
+    "escapedValue": "Orbs of Power"
+  },
+  {
+    "line": 171371,
+    "value": "Your arrival has come at a critical time, hero. Bring me Ultima, and in return I shall grant you the key to ultimate power.",
+    "escapedValue": "Your arrival has come at a critical time, hero. Bring me Ultima, and in return I shall grant you the key to ultimate power."
+  },
+  {
+    "line": 171419,
+    "value": "Without Ultima I cannot grant the ultimate power you seek.",
+    "escapedValue": "Without Ultima I cannot grant the ultimate power you seek."
+  },
+  {
+    "line": 171443,
+    "value": "Well done, hero... I bestow upon you the power of the Ultimate Orb. Combine this with Shining Oricalkum and obtain ultimate power!",
+    "escapedValue": "Well done, hero... I bestow upon you the power of the Ultimate Orb. Combine this with Shining Oricalkum and obtain ultimate power!"
+  },
+  {
+    "line": 171493,
+    "value": "Kill Wagsaac",
+    "escapedValue": "Kill Wagsaac"
+  },
+  {
+    "line": 171548,
+    "value": "The $QUEST_END_KILL_NAME$ has been spotted somewhere in Madrigal. Check your map for hints for where they may be hiding!",
+    "escapedValue": "The $QUEST_END_KILL_NAME$ has been spotted somewhere in Madrigal. Check your map for hints for where they may be hiding!"
+  },
+  {
+    "line": 171571,
+    "value": "Welcome! Another request has come in to clear out $QUEST_END_KILL_NAME$. Could you please work together to defeat the $QUEST_END_KILL_NAME$, and return to me once you are done?",
+    "escapedValue": "Welcome! Another request has come in to clear out $QUEST_END_KILL_NAME$. Could you please work together to defeat the $QUEST_END_KILL_NAME$, and return to me once you are done?"
+  },
+  {
+    "line": 171595,
+    "value": "The $QUEST_END_KILL_NAME$ has been spotted somewhere in Madrigal. Check your map for hints for where they may be hiding!",
+    "escapedValue": "The $QUEST_END_KILL_NAME$ has been spotted somewhere in Madrigal. Check your map for hints for where they may be hiding!"
+  },
+  {
+    "line": 171619,
+    "value": "Some days we don't feel productive. I understand.",
+    "escapedValue": "Some days we don\\'t feel productive. I understand."
+  },
+  {
+    "line": 171643,
+    "value": "The power of your love have vanquished the $QUEST_END_KILL_NAME$ threat, thank you!",
+    "escapedValue": "The power of your love have vanquished the $QUEST_END_KILL_NAME$ threat, thank you!"
+  },
+  {
+    "line": 171667,
+    "value": "Were you unable to find and defeat $QUEST_END_KILL_NAME$ yet? Track them down to prove your love is true!",
+    "escapedValue": "Were you unable to find and defeat $QUEST_END_KILL_NAME$ yet? Track them down to prove your love is true!"
+  },
+  {
+    "line": 171693,
+    "value": "Over Encumbered",
+    "escapedValue": "Over Encumbered"
+  },
+  {
+    "line": 171945,
+    "value": "One thing still troubles me though... The thick webbing around the entrance can be explained by the spiders, but what creature could have such loud, stomping footsteps?",
+    "escapedValue": "One thing still troubles me though... The thick webbing around the entrance can be explained by the spiders, but what creature could have such loud, stomping footsteps?"
+  },
+  {
+    "line": 172017,
+    "value": "Sadly it seems the adventurers all fell to the power of the the massive gorilla inside the ruins... I believe the group would have wanted you to finish what they set out to do. Here, take their belongings. Perhaps it will help.",
+    "escapedValue": "Sadly it seems the adventurers all fell to the power of the the massive gorilla inside the ruins... I believe the group would have wanted you to finish what they set out to do. Here, take their belongings. Perhaps it will help."
+  },
+  {
+    "line": 172179,
+    "value": "Welcome! We require flowers blessed by lovers. Could you please collect Rainbow Flowers, and return to me once you are done?",
+    "escapedValue": "Welcome! We require flowers blessed by lovers. Could you please collect Rainbow Flowers, and return to me once you are done?"
+  },
+  {
+    "line": 172203,
+    "value": "Wonderful! The rare flowers grow near the large tree in Saint Morning where no one flies.",
+    "escapedValue": "Wonderful! The rare flowers grow near the large tree in Saint Morning where no one flies."
+  },
+  {
+    "line": 172227,
+    "value": "Some days we don't feel productive. I understand.",
+    "escapedValue": "Some days we don\\'t feel productive. I understand."
+  },
+  {
+    "line": 172251,
+    "value": "These flowers are perfect. With your help I can now bless all of Madrigal with love!",
+    "escapedValue": "These flowers are perfect. With your help I can now bless all of Madrigal with love!"
+  },
+  {
+    "line": 172275,
+    "value": "Oh no, that's not right. The flowers are in Saint Morning. If you get lost, remember to check your map!",
+    "escapedValue": "Oh no, that\\'s not right. The flowers are in Saint Morning. If you get lost, remember to check your map!"
+  },
+  {
+    "line": 172301,
+    "value": "The Twisted Sanctuary Part 1",
+    "escapedValue": "The Twisted Sanctuary Part 1"
+  },
+  {
+    "line": 172331,
+    "value": "Poor Unfortunate Souls",
+    "escapedValue": "Poor Unfortunate Souls"
+  },
+  {
+    "line": 172570,
+    "value": "With the Overgrown Sharks out of the way, you can find out what lies deeper within the cavern.",
+    "escapedValue": "With the Overgrown Sharks out of the way, you can find out what lies deeper within the cavern."
+  },
+  {
+    "line": 172692,
+    "value": "King of the Pirates!",
+    "escapedValue": "King of the Pirates!"
+  },
+  {
+    "line": 172938,
+    "value": "Woaw, welcome to Coral Island hero! Let me tell you a story of legend, if you don't mind.",
+    "escapedValue": "Woaw, welcome to Coral Island hero! Let me tell you a story of legend, if you don\\'t mind."
+  },
+  {
+    "line": 172960,
+    "value": "Long ago, a huge Meral was once blessed by Shade. The Meral grew twisted and grotesque, but filled with dark power.",
+    "escapedValue": "Long ago, a huge Meral was once blessed by Shade. The Meral grew twisted and grotesque, but filled with dark power."
+  },
+  {
+    "line": 172982,
+    "value": "Soon the Violet Meral became the King of the Pirates of Coral Island, ruling with an iron hook.",
+    "escapedValue": "Soon the Violet Meral became the King of the Pirates of Coral Island, ruling with an iron hook."
+  },
+  {
+    "line": 173006,
+    "value": "Wehehehe, if you defeated that Violet Meral maybe YOU could become King of the Pirates!",
+    "escapedValue": "Wehehehe, if you defeated that Violet Meral maybe YOU could become King of the Pirates!"
+  },
+  {
+    "line": 173054,
+    "value": "Woah woah woah! You defeated the King of the Pirates? And that stone...",
+    "escapedValue": "Woah woah woah! You defeated the King of the Pirates? And that stone..."
+  },
+  {
+    "line": 173122,
+    "value": "To find out if the legend is true, you'll need to defeat the Violet Meral.",
+    "escapedValue": "To find out if the legend is true, you\\'ll need to defeat the Violet Meral."
+  },
+  {
+    "line": 173178,
+    "value": "Picking Up the Pieces",
+    "escapedValue": "Picking Up the Pieces"
+  },
+  {
+    "line": 173443,
+    "value": "There has been an influx of Meteoritill lately ever since a meteorite fell in the Fantasy Desert.",
+    "escapedValue": "There has been an influx of Meteoritill lately ever since a meteorite fell in the Fantasy Desert."
+  },
+  {
+    "line": 173489,
+    "value": "Search for Meteoritill at the meteor crash site in the Fantasy Desert, and defeat Cardpuppets to retrieve their gears.",
+    "escapedValue": "Search for Meteoritill at the meteor crash site in the Fantasy Desert, and defeat Cardpuppets to retrieve their gears."
+  },
+  {
+    "line": 173513,
+    "value": "Meteoritill is safe to handle, I assure you...",
+    "escapedValue": "Meteoritill is safe to handle, I assure you..."
+  },
+  {
+    "line": 173537,
+    "value": "Wonderful! Now that we have all the materials, it is time to finally craft the lightning rod.",
+    "escapedValue": "Wonderful! Now that we have all the materials, it is time to finally craft the lightning rod."
+  },
+  {
+    "line": 173660,
+    "value": "Welcome hero! Another request has come in to clear out the boss masquerpets within Madrigal's dungeons. Could you please slay 20 dungeon bosses on Hard or higher difficulty, and return to me once you are done?",
+    "escapedValue": "Welcome hero! Another request has come in to clear out the boss masquerpets within Madrigal\\'s dungeons. Could you please slay 20 dungeon bosses on Hard or higher difficulty, and return to me once you are done?"
+  },
+  {
+    "line": 173708,
+    "value": "The dungeons are filled with dangerous masquerpets. I understand if you do not wish to take the risk.",
+    "escapedValue": "The dungeons are filled with dangerous masquerpets. I understand if you do not wish to take the risk."
+  },
+  {
+    "line": 173732,
+    "value": "The threat from within the dungeons has been reduced thanks to you, hero. Please accept a weapon piercing card as thanks for your efforts!",
+    "escapedValue": "The threat from within the dungeons has been reduced thanks to you, hero. Please accept a weapon piercing card as thanks for your efforts!"
+  },
+  {
+    "line": 173756,
+    "value": "You haven't defeated the bosses yet? That's okay, just return once you have.",
+    "escapedValue": "You haven\\'t defeated the bosses yet? That\\'s okay, just return once you have."
+  },
+  {
+    "line": 174025,
+    "value": "The time has come to face King Beast Khan's most powerful allies!",
+    "escapedValue": "The time has come to face King Beast Khan\\'s most powerful allies!"
+  },
+  {
+    "line": 174073,
+    "value": "To challenge the Wildwood without being thoroughly prepared would be a grave mistake.",
+    "escapedValue": "To challenge the Wildwood without being thoroughly prepared would be a grave mistake."
+  },
+  {
+    "line": 174097,
+    "value": "The Wildwood have truly fallen!? Well done, hero! Only the King now stands in your path!",
+    "escapedValue": "The Wildwood have truly fallen!? Well done, hero! Only the King now stands in your path!"
+  },
+  {
+    "line": 174121,
+    "value": "The Wildwood are a fearsome species. Persevere, and keep pressing forward!",
+    "escapedValue": "The Wildwood are a fearsome species. Persevere, and keep pressing forward!"
+  }
+]

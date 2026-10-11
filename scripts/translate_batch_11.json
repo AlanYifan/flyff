@@ -1,0 +1,252 @@
+[
+  {
+    "line": 180828,
+    "value": "Please, don't make me go collect $QUEST_END_ITEM_NAME$ all on my own... I'm too busy dreaming up new inventions!",
+    "escapedValue": "Please, don\\'t make me go collect $QUEST_END_ITEM_NAME$ all on my own... I\\'m too busy dreaming up new inventions!"
+  },
+  {
+    "line": 180876,
+    "value": "That isn't nearly enough $QUEST_END_ITEM_NAME$ for me to build one of my grand inventions... come back with more!",
+    "escapedValue": "That isn\\'t nearly enough $QUEST_END_ITEM_NAME$ for me to build one of my grand inventions... come back with more!"
+  },
+  {
+    "line": 180902,
+    "value": "Seeking Leren Chasm",
+    "escapedValue": "Seeking Leren Chasm"
+  },
+  {
+    "line": 181207,
+    "value": "The trolls of the Leren Mountains were believed to be part of a fierce army. If you are not comfortable seeking out the trolls, I will understand.",
+    "escapedValue": "The trolls of the Leren Mountains were believed to be part of a fierce army. If you are not comfortable seeking out the trolls, I will understand."
+  },
+  {
+    "line": 181330,
+    "value": "Reach level 125 and bring $QUEST_END_ITEM_COUNT$x $QUEST_END_ITEM_NAME$.",
+    "escapedValue": "Reach level 125 and bring $QUEST_END_ITEM_COUNT$x $QUEST_END_ITEM_NAME$."
+  },
+  {
+    "line": 181353,
+    "value": "Your will and ability have proven you to be a master in both thought and deed. Now that you've shown your true strength, it is time for your final task.",
+    "escapedValue": "Your will and ability have proven you to be a master in both thought and deed. Now that you\\'ve shown your true strength, it is time for your final task."
+  },
+  {
+    "line": 181708,
+    "value": "You may find magnificient $QUEST_END_ITEM_NAME$ from Okean, deep in the waters of Coral Island's seas.",
+    "escapedValue": "You may find magnificient $QUEST_END_ITEM_NAME$ from Okean, deep in the waters of Coral Island\\'s seas."
+  },
+  {
+    "line": 181753,
+    "value": "The $QUEST_END_ITEM_NAME$ of the Okean must be mine! I know having their crown won't make me a king, but it will put me on the path of my dream. To be King of Coral Island!",
+    "escapedValue": "The $QUEST_END_ITEM_NAME$ of the Okean must be mine! I know having their crown won\\'t make me a king, but it will put me on the path of my dream. To be King of Coral Island!"
+  },
+  {
+    "line": 181777,
+    "value": "You may find magnificient $QUEST_END_ITEM_NAME$ from Okean, deep in the waters of Coral Island's seas.",
+    "escapedValue": "You may find magnificient $QUEST_END_ITEM_NAME$ from Okean, deep in the waters of Coral Island\\'s seas."
+  },
+  {
+    "line": 181801,
+    "value": "Please, don't make me go collect $QUEST_END_ITEM_NAME$ all on my own... I'm too busy dreaming up new inventions!",
+    "escapedValue": "Please, don\\'t make me go collect $QUEST_END_ITEM_NAME$ all on my own... I\\'m too busy dreaming up new inventions!"
+  },
+  {
+    "line": 181825,
+    "value": "Thank you for collecting all those $QUEST_END_ITEM_NAME$, adventurer! It's just a dream... but I hope to one day greet you again as King of Coral Island.",
+    "escapedValue": "Thank you for collecting all those $QUEST_END_ITEM_NAME$, adventurer! It\\'s just a dream... but I hope to one day greet you again as King of Coral Island."
+  },
+  {
+    "line": 181849,
+    "value": "That isn't nearly enough $QUEST_END_ITEM_NAME$ for me to build one of my grand inventions... come back with more!",
+    "escapedValue": "That isn\\'t nearly enough $QUEST_END_ITEM_NAME$ for me to build one of my grand inventions... come back with more!"
+  },
+  {
+    "line": 181875,
+    "value": "Kill Giggleboxes",
+    "escapedValue": "Kill Giggleboxes"
+  },
+  {
+    "line": 181930,
+    "value": "The $QUEST_END_KILL_NAME$ has been spotted somewhere in Madrigal. Check your map for hints for where they may be hiding!",
+    "escapedValue": "The $QUEST_END_KILL_NAME$ has been spotted somewhere in Madrigal. Check your map for hints for where they may be hiding!"
+  },
+  {
+    "line": 181953,
+    "value": "Welcome! Another request has come in to clear out $QUEST_END_KILL_NAME$. Could you please work together to defeat the $QUEST_END_KILL_NAME$, and return to me once you are done?",
+    "escapedValue": "Welcome! Another request has come in to clear out $QUEST_END_KILL_NAME$. Could you please work together to defeat the $QUEST_END_KILL_NAME$, and return to me once you are done?"
+  },
+  {
+    "line": 181977,
+    "value": "The $QUEST_END_KILL_NAME$ has been spotted somewhere in Madrigal. Check your map for hints for where they may be hiding!",
+    "escapedValue": "The $QUEST_END_KILL_NAME$ has been spotted somewhere in Madrigal. Check your map for hints for where they may be hiding!"
+  },
+  {
+    "line": 182001,
+    "value": "Some days we don't feel productive. I understand.",
+    "escapedValue": "Some days we don\\'t feel productive. I understand."
+  },
+  {
+    "line": 182025,
+    "value": "The power of your love have vanquished the $QUEST_END_KILL_NAME$ threat, thank you!",
+    "escapedValue": "The power of your love have vanquished the $QUEST_END_KILL_NAME$ threat, thank you!"
+  },
+  {
+    "line": 182049,
+    "value": "Were you unable to find and defeat $QUEST_END_KILL_NAME$ yet? Track them down to prove your love is true!",
+    "escapedValue": "Were you unable to find and defeat $QUEST_END_KILL_NAME$ yet? Track them down to prove your love is true!"
+  },
+  {
+    "line": 182279,
+    "value": "Speak to YaoRin.",
+    "escapedValue": "Speak to YaoRin."
+  },
+  {
+    "line": 182302,
+    "value": "Over many years our society has collected rare texts that reveal the history of the world of Madrigal. Eons ago a god of lightning helped create this world. That god was named Ishirut. ",
+    "escapedValue": "Over many years our society has collected rare texts that reveal the history of the world of Madrigal. Eons ago a god of lightning helped create this world. That god was named Ishirut. "
+  },
+  {
+    "line": 182324,
+    "value": "Perhaps ripples of Ishirut's spirit have returned to give us a sign, but I have no connection to the gods. Perhaps this is work for a mystic of sorts.",
+    "escapedValue": "Perhaps ripples of Ishirut\\'s spirit have returned to give us a sign, but I have no connection to the gods. Perhaps this is work for a mystic of sorts."
+  },
+  {
+    "line": 182372,
+    "value": "While a bit standoffish, the MewMew clan is not that scary...",
+    "escapedValue": "While a bit standoffish, the MewMew clan is not that scary..."
+  },
+  {
+    "line": 182519,
+    "value": "Welcome hero! Another request has come in to clear out the boss masquerpets within Madrigal's dungeons. Could you please slay 5 dungeon bosses, and return to me once you are done?",
+    "escapedValue": "Welcome hero! Another request has come in to clear out the boss masquerpets within Madrigal\\'s dungeons. Could you please slay 5 dungeon bosses, and return to me once you are done?"
+  },
+  {
+    "line": 182567,
+    "value": "The dungeons are filled with dangerous masquerpets. I understand if you do not wish to take the risk.",
+    "escapedValue": "The dungeons are filled with dangerous masquerpets. I understand if you do not wish to take the risk."
+  },
+  {
+    "line": 182591,
+    "value": "The threat from within the dungeons has been reduced thanks to you, hero. Please accept a weapon piercing card as thanks for your efforts!",
+    "escapedValue": "The threat from within the dungeons has been reduced thanks to you, hero. Please accept a weapon piercing card as thanks for your efforts!"
+  },
+  {
+    "line": 182615,
+    "value": "You haven't defeated the bosses yet? That's okay, just return once you have.",
+    "escapedValue": "You haven\\'t defeated the bosses yet? That\\'s okay, just return once you have."
+  },
+  {
+    "line": 182845,
+    "value": "Meet with Laola.",
+    "escapedValue": "Meet with Laola."
+  },
+  {
+    "line": 182868,
+    "value": "Look at all this steel. We'll have an army up and running in no time!",
+    "escapedValue": "Look at all this steel. We\\'ll have an army up and running in no time!"
+  },
+  {
+    "line": 182916,
+    "value": "Just a while longer and we'll have enough armor to equip a proper militia!",
+    "escapedValue": "Just a while longer and we\\'ll have enough armor to equip a proper militia!"
+  },
+  {
+    "line": 182964,
+    "value": "Speak with Loala to find out what caused that loud noise.",
+    "escapedValue": "Speak with Loala to find out what caused that loud noise."
+  },
+  {
+    "line": 183253,
+    "value": "Welcome hero! Another request has come in to clear out $QUEST_END_KILL_NAME$ from the Forsaken Tower. Could you please slay 50 $QUEST_END_KILL_NAME$, and return to me once you are done?",
+    "escapedValue": "Welcome hero! Another request has come in to clear out $QUEST_END_KILL_NAME$ from the Forsaken Tower. Could you please slay 50 $QUEST_END_KILL_NAME$, and return to me once you are done?"
+  },
+  {
+    "line": 183349,
+    "value": "You haven't defeated the $QUEST_END_KILL_NAME$ yet? That's okay, just return once you have.",
+    "escapedValue": "You haven\\'t defeated the $QUEST_END_KILL_NAME$ yet? That\\'s okay, just return once you have."
+  },
+  {
+    "line": 183375,
+    "value": "Winter is Coming",
+    "escapedValue": "Winter is Coming"
+  },
+  {
+    "line": 183594,
+    "value": "Kill 200 Mammoths.",
+    "escapedValue": "Kill 200 Mammoths."
+  },
+  {
+    "line": 183617,
+    "value": "Storm Peak mountain has been closed off for many years... I am stationed here to prevent anyone from going inside. Terrifying masquerpets have overrun the place, and as far as I know no one has been able to safely step inside for a long time.",
+    "escapedValue": "Storm Peak mountain has been closed off for many years... I am stationed here to prevent anyone from going inside. Terrifying masquerpets have overrun the place, and as far as I know no one has been able to safely step inside for a long time."
+  },
+  {
+    "line": 183687,
+    "value": "The Storm Peak mine is too dangerous anyway...",
+    "escapedValue": "The Storm Peak mine is too dangerous anyway..."
+  },
+  {
+    "line": 183711,
+    "value": "You actually managed to kill that many Mammoths!? Well if that is the case... I think it's time to let you test your fate inside the Storm Peak mountain.",
+    "escapedValue": "You actually managed to kill that many Mammoths!? Well if that is the case... I think it\\'s time to let you test your fate inside the Storm Peak mountain."
+  },
+  {
+    "line": 183994,
+    "value": "Welcome hero! Another request has come in to clear out $QUEST_END_KILL_NAME$ from the Forsaken Tower. Could you please slay 50 $QUEST_END_KILL_NAME$, and return to me once you are done?",
+    "escapedValue": "Welcome hero! Another request has come in to clear out $QUEST_END_KILL_NAME$ from the Forsaken Tower. Could you please slay 50 $QUEST_END_KILL_NAME$, and return to me once you are done?"
+  },
+  {
+    "line": 184090,
+    "value": "You haven't defeated the $QUEST_END_KILL_NAME$ yet? That's okay, just return once you have.",
+    "escapedValue": "You haven\\'t defeated the $QUEST_END_KILL_NAME$ yet? That\\'s okay, just return once you have."
+  },
+  {
+    "line": 184222,
+    "value": "Wonderful! The $QUEST_END_ITEM_NAME$ is said to swim near Zaoma's Refuge in the middle of the Leren Mountains.",
+    "escapedValue": "Wonderful! The $QUEST_END_ITEM_NAME$ is said to swim near Zaoma\\'s Refuge in the middle of the Leren Mountains."
+  },
+  {
+    "line": 184246,
+    "value": "Some days we don't feel productive. I understand.",
+    "escapedValue": "Some days we don\\'t feel productive. I understand."
+  },
+  {
+    "line": 184270,
+    "value": "You've found the $QUEST_END_ITEM_NAME$! Surely your love will be blessed to last forever.",
+    "escapedValue": "You\\'ve found the $QUEST_END_ITEM_NAME$! Surely your love will be blessed to last forever."
+  },
+  {
+    "line": 184320,
+    "value": "Surprise Attack!",
+    "escapedValue": "Surprise Attack!"
+  },
+  {
+    "line": 184703,
+    "value": "We're doomed... without your help we will never defeat the Dorian and Okean in time!",
+    "escapedValue": "We\\'re doomed... without your help we will never defeat the Dorian and Okean in time!"
+  },
+  {
+    "line": 185354,
+    "value": "With great honor, you have put to rest those cursed by the power of the Purple Magician. In eternal rest, Shade's curse can no longer harm them.",
+    "escapedValue": "With great honor, you have put to rest those cursed by the power of the Purple Magician. In eternal rest, Shade\\'s curse can no longer harm them."
+  },
+  {
+    "line": 185376,
+    "value": "Within the walls of the Guardiane Sanctuary, there was one guardian that acted as the last defense against evil that dared to approach. In hundreds of years of service, the Pyramid Guardian never faced defeat... until now.",
+    "escapedValue": "Within the walls of the Guardiane Sanctuary, there was one guardian that acted as the last defense against evil that dared to approach. In hundreds of years of service, the Pyramid Guardian never faced defeat... until now."
+  },
+  {
+    "line": 185398,
+    "value": "The last bastion of Guardiane stands within the deformed heart before you. Its tattered muscles move to protect the twisted realm, though no life remains behind its eyes.",
+    "escapedValue": "The last bastion of Guardiane stands within the deformed heart before you. Its tattered muscles move to protect the twisted realm, though no life remains behind its eyes."
+  },
+  {
+    "line": 185422,
+    "value": "This barbaric curse sickens me... Put the Pyramid Guardian to rest, then report back to Laola.",
+    "escapedValue": "This barbaric curse sickens me... Put the Pyramid Guardian to rest, then report back to Laola."
+  },
+  {
+    "line": 185470,
+    "value": "So it is done... thank you for laying to rest those cursed by the Purple Magician. It's selfish, but I truly do not wish harm upon Lapranche, only for her to be free from Shade's curse...",
+    "escapedValue": "So it is done... thank you for laying to rest those cursed by the Purple Magician. It\\'s selfish, but I truly do not wish harm upon Lapranche, only for her to be free from Shade\\'s curse..."
+  }
+]

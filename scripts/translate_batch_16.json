@@ -1,0 +1,252 @@
+[
+  {
+    "line": 203504,
+    "value": "Now, go see Dr. Estly; he should have finished the analysis of the water by now. We’re one step closer to uncovering the truth about Herneos!",
+    "escapedValue": "Now, go see Dr. Estly; he should have finished the analysis of the water by now. We’re one step closer to uncovering the truth about Herneos!"
+  },
+  {
+    "line": 203552,
+    "value": "Really? You’re choosing not to follow up on this? Dr. Estly’s analysis could be the key to understanding Herneos and possibly even stopping Shade. But if you won’t go, we’ll have to hope someone else steps up to the task.",
+    "escapedValue": "Really? You’re choosing not to follow up on this? Dr. Estly’s analysis could be the key to understanding Herneos and possibly even stopping Shade. But if you won’t go, we’ll have to hope someone else steps up to the task."
+  },
+  {
+    "line": 203576,
+    "value": "The analysis is complete, but... (annoyed look)",
+    "escapedValue": "The analysis is complete, but... (annoyed look)"
+  },
+  {
+    "line": 203600,
+    "value": "You haven’t visited Dr. Estly yet? The analysis of the water might hold crucial answers about Herneos! Time is ticking, and we need that information to understand what Shade might be planning. Please, head to him as soon as possible.",
+    "escapedValue": "You haven’t visited Dr. Estly yet? The analysis of the water might hold crucial answers about Herneos! Time is ticking, and we need that information to understand what Shade might be planning. Please, head to him as soon as possible."
+  },
+  {
+    "line": 203626,
+    "value": "Reporting Back to Sovann",
+    "escapedValue": "Reporting Back to Sovann"
+  },
+  {
+    "line": 203878,
+    "value": "Very well! You’re truly dedicated to uncovering the mysteries of Herneos. Report back to Sovann with the details it’s crucial he knows about Shade’s forces. Thank you for stepping up; your bravery will be invaluable in this journey!",
+    "escapedValue": "Very well! You’re truly dedicated to uncovering the mysteries of Herneos. Report back to Sovann with the details it’s crucial he knows about Shade’s forces. Thank you for stepping up; your bravery will be invaluable in this journey!"
+  },
+  {
+    "line": 203902,
+    "value": "What?! You’re turning back now? Reporting this information to Sovann is essential if we’re to understand Shade’s reach! But fine, if you’re not willing… Just remember, this discovery could change everything. Don’t let this chance slip by.",
+    "escapedValue": "What?! You’re turning back now? Reporting this information to Sovann is essential if we’re to understand Shade’s reach! But fine, if you’re not willing… Just remember, this discovery could change everything. Don’t let this chance slip by."
+  },
+  {
+    "line": 203948,
+    "value": "Thank you for reporting back to me. If Shade is behind these creatures, we need to assess the situation carefully. Go now and prepare yourself I fear this may only be the beginning.",
+    "escapedValue": "Thank you for reporting back to me. If Shade is behind these creatures, we need to assess the situation carefully. Go now and prepare yourself I fear this may only be the beginning."
+  },
+  {
+    "line": 203972,
+    "value": "You didn’t deliver the message yet? We need to be fully aware of what’s happening in Herneos. Hurry back and let Sovann know what you encountered.",
+    "escapedValue": "You didn’t deliver the message yet? We need to be fully aware of what’s happening in Herneos. Hurry back and let Sovann know what you encountered."
+  },
+  {
+    "line": 203998,
+    "value": "The Final Battle for Herneos",
+    "escapedValue": "The Final Battle for Herneos"
+  },
+  {
+    "line": 204232,
+    "value": "Kill $QUEST_END_KILL_NAME$ and return back to me.",
+    "escapedValue": "Kill $QUEST_END_KILL_NAME$ and return back to me."
+  },
+  {
+    "line": 204255,
+    "value": "Now that you’ve weakened the boss by taking out the two generals of Shade’s army, it would be wise for you to face her right hand before he regains his full power.",
+    "escapedValue": "Now that you’ve weakened the boss by taking out the two generals of Shade’s army, it would be wise for you to face her right hand before he regains his full power."
+  },
+  {
+    "line": 204277,
+    "value": "Me, go with you?!? (nervous laugh) Oh no, no… they always say not to change a winning team, and our way of teaming up is simply perfect, don’t you think?",
+    "escapedValue": "Me, go with you?!? (nervous laugh) Oh no, no… they always say not to change a winning team, and our way of teaming up is simply perfect, don’t you think?"
+  },
+  {
+    "line": 204347,
+    "value": "What?! You’re refusing? After all we’ve done to get this far? This is the final step! If you don’t finish this, Shade’s influence will only grow stronger. But… if you won’t go, we’ll just have to hope someone else has the courage. I only hope it’s not too late.",
+    "escapedValue": "What?! You’re refusing? After all we’ve done to get this far? This is the final step! If you don’t finish this, Shade’s influence will only grow stronger. But… if you won’t go, we’ll just have to hope someone else has the courage. I only hope it’s not too late."
+  },
+  {
+    "line": 204371,
+    "value": "You did it! You've defeated Shade’s right hand! This is a monumental victory for Madrigal that will be remembered for ages. You’ve truly saved Herneos and brought hope back to our people.",
+    "escapedValue": "You did it! You\\'ve defeated Shade’s right hand! This is a monumental victory for Madrigal that will be remembered for ages. You’ve truly saved Herneos and brought hope back to our people."
+  },
+  {
+    "line": 204490,
+    "value": "Yes, I heard everything from Radyon.",
+    "escapedValue": "Yes, I heard everything from Radyon."
+  },
+  {
+    "line": 204580,
+    "value": "Why not dive in? You might find something unique and awaken your true potential.",
+    "escapedValue": "Why not dive in? You might find something unique and awaken your true potential."
+  },
+  {
+    "line": 204652,
+    "value": "You should hurry. If others get there first, there might be nothing left to find.",
+    "escapedValue": "You should hurry. If others get there first, there might be nothing left to find."
+  },
+  {
+    "line": 204678,
+    "value": "Trophies from the Depths",
+    "escapedValue": "Trophies from the Depths"
+  },
+  {
+    "line": 204950,
+    "value": "While I compare the results, could you bring me samples or souvenirs from each creature? That would allow me to enrich our archives on these strange appearances.",
+    "escapedValue": "While I compare the results, could you bring me samples or souvenirs from each creature? That would allow me to enrich our archives on these strange appearances."
+  },
+  {
+    "line": 204998,
+    "value": "Really? You’re refusing? (Sighs) I suppose not everyone appreciates the importance of history… But fine, go ahead just remember that these discoveries are rare. Who knows if you'll get another chance to contribute to our knowledge of Herneos.",
+    "escapedValue": "Really? You’re refusing? (Sighs) I suppose not everyone appreciates the importance of history… But fine, go ahead just remember that these discoveries are rare. Who knows if you\\'ll get another chance to contribute to our knowledge of Herneos."
+  },
+  {
+    "line": 205022,
+    "value": "Ohhh, thank you for these souvenirs! I can finally… continue my collection... uh, enrich the city archives! (clears throat) Yes, of course, the archives!",
+    "escapedValue": "Ohhh, thank you for these souvenirs! I can finally… continue my collection... uh, enrich the city archives! (clears throat) Yes, of course, the archives!"
+  },
+  {
+    "line": 205236,
+    "value": "These days, my master is secretly building a tower. He should still be there.",
+    "escapedValue": "These days, my master is secretly building a tower. He should still be there."
+  },
+  {
+    "line": 205258,
+    "value": "Show him my letter. He won’t ignore it.",
+    "escapedValue": "Show him my letter. He won’t ignore it."
+  },
+  {
+    "line": 205306,
+    "value": "Only a handful of people know I’m here. Who are you, and what do you want?",
+    "escapedValue": "Only a handful of people know I’m here. Who are you, and what do you want?"
+  },
+  {
+    "line": 205356,
+    "value": "Let’s Find the Real Clue",
+    "escapedValue": "Let’s Find the Real Clue"
+  },
+  {
+    "line": 205411,
+    "value": "Kill $QUEST_END_KILL_COUNT$ $QUEST_END_KILL_NAME$s",
+    "escapedValue": "Kill $QUEST_END_KILL_COUNT$ $QUEST_END_KILL_NAME$s"
+  },
+  {
+    "line": 205434,
+    "value": "Oh… this has nothing to do with awakening.",
+    "escapedValue": "Oh… this has nothing to do with awakening."
+  },
+  {
+    "line": 205478,
+    "value": "This is exactly the kind of thing the Strange Collector in Saint City loves. He’d be thrilled if you brought it to him.",
+    "escapedValue": "This is exactly the kind of thing the Strange Collector in Saint City loves. He’d be thrilled if you brought it to him."
+  },
+  {
+    "line": 205500,
+    "value": "Now then… shall we speak about your awakening?",
+    "escapedValue": "Now then… shall we speak about your awakening?"
+  },
+  {
+    "line": 205524,
+    "value": "True strength awakens when you fight with your life on the line. It’s always been that way.",
+    "escapedValue": "True strength awakens when you fight with your life on the line. It’s always been that way."
+  },
+  {
+    "line": 205594,
+    "value": "Well done. But you still haven’t awakened? How strange…",
+    "escapedValue": "Well done. But you still haven’t awakened? How strange…"
+  },
+  {
+    "line": 205662,
+    "value": "You haven’t finished yet? Hmm… I thought you’d be done by now.",
+    "escapedValue": "You haven’t finished yet? Hmm… I thought you’d be done by now."
+  },
+  {
+    "line": 205920,
+    "value": "Kill 50 Hundur Sharpfoots",
+    "escapedValue": "Kill 50 Hundur Sharpfoots"
+  },
+  {
+    "line": 206065,
+    "value": "The New Beginning",
+    "escapedValue": "The New Beginning"
+  },
+  {
+    "line": 206195,
+    "value": "The ritual definitely worked. Take a bit more time to reflect on yourself, then come to me again.",
+    "escapedValue": "The ritual definitely worked. Take a bit more time to reflect on yourself, then come to me again."
+  },
+  {
+    "line": 206219,
+    "value": "Welcome, adventurer. Have you finally awakened?\nThis is my first time seeing a transcendent in person.",
+    "escapedValue": "Welcome, adventurer. Have you finally awakened?\\nThis is my first time seeing a transcendent in person."
+  },
+  {
+    "line": 206241,
+    "value": "You say you haven’t awakened, yet I can clearly sense your power.\nSo, what happened?",
+    "escapedValue": "You say you haven’t awakened, yet I can clearly sense your power.\\nSo, what happened?"
+  },
+  {
+    "line": 206313,
+    "value": "The Expedition Is…",
+    "escapedValue": "The Expedition Is…"
+  },
+  {
+    "line": 206565,
+    "value": "Meet with [Expedition] Beck",
+    "escapedValue": "Meet with [Expedition] Beck"
+  },
+  {
+    "line": 206612,
+    "value": "So now… you’re heading back? That’s something you’ll need to report.",
+    "escapedValue": "So now… you’re heading back? That’s something you’ll need to report."
+  },
+  {
+    "line": 206636,
+    "value": "Well, returning can wait.",
+    "escapedValue": "Well, returning can wait."
+  },
+  {
+    "line": 206660,
+    "value": "Oh, you’re back. How was the village?",
+    "escapedValue": "Oh, you’re back. How was the village?"
+  },
+  {
+    "line": 206939,
+    "value": "Meet with Artin",
+    "escapedValue": "Meet with Artin"
+  },
+  {
+    "line": 206986,
+    "value": "Only Myurang and adventurers live here, but I’ve caught a faint whiff of those wolf fiends. It was stronger near the southern outskirts. Maybe ask Artin? He’s a skilled hunter—he might have noticed more.",
+    "escapedValue": "Only Myurang and adventurers live here, but I’ve caught a faint whiff of those wolf fiends. It was stronger near the southern outskirts. Maybe ask Artin? He’s a skilled hunter—he might have noticed more."
+  },
+  {
+    "line": 207010,
+    "value": "Other than that? Hmm, let me think…",
+    "escapedValue": "Other than that? Hmm, let me think…"
+  },
+  {
+    "line": 207034,
+    "value": "Something strange lately? Hmm…",
+    "escapedValue": "Something strange lately? Hmm…"
+  },
+  {
+    "line": 207084,
+    "value": "The Ever-Turning Vicious Cycle of Blood",
+    "escapedValue": "The Ever-Turning Vicious Cycle of Blood"
+  },
+  {
+    "line": 207365,
+    "value": "The Lycans worship the demon Ankou as their god. The traitor must have made a deal, selling us out to fuel this war. To fully summon a demon, a great amount of blood is required.",
+    "escapedValue": "The Lycans worship the demon Ankou as their god. The traitor must have made a deal, selling us out to fuel this war. To fully summon a demon, a great amount of blood is required."
+  },
+  {
+    "line": 207433,
+    "value": "You are a hero of Muran. You must finish this. If this continues, the whole continent will be soaked in blood.",
+    "escapedValue": "You are a hero of Muran. You must finish this. If this continues, the whole continent will be soaked in blood."
+  }
+]

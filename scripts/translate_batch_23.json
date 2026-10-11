@@ -1,0 +1,252 @@
+[
+  {
+    "line": 230012,
+    "value": "Leave This to the Experts",
+    "escapedValue": "Leave This to the Experts"
+  },
+  {
+    "line": 230057,
+    "value": "Meet [Blade Master] Corel",
+    "escapedValue": "Meet [Blade Master] Corel"
+  },
+  {
+    "line": 230080,
+    "value": "So, is this your grand discovery?",
+    "escapedValue": "So, is this your grand discovery?"
+  },
+  {
+    "line": 230172,
+    "value": "There’s plenty of time. Once you’ve handled your urgent matters, come back. I’ll let them know in advance.",
+    "escapedValue": "There’s plenty of time. Once you’ve handled your urgent matters, come back. I’ll let them know in advance."
+  },
+  {
+    "line": 230218,
+    "value": "You have something to show me, and you’re searching for clues about awakening?",
+    "escapedValue": "You have something to show me, and you’re searching for clues about awakening?"
+  },
+  {
+    "line": 230240,
+    "value": "Let me see the item first.",
+    "escapedValue": "Let me see the item first."
+  },
+  {
+    "line": 230264,
+    "value": "What are you waiting for? He’s expecting you.",
+    "escapedValue": "What are you waiting for? He’s expecting you."
+  },
+  {
+    "line": 230538,
+    "value": "Meet with [Captain] Baron",
+    "escapedValue": "Meet with [Captain] Baron"
+  },
+  {
+    "line": 230585,
+    "value": "Thank you. I hope we meet again there soon.",
+    "escapedValue": "Thank you. I hope we meet again there soon."
+  },
+  {
+    "line": 230609,
+    "value": "You know you’re the only one suited for this. If you change your mind, let me know. I’ll make it worth your while.",
+    "escapedValue": "You know you’re the only one suited for this. If you change your mind, let me know. I’ll make it worth your while."
+  },
+  {
+    "line": 230657,
+    "value": "You’re still here… When do you think you’ll leave?",
+    "escapedValue": "You’re still here… When do you think you’ll leave?"
+  },
+  {
+    "line": 230683,
+    "value": "Let’s Find the Real Clue",
+    "escapedValue": "Let’s Find the Real Clue"
+  },
+  {
+    "line": 230738,
+    "value": "Kill $QUEST_END_KILL_COUNT$ $QUEST_END_KILL_NAME$s",
+    "escapedValue": "Kill $QUEST_END_KILL_COUNT$ $QUEST_END_KILL_NAME$s"
+  },
+  {
+    "line": 230761,
+    "value": "Oh… this has nothing to do with awakening.",
+    "escapedValue": "Oh… this has nothing to do with awakening."
+  },
+  {
+    "line": 230805,
+    "value": "This is exactly the kind of thing the Strange Collector in Saint City loves. He’d be thrilled if you brought it to him.",
+    "escapedValue": "This is exactly the kind of thing the Strange Collector in Saint City loves. He’d be thrilled if you brought it to him."
+  },
+  {
+    "line": 230827,
+    "value": "Now then… shall we speak about your awakening?",
+    "escapedValue": "Now then… shall we speak about your awakening?"
+  },
+  {
+    "line": 230851,
+    "value": "True strength awakens when you fight with your life on the line. It’s always been that way.",
+    "escapedValue": "True strength awakens when you fight with your life on the line. It’s always been that way."
+  },
+  {
+    "line": 230921,
+    "value": "Well done. But you still haven’t awakened? How strange…",
+    "escapedValue": "Well done. But you still haven’t awakened? How strange…"
+  },
+  {
+    "line": 230989,
+    "value": "You haven’t finished yet? Hmm… I thought you’d be done by now.",
+    "escapedValue": "You haven’t finished yet? Hmm… I thought you’d be done by now."
+  },
+  {
+    "line": 231015,
+    "value": "Trapped in the Maze",
+    "escapedValue": "Trapped in the Maze"
+  },
+  {
+    "line": 231244,
+    "value": "Meet with the Mayor of Flarine",
+    "escapedValue": "Meet with the Mayor of Flarine"
+  },
+  {
+    "line": 231267,
+    "value": "Well… I don’t know much, but lately the mayor of Flaris has been visiting his house quite often. Why don’t you try talking to Flarine?",
+    "escapedValue": "Well… I don’t know much, but lately the mayor of Flaris has been visiting his house quite often. Why don’t you try talking to Flarine?"
+  },
+  {
+    "line": 231291,
+    "value": "You know the way, right?",
+    "escapedValue": "You know the way, right?"
+  },
+  {
+    "line": 231315,
+    "value": "You’re the one asking, and yet… If it’s nothing important, could you step aside?",
+    "escapedValue": "You’re the one asking, and yet… If it’s nothing important, could you step aside?"
+  },
+  {
+    "line": 231363,
+    "value": "That’s all I know. Go see Flarine.",
+    "escapedValue": "That’s all I know. Go see Flarine."
+  },
+  {
+    "line": 231389,
+    "value": "Let’s Find the Real Clue",
+    "escapedValue": "Let’s Find the Real Clue"
+  },
+  {
+    "line": 231444,
+    "value": "Kill $QUEST_END_KILL_COUNT$ $QUEST_END_KILL_NAME$s",
+    "escapedValue": "Kill $QUEST_END_KILL_COUNT$ $QUEST_END_KILL_NAME$s"
+  },
+  {
+    "line": 231467,
+    "value": "Oh… this has nothing to do with awakening.",
+    "escapedValue": "Oh… this has nothing to do with awakening."
+  },
+  {
+    "line": 231511,
+    "value": "This is exactly the kind of thing the Strange Collector in Saint City loves. He’d be thrilled if you brought it to him.",
+    "escapedValue": "This is exactly the kind of thing the Strange Collector in Saint City loves. He’d be thrilled if you brought it to him."
+  },
+  {
+    "line": 231533,
+    "value": "Now then… shall we speak about your awakening?",
+    "escapedValue": "Now then… shall we speak about your awakening?"
+  },
+  {
+    "line": 231557,
+    "value": "True strength awakens when you fight with your life on the line. It’s always been that way.",
+    "escapedValue": "True strength awakens when you fight with your life on the line. It’s always been that way."
+  },
+  {
+    "line": 231627,
+    "value": "Well done. But you still haven’t awakened? How strange…",
+    "escapedValue": "Well done. But you still haven’t awakened? How strange…"
+  },
+  {
+    "line": 231695,
+    "value": "You haven’t finished yet? Hmm… I thought you’d be done by now.",
+    "escapedValue": "You haven’t finished yet? Hmm… I thought you’d be done by now."
+  },
+  {
+    "line": 232013,
+    "value": "Look at this Saint City logo. I thought I should let him know, so I brought it to him.",
+    "escapedValue": "Look at this Saint City logo. I thought I should let him know, so I brought it to him."
+  },
+  {
+    "line": 232129,
+    "value": "Wait… this is…! How did you get this?",
+    "escapedValue": "Wait… this is…! How did you get this?"
+  },
+  {
+    "line": 232179,
+    "value": "The New Beginning",
+    "escapedValue": "The New Beginning"
+  },
+  {
+    "line": 232309,
+    "value": "The ritual definitely worked. Take a bit more time to reflect on yourself, then come to me again.",
+    "escapedValue": "The ritual definitely worked. Take a bit more time to reflect on yourself, then come to me again."
+  },
+  {
+    "line": 232333,
+    "value": "Welcome, adventurer. Have you finally awakened?\nThis is my first time seeing a transcendent in person.",
+    "escapedValue": "Welcome, adventurer. Have you finally awakened?\\nThis is my first time seeing a transcendent in person."
+  },
+  {
+    "line": 232355,
+    "value": "You say you haven’t awakened, yet I can clearly sense your power.\nSo, what happened?",
+    "escapedValue": "You say you haven’t awakened, yet I can clearly sense your power.\\nSo, what happened?"
+  },
+  {
+    "line": 232427,
+    "value": "Leave This to the Experts",
+    "escapedValue": "Leave This to the Experts"
+  },
+  {
+    "line": 232472,
+    "value": "Meet [Ranger Master] Eliff",
+    "escapedValue": "Meet [Ranger Master] Eliff"
+  },
+  {
+    "line": 232495,
+    "value": "So, is this your grand discovery?",
+    "escapedValue": "So, is this your grand discovery?"
+  },
+  {
+    "line": 232563,
+    "value": "She’s an expert on ancient artifacts. Even if it doesn’t help your awakening, at least it’ll satisfy your curiosity.",
+    "escapedValue": "She’s an expert on ancient artifacts. Even if it doesn’t help your awakening, at least it’ll satisfy your curiosity."
+  },
+  {
+    "line": 232587,
+    "value": "There’s plenty of time. Once you’ve handled your urgent matters, come back. I’ll let them know in advance.",
+    "escapedValue": "There’s plenty of time. Once you’ve handled your urgent matters, come back. I’ll let them know in advance."
+  },
+  {
+    "line": 232633,
+    "value": "You have something to show me, and you’re searching for clues about awakening?",
+    "escapedValue": "You have something to show me, and you’re searching for clues about awakening?"
+  },
+  {
+    "line": 232655,
+    "value": "Let me see the item first.",
+    "escapedValue": "Let me see the item first."
+  },
+  {
+    "line": 232679,
+    "value": "What are you waiting for? She’s expecting you.",
+    "escapedValue": "What are you waiting for? She’s expecting you."
+  },
+  {
+    "line": 232705,
+    "value": "Territorial Cats",
+    "escapedValue": "Territorial Cats"
+  },
+  {
+    "line": 232953,
+    "value": "Kill 11 Captain Hundur Sharpfoots and bring 1 Piece of Hundur Bone",
+    "escapedValue": "Kill 11 Captain Hundur Sharpfoots and bring 1 Piece of Hundur Bone"
+  },
+  {
+    "line": 232976,
+    "value": "That’s still not enough to convince me. I don’t even know who you really are. If you want to live alongside our village, you’ll need to prove yourself with your strength. Then at least we can rely on each other.",
+    "escapedValue": "That’s still not enough to convince me. I don’t even know who you really are. If you want to live alongside our village, you’ll need to prove yourself with your strength. Then at least we can rely on each other."
+  }
+]
