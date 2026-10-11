@@ -1,0 +1,1895 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fetch Monster Data</title>
+    <style>
+        :root {
+            --primary-color: #344c7da6;
+            --secondary-color: #fd7001;
+            --success-color: #28a745;
+            --error-color: #dc3545;
+            --dark-color: #343a40;
+            --light-color: #f8f9fa;
+            --border-radius: 8px;
+            --box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        body {
+            font-family: 'Microsoft YaHei', Arial, sans-serif;
+            background-color: #f0f2f5;
+            margin: 0;
+            padding: 20px;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+            color: var(--primary-color);
+        }
+
+        .header h1 {
+            margin-bottom: 10px;
+            font-size: 2.5rem;
+        }
+
+        .header p {
+            color: var(--dark-color);
+            font-size: 1.1rem;
+            opacity: 0.8;
+        }
+
+        #output {
+            width: 100%;
+            min-height: 120px;
+            margin-bottom: 30px;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: var(--border-radius);
+            background-color: var(--light-color);
+            box-shadow: var(--box-shadow);
+            overflow: auto;
+            font-size: 16px;
+            transition: all 0.3s ease;
+            color: var(--dark-color);
+        }
+
+        #output.success {
+            border-color: var(--success-color);
+            border-width: 2px;
+            background-color: rgba(40, 167, 69, 0.1);
+        }
+
+        #output.error {
+            border-color: var(--error-color);
+            background-color: rgba(220, 53, 69, 0.1);
+        }
+
+        .button-container {
+            /* width: 100%; */
+        }
+
+        .button-group {
+            margin-bottom: 30px;
+            background-color: #fff;
+            border-radius: var(--border-radius);
+            padding: 20px;
+            box-shadow: var(--box-shadow);
+        }
+
+        .button-group h3 {
+            margin-top: 0;
+            margin-bottom: 15px;
+            color: var(--primary-color);
+            border-bottom: 2px solid var(--primary-color);
+            padding-bottom: 8px;
+        }
+
+        .button-row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-bottom: 15px;
+        }
+
+        .button-row:last-child {
+            margin-bottom: 0;
+        }
+
+        .api-button {
+            padding: 12px 15px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: var(--primary-color);
+            color: white;
+            border: none;
+            border-radius: var(--border-radius);
+            transition: all 0.3s ease;
+            box-shadow: var(--box-shadow);
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 50px;
+            flex: 1;
+            min-width: 200px;
+        }
+
+        .api-button:hover {
+            background-color: var(--secondary-color);
+            transform: translateY(-2px);
+        }
+
+        .api-button:active {
+            transform: translateY(1px);
+        }
+
+        .progress-bar {
+            width: 100%;
+            height: 10px;
+            background-color: #e9ecef;
+            border-radius: 5px;
+            margin-top: 20px;
+            overflow: hidden;
+            display: none;
+        }
+
+        .progress-bar-fill {
+            height: 100%;
+            background-color: var(--primary-color);
+            width: 0%;
+            transition: width 0.3s ease;
+        }
+
+        .footer {
+            margin-top: 40px;
+            text-align: center;
+            color: #6c757d;
+            font-size: 14px;
+        }
+
+        @media (max-width: 768px) {
+            .button-row {
+                flex-direction: column;
+            }
+            
+            .api-button {
+                min-width: 100%;
+            }
+
+            .header h1 {
+                font-size: 2rem;
+            }
+        }    </style>
+</head>
+
+<body>
+    <div class="progress-bar" id="progressBar">
+        <div class="progress-bar-fill" id="progressBarFill"></div>
+    </div>
+    <div id="output">点击按钮请求API，结果将显示在这里</div>
+    <div class="button-container">
+        <!-- 怪物相关 -->
+        <div class="button-group">
+            <h3>怪物相关</h3>
+            <div class="button-row">
+                <button id="requestButton" class="api-button">获取最新网页飞飞怪物ID</button>
+                <button id="requestDetailsButton" class="api-button">通过飞飞怪物ID获取怪物详情数据</button>
+                <button id="requestIconButton" class="api-button">获取飞飞怪物icon图标</button>
+            </div>
+        </div>
+        
+        <!-- 地图相关 -->
+        <div class="button-group">
+            <h3>地图相关</h3>
+            <div class="button-row">
+                <button id="requestMapButton" class="api-button">通过地图ID获取地图详情API</button>
+            </div>
+        </div>
+        
+        <!-- 物品相关 -->
+        <div class="button-group">
+            <h3>物品相关</h3>
+            <div class="button-row">
+                <button id="requestItemButton" class="api-button">通过物品ID获取所有item详情API</button>
+                <button id="requestItemIconButton" class="api-button">获取物品的icon-API</button>
+                <button id="validateItemIconsButton" class="api-button">校验物品图片遗漏</button>
+            </div>
+        </div>
+        
+        <!-- NPC相关 -->
+        <div class="button-group">
+            <h3>NPC相关</h3>
+            <div class="button-row">
+                <button id="requestNpcInfoButton" class="api-button">获取NPC-Info-API</button>
+                <button id="requestNpcIconButton" class="api-button">获取NPC-Icon-API</button>
+            </div>
+        </div>
+        
+        <!-- 装备相关 -->
+        <div class="button-group">
+            <h3>装备相关</h3>
+            <div class="button-row">
+                <button id="requestEquipmentSetButton" class="api-button">获取装备套装属性-API</button>
+            </div>
+        </div>
+        
+        <!-- 技能相关 -->
+        <div class="button-group">
+            <h3>技能相关</h3>
+            <div class="button-row">
+                <button id="requestSkillInfoButton" class="api-button">根据ID查找技能info-API</button>
+                <button id="requestSkillIconButton" class="api-button">根据技能ID请求图片-API</button>
+            </div>
+        </div>
+        
+        <!-- 任务相关 -->
+        <div class="button-group">
+            <h3>任务相关</h3>
+            <div class="button-row">
+                <button id="requestQuestInfoButton" class="api-button">根据任务ID获取任务info-API</button>
+            </div>
+        </div>
+        
+        <!-- 成就相关 -->
+        <div class="button-group">
+            <h3>成就相关</h3>
+            <div class="button-row">
+                <button id="requestAchievementIdsButton" class="api-button">获取最新网页飞飞成就ID</button>
+                <button id="requestAchievementDetailsButton" class="api-button">通过成就ID获取成就详情数据</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('requestButton').addEventListener('click', function () {
+            const output = document.getElementById('output');
+            output.textContent = '正在请求数据...';
+            output.className = ''; // 清除之前的样式
+
+            fetch('http://localhost:7000/api/proxy/monster')
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Network response was not ok');
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    output.textContent = '请求飞飞怪物ID大全API成功：\n';
+                    output.className = 'success'; // 设置成功样式
+
+                    const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
+                    const url = URL.createObjectURL(blob);
+                    const a = document.createElement('a');
+                    a.href = url;
+                    a.download = 'Monster.json';
+                    a.click();
+                    URL.revokeObjectURL(url);
+
+                    alert('数据已保存到本地文件 Monster.json');
+                })
+                .catch(error => {
+                    output.textContent = '请求失败，请检查API链接或网络连接。';
+                    output.className = 'error'; // 设置失败样式
+                    console.error('Fetch error:', error);
+                });
+        });
+
+        document.getElementById('requestDetailsButton').addEventListener('click', function () {
+            const output = document.getElementById('output');
+            output.textContent = '正在请求怪物详情数据...';
+            output.className = ''; // 清除之前的样式
+
+            // 显示进度条
+            updateProgress(0, 1);
+
+            fetch('../data/Monster_ID.json')
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Failed to fetch Monster ID data');
+                    }
+                    return response.json();
+                })
+                .then(monsterIds => {
+                    const allMonsterDetails = [];
+                    let currentIdIndex = 0;
+                    let requestCount = 0;
+                    const startTime = Date.now();
+                    const baseDelay = 207; // 60000/290≈207ms
+
+                    const fetchNextMonster = () => {
+                        if (currentIdIndex >= monsterIds.length) {
+                            const blob = new Blob([JSON.stringify(allMonsterDetails, null, 2)], { type: 'application/json' });
+                            const url = URL.createObjectURL(blob);
+                            const a = document.createElement('a');
+                            a.href = url;
+                            a.download = '../data/monster_all_info.json';
+                            a.click();
+                            URL.revokeObjectURL(url);
+
+                            output.textContent = '请求飞飞怪物详情信息成功';
+                            output.className = 'success';
+                            alert('怪物详情数据已保存到../data/monster_all_info.json');
+                            
+                            // 完成进度条
+                            updateProgress(1, 1);
+                            return;
+                        }
+
+                        const currentId = monsterIds[currentIdIndex];
+                        currentIdIndex++;
+
+                        // 更新进度条
+                        updateProgress(currentIdIndex, monsterIds.length);
+                        output.textContent = `正在请求怪物详情 ID:${currentId} (${currentIdIndex}/${monsterIds.length})`;
+
+                        fetch(`http://localhost:7000/api/proxy/monster/${currentId}`)
+                            .then(response => {
+                                if (!response.ok) {
+                                    throw new Error(`HTTP错误! 状态码: ${response.status}`);
+                                }
+                                return response.json();
+                            })
+                            .then(data => {
+                                allMonsterDetails.push(data);
+                                output.textContent = `[${currentIdIndex}/${monsterIds.length}] 成功获取怪物 ${data.name?.cns || '未知怪物'} (ID:${currentId})`;
+                                output.className = 'success';
+
+                                // 速率控制 - 每分钟不超过290次请求
+                                requestCount++;
+                                const elapsedTime = Date.now() - startTime;
+                                if (requestCount >= 290 && elapsedTime < 60000) {
+                                    const remainingTime = 60000 - elapsedTime;
+                                    setTimeout(fetchNextMonster, remainingTime);
+                                    requestCount = 0;
+                                } else {
+                                    const delay = Math.max(baseDelay, 60000 / 290); // 每次请求间隔至少207毫秒
+                                    setTimeout(fetchNextMonster, delay);
+                                }
+                            })
+                            .catch(error => {
+                                output.textContent = `[${currentIdIndex}/${monsterIds.length}] 请求怪物详情失败，ID: ${currentId}。错误信息：${error.message}`;
+                                output.className = 'error';
+                                console.error(`Fetch error for monster ID ${currentId}:`, error);
+
+                                const delay = Math.max(baseDelay, 60000 / 290); // 每次请求间隔至少207毫秒
+                                setTimeout(fetchNextMonster, delay);
+                            });
+                    };
+
+                    fetchNextMonster();
+                })
+                .catch(error => {
+                    output.textContent = '请求怪物ID数据失败，请检查FLYFF/data/Monster_ID.json文件或网络连接。';
+                    output.className = 'error';
+                    console.error('Fetch error:', error);
+                    
+                    // 隐藏进度条
+                    updateProgress(0, 0);
+                });
+        });
+
+        document.getElementById('requestIconButton').addEventListener('click', function () {
+            const output = document.getElementById('output');
+            output.textContent = '正在获取飞飞怪物icon图标...';
+            output.className = ''; // 清除之前的样式
+
+            // 显示进度条
+            updateProgress(0, 1);
+
+            fetch('../data/monster_all_info.json')
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Failed to fetch monster_all_info.json');
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    if (data.length === 0) {
+                        throw new Error('No monster data found in monster_all_info.json');
+                    }
+
+                    const allIcons = data.map(monster => monster.icon); // 假设icon字段在每个怪物详情中
+                    if (allIcons.length === 0) {
+                        throw new Error('No icon values found in monster data');
+                    }
+
+                    let currentIconIndex = 0;
+
+                    const fetchNextIcon = () => {
+                        if (currentIconIndex >= allIcons.length) {
+                            output.textContent = '所有icon图标已成功获取并保存到../pt/monster_icon文件夹中';
+                            output.className = 'success';
+                            alert('所有icon图标已成功获取并保存到../pt/monster_icon文件夹中');
+                            
+                            // 完成进度条
+                            updateProgress(1, 1);
+                            return;
+                        }
+
+                        const currentIcon = allIcons[currentIconIndex];
+                        const currentMonster = data[currentIconIndex]; // 获取当前怪物信息
+                        currentIconIndex++;
+
+                        // 更新进度条
+                        updateProgress(currentIconIndex, allIcons.length);
+                        output.textContent = `正在下载怪物图标 ID:${currentMonster.id} (${currentIconIndex}/${allIcons.length})`;
+
+                        fetch(`http://localhost:7000/api/proxy/image/monster/${currentIcon}`)
+                            .then(response => {
+                                if (!response.ok) {
+                                    throw new Error(`Failed to fetch icon for monster icon ${currentIcon}`);
+                                }
+                                return response.blob(); // 获取二进制数据
+                            })
+                            .then(blob => {
+                                const url = URL.createObjectURL(blob);
+                                const a = document.createElement('a');
+                                a.href = url;
+                                // 更改文件名为 怪物id.png 格式
+                                a.download = `${currentMonster.id}.png`;
+                                a.click();
+                                URL.revokeObjectURL(url);
+
+                                output.textContent = `[${currentIconIndex}/${allIcons.length}] 获取icon：${currentIcon} 成功，并已保存为 ${currentMonster.id}.png`;
+                                output.className = 'success';
+
+                                const randomDelay = Math.floor(Math.random() * (3 - 1 + 1)) + 1; // 随机延迟1-3秒
+                                setTimeout(fetchNextIcon, randomDelay * 1000);
+                            })
+                            .catch(error => {
+                                output.textContent = `[${currentIconIndex}/${allIcons.length}] 获取icon失败，icon: ${currentIcon}。错误信息：${error.message}`;
+                                output.className = 'error';
+                                console.error(`Fetch error for icon ${currentIcon}:`, error);
+
+                                const randomDelay = Math.floor(Math.random() * (3 - 1 + 1)) + 1; // 随机延迟1-3秒
+                                setTimeout(fetchNextIcon, randomDelay * 1000);
+                            });
+                    };
+
+                    fetchNextIcon();
+                })
+                .catch(error => {
+                    output.textContent = '读取monster_all_info.json失败，请检查文件路径或内容。';
+                    output.className = 'error';
+                    console.error('Fetch error:', error);
+                    
+                    // 隐藏进度条
+                    updateProgress(0, 0);
+                });
+        });
+
+        document.getElementById('requestMapButton').addEventListener('click', function () {
+            const output = document.getElementById('output');
+            output.textContent = '正在获取飞飞地图ID...';
+            output.className = ''; // 清除之前的样式
+
+            // 显示进度条
+            updateProgress(0, 1);
+
+            fetch('../data/map_id.json')
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Failed to fetch map ID data');
+                    }
+                    return response.json();
+                })
+                .then(mapIds => {
+                    const allMapInfo = [];
+                    let currentIdIndex = 0;
+                    let requestCount = 0;
+                    const startTime = Date.now();
+                    const baseDelay = 207; // 60000/290≈207ms
+
+                    const fetchNextMap = () => {
+                        if (currentIdIndex >= mapIds.length) {
+                            const blob = new Blob([JSON.stringify(allMapInfo, null, 2)], { type: 'application/json' });
+                            const url = URL.createObjectURL(blob);
+                            const a = document.createElement('a');
+                            a.href = url;
+                            a.download = '../data/map_info.json';
+                            a.click();
+                            URL.revokeObjectURL(url);
+
+                            output.textContent = '所有地图信息已成功获取并保存到../data/map_info.json';
+                            output.className = 'success';
+                            alert('所有地图信息已成功获取并保存到../data/map_info.json');
+                            
+                            // 完成进度条
+                            updateProgress(1, 1);
+                            return;
+                        }
+
+                        const currentId = mapIds[currentIdIndex];
+                        currentIdIndex++;
+
+                        // 更新进度条
+                        updateProgress(currentIdIndex, mapIds.length);
+                        output.textContent = `正在请求地图 ID:${currentId} (${currentIdIndex}/${mapIds.length})`;
+
+                        fetch(`http://localhost:7000/api/proxy/world/${currentId}`)
+                            .then(response => {
+                                if (!response.ok) {
+                                    throw new Error(`HTTP错误! 状态码: ${response.status}`);
+                                }
+                                return response.json();
+                            })
+                            .then(data => {
+                                allMapInfo.push(data);
+                                output.textContent = `[${currentIdIndex}/${mapIds.length}] 请求地图成功：${currentId}`;
+                                output.className = 'success';
+
+                                // 速率控制 - 每分钟不超过290次请求
+                                requestCount++;
+                                const elapsedTime = Date.now() - startTime;
+                                if (requestCount >= 290 && elapsedTime < 60000) {
+                                    const remainingTime = 60000 - elapsedTime;
+                                    setTimeout(fetchNextMap, remainingTime);
+                                    requestCount = 0;
+                                } else {
+                                    const delay = Math.max(baseDelay, 60000 / 290); // 每次请求间隔至少207毫秒
+                                    setTimeout(fetchNextMap, delay);
+                                }
+                            })
+                            .catch(error => {
+                                output.textContent = `[${currentIdIndex}/${mapIds.length}] 请求地图失败，ID: ${currentId}。错误信息：${error.message}`;
+                                output.className = 'error';
+                                console.error(`Fetch error for map ID ${currentId}:`, error);
+
+                                const delay = Math.max(baseDelay, 60000 / 290); // 每次请求间隔至少207毫秒
+                                setTimeout(fetchNextMap, delay);
+                            });
+                    };
+
+                    fetchNextMap();
+                })
+                .catch(error => {
+                    output.textContent = '读取map_id.json失败，请检查文件路径或内容。';
+                    output.className = 'error';
+                    console.error('Fetch error:', error);
+                    
+                    // 隐藏进度条
+                    updateProgress(0, 0);
+                });
+        });
+
+        document.getElementById('requestItemButton').addEventListener('click', function () {
+            const output = document.getElementById('output');
+            output.textContent = '正在根据ID获取所有item信息...';
+            output.className = ''; // 清除之前的样式
+
+            // 显示进度条
+            updateProgress(0, 1);
+
+            // 首先尝试读取已有的物品信息
+            fetch('../data/item_info.json')
+                .then(response => {
+                    if (!response.ok) {
+                        // 如果文件不存在，继续执行获取物品信息的流程
+                        throw new Error('item_info.json文件不存在');
+                    }
+                    return response.json();
+                })
+                .then(existingItemInfo => {
+                    // 如果成功读取到现有数据，则使用现有数据
+                    output.textContent = '已存在物品信息文件，正在检查需要更新的数据...';
+                    return { existing: true, data: existingItemInfo };
+                })
+                .catch(() => {
+                    // 如果文件不存在或读取失败，返回空数组
+                    return { existing: false, data: [] };
+                })
+                .then(result => {
+                    const existingItemInfo = result.data;
+                    const existingItemIds = new Set(existingItemInfo.map(item => item.id));
+                    
+                    fetch('../data/item_id.json')
+                        .then(response => {
+                            if (!response.ok) {
+                                throw new Error('Failed to fetch item ID data');
+                            }
+                            return response.json();
+                        })
+                        .then(itemIds => {
+                            // 过滤掉已存在的物品ID，只保留不存在的ID
+                            const newItemIds = itemIds.filter(id => !existingItemIds.has(id));
+                            
+                            if (newItemIds.length === 0) {
+                                output.textContent = '所有物品信息已存在，无需更新';
+                                output.className = 'success';
+                                updateProgress(1, 1);
+                                return;
+                            }
+                            
+                            const allItemInfo = [...existingItemInfo]; // 从现有数据开始
+                            let currentIdIndex = 0;
+                            let requestCount = 0;
+                            const startTime = Date.now();
+                            const baseDelay = 207; // 60000/290≈207ms
+
+                            const fetchNextItem = () => {
+                                if (currentIdIndex >= newItemIds.length) {
+                                    const blob = new Blob([JSON.stringify(allItemInfo, null, 2)], { type: 'application/json' });
+                                    const url = URL.createObjectURL(blob);
+                                    const a = document.createElement('a');
+                                    a.href = url;
+                                    a.download = '../data/item_info.json';
+                                    a.click();
+                                    URL.revokeObjectURL(url);
+
+                                    output.textContent = `物品信息已成功更新并保存到../data/item_info.json，新增${newItemIds.length}条数据`;
+                                    output.className = 'success';
+                                    alert(`物品信息已成功更新并保存到../data/item_info.json，新增${newItemIds.length}条数据`);
+                                    
+                                    // 完成进度条
+                                    updateProgress(1, 1);
+                                    return;
+                                }
+
+                                const currentId = newItemIds[currentIdIndex];
+                                currentIdIndex++;
+
+                                // 更新进度条
+                                updateProgress(currentIdIndex, newItemIds.length);
+                                output.textContent = `正在请求物品 ID:${currentId} (${currentIdIndex}/${newItemIds.length})`;
+
+                                fetch(`http://localhost:7000/api/proxy/item/${currentId}`)
+                                    .then(response => {
+                                        if (!response.ok) {
+                                            throw new Error(`Failed to fetch item info for item ID ${currentId}`);
+                                        }
+                                        return response.json();
+                                    })
+                                    .then(data => {
+                                        allItemInfo.push(data);
+                                        output.textContent = `[${currentIdIndex}/${newItemIds.length}] 请求成功：${currentId}`;
+                                        output.className = 'success';
+
+                                        // 速率控制 - 每分钟不超过290次请求
+                                        requestCount++;
+                                        const elapsedTime = Date.now() - startTime;
+                                        if (requestCount >= 290 && elapsedTime < 60000) {
+                                            const remainingTime = 60000 - elapsedTime;
+                                            setTimeout(fetchNextItem, remainingTime);
+                                            requestCount = 0;
+                                        } else {
+                                            const delay = Math.max(baseDelay, 60000 / 290); // 每次请求间隔至少207毫秒
+                                            setTimeout(fetchNextItem, delay);
+                                        }
+                                    })
+                                    .catch(error => {
+                                        output.textContent = `[${currentIdIndex}/${newItemIds.length}] 请求失败，ID: ${currentId}。错误信息：${error.message}`;
+                                        output.className = 'error';
+                                        console.error(`Fetch error for item ID ${currentId}:`, error);
+
+                                        const delay = Math.max(baseDelay, 60000 / 290); // 每次请求间隔至少207毫秒
+                                        setTimeout(fetchNextItem, delay);
+                                    });
+                            };
+
+                            fetchNextItem();
+                        })
+                        .catch(error => {
+                            output.textContent = '读取item_id.json失败，请检查文件路径或内容。';
+                            output.className = 'error';
+                            console.error('Fetch error:', error);
+                            
+                            // 隐藏进度条
+                            updateProgress(0, 0);
+                        });
+                });
+        });
+
+        document.getElementById('requestItemIconButton').addEventListener('click', function () {
+            const output = document.getElementById('output');
+            output.textContent = '正在获取物品的icon...';
+            output.className = ''; // 清除之前的样式
+
+            // 显示进度条
+            updateProgress(0, 1);
+
+            fetch('../data/item_info.json')
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Failed to fetch item_info.json');
+                    }
+                    return response.json();
+                })
+                .then(itemInfo => {
+                    if (itemInfo.length === 0) {
+                        throw new Error('No item data found in item_info.json');
+                    }
+
+                    const allIcons = itemInfo.map(item => item.icon); // 假设icon字段在每个物品详情中
+                    if (allIcons.length === 0) {
+                        throw new Error('No icon values found in item data');
+                    }
+
+                    const requestedIcons = new Set(); // 用于存储已请求的icon，避免重复请求
+                    let currentIconIndex = 0;
+                    let requestCount = 0;
+                    const startTime = Date.now();
+
+                    const fetchNextIcon = () => {
+                        if (currentIconIndex >= allIcons.length) {
+                            output.textContent = '所有物品的icon已成功获取，图片文件已下载到您的默认下载文件夹中';
+                            output.className = 'success';
+                            alert('所有物品的icon已成功获取，图片文件已下载到您的默认下载文件夹中。\n请将这些文件移动到项目的 pt/item_icon 文件夹中以便使用。');
+                            
+                            // 完成进度条
+                            updateProgress(1, 1);
+                            return;
+                        }
+
+                        const currentItem = itemInfo[currentIconIndex];
+                        const currentIcon = currentItem.icon;
+                        currentIconIndex++;
+
+                        // 检查是否已经请求过该icon
+                        if (requestedIcons.has(currentIcon)) {
+                            output.textContent = `跳过重复请求的icon：${currentIcon}`;
+                            output.className = 'success';
+                            setTimeout(fetchNextIcon, 100); // 短暂延迟后继续
+                            return;
+                        }
+
+                        requestedIcons.add(currentIcon); // 标记为已请求
+
+                        // 更新进度条
+                        updateProgress(currentIconIndex, allIcons.length);
+                        output.textContent = `正在检查物品图标 ID:${currentItem.id} (${currentIconIndex}/${allIcons.length})`;
+
+                        // 更改文件名格式为 物品id.png
+                        const fileName = `${currentItem.id}.png`;
+
+                        // 检查本地文件是否存在
+                        fetch(`http://localhost:7000/api/check-item-icon?id=${currentItem.id}`)
+                            .then(response => {
+                                if (!response.ok) {
+                                    throw new Error(`HTTP错误: ${response.status}`);
+                                }
+                                return response.json();
+                            })
+                            .then(data => {
+                                console.log(`检查文件存在性结果: ID=${currentItem.id}, exists=${data.exists}`); // 调试信息
+                                if (data.exists) {
+                                    // 文件已存在，跳过下载
+                                    output.textContent = `[${currentIconIndex}/${allIcons.length}] 跳过已存在的物品图标 ID:${currentItem.id}`;
+                                    output.className = 'success';
+                                    setTimeout(fetchNextIcon, 100); // 短暂延迟后继续
+                                } else {
+                                    // 文件不存在，需要下载
+                                    output.textContent = `正在下载物品图标 ID:${currentItem.id} (${currentIconIndex}/${allIcons.length})`;
+                                    
+                                    fetch(`http://localhost:7000/api/proxy/image/item/${currentIcon}`)
+                                        .then(response => {
+                                            if (!response.ok) {
+                                                throw new Error(`Failed to fetch icon for item icon ${currentIcon}`);
+                                            }
+                                            return response.blob(); // 获取二进制数据
+                                        })
+                                        .then(blob => {
+                                            const url = URL.createObjectURL(blob);
+                                            const a = document.createElement('a');
+                                            a.href = url;
+                                            a.download = fileName; // 设置文件名
+                                            a.click();
+                                            URL.revokeObjectURL(url);
+                                            
+                                            output.textContent = `[${currentIconIndex}/${allIcons.length}] 获取icon：${currentIcon} 成功，并已保存为 ${fileName}`;
+                                            output.className = 'success';
+                                            
+                                            requestCount++;
+                                            const elapsedTime = Date.now() - startTime;
+                                            if (requestCount >= 290 && elapsedTime < 60000) {
+                                                const remainingTime = 60000 - elapsedTime;
+                                                setTimeout(fetchNextIcon, remainingTime);
+                                                requestCount = 0;
+                                            } else {
+                                                const delay = Math.max(207, 60000 / 290); // 每次请求间隔至少207毫秒
+                                                setTimeout(fetchNextIcon, delay);
+                                            }
+                                        })
+                                        .catch(error => {
+                                            output.textContent = `[${currentIconIndex}/${allIcons.length}] 获取icon失败，icon: ${currentIcon}。错误信息：${error.message}`;
+                                            output.className = 'error';
+                                            console.error(`Fetch error for icon ${currentIcon}:`, error);
+                                            
+                                            const delay = Math.max(207, 60000 / 290); // 每次请求间隔至少207毫秒
+                                            setTimeout(fetchNextIcon, delay);
+                                        });
+                                }
+                            })
+                            .catch(error => {
+                                // 如果检查文件存在性失败，记录错误但仍然尝试下载
+                                console.error(`检查物品图标存在性失败 ID:${currentItem.id}`, error); // 调试信息
+                                output.textContent = `检查物品图标存在性失败 ID:${currentItem.id}，将继续下载。错误信息：${error.message}`;
+                                output.className = 'error';
+                                
+                                // 继续下载流程
+                                output.textContent = `正在下载物品图标 ID:${currentItem.id} (${currentIconIndex}/${allIcons.length})`;
+                                
+                                fetch(`https://api.flyff.com/image/item/${currentIcon}`)
+                                    .then(response => {
+                                        if (!response.ok) {
+                                            throw new Error(`Failed to fetch icon for item icon ${currentIcon}`);
+                                        }
+                                        return response.blob(); // 获取二进制数据
+                                    })
+                                    .then(blob => {
+                                        const url = URL.createObjectURL(blob);
+                                        const a = document.createElement('a');
+                                        a.href = url;
+                                        a.download = fileName; // 设置文件名
+                                        a.click();
+                                        URL.revokeObjectURL(url);
+                                        
+                                        output.textContent = `[${currentIconIndex}/${allIcons.length}] 获取icon：${currentIcon} 成功，并已保存为 ${fileName}`;
+                                        output.className = 'success';
+                                        
+                                        requestCount++;
+                                        const elapsedTime = Date.now() - startTime;
+                                        if (requestCount >= 290 && elapsedTime < 60000) {
+                                            const remainingTime = 60000 - elapsedTime;
+                                            setTimeout(fetchNextIcon, remainingTime);
+                                            requestCount = 0;
+                                        } else {
+                                            const delay = Math.max(207, 60000 / 290); // 每次请求间隔至少207毫秒
+                                            setTimeout(fetchNextIcon, delay);
+                                        }
+                                    })
+                                    .catch(error => {
+                                        output.textContent = `[${currentIconIndex}/${allIcons.length}] 获取icon失败，icon: ${currentIcon}。错误信息：${error.message}`;
+                                        output.className = 'error';
+                                        console.error(`Fetch error for icon ${currentIcon}:`, error);
+                                        
+                                        const delay = Math.max(207, 60000 / 290); // 每次请求间隔至少207毫秒
+                                        setTimeout(fetchNextIcon, delay);
+                                    });
+                            });
+                    };
+
+                    fetchNextIcon();
+                })
+                .catch(error => {
+                    output.textContent = '读取item_info.json失败，请检查文件路径或内容。';
+                    output.className = 'error';
+                    console.error('Fetch error:', error);
+                    
+                    // 隐藏进度条
+                    updateProgress(0, 0);
+                });
+        });
+
+        document.getElementById('requestNpcInfoButton').addEventListener('click', function () {
+            const output = document.getElementById('output');
+            output.textContent = '正在获取NPC信息...';
+            output.className = '';
+
+            // 显示进度条
+            updateProgress(0, 1);
+
+            // 从npc_id.json文件读取NPC ID列表
+            fetch('../data/npc_id.json')
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('无法读取npc_id.json文件');
+                    }
+                    return response.json();
+                })
+                .then(npcIds => {
+                    const allNpcData = [];
+                    let currentIndex = 0;
+                    let requestCount = 0;
+                    const startTime = Date.now();
+                    const baseDelay = 207; // 60000/290≈207ms
+
+                    const fetchNextNpc = () => {
+                        if (currentIndex >= npcIds.length) {
+                            // 使用与monster_all_info.json相同的保存方式
+                            const blob = new Blob([JSON.stringify(allNpcData, null, 2)], { type: 'application/json' });
+                            const url = URL.createObjectURL(blob);
+                            const a = document.createElement('a');
+                            a.href = url;
+                            a.download = '../data/npc_info.json';
+                            a.click();
+                            URL.revokeObjectURL(url);
+
+                            output.textContent = 'NPC数据已保存到../data/npc_info.json';
+                            output.className = 'success';
+                            
+                            // 完成进度条
+                            updateProgress(1, 1);
+                            return;
+                        }
+
+                        const currentId = npcIds[currentIndex];
+                        currentIndex++;
+
+                        // 更新进度条
+                        updateProgress(currentIndex, npcIds.length);
+                        output.textContent = `正在请求NPC ID:${currentId} (${currentIndex}/${npcIds.length})`;
+
+                        fetch(`http://localhost:7000/api/proxy/npc/${currentId}`)
+                            .then(response => {
+                                if (!response.ok) throw new Error(`HTTP错误! 状态码: ${response.status}`);
+                                return response.json();
+                            })
+                            .then(data => {
+                                allNpcData.push(data);
+                                output.textContent = `[${currentIndex}/${npcIds.length}] 已获取NPC ID: ${currentId}`;
+                                output.className = 'success';
+
+                                // 速率控制 - 每分钟不超过290次请求
+                                requestCount++;
+                                const elapsedTime = Date.now() - startTime;
+                                if (requestCount >= 290 && elapsedTime < 60000) {
+                                    const remainingTime = 60000 - elapsedTime;
+                                    setTimeout(fetchNextNpc, remainingTime);
+                                    requestCount = 0;
+                                } else {
+                                    const delay = Math.max(baseDelay, 60000 / 290); // 每次请求间隔至少207毫秒
+                                    setTimeout(fetchNextNpc, delay);
+                                }
+                            })
+                            .catch(error => {
+                                output.textContent = `[${currentIndex}/${npcIds.length}] 获取NPC ${currentId} 失败: ${error.message}`;
+                                output.className = 'error';
+                                console.error(`[NPC ${currentId}]`, error);
+                                
+                                const delay = Math.max(baseDelay, 60000 / 290); // 每次请求间隔至少207毫秒
+                                setTimeout(fetchNextNpc, delay);
+                            });
+                    };
+
+                    fetchNextNpc();
+                })
+                .catch(error => {
+                    output.textContent = `读取npc_id.json失败: ${error.message}`;
+                    output.className = 'error';
+                    console.error('Fetch error:', error);
+                    
+                    // 隐藏进度条
+                    updateProgress(0, 0);
+                });
+        });
+
+        document.getElementById('requestNpcIconButton').addEventListener('click', function () {
+            const output = document.getElementById('output');
+            output.textContent = '正在获取NPC图标...';
+            output.className = '';
+
+            // 显示进度条
+            updateProgress(0, 1);
+
+            // 从本地JSON文件获取NPC数据
+            fetch('../data/npc_info.json')
+                .then(response => {
+                    if (!response.ok) throw new Error('无法读取npc_info.json');
+                    return response.json();
+                })
+                .then(npcData => {
+                    // 修改后的数据处理逻辑
+                    const allImages = npcData
+                        .map(npc => npc.image)
+                        .filter(image => image) // 过滤空值
+                        .map(img => img.toLowerCase().trim()); // 文件名规范化
+
+                    console.log(`需要下载的NPC图标总数: ${allImages.length}`);
+                    if (allImages.length === 0) {
+                        output.textContent = '未找到可下载的NPC图标';
+                        // 隐藏进度条
+                        updateProgress(0, 0);
+                        return;
+                    }
+
+                    let currentIndex = 0;
+                    let requestCount = 0;
+                    const startTime = Date.now();
+                    const baseDelay = 207; // 基础间隔
+                    const maxRetries = 3;
+
+                    // 创建一个Set来跟踪已请求的图标
+                    const requestedIcons = new Set();
+
+                    const fetchNextIcon = () => {
+                        console.log(`开始处理第 ${currentIndex + 1}/${allImages.length} 个图标`);
+                        if (currentIndex >= allImages.length) {
+                            output.textContent = '所有NPC图标下载完成';
+                            output.className = 'success';
+                            // 完成进度条
+                            updateProgress(1, 1);
+                            console.log(`所有图标处理完成`);
+                            return;
+                        }
+
+                        const imageName = allImages[currentIndex];
+                        console.log(`当前处理图标: ${imageName}`);
+                        
+                        // 检查本地文件是否存在
+                        fetch(`http://localhost:7000/api/check-npc-icon?name=${encodeURIComponent(imageName)}`)
+                            .then(response => {
+                                if (!response.ok) {
+                                    throw new Error(`HTTP错误: ${response.status}`);
+                                }
+                                return response.json();
+                            })
+                            .then(data => {
+                                console.log(`检查文件存在性结果: 名称=${imageName}, exists=${data.exists}`); // 调试信息
+                                if (data.exists) {
+                                    // 文件已存在，跳过下载
+                                    currentIndex++;
+                                    output.textContent = `[${currentIndex}/${allImages.length}] 跳过已存在的NPC图标 ${imageName}`;
+                                    output.className = 'success';
+                                    // 更新进度条
+                                    updateProgress(currentIndex, allImages.length);
+                                    // 使用 queueMicrotask 确保不会阻塞事件循环
+                                    console.log(`文件已存在，跳过并处理下一个`);
+                                    queueMicrotask(fetchNextIcon);
+                                } else {
+                                    // 文件不存在，需要下载
+                                    console.log(`文件不存在，开始下载流程`);
+                                    currentIndex++;
+                                    let retryCount = 0;
+
+                                    const tryFetch = () => {
+                                        console.log(`发送代理请求: http://localhost:7000/api/proxy/image/npc/${imageName}`);
+                                        fetch(`http://localhost:7000/api/proxy/image/npc/${imageName}`)
+                                            .then(response => {
+                                                console.log(`收到代理响应: 状态码=${response.status}`);
+                                                if (!response.ok) {
+                                                    if (response.status === 404) {
+                                                        throw new Error('图标不存在');
+                                                    }
+                                                    if (retryCount < maxRetries) {
+                                                        retryCount++;
+                                                        throw new Error(`尝试重试 (${retryCount}/${maxRetries})`);
+                                                    }
+                                                    throw new Error(`HTTP错误! 状态码: ${response.status}`);
+                                                }
+                                                console.log(`准备接收响应数据`);
+                                                // 添加超时处理
+                                                const blobPromise = response.blob();
+                                                const timeoutPromise = new Promise((_, reject) => {
+                                                    setTimeout(() => reject(new Error('接收响应数据超时')), 10000);
+                                                });
+                                                return Promise.race([blobPromise, timeoutPromise]);
+                                            })
+                                            .then(blob => {
+                                                console.log(`成功接收数据，大小=${blob.size} bytes`);
+                                                try {
+                                                    const url = URL.createObjectURL(blob);
+                                                    const a = document.createElement('a');
+                                                    a.href = url;
+                                                    a.download = imageName;
+                                                    document.body.appendChild(a); // 确保元素在DOM中
+                                                    a.click();
+                                                    document.body.removeChild(a); // 清理DOM元素
+                                                    URL.revokeObjectURL(url);
+                                                    console.log(`文件下载触发成功`);
+                                                } catch (e) {
+                                                    console.error(`触发下载时出错:`, e);
+                                                }
+
+                                                output.textContent = `已下载：${imageName} (${currentIndex}/${allImages.length})`;
+                                                output.className = 'success';
+
+                                                // 更新进度条
+                                                updateProgress(currentIndex, allImages.length);
+
+                                                // 速率控制
+                                                requestCount++;
+                                                const elapsed = Date.now() - startTime;
+                                                const delay = requestCount >= 290 && elapsed < 60000 ?
+                                                    60000 - elapsed :
+                                                    Math.max(baseDelay, 60000 / 290);
+
+                                                console.log(`下载完成，准备处理下一个图标，延迟: ${delay}ms`); // 添加调试信息
+                                                setTimeout(fetchNextIcon, delay);
+                                            })
+                                            .catch(error => {
+                                                console.log(`下载过程中发生错误:`, error);
+                                                if (error.message.includes('重试') && retryCount < maxRetries) {
+                                                    console.log(`正在重试 ${imageName} (${retryCount}/${maxRetries})`);
+                                                    setTimeout(tryFetch, baseDelay);
+                                                } else if (error.message.includes('超时')) {
+                                                    output.textContent = `失败：${imageName}，错误：响应数据接收超时`;
+                                                    output.className = 'error';
+                                                    console.error(`[${imageName}] 响应数据接收超时`);
+                                                    // 更新进度条
+                                                    updateProgress(currentIndex, allImages.length);
+                                                    // 确保继续处理下一个图标
+                                                    console.log(`响应数据接收超时，准备处理下一个图标`);
+                                                    queueMicrotask(fetchNextIcon);
+                                                } else {
+                                                    output.textContent = `失败：${imageName}，错误：${error.message.replace(/尝试重试 \(\d\/\d\)/, '')}`;
+                                                    output.className = 'error';
+                                                    console.error(`[${imageName}]`, error);
+                                                    // 更新进度条
+                                                    updateProgress(currentIndex, allImages.length);
+                                                    // 确保继续处理下一个图标，使用queueMicrotask避免阻塞
+                                                    console.log(`下载失败，准备处理下一个图标`); // 添加调试信息
+                                                    queueMicrotask(fetchNextIcon);
+                                                }
+                                            })
+                                            .finally(() => {
+                                                console.log(`fetch请求完成`); // 添加调试信息
+                                            });
+                                    };
+
+                                    console.log(`开始下载图标: ${imageName}`); // 添加调试信息
+                                    tryFetch();
+                                }
+                            })
+                            .catch(error => {
+                                console.error('检查文件存在性时出错:', error);
+                                // 即使检查出错也继续处理下一个图标
+                                currentIndex++;
+                                output.textContent = `检查文件存在性时出错，跳过${imageName}: ${error.message}`;
+                                output.className = 'error';
+                                // 更新进度条
+                                updateProgress(currentIndex, allImages.length);
+                                // 使用 queueMicrotask 确保不会阻塞事件循环
+                                queueMicrotask(fetchNextIcon);
+                            });
+                    };
+
+                    fetchNextIcon();
+                })
+                .catch(error => {
+                    output.textContent = `读取NPC数据失败：${error.message}`;
+                    output.className = 'error';
+                    console.error('npc_info.json读取失败：', error);
+                    // 隐藏进度条
+                    updateProgress(0, 0);
+                });
+        });
+
+        document.getElementById('validateItemIconsButton').addEventListener('click', function () {
+            const output = document.getElementById('output');
+            output.textContent = '正在校验物品图片...';
+            output.className = '';
+
+            Promise.all([
+                fetch('../data/item_id.json').then(r => r.json()),
+                fetch('../data/item_info.json').then(r => r.json()),
+                fetch('../pt/item_icon/').then(r => r.json()) // 需要服务器端支持目录列表接口
+            ])
+                .then(([itemIds, itemInfo, existingFiles]) => {
+                    const existingIds = new Set(existingFiles.map(f => f.replace(/\.png$/, '')));
+                    const missingIds = itemIds.filter(id => !existingIds.has(id.toString()));
+
+                    const failedIds = [];
+                    let currentIndex = 0;
+
+                    const fetchNext = () => {
+                        if (currentIndex >= missingIds.length) {
+                            output.textContent = `校验完成，失败ID：${failedIds.join(', ')}`;
+                            output.className = failedIds.length ? 'error' : 'success';
+                            return;
+                        }
+
+                        const id = missingIds[currentIndex++];
+                        const item = itemInfo.find(i => i.id === id);
+
+                        if (!item?.icon) {
+                            failedIds.push(id);
+                            return fetchNext();
+                        }
+
+                        fetch(`http://localhost:7000/api/proxy/image/item/${item.icon}`)
+                            .then(response => {
+                                if (!response.ok) throw new Error('请求失败');
+                                return response.blob();
+                            })
+                            .then(blob => {
+                                const url = URL.createObjectURL(blob);
+                                const a = document.createElement('a');
+                                a.href = url;
+                                a.download = `${id}.png`;
+                                a.click();
+                                URL.revokeObjectURL(url);
+                            })
+                            .catch(() => failedIds.push(id))
+                            .finally(() => setTimeout(fetchNext, 200)); // 速率控制
+                    };
+
+                    fetchNext();
+                })
+                .catch(error => {
+                    output.textContent = `初始化失败：${error.message}`;
+                    output.className = 'error';
+                });
+        });
+
+        document.getElementById('requestEquipmentSetButton').addEventListener('click', function () {
+            const output = document.getElementById('output');
+            output.textContent = '正在获取装备套装属性...';
+            output.className = '';
+
+            fetch('../data/EquipmentSet_ID.json')
+                .then(response => response.json())
+                .then(equipSetIds => {
+                    const allSetData = [];
+                    const failedIds = [];
+                    let currentIndex = 0;
+                    let requestCount = 0;
+                    const startTime = Date.now();
+                    const baseDelay = 207; // 60000/290≈207ms
+
+                    const fetchNextSet = () => {
+                        if (currentIndex >= equipSetIds.length) {
+                            // 保存最终数据
+                            const blob = new Blob([JSON.stringify(allSetData, null, 2)], { type: 'application/json' });
+                            const url = URL.createObjectURL(blob);
+                            const a = document.createElement('a');
+                            a.href = url;
+                            a.download = 'TZSX.json';
+                            a.click();
+
+                            output.textContent = `请求完成！成功:${allSetData.length} 失败:${failedIds.length}`;
+                            if (failedIds.length > 0) {
+                                output.textContent += `\n失败的ID：${failedIds.join(', ')}`;
+                            }
+                            return;
+                        }
+
+                        const currentId = equipSetIds[currentIndex];
+                        currentIndex++;
+
+                        fetch(`http://localhost:7000/api/proxy/equipset/${currentId}`)
+                            .then(response => {
+                                if (!response.ok) {
+                                    throw new Error(`HTTP错误! 状态码: ${response.status}`);
+                                }
+                                return response.json();
+                            })
+                            .then(data => {
+                                allSetData.push(data);
+                                output.textContent = `[${currentIndex}/${equipSetIds.length}] 成功获取 ${data.name?.cns || '未知套装'} (ID:${currentId})`;
+                            })
+                            .catch(() => failedIds.push(currentId))
+                            .finally(() => {
+                                // 速率控制
+                                requestCount++;
+                                const elapsed = Date.now() - startTime;
+                                const delay = requestCount >= 290 && elapsed < 60000 ?
+                                    60000 - elapsed :
+                                    Math.max(baseDelay, 60000 / 290);
+
+                                setTimeout(fetchNextSet, delay);
+                            });
+                    };
+
+                    fetchNextSet();
+                })
+                .catch(error => {
+                    output.textContent = `读取EquipmentSet_ID.json失败: ${error.message}`;
+                    output.className = 'error';
+                });
+        });
+
+        document.getElementById('requestSkillInfoButton').addEventListener('click', function () {
+            const output = document.getElementById('output');
+            output.textContent = '正在获取技能信息...';
+            output.className = '';
+
+            // 显示进度条
+            updateProgress(0, 1);
+
+            // 读取skill_id.json文件
+            fetch('../data/skill_id.json')
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('无法读取skill_id.json文件，请确认文件存在');
+                    }
+                    return response.json();
+                })
+                .then(skillIds => {
+                    console.log(`读取到${skillIds.length}个技能ID`);
+                    output.textContent = `读取到${skillIds.length}个技能ID，开始请求详细信息...`;
+
+                    const allSkillInfo = [];
+                    const failedIds = [];
+                    let currentIndex = 0;
+                    let requestCount = 0;
+                    const startTime = Date.now();
+                    const baseDelay = 207; // 60000/290≈207ms，确保每分钟不超过290个请求
+
+                    const fetchNextSkill = () => {
+                        if (currentIndex >= skillIds.length) {
+                            // 所有请求完成，保存数据
+                            try {
+                                const blob = new Blob([JSON.stringify(allSkillInfo, null, 2)], { type: 'application/json' });
+                                const url = URL.createObjectURL(blob);
+                                const a = document.createElement('a');
+                                a.href = url;
+                                a.download = 'skill_info.json';
+                                a.click();
+                                URL.revokeObjectURL(url);
+
+                                // 更新进度条为完成状态
+                                updateProgress(1, 1);
+
+                                // 显示完成信息
+                                output.textContent = `请求完成！成功: ${allSkillInfo.length} 失败: ${failedIds.length}`;
+                                if (failedIds.length > 0) {
+                                    output.textContent += `\n失败的ID：${failedIds.join(', ')}`;
+                                }
+                                output.className = 'success';
+                                alert('技能信息已保存到 skill_info.json');
+                            } catch (error) {
+                                output.textContent = `保存文件时出错: ${error.message}`;
+                                output.className = 'error';
+                                console.error('保存文件错误:', error);
+                            }
+                            return;
+                        }
+
+                        const currentId = skillIds[currentIndex];
+                        currentIndex++;
+
+                        // 更新进度
+                        updateProgress(currentIndex, skillIds.length);
+                        output.textContent = `正在请求技能 ID:${currentId} (${currentIndex}/${skillIds.length})`;
+                        console.log(`正在请求技能 ID:${currentId}`);
+
+                        fetch(`http://localhost:7000/api/proxy/skill/${currentId}`)
+                            .then(response => {
+                                if (!response.ok) {
+                                    throw new Error(`HTTP错误! 状态码: ${response.status}`);
+                                }
+                                return response.json();
+                            })
+                            .then(data => {
+                                allSkillInfo.push(data);
+                                output.textContent = `[${currentIndex}/${skillIds.length}] 成功获取技能 ${data.name?.cns || data.name || '未知技能'} (ID:${currentId})`;
+                                output.className = 'success';
+                            })
+                            .catch(error => {
+                                failedIds.push(currentId);
+                                output.textContent = `[${currentIndex}/${skillIds.length}] 获取技能 ID:${currentId} 失败: ${error.message}`;
+                                output.className = 'error';
+                                console.error(`[技能 ${currentId}]`, error);
+                            })
+                            .finally(() => {
+                                // 速率控制
+                                requestCount++;
+                                const elapsed = Date.now() - startTime;
+                                const delay = requestCount >= 290 && elapsed < 60000 ?
+                                    60000 - elapsed : // 如果一分钟内请求超过290次，等待到下一分钟
+                                    Math.max(baseDelay, 60000 / 290); // 否则保持均匀的请求速率
+
+                                setTimeout(fetchNextSkill, delay);
+                            });
+                    };
+
+                    fetchNextSkill();
+                })
+                .catch(error => {
+                    output.textContent = `读取skill_id.json失败: ${error.message}`;
+                    output.className = 'error';
+                    console.error('Fetch error:', error);
+
+                    // 隐藏进度条
+                    updateProgress(0, 0);
+                });
+        });
+
+        document.getElementById('requestSkillIconButton').addEventListener('click', function () {
+            const output = document.getElementById('output');
+            output.textContent = '正在获取技能图标...';
+            output.className = '';
+
+            // 显示进度条
+            updateProgress(0, 1);
+
+            // 读取skill_info.json文件
+            fetch('../data/skill_info.json')
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('无法读取skill_info.json文件，请确认文件存在');
+                    }
+                    return response.json();
+                })
+                .then(skillData => {
+                    console.log(`读取到${skillData.length}个技能数据`);
+
+                    // 提取所有技能图标
+                    const skillIcons = skillData
+                        .map(skill => skill.icon)
+                        .filter(icon => icon); // 过滤掉没有icon的技能
+
+                    console.log(`需要下载的技能图标总数: ${skillIcons.length}`);
+                    if (skillIcons.length === 0) {
+                        output.textContent = '未找到可下载的技能图标';
+                        updateProgress(0, 0); // 隐藏进度条
+                        return;
+                    }
+
+                    output.textContent = `找到${skillIcons.length}个技能图标，开始下载...`;
+
+                    // 创建一个Set来跟踪已请求的图标
+                    const requestedIcons = new Set();
+
+                    let currentIndex = 0;
+                    let requestCount = 0;
+                    const startTime = Date.now();
+                    const baseDelay = 207; // 60000/290≈207ms，确保每分钟不超过290次请求
+                    const maxRetries = 3;
+                    const failedIcons = [];
+                    const skippedIcons = []; // 记录跳过的图标
+
+                    const fetchNextIcon = () => {
+                        if (currentIndex >= skillIcons.length) {
+                            // 所有图标下载完成
+                            output.textContent = `所有技能图标下载完成！成功: ${skillIcons.length - failedIcons.length - skippedIcons.length} 跳过: ${skippedIcons.length} 失败: ${failedIcons.length}`;
+                            if (failedIcons.length > 0) {
+                                output.textContent += `\n失败的图标：${failedIcons.join(', ')}`;
+                            }
+                            output.className = failedIcons.length ? 'error' : 'success';
+
+                            // 完成进度条
+                            updateProgress(1, 1);
+                            return;
+                        }
+
+                        // 更新进度条
+                        updateProgress(currentIndex, skillIcons.length);
+
+                        const iconName = skillIcons[currentIndex];
+
+                        // 检查是否已经请求过该图标
+                        if (requestedIcons.has(iconName)) {
+                            console.log(`跳过重复的图标: ${iconName}`);
+                            output.textContent = `跳过重复的图标: ${iconName} (${currentIndex + 1}/${skillIcons.length})`;
+                            skippedIcons.push(iconName);
+                            
+                            // 更新索引并继续处理下一个图标
+                            currentIndex++;
+                            setTimeout(fetchNextIcon, 50); // 短暂延迟后继续
+                            return;
+                        }
+
+                        // 将图标添加到已请求集合
+                        requestedIcons.add(iconName);
+
+                        // 显示当前进度
+                        output.textContent = `正在检查技能图标: ${iconName} (${currentIndex + 1}/${skillIcons.length})`;
+
+                        // 检查本地文件是否存在
+                        fetch(`http://localhost:7000/api/check-skill-icon?name=${iconName}`)
+                            .then(response => response.json())
+                            .then(checkResult => {
+                                if (checkResult.exists) {
+                                    // 文件已存在，跳过下载
+                                    console.log(`本地已存在技能图标: ${iconName}，跳过下载`);
+                                    output.textContent = `跳过已存在的图标: ${iconName} (${currentIndex + 1}/${skillIcons.length})`;
+                                    skippedIcons.push(iconName);
+                                    
+                                    // 更新索引并继续处理下一个图标
+                                    currentIndex++;
+                                    
+                                    // 速率控制
+                                    requestCount++;
+                                    const elapsed = Date.now() - startTime;
+                                    const delay = requestCount >= 290 && elapsed < 60000 ?
+                                        60000 - elapsed : // 如果一分钟内请求超过290次，等待到下一分钟
+                                        Math.max(baseDelay, 60000 / 290); // 否则保持均匀的请求速率
+
+                                    setTimeout(fetchNextIcon, 50); // 短暂延迟后继续
+                                } else {
+                                    // 文件不存在，需要下载
+                                    let retryCount = 0;
+
+                                    const tryFetch = () => {
+                                        fetch(`http://localhost:7000/api/proxy/image/skill/colored/${iconName}`)
+                                            .then(response => {
+                                                if (!response.ok) {
+                                                    if (response.status === 404) {
+                                                        throw new Error('图标不存在');
+                                                    }
+                                                    if (retryCount < maxRetries) {
+                                                        retryCount++;
+                                                        throw new Error(`尝试重试 (${retryCount}/${maxRetries})`);
+                                                    }
+                                                    throw new Error(`HTTP错误! 状态码: ${response.status}`);
+                                                }
+                                                return response.blob();
+                                            })
+                                            .then(blob => {
+                                                const url = URL.createObjectURL(blob);
+                                                const a = document.createElement('a');
+                                                a.href = url;
+                                                a.download = iconName;
+                                                a.click();
+                                                URL.revokeObjectURL(url);
+
+                                                output.textContent = `已下载：${iconName} (${currentIndex + 1}/${skillIcons.length})`;
+                                                output.className = 'success';
+
+                                                // 更新索引
+                                                currentIndex++;
+
+                                                // 速率控制
+                                                requestCount++;
+                                                const elapsed = Date.now() - startTime;
+                                                const delay = requestCount >= 290 && elapsed < 60000 ?
+                                                    60000 - elapsed : // 如果一分钟内请求超过290次，等待到下一分钟
+                                                    Math.max(baseDelay, 60000 / 290); // 否则保持均匀的请求速率
+
+                                                setTimeout(fetchNextIcon, delay);
+                                            })
+                                            .catch(error => {
+                                                if (error.message.includes('重试') && retryCount < maxRetries) {
+                                                    console.log(`正在重试 ${iconName} (${retryCount}/${maxRetries})`);
+                                                    setTimeout(tryFetch, baseDelay);
+                                                } else {
+                                                    failedIcons.push(iconName);
+                                                    output.textContent = `失败：${iconName}，错误：${error.message.replace(/尝试重试 \(\d\/\d\)/, '')}`;
+                                                    output.className = 'error';
+                                                    console.error(`[${iconName}]`, error);
+                                                    
+                                                    // 更新索引并继续处理下一个图标
+                                                    currentIndex++;
+                                                    setTimeout(fetchNextIcon, baseDelay);
+                                                }
+                                            });
+                                    };
+
+                                    tryFetch();
+                                }
+                            })
+                            .catch(error => {
+                                console.error('检查文件存在性时出错:', error);
+                                // 即使检查出错也继续处理下一个图标
+                                failedIcons.push(iconName);
+                                output.textContent = `检查文件存在性时出错，跳过${iconName}: ${error.message}`;
+                                output.className = 'error';
+                                
+                                // 更新索引并继续处理下一个图标
+                                currentIndex++;
+                                
+                                // 更新进度条
+                                updateProgress(currentIndex, skillIcons.length);
+                                
+                                setTimeout(fetchNextIcon, baseDelay);
+                            });
+                    };
+
+                    fetchNextIcon();
+                })
+                .catch(error => {
+                    output.textContent = `读取skill_info.json失败: ${error.message}`;
+                    output.className = 'error';
+                    console.error('Fetch error:', error);
+
+                    // 隐藏进度条
+                    updateProgress(0, 0);
+                });
+        });
+
+        document.getElementById('requestQuestInfoButton').addEventListener('click', function () {
+            const output = document.getElementById('output');
+            output.textContent = '正在获取任务信息...';
+            output.className = '';
+
+            // 显示进度条
+            updateProgress(0, 1);
+
+            // 首先读取现有的quest_info.json文件（如果存在）
+            fetch('../data/quest_info.json')
+                .then(response => {
+                    if (!response.ok) {
+                        // 如果文件不存在，返回空数组
+                        return [];
+                    }
+                    return response.json();
+                })
+                .catch(() => {
+                    // 如果解析失败，返回空数组
+                    return [];
+                })
+                .then(existingQuestData => {
+                    // 将现有数据转换为以ID为键的对象，方便后续去重
+                    const existingQuestMap = {};
+                    if (Array.isArray(existingQuestData)) {
+                        existingQuestData.forEach(quest => {
+                            if (quest.id) {
+                                existingQuestMap[quest.id] = quest;
+                            }
+                        });
+                    }
+
+                    // 读取quest_id.json文件
+                    return fetch('../data/quest_id.json')
+                        .then(response => {
+                            if (!response.ok) {
+                                throw new Error('无法读取quest_id.json文件');
+                            }
+                            return response.json();
+                        })
+                        .then(questIds => {
+                            const allQuestData = Object.values(existingQuestMap); // 从现有数据开始
+                            const failedIds = [];
+                            let currentIndex = 0;
+                            let requestCount = 0;
+                            const startTime = Date.now();
+                            const baseDelay = 207; // 60000/290≈207ms，确保每分钟不超过290次请求
+
+                            output.textContent = `读取到${questIds.length}个任务ID，现有数据${allQuestData.length}条，开始请求详细信息...`;
+
+                            const fetchNextQuest = () => {
+                                if (currentIndex >= questIds.length) {
+                                    // 保存数据到文件，包含老数据和新数据
+                                    const blob = new Blob([JSON.stringify(allQuestData, null, 2)], { type: 'application/json' });
+                                    const url = URL.createObjectURL(blob);
+                                    const a = document.createElement('a');
+                                    a.href = url;
+                                    a.download = 'quest_info.json';
+                                    a.click();
+                                    URL.revokeObjectURL(url);
+
+                                    // 更新进度条为完成状态
+                                    updateProgress(1, 1);
+
+                                    output.textContent = `请求完成！总数据: ${allQuestData.length}条，本次新增: ${allQuestData.length - Object.keys(existingQuestMap).length}条，失败: ${failedIds.length}`;
+                                    if (failedIds.length > 0) {
+                                        output.textContent += `\n失败的ID：${failedIds.join(', ')}`;
+                                    }
+                                    output.className = failedIds.length ? 'error' : 'success';
+                                    return;
+                                }
+
+                                const currentId = questIds[currentIndex];
+                                
+                                // 显示当前进度
+                                output.textContent = `正在检查任务 ID:${currentId} (${currentIndex + 1}/${questIds.length})`;
+
+                                // 检查本地文件是否已包含该任务数据
+                                if (existingQuestMap[currentId]) {
+                                    // 本地已存在该任务数据，跳过请求
+                                    console.log(`本地已存在任务数据: ${currentId}，跳过请求`);
+                                    output.textContent = `跳过已存在的任务: ${currentId} (${currentIndex + 1}/${questIds.length})`;
+                                    
+                                    // 更新索引并继续处理下一个任务
+                                    currentIndex++;
+                                    setTimeout(fetchNextQuest, 50); // 短暂延迟后继续
+                                } else {
+                                    // 本地不存在该任务数据，需要请求API
+                                    currentIndex++;
+                                    
+                                    // 更新进度
+                                    updateProgress(currentIndex, questIds.length);
+                                    output.textContent = `正在请求任务 ID:${currentId} (${currentIndex}/${questIds.length})`;
+
+                                    fetch(`http://localhost:7000/api/proxy/quest/${currentId}`)
+                                        .then(response => {
+                                            if (!response.ok) {
+                                                throw new Error(`HTTP错误! 状态码: ${response.status}`);
+                                            }
+                                            return response.json();
+                                        })
+                                        .then(data => {
+                                            // 添加到结果数组中
+                                            allQuestData.push(data);
+                                            output.textContent = `[${currentIndex}/${questIds.length}] 成功获取任务 ${data.name?.cns || '未知任务'} (ID:${currentId})`;
+                                            output.className = 'success';
+                                        })
+                                        .catch(error => {
+                                            failedIds.push(currentId);
+                                            output.textContent = `[${currentIndex}/${questIds.length}] 获取任务 ID:${currentId} 失败: ${error.message}`;
+                                            output.className = 'error';
+                                            console.error(`[任务 ${currentId}]`, error);
+                                        })
+                                        .finally(() => {
+                                            // 速率控制
+                                            requestCount++;
+                                            const elapsed = Date.now() - startTime;
+                                            const delay = requestCount >= 290 && elapsed < 60000 ?
+                                                60000 - elapsed : // 如果一分钟内请求超过290次，等待到下一分钟
+                                                Math.max(baseDelay, 60000 / 290); // 否则保持均匀的请求速率
+
+                                            setTimeout(fetchNextQuest, delay);
+                                        });
+                                }
+                            };
+
+                            fetchNextQuest();
+                        });
+                })
+                .catch(error => {
+                    output.textContent = `读取quest_info.json或quest_id.json失败: ${error.message}`;
+                    output.className = 'error';
+                    console.error('Fetch error:', error);
+
+                    // 隐藏进度条
+                    updateProgress(0, 0);
+                });
+        });
+
+        // 成就ID列表请求
+        document.getElementById('requestAchievementIdsButton').addEventListener('click', function () {
+            const output = document.getElementById('output');
+            output.textContent = '正在请求成就ID列表...';
+            output.className = '';
+
+            fetch('http://localhost:7000/api/proxy/achievement')
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Network response was not ok');
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    output.textContent = '请求飞飞成就ID大全API成功：\n';
+                    output.className = 'success';
+
+                    const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
+                    const url = URL.createObjectURL(blob);
+                    const a = document.createElement('a');
+                    a.href = url;
+                    a.download = 'achievement_id.json';
+                    a.click();
+                    URL.revokeObjectURL(url);
+
+                    const count = Array.isArray(data) ? data.length : Object.keys(data).length;
+                    output.textContent = `请求飞飞成就 ID 大全 API 成功，共 ${count} 个 ID，已保存到 achievement_id.json`;
+                    alert('数据已保存到本地文件 achievement_id.json');
+                })
+                .catch(error => {
+                    output.textContent = '请求失败，请检查API链接或网络连接。';
+                    output.className = 'error';
+                    console.error('Fetch error:', error);
+                });
+        });
+
+        // 成就详情请求
+        document.getElementById('requestAchievementDetailsButton').addEventListener('click', function () {
+            const output = document.getElementById('output');
+            output.textContent = '正在请求成就详情数据...';
+            output.className = '';
+
+            updateProgress(0, 1);
+
+            // 首先读取已有的成就信息
+            fetch('../data/achievement_info.json')
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('achievement_info.json文件不存在');
+                    }
+                    return response.json();
+                })
+                .then(existingData => {
+                    output.textContent = '已存在成就信息文件，正在检查需要更新的数据...';
+                    return { existing: true, data: existingData };
+                })
+                .catch(() => {
+                    return { existing: false, data: [] };
+                })
+                .then(result => {
+                    const existingData = result.data;
+                    const existingIds = new Set(existingData.map(item => item.id));
+
+                    fetch('../data/achievement_id.json')
+                        .then(response => {
+                            if (!response.ok) {
+                                throw new Error('Failed to fetch achievement ID data');
+                            }
+                            return response.json();
+                        })
+                        .then(achievementIds => {
+                            const newIds = achievementIds.filter(id => !existingIds.has(id));
+
+                            if (newIds.length === 0) {
+                                output.textContent = '所有成就信息已存在，无需更新';
+                                output.className = 'success';
+                                updateProgress(1, 1);
+                                return;
+                            }
+
+                            const allDetails = [...existingData];
+                            let currentIndex = 0;
+                            let requestCount = 0;
+                            const startTime = Date.now();
+                            const baseDelay = 207;
+
+                            const fetchNext = () => {
+                                if (currentIndex >= newIds.length) {
+                                    const blob = new Blob([JSON.stringify(allDetails, null, 2)], { type: 'application/json' });
+                                    const url = URL.createObjectURL(blob);
+                                    const a = document.createElement('a');
+                                    a.href = url;
+                                    a.download = '../data/achievement_info.json';
+                                    a.click();
+                                    URL.revokeObjectURL(url);
+
+                                    output.textContent = `成就信息已成功更新并保存到../data/achievement_info.json，新增${newIds.length}条数据`;
+                                    output.className = 'success';
+                                    alert(`成就信息已成功更新并保存到../data/achievement_info.json，新增${newIds.length}条数据`);
+                                    updateProgress(1, 1);
+                                    return;
+                                }
+
+                                const currentId = newIds[currentIndex];
+                                currentIndex++;
+
+                                updateProgress(currentIndex, newIds.length);
+                                output.textContent = `正在请求成就 ID:${currentId} (${currentIndex}/${newIds.length})`;
+
+                                fetch(`http://localhost:7000/api/proxy/achievement/${currentId}`)
+                                    .then(response => {
+                                        if (!response.ok) {
+                                            throw new Error(`Failed to fetch achievement info for ID ${currentId}`);
+                                        }
+                                        return response.json();
+                                    })
+                                    .then(data => {
+                                        allDetails.push(data);
+                                        output.textContent = `[${currentIndex}/${newIds.length}] 成功获取成就 ${data.name?.cns || data.name?.en || '未知成就'} (ID:${currentId})`;
+                                        output.className = 'success';
+
+                                        requestCount++;
+                                        const elapsedTime = Date.now() - startTime;
+                                        if (requestCount >= 290 && elapsedTime < 60000) {
+                                            const remainingTime = 60000 - elapsedTime;
+                                            setTimeout(fetchNext, remainingTime);
+                                            requestCount = 0;
+                                        } else {
+                                            const delay = Math.max(baseDelay, 60000 / 290);
+                                            setTimeout(fetchNext, delay);
+                                        }
+                                    })
+                                    .catch(error => {
+                                        output.textContent = `[${currentIndex}/${newIds.length}] 请求失败，ID: ${currentId}。错误信息：${error.message}`;
+                                        output.className = 'error';
+                                        console.error(`Fetch error for achievement ID ${currentId}:`, error);
+
+                                        const delay = Math.max(baseDelay, 60000 / 290);
+                                        setTimeout(fetchNext, delay);
+                                    });
+                            };
+
+                            fetchNext();
+                        })
+                        .catch(error => {
+                            output.textContent = '读取achievement_id.json失败，请检查文件路径或内容。';
+                            output.className = 'error';
+                            console.error('Fetch error:', error);
+                            updateProgress(0, 0);
+                        });
+                });
+        });
+
+
+
+        // 添加进度条更新函数
+        function updateProgress(current, total) {
+            const progressBar = document.getElementById('progressBar');
+            const progressBarFill = document.getElementById('progressBarFill');
+
+            if (total > 0) {
+                progressBar.style.display = 'block';
+                const percentage = (current / total) * 100;
+                progressBarFill.style.width = `${percentage}%`;
+            } else {
+                progressBar.style.display = 'none';
+            }
+        }
+
+    </script>
+</body>
+
+</html>

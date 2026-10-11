@@ -1,0 +1,311 @@
+===== 爆裂射手 (class 28695) 技能列表 =====
+总数: 44
+
+ID: 13228
+  名称(cns): 鹰眼
+  英文(en): Eagle Eye
+  描述(cns): 召唤你内在的鹰来增加弓的射程。
+  icon: headshot.png
+  level: 166 | passive: true | weapon: bow | element: none | combo: general
+---
+ID: 20534
+  名称(cns): 陷阱：持续伤害（熟练陷阱）
+  英文(en): Trap: DoT (Proficient Traps)
+  描述(cns): Maximum number of traps you can place increases.
+  icon: trapdot.png
+  level: 175 | passive: false | weapon: undefined | element: none | combo: general
+---
+ID: 20715
+  名称(cns): 陷阱：束缚（熟练安装）
+  英文(en): Trap: Binding (Skilled Installation)
+  描述(cns): Enemy's defense is reduced when caught in the trap.
+  icon: trapbinding.png
+  level: 175 | passive: false | weapon: undefined | element: none | combo: general
+---
+ID: 20900
+  名称(cns): 击退射击（减益）
+  英文(en): Repelling Shot (Debuff)
+  描述(cns): Reduces the target's movement speed.
+  icon: repellingshot.png
+  level: 170 | passive: false | weapon: bow | element: none | combo: general
+---
+ID: 20959
+  名称(cns): 弹幕（打击增加）
+  英文(en): Barrage (Increased Strike)
+  描述(cns): The chance to fire double arrows increases.
+  icon: barrage.png
+  level: 170 | passive: false | weapon: bow | element: none | combo: general
+---
+ID: 20984
+  名称(cns): 击退射击
+  英文(en): Repelling Shot
+  描述(cns): Leap backwards after attacking the target.
+  icon: repellingshot.png
+  level: 170 | passive: false | weapon: bow | element: none | combo: general
+---
+ID: 21087
+  名称(cns): 击退射击（长跳）
+  英文(en): Repelling Shot (Long Jump)
+  描述(cns): Increases the distance of the backward jump.
+  icon: repellingshot.png
+  level: 170 | passive: false | weapon: bow | element: none | combo: general
+---
+ID: 21182
+  名称(cns): 陷阱：爆破（熟练陷阱）
+  英文(en): Trap: Blast (Proficient Traps)
+  描述(cns): Maximum number of traps you can place increases.
+  icon: trapblast.png
+  level: 175 | passive: false | weapon: undefined | element: none | combo: general
+---
+ID: 21214
+  名称(cns): 陷阱：束缚
+  英文(en): Trap: Binding
+  描述(cns): Deploy a trap that immobilizes the target.
+  icon: trapbinding.png
+  level: 175 | passive: false | weapon: undefined | element: none | combo: general
+---
+ID: 21428
+  名称(cns): Barrage (Maintain Buff)
+  英文(en): Barrage (Maintain Buff)
+  描述(cns): Skill duration is increased.
+  icon: barrage.png
+  level: 170 | passive: false | weapon: bow | element: none | combo: general
+---
+ID: 22319
+  名称(cns): 陷阱：爆破（范围增加）
+  英文(en): Trap: Blast (Increased Range)
+  描述(cns): The activation range of the trap increases.
+  icon: trapblast.png
+  level: 175 | passive: false | weapon: undefined | element: none | combo: general
+---
+ID: 22365
+  名称(cns): 重型射击（冷却减少）
+  英文(en): Heavy Shot (Reduced Cooldown)
+  描述(cns): 技能冷却时间减少。
+  icon: heavyshot.png
+  level: 166 | passive: false | weapon: bow | element: none | combo: general
+---
+ID: 22390
+  名称(cns): 毁灭刺击（远射）
+  英文(en): Devastating Sting (Far Shot)
+  描述(cns): Deals additional damage to targets further than 5m.
+  icon: devastatingsting.png
+  level: 166 | passive: false | weapon: bow | element: none | combo: general
+---
+ID: 22643
+  名称(cns): 神鹰俯冲（冷却减少）
+  英文(en): Condor Dive (Reduced Cooldown)
+  描述(cns): 技能冷却时间减少。
+  icon: condordive.png
+  level: 166 | passive: false | weapon: bow | element: none | combo: general
+---
+ID: 22648
+  名称(cns): 毁灭刺击（队伍增益）
+  英文(en): Devastating Sting (Party Buff)
+  描述(cns): Buff applies to party members within range, excluding yourself.
+  icon: devastatingsting.png
+  level: 166 | passive: false | weapon: bow | element: none | combo: general
+---
+ID: 22653
+  名称(cns): 陷阱：爆破
+  英文(en): Trap: Blast
+  描述(cns): Deploy a trap that pushes the target away.
+  icon: trapblast.png
+  level: 175 | passive: false | weapon: undefined | element: none | combo: general
+---
+ID: 22741
+  名称(cns): 陷阱：减益（冷却减少）
+  英文(en): Trap: Debuff (Reduced Cooldown)
+  描述(cns): 技能冷却时间减少。
+  icon: trapdebuff.png
+  level: 175 | passive: false | weapon: undefined | element: none | combo: general
+---
+ID: 23150
+  名称(cns): 陷阱：持续伤害（冷却减少）
+  英文(en): Trap: DoT (Reduced Cooldown)
+  描述(cns): 技能冷却时间减少。
+  icon: trapdot.png
+  level: 175 | passive: false | weapon: undefined | element: none | combo: general
+---
+ID: 23954
+  名称(cns): Trap: Binding (Increased Range)
+  英文(en): Trap: Binding (Increased Range)
+  描述(cns): The activation range of the trap increases.
+  icon: trapbinding.png
+  level: 175 | passive: false | weapon: undefined | element: none | combo: general
+---
+ID: 23957
+  名称(cns): Trap: DoT (Increased Range)
+  英文(en): Trap: DoT (Increased Range)
+  描述(cns): Range of the trap increases.
+  icon: trapdot.png
+  level: 175 | passive: false | weapon: undefined | element: none | combo: general
+---
+ID: 24175
+  名称(cns): Trap: AoE
+  英文(en): Trap: AoE
+  描述(cns): Deploy a trap that deals damage in the designated area.
+  icon: trapaoe.png
+  level: 175 | passive: false | weapon: undefined | element: none | combo: general
+---
+ID: 24411
+  名称(cns): Trap: AoE (Proficient Traps)
+  英文(en): Trap: AoE (Proficient Traps)
+  描述(cns): Maximum number of traps you can place increases.
+  icon: trapaoe.png
+  level: 175 | passive: false | weapon: undefined | element: none | combo: general
+---
+ID: 24565
+  名称(cns): Condor Dive (Slowing)
+  英文(en): Condor Dive (Slowing)
+  描述(cns): The movement speed of all enemies hit by the skill is reduced.
+  icon: condordive.png
+  level: 166 | passive: false | weapon: bow | element: none | combo: general
+---
+ID: 24621
+  名称(cns): Trap: Debuff (Crowd Controller)
+  英文(en): Trap: Debuff (Crowd Controller)
+  描述(cns): Chance of getting status effects increases.
+  icon: trapdebuff.png
+  level: 175 | passive: false | weapon: undefined | element: none | combo: general
+---
+ID: 25260
+  名称(cns): Devastating Sting (Nearby Shot)
+  英文(en): Devastating Sting (Nearby Shot)
+  描述(cns): Deals additional damage to targets within 3m.
+  icon: devastatingsting.png
+  level: 166 | passive: false | weapon: bow | element: none | combo: general
+---
+ID: 25814
+  名称(cns): Advanced Trap
+  英文(en): Advanced Trap
+  描述(cns): Increases your traps’ range.
+  icon: advancedtrap.png
+  level: 175 | passive: true | weapon: bow | element: none | combo: general
+---
+ID: 26280
+  名称(cns): Trap: AoE (Reduced Cooldown)
+  英文(en): Trap: AoE (Reduced Cooldown)
+  描述(cns): 技能冷却时间减少。
+  icon: trapaoe.png
+  level: 175 | passive: false | weapon: undefined | element: none | combo: general
+---
+ID: 26300
+  名称(cns): 陷阱：减益
+  英文(en): Trap: Debuff
+  描述(cns): Deploy a trap that deals damage with a 15% chance to slow down targets.
+  icon: trapdebuff.png
+  level: 175 | passive: false | weapon: undefined | element: none | combo: general
+---
+ID: 26580
+  名称(cns): Swift Hands
+  英文(en): Swift Hands
+  描述(cns): Your action speed increases when using non-magical skills.
+  icon: farsight.png
+  level: 166 | passive: true | weapon: bow | element: none | combo: general
+---
+ID: 26987
+  名称(cns): 击退射击（冷却减少）
+  英文(en): Repelling Shot (Reduced Cooldown)
+  描述(cns): 技能冷却时间减少。
+  icon: repellingshot.png
+  level: 170 | passive: false | weapon: bow | element: none | combo: general
+---
+ID: 27116
+  名称(cns): Trap: AoE (Increased Range)
+  英文(en): Trap: AoE (Increased Range)
+  描述(cns): Skill's damage range increases.
+  icon: trapaoe.png
+  level: 175 | passive: false | weapon: undefined | element: none | combo: general
+---
+ID: 27147
+  名称(cns): Trap: DoT
+  英文(en): Trap: DoT
+  描述(cns): Deploy a trap that deals continuous damage.
+  icon: trapdot.png
+  level: 175 | passive: false | weapon: undefined | element: none | combo: general
+---
+ID: 27249
+  名称(cns): Trap: Binding (Reduced Cooldown)
+  英文(en): Trap: Binding (Reduced Cooldown)
+  描述(cns): 技能冷却时间减少。
+  icon: trapbinding.png
+  level: 175 | passive: false | weapon: undefined | element: none | combo: general
+---
+ID: 27374
+  名称(cns): 毁灭刺击
+  英文(en): Devastating Sting
+  描述(cns): Increases damage dealt by normal attacks.
+  icon: devastatingsting.png
+  level: 166 | passive: false | weapon: bow | element: none | combo: general
+---
+ID: 27559
+  名称(cns): 重型射击
+  英文(en): Heavy Shot
+  描述(cns): Knocks back the target with an arrow.
+  icon: heavyshot.png
+  level: 166 | passive: false | weapon: bow | element: none | combo: general
+---
+ID: 27780
+  名称(cns): Heavy Shot (Group Knockback)
+  英文(en): Heavy Shot (Group Knockback)
+  描述(cns): Pushes back enemies within the area along with the target.
+  icon: heavyshot.png
+  level: 166 | passive: false | weapon: bow | element: none | combo: general
+---
+ID: 27890
+  名称(cns): 神鹰俯冲
+  英文(en): Condor Dive
+  描述(cns): Unleashes an area attack within the designated range.
+  icon: condordive.png
+  level: 166 | passive: false | weapon: bow | element: none | combo: general
+---
+ID: 27897
+  名称(cns): Marked Prey
+  英文(en): Marked Prey
+  描述(cns): Normal attack critical damage increases against enemies affected by the Pit debuff from being caught in a trap.
+  icon: markedprey.png
+  level: 175 | passive: true | weapon: bow | element: none | combo: general
+---
+ID: 27979
+  名称(cns): 弹幕
+  英文(en): Barrage
+  描述(cns): Normal attacks have a chance to fire double arrows.
+  icon: barrage.png
+  level: 170 | passive: false | weapon: bow | element: none | combo: general
+---
+ID: 28409
+  名称(cns): Condor Dive (Range Extension)
+  英文(en): Condor Dive (Range Extension)
+  描述(cns): Skill range is increased.
+  icon: condordive.png
+  level: 166 | passive: false | weapon: bow | element: none | combo: general
+---
+ID: 28863
+  名称(cns): Trap: Debuff (Proficient Traps)
+  英文(en): Trap: Debuff (Proficient Traps)
+  描述(cns): Maximum number of traps you can place increases.
+  icon: trapdebuff.png
+  level: 175 | passive: false | weapon: undefined | element: none | combo: general
+---
+ID: 29035
+  名称(cns): Trap: Blast (Reduced Cooldown)
+  英文(en): Trap: Blast (Reduced Cooldown)
+  描述(cns): 技能冷却时间减少。
+  icon: trapblast.png
+  level: 175 | passive: false | weapon: undefined | element: none | combo: general
+---
+ID: 29057
+  名称(cns): Heavy Shot (Increased Knockback)
+  英文(en): Heavy Shot (Increased Knockback)
+  描述(cns): The distance over which the target is knocked back increases.
+  icon: heavyshot.png
+  level: 166 | passive: false | weapon: bow | element: none | combo: general
+---
+ID: 29063
+  名称(cns): Barrage (Reduced Cooldown)
+  英文(en): Barrage (Reduced Cooldown)
+  描述(cns): 技能冷却时间减少。
+  icon: barrage.png
+  level: 170 | passive: false | weapon: bow | element: none | combo: general
+---

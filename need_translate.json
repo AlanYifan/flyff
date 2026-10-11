@@ -1,0 +1,2632 @@
+[
+  {
+    "id": "10132",
+    "en": "Blessing from the Sky",
+    "desc": "Basic flight speed increased by 3 km/h for 5 minutes."
+  },
+  {
+    "id": "10436",
+    "en": "Field Outing",
+    "desc": "Reload the Experience Lock Gauge by 5% of the maximum."
+  },
+  {
+    "id": "10556",
+    "en": "Bleeding (From Weapon)",
+    "desc": "Damages an enemy over a period of time and reduces their attack speed."
+  },
+  {
+    "id": "10832",
+    "en": "Supercharged",
+    "desc": "Crackling energy envelops the target. Increases the Drop Chance and Experience of this monster by 10%."
+  },
+  {
+    "id": "10900",
+    "en": "Wood Cutting",
+    "desc": "Cut down trees."
+  },
+  {
+    "id": "10938",
+    "en": "Bubble's Bulwark",
+    "desc": "Bubble is a legendary god of joy and purity, and they grant this buff to players by creating a powerful shield that provides an extra layer of defense against enemy attacks."
+  },
+  {
+    "id": "11013",
+    "en": "Herb Gathering",
+    "desc": "Gathering various herbs. "
+  },
+  {
+    "id": "11284",
+    "en": "Happy Jump",
+    "desc": "Jump height increased by 50 for 10 minutes."
+  },
+  {
+    "id": "11733",
+    "en": "Cooking",
+    "desc": "Cook various foods."
+  },
+  {
+    "id": "12216",
+    "en": "Stun (From Weapon)",
+    "desc": "You are stunned and cannot move."
+  },
+  {
+    "id": "12634",
+    "en": "Yo-Yo Storm (Reduced Cooldown)",
+    "desc": "Skill cooldown is reduced."
+  },
+  {
+    "id": "13228",
+    "en": "Eagle Eye",
+    "desc": "Call upon your inherent eagle to increase bow range."
+  },
+  {
+    "id": "13540",
+    "en": "Toxic Cloud (Reduced Cooldown)",
+    "desc": "Skill cooldown is reduced."
+  },
+  {
+    "id": "13787",
+    "en": "Gust (Increased Elemental)",
+    "desc": "Damage is increased."
+  },
+  {
+    "id": "14524",
+    "en": "Aura Bomb (Aura Bomb)",
+    "desc": "Channel energy from your surroundings for a long period of time, and target it towards a selected area for great damage."
+  },
+  {
+    "id": "14534",
+    "en": "2nd Anniversary Guild's Enhancement",
+    "desc": "Donate 2nd Anniversary Tokens to your guild and upgrade this enhancement's level!"
+  },
+  {
+    "id": "14576",
+    "en": "Artifact Power",
+    "desc": "My team's artifact count adds damage to Kalgas!"
+  },
+  {
+    "id": "14733",
+    "en": "Stamina Boost",
+    "desc": "All stats increased by 5 for 10 minutes."
+  },
+  {
+    "id": "14773",
+    "en": "PlayPark's Launch Buff",
+    "desc": "Enjoy increased Experience and Drops up to Level 119!"
+  },
+  {
+    "id": "14968",
+    "en": "Poison (From Weapon)",
+    "desc": "Damages an enemy over a period of time and reduces their ability to heal."
+  },
+  {
+    "id": "15326",
+    "en": "Party Together",
+    "desc": "Party experience increased by 10% for 30 minutes. Can only be used and is only effective if both members are in the same party."
+  },
+  {
+    "id": "16077",
+    "en": "Guild's Enhancement",
+    "desc": "Donate G-Tokens to your guild and upgrade this enhancement's level!"
+  },
+  {
+    "id": "16287",
+    "en": "Aura Bomb (Range Enhancement)",
+    "desc": "Channel energy from your surroundings for a long period of time, and target it towards a selected area for great damage."
+  },
+  {
+    "id": "16421",
+    "en": "Fishing",
+    "desc": "Fishing various fish."
+  },
+  {
+    "id": "17071",
+    "en": "Incinerate (Increased Elemental)",
+    "desc": "Damage is increased."
+  },
+  {
+    "id": "17760",
+    "en": "Cheer of Love",
+    "desc": "+5% Experience, granted by your couple partner."
+  },
+  {
+    "id": "18032",
+    "en": "Smithing",
+    "desc": "Create various accessories."
+  },
+  {
+    "id": "18188",
+    "en": "Carpentry",
+    "desc": "Craft furniture and other items."
+  },
+  {
+    "id": "18268",
+    "en": "Swift Recovery",
+    "desc": "FP and MP recovery amount increased by 10% for 10 minutes."
+  },
+  {
+    "id": "18290",
+    "en": "Alchemy",
+    "desc": "Produce various potions."
+  },
+  {
+    "id": "18777",
+    "en": "Kalgas Poison",
+    "desc": "Poison spreads through your body."
+  },
+  {
+    "id": "19170",
+    "en": "Stranglethorns",
+    "desc": "Roots will explode once they hit an enemy, dealing damage to them. Explosions have a chance to knock enemies down."
+  },
+  {
+    "id": "19178",
+    "en": "Tempest Barrage",
+    "desc": "Creates a sword aura that damages nearby enemies and increases defense."
+  },
+  {
+    "id": "19249",
+    "en": "Kalgas' Dominance",
+    "desc": "Your team is being dominated! Defeat an artifact to regain power!"
+  },
+  {
+    "id": "19358",
+    "en": "Tethered",
+    "desc": "You are bound! Make some distance to break the tether!"
+  },
+  {
+    "id": "19544",
+    "en": "Shade's Swiftness",
+    "desc": "Shade is a powerful god of fear and rage, and they grant this buff to players by imbuing them with a gust of wind that enhances their reflexes and allows them to move faster."
+  },
+  {
+    "id": "19549",
+    "en": "Mining",
+    "desc": "Mine various ores and gem."
+  },
+  {
+    "id": "19586",
+    "en": "Madrigal Stroll",
+    "desc": "Movement speed increased by 5% for 10 minutes."
+  },
+  {
+    "id": "19635",
+    "en": "Iblis' Fortitude",
+    "desc": "Iblis is a revered god of apathy and neutrality, and they grant this buff to players by infusing them with a burst of life energy that increases their maximum health and allows them to withstand more damage."
+  },
+  {
+    "id": "19886",
+    "en": "Golden Luck",
+    "desc": "Drop and Penya quantity increased by 5% for 10 minutes."
+  },
+  {
+    "id": "20016",
+    "en": "Soul of Rhisis",
+    "desc": "Chant a hymn which provides nearby allies and yourself with damage reduction. While chanting, using other skills will cancel chanting. The effect of the hymn increases as you keep chanting."
+  },
+  {
+    "id": "20035",
+    "en": "Alter Ego",
+    "desc": "Become invisible and spawn a clone at your position which runs in a random direction, reflects damage, and explodes upon death."
+  },
+  {
+    "id": "20069",
+    "en": "Additional damage weaken",
+    "desc": "Damage against enemies with Weaken type debuffs is increased."
+  },
+  {
+    "id": "20095",
+    "en": "Ignite (Reduced Cooldown)",
+    "desc": "Skill cooldown is reduced."
+  },
+  {
+    "id": "20099",
+    "en": "Touch of Rhisis",
+    "desc": "Casts an aura that greatly reduces movement speed but increases nearby allies’ defense and block rate. Cannot be used with other auras at the same time. Can be re-cast to cancel."
+  },
+  {
+    "id": "20100",
+    "en": "Stigma I (Increased Stigma)",
+    "desc": "Chance to gain an extra Stigma stack."
+  },
+  {
+    "id": "20107",
+    "en": "Nen Sphere",
+    "desc": "Focus your mind to launch a damaging orb towards your target."
+  },
+  {
+    "id": "20111",
+    "en": "Forced Critical Hit",
+    "desc": "Your next auto attack is guaranteed to be a critical hit."
+  },
+  {
+    "id": "20112",
+    "en": "Concentration [Nen] (Form Enhancement)",
+    "desc": "Physical damage increases per Nen stack."
+  },
+  {
+    "id": "20123",
+    "en": "Aura Bomb (Casting Time Reduction)",
+    "desc": "Casting time is reduced, but skill damage is decreased."
+  },
+  {
+    "id": "20164",
+    "en": "Asylum DEF High Curse",
+    "desc": "The Asylum strips away your protection. Your defense drops by 5%."
+  },
+  {
+    "id": "20167",
+    "en": "Concentration [Nen]",
+    "desc": "Focus your mind to gain Nen when used. Can gain up to 10 Nen with this skill. The effects of Nen stacks are multiplied by the number of stacks you currently have."
+  },
+  {
+    "id": "20209",
+    "en": "Enlightenment (Quick Movement)",
+    "desc": "Movement speed and critical chance increases further when using the skill."
+  },
+  {
+    "id": "20211",
+    "en": "Maelstrom Strike",
+    "desc": "Attacks all nearby enemies with a chance to stun them."
+  },
+  {
+    "id": "20232",
+    "en": "EVA Storm",
+    "desc": "Become surrounded by storm clouds, periodically striking a nearby enemy with lightning. Lightning strikes always shock targets. Strikes that hit shocked targets always deal maximum damage."
+  },
+  {
+    "id": "20261",
+    "en": "Asylum Boss Incoming Curse",
+    "desc": "Your defenses falter under the Asylum's curse. Bosses deal 10% more damage to you."
+  },
+  {
+    "id": "20269",
+    "en": "Tempest Barrage (Speed Increase)",
+    "desc": "Your movement speed is also increased."
+  },
+  {
+    "id": "20288",
+    "en": "Reduced Cooldown",
+    "desc": "Grab the target, restraining both of you from moving, attacking, or using skills. \n\n[Nen Enhancement]: Allows skill usage while restraining the target."
+  },
+  {
+    "id": "20304",
+    "en": "Shadow Strike",
+    "desc": "Attacking from behind while invisible deals additional damage."
+  },
+  {
+    "id": "20319",
+    "en": "Concentration [Nen] (Aura Enhancement)",
+    "desc": "The effect of Aura skills increases per Nen stack."
+  },
+  {
+    "id": "20320",
+    "en": "Alter Ego (Dual Ego)",
+    "desc": "An additional clone is spawned."
+  },
+  {
+    "id": "20331",
+    "en": "Yo-Yo Storm (CC Attack)",
+    "desc": "Hits have a chance to immobilize enemies."
+  },
+  {
+    "id": "20360",
+    "en": "Sacrifice",
+    "desc": "Consume HP to grant a shield to party members proportional to your HP. If used while a hymn is active, the shield amount is increased by up to 15%."
+  },
+  {
+    "id": "20400",
+    "en": "Bubble's Blessing (Range Extension)",
+    "desc": "Skill range is increased."
+  },
+  {
+    "id": "20421",
+    "en": "Hexe's Lament (Aoe Range)",
+    "desc": "Skill range is increased."
+  },
+  {
+    "id": "20426",
+    "en": "Gale",
+    "desc": "Conjure a gale of wind around yourself, increasing your movement speed and hurting nearby enemies. While in gale, hits have a chance to apply Suffocate stacks. If a target reaches 5 Suffocate stacks, they are stunned, slept, or paralyzed, at random."
+  },
+  {
+    "id": "20434",
+    "en": "Aura Bomb (Reduced Cooldown)",
+    "desc": "Skill cooldown is reduced."
+  },
+  {
+    "id": "20451",
+    "en": "Aura Bomb (Casting Time Reduction)",
+    "desc": "Channel energy from your surroundings for a long period of time, and target it towards a selected area for great damage."
+  },
+  {
+    "id": "20452",
+    "en": "Toxic Fury",
+    "desc": "Inflict poison on yourself to increase your power at the cost of defense."
+  },
+  {
+    "id": "20466",
+    "en": "Hexe's Lament",
+    "desc": "Deal damage in a region around your target, with a chance to Jinx enemies hit, removing their ability to critically hit. When fully charged, the skill duration is increased, and hits more frequently."
+  },
+  {
+    "id": "20477",
+    "en": "Cross of Blood (Increased Range)",
+    "desc": "Explosion range increases."
+  },
+  {
+    "id": "20497",
+    "en": "Storm Slash (Resistance Reduction)",
+    "desc": "Reduce enemy's element resistance."
+  },
+  {
+    "id": "20514",
+    "en": "Cooldown reduction (Cooldown reduction)",
+    "desc": "Attack your target, gaining Nen stacks. \n\n[Nen Enhancement]: This skill has a chance to knock the enemy down. If used during the duration of Force Grip, you will strike multiple times."
+  },
+  {
+    "id": "20534",
+    "en": "Trap: DoT (Proficient Traps)",
+    "desc": "Maximum number of traps you can place increases."
+  },
+  {
+    "id": "20535",
+    "en": "Touch of Rhisis (Range Extension)",
+    "desc": "Skill range is increased."
+  },
+  {
+    "id": "20579",
+    "en": "Kyrie Eleison (Range Increase)",
+    "desc": "Skill range is increased."
+  },
+  {
+    "id": "20596",
+    "en": "Harlequin's Greeting",
+    "desc": "Perform a quick step, teleporting behind your target with a swift attack."
+  },
+  {
+    "id": "20621",
+    "en": "Additional damage disable",
+    "desc": "Damage against enemies with Disable type debuffs is increased."
+  },
+  {
+    "id": "20631",
+    "en": "Gale",
+    "desc": "Conjure a gale of wind around yourself, increasing your movement speed and hurting nearby enemies. While in gale, hits have a chance to apply Suffocate stacks. If a target reaches 5 Suffocate stacks, they are stunned, slept, or paralyzed, at random."
+  },
+  {
+    "id": "20634",
+    "en": "Bloody Thorn (Blood Penetration)",
+    "desc": "Give additional bleeding damage to all enemies hit by the skill."
+  },
+  {
+    "id": "20643",
+    "en": "Incinerate (Additional Burn Damage)",
+    "desc": "Extra damage when used on a burning target is increased."
+  },
+  {
+    "id": "20668",
+    "en": "Entangling Roots (Stranglethorns)",
+    "desc": "Roots will explode once they hit an enemy, dealing damage to them. Explosions have a chance to knock enemies down."
+  },
+  {
+    "id": "20672",
+    "en": "Chimera's Curse (Full charge debuff increase)",
+    "desc": "Mutation chance when fully charged is 100%."
+  },
+  {
+    "id": "20681",
+    "en": "Alter Ego (Maintain Ego)",
+    "desc": "Duration of the clone increases."
+  },
+  {
+    "id": "20698",
+    "en": "Chimera's Curse",
+    "desc": "Use Chimera's spirit to curse your target, dealing damage and mutating them into an Aibatt. While mutated, they cannot attack. When fully charged, this skill has a 30% higher chance of success."
+  },
+  {
+    "id": "20715",
+    "en": "Trap: Binding (Skilled Installation)",
+    "desc": "Enemy's defense is reduced when caught in the trap."
+  },
+  {
+    "id": "20721",
+    "en": "Aura Bomb (Reduced Cooldown)",
+    "desc": "Channel energy from your surroundings for a long period of time, and target it towards a selected area for great damage."
+  },
+  {
+    "id": "20741",
+    "en": "Enlightenment (Knuckle Power)",
+    "desc": "Knuckle damage increases further when using skill."
+  },
+  {
+    "id": "20746",
+    "en": "Blessing of the Wise",
+    "desc": "Perform a blessing to remove \"disable\" type debuffs on nearby allies."
+  },
+  {
+    "id": "20747",
+    "en": "Nen Sphere (Range Increase)",
+    "desc": "Skill range is increased."
+  },
+  {
+    "id": "20752",
+    "en": "Cimetiere's Scream (Cimetiere's Scream)",
+    "desc": "Invoke the spirit of Cimetiere for a short period on the target area, dealing damage to the vicinity with a chance to silence."
+  },
+  {
+    "id": "20762",
+    "en": "Malefic Detonation",
+    "desc": "Track the number of Disable type debuffs you apply, multiplying the bonuses given."
+  },
+  {
+    "id": "20778",
+    "en": "Last One Standing (Slow Pace)",
+    "desc": "Can move at a very slow speed when the skill is used."
+  },
+  {
+    "id": "20807",
+    "en": "Heaven's Step (Duration Increase)",
+    "desc": "Skill duration is increased."
+  },
+  {
+    "id": "20817",
+    "en": "Hexe's Lament (Debuff increase)",
+    "desc": "Probability is increased."
+  },
+  {
+    "id": "20818",
+    "en": "Toxic Fury (Reduced Cooldown)",
+    "desc": "Skill cooldown is reduced."
+  },
+  {
+    "id": "20867",
+    "en": "Stigma I (Increased Stigma)",
+    "desc": "Chance to gain an extra Stigma stack."
+  },
+  {
+    "id": "20877",
+    "en": "Asylum Attack Low Curse",
+    "desc": "The curse dulls your strength. Attack power reduced by 5% under the Asylum's shadow."
+  },
+  {
+    "id": "20878",
+    "en": "Sky Splitter (Strong Impact)",
+    "desc": "Skill damage is increased."
+  },
+  {
+    "id": "20900",
+    "en": "Repelling Shot (Debuff)",
+    "desc": "Reduces the target's movement speed."
+  },
+  {
+    "id": "20942",
+    "en": "Execution of Justice",
+    "desc": "Leap forward, knocking nearby enemies towards you and reducing their movement speed."
+  },
+  {
+    "id": "20948",
+    "en": "Lillith's Gaze (Slowing)",
+    "desc": "Slowing effect is increased."
+  },
+  {
+    "id": "20951",
+    "en": "Swampy Area (Range Enhancement)",
+    "desc": "Skill range is increased."
+  },
+  {
+    "id": "20952",
+    "en": "Speed Reduction (Nen Enhancement)",
+    "desc": "Attack your enemy using a strike. If the target is currently knocked down, you will dash forward to quickly close the gap. \n\n[Nen Enhancement]: Grants you tenacity when used."
+  },
+  {
+    "id": "20959",
+    "en": "Barrage (Increased Strike)",
+    "desc": "The chance to fire double arrows increases."
+  },
+  {
+    "id": "20984",
+    "en": "Repelling Shot",
+    "desc": "Leap backwards after attacking the target."
+  },
+  {
+    "id": "21020",
+    "en": "Stigma I",
+    "desc": "Swift piercing attack on a single target in a straight line. Applies a stack of Stigma. If used on a target with 5 Stigma stacks, the attack will piercing all enemies."
+  },
+  {
+    "id": "21025",
+    "en": "Flow of Salvation (Increased Damage)",
+    "desc": "Damage is increased."
+  },
+  {
+    "id": "21055",
+    "en": "First Blood",
+    "desc": "Deal more skill damage at the cost of extra HP cost, and restore HP when defeating bleeding enemies."
+  },
+  {
+    "id": "21087",
+    "en": "Repelling Shot (Long Jump)",
+    "desc": "Increases the distance of the backward jump."
+  },
+  {
+    "id": "21114",
+    "en": "Ice Shard",
+    "desc": "Lock yourself in ice, becoming invulnerable and deal damage to surrounding enemies. You cannot use items or skills while frozen."
+  },
+  {
+    "id": "21116",
+    "en": "Cross of Blood",
+    "desc": "Charge your blood and stomp on the ground, hurting and bleeding nearby enemies. Fully charged stomps do extra hits."
+  },
+  {
+    "id": "21167",
+    "en": "Gloria Patri (Effect Increase)",
+    "desc": "The hymn's effects are increased."
+  },
+  {
+    "id": "21182",
+    "en": "Trap: Blast (Proficient Traps)",
+    "desc": "Maximum number of traps you can place increases."
+  },
+  {
+    "id": "21190",
+    "en": "Hexe's Lament (Aoe Range)",
+    "desc": "Skill range is increased."
+  },
+  {
+    "id": "21204",
+    "en": "Storm Slash (Additional Whirlwind)",
+    "desc": "Create one more whirlwind."
+  },
+  {
+    "id": "21214",
+    "en": "Trap: Binding",
+    "desc": "Deploy a trap that immobilizes the target."
+  },
+  {
+    "id": "21223",
+    "en": "Soul of Rhisis (Effect Increase)",
+    "desc": "The hymn's effects are increased."
+  },
+  {
+    "id": "21243",
+    "en": "Ignite",
+    "desc": "Ignite your target, dealing damage and burning them. If used on a burning target, the damage is reduced but the target is stunned. Burned enemies also hurt nearby enemies, but do not burn them."
+  },
+  {
+    "id": "21271",
+    "en": "Cross of Blood (Cross of Blood)",
+    "desc": "Charge your blood and stomp on the ground, hurting and bleeding nearby enemies. Fully charged stomps do extra hits."
+  },
+  {
+    "id": "21291",
+    "en": "Stormveil Cloak",
+    "desc": "The damage you take from enemies with Suffocate stacks is decreased."
+  },
+  {
+    "id": "21293",
+    "en": "Nen Mastery (Nen Mastery)",
+    "desc": "Attack your enemy using a strike. If the target is currently knocked down, you will dash forward to quickly close the gap. \n\n[Nen Enhancement]: Grants you tenacity when used."
+  },
+  {
+    "id": "21334",
+    "en": "Cross of Blood (Increased Range)",
+    "desc": "Explosion range increases."
+  },
+  {
+    "id": "21405",
+    "en": "Harlequin's Greeting (Range Increase)",
+    "desc": "Skill range is increased."
+  },
+  {
+    "id": "21415",
+    "en": "Nen Overflow",
+    "desc": "Unleash all your Nen to enter overflow. While in Nen overflow, certain skills Nen Enhancement variations will be used. Nen cannot be gained while in Nen overflow."
+  },
+  {
+    "id": "21416",
+    "en": "Ice Shard (Increased Elemental)",
+    "desc": "Damage is increased."
+  },
+  {
+    "id": "21428",
+    "en": "Barrage (Maintain Buff)",
+    "desc": "Skill duration is increased."
+  },
+  {
+    "id": "21434",
+    "en": "Hammer of Judgement",
+    "desc": "Summon a hammer from the skies, leaving a damaging area behind."
+  },
+  {
+    "id": "21438",
+    "en": "Diamond Body",
+    "desc": "Grab the target, restraining both of you from moving, attacking, or using skills. \n\n[Nen Enhancement]: Allows skill usage while restraining the target."
+  },
+  {
+    "id": "21454",
+    "en": "Stigma III (Increased Stigma)",
+    "desc": "Chance to gain an extra Stigma stack."
+  },
+  {
+    "id": "21474",
+    "en": "Power Palm (Power Palm)",
+    "desc": "Attack your target, gaining Nen stacks. \n\n[Nen Enhancement]: This skill has a chance to knock the enemy down. If used during the duration of Force Grip, you will strike multiple times."
+  },
+  {
+    "id": "21484",
+    "en": "Shield Crush (Quick Stun)",
+    "desc": "Skill cooldown is reduced."
+  },
+  {
+    "id": "21565",
+    "en": "Earthen Fortitude",
+    "desc": "When enemies are petrified from Entangling Roots, your defense and melee block rate are increased."
+  },
+  {
+    "id": "21596",
+    "en": "Infusion (Intelligent Scaling)",
+    "desc": "Skill scales with INT instead of STA."
+  },
+  {
+    "id": "21625",
+    "en": "Reduced Cooldown (Reduced Cooldown)",
+    "desc": "Attack a single target with a chance to knock them down. \n\n[Nen Enhancement]: Increase your block rate when used."
+  },
+  {
+    "id": "21626",
+    "en": "Storm Strike (Speed Decrease)",
+    "desc": "Successful follow up hit reduces the target's movement speed."
+  },
+  {
+    "id": "21653",
+    "en": "Nen Sphere (Nen Mastery)",
+    "desc": "Using the skill may not consume Nen."
+  },
+  {
+    "id": "21723",
+    "en": "Special Yo-Yo Mastery (Multistrike)",
+    "desc": "Multistrike chance increases, but Yo-Yo range decreases."
+  },
+  {
+    "id": "21727",
+    "en": "Voltguard",
+    "desc": "The damage you take from Shocked enemies is decreased."
+  },
+  {
+    "id": "21733",
+    "en": "Hammer of Judgement (Justice Hammer)",
+    "desc": "Has a chance to stun enemies."
+  },
+  {
+    "id": "21757",
+    "en": "Aether Rend (Improved Scaling)",
+    "desc": "Skill damage scaling is improved, but cooldown is increased."
+  },
+  {
+    "id": "21762",
+    "en": "Enlightenment",
+    "desc": "Increases knuckle damage."
+  },
+  {
+    "id": "21777",
+    "en": "Marked Attack",
+    "desc": "Normal attacks leave a mark. Hitting the same enemy 5 times deals bonus damage and grants 1 Nen stack."
+  },
+  {
+    "id": "21779",
+    "en": "Damnation Surge (Increased Duration)",
+    "desc": "Skill duration is increased."
+  },
+  {
+    "id": "21785",
+    "en": "Power Palm",
+    "desc": "Attack your target, gaining Nen stacks. \n\n[Nen Enhancement]: This skill has a chance to knock the enemy down. If used during the duration of Force Grip, you will strike multiple times."
+  },
+  {
+    "id": "21787",
+    "en": "Storm Slash",
+    "desc": "Conjure up a whirlwind in front of you."
+  },
+  {
+    "id": "21790",
+    "en": "Nen Acquisition",
+    "desc": "Increases your chance to gain an additional Nen stack when using Concentration."
+  },
+  {
+    "id": "21848",
+    "en": "Last One Standing",
+    "desc": "Reflects damage while draining HP per second and immobilizing yourself. Can be re-cast to cancel."
+  },
+  {
+    "id": "21904",
+    "en": "Rush Attack",
+    "desc": "Quickly charge at your target to attack."
+  },
+  {
+    "id": "21957",
+    "en": "Aether Rend (Increased Damage)",
+    "desc": "Base damage is increased, but scaling is reduced."
+  },
+  {
+    "id": "21959",
+    "en": "Stigma III (Increased Stigma)",
+    "desc": "Chance to gain an extra Stigma stack."
+  },
+  {
+    "id": "21978",
+    "en": "Aura Bomb (Range Enhancement)",
+    "desc": "Skill range is increased."
+  },
+  {
+    "id": "22033",
+    "en": "Range Extension (Bubble's Blessing)",
+    "desc": "Casts an aura that greatly reduces the caster's movement speed while increasing allies’ magic attack, critical damage, and attack. Cannot be used with other auras at the same time."
+  },
+  {
+    "id": "22037",
+    "en": "Chimera's Curse (Full charge duration increase)",
+    "desc": "Skill duration when fully charged is increased."
+  },
+  {
+    "id": "22039",
+    "en": "Enhanced Physical Defense",
+    "desc": "Increases defense when HP is low."
+  },
+  {
+    "id": "22056",
+    "en": "Asylum Elemental Low Curse",
+    "desc": "Elemental energy slips from your grasp. All elemental damage is reduced by 5%."
+  },
+  {
+    "id": "22075",
+    "en": "Storm Strike (Fall Over)",
+    "desc": "Increases the chance to knock down enemies."
+  },
+  {
+    "id": "22087",
+    "en": "Stigma I (Increased Range)",
+    "desc": "Skill range is increased."
+  },
+  {
+    "id": "22094",
+    "en": "Effect Increase",
+    "desc": "null"
+  },
+  {
+    "id": "22106",
+    "en": "Sacrifice (Meaning of Sacrifice)",
+    "desc": "Consume more of your health to grant more shields to allies."
+  },
+  {
+    "id": "22118",
+    "en": "Nen Overflow (Increased Duration)",
+    "desc": "Skill duration is increased."
+  },
+  {
+    "id": "22129",
+    "en": "Damnation Surge (Increased Effect)",
+    "desc": "Maximum number of stacks is increased to 8 at maximum level."
+  },
+  {
+    "id": "22131",
+    "en": "Ire of Iblis (Duration Increase)",
+    "desc": "Skill duration is increased."
+  },
+  {
+    "id": "22133",
+    "en": "Force Grip",
+    "desc": "Grab the target, restraining both of you from moving, attacking, or using skills. \n\n[Nen Enhancement]: Allows skill usage while restraining the target."
+  },
+  {
+    "id": "22173",
+    "en": "Yo-Yo Storm (Extended Range)",
+    "desc": "Skill range is increased."
+  },
+  {
+    "id": "22195",
+    "en": "Damnation Surge (Cooldown reduction)",
+    "desc": "Skill cooldown is reduced."
+  },
+  {
+    "id": "22208",
+    "en": "Earth Counter",
+    "desc": "Increases your wind mastery."
+  },
+  {
+    "id": "22215",
+    "en": "Hymn - Liberation",
+    "desc": "Allow other hymn skills to be chanted at the same time."
+  },
+  {
+    "id": "22275",
+    "en": "Touch of Rhisis (Increased Effect)",
+    "desc": "Skill scaling is improved."
+  },
+  {
+    "id": "22306",
+    "en": "Asylum HP High Curse",
+    "desc": "The Asylum drains your life force. You suffer a 10% reduction in max HP."
+  },
+  {
+    "id": "22312",
+    "en": "Tidal Omen (Increased Elemental)",
+    "desc": "Damage is increased."
+  },
+  {
+    "id": "22316",
+    "en": "Alter Ego",
+    "desc": "Become invisible and spawn a clone at your position which runs in a random direction, reflects damage, and explodes upon death."
+  },
+  {
+    "id": "22319",
+    "en": "Trap: Blast (Increased Range)",
+    "desc": "The activation range of the trap increases."
+  },
+  {
+    "id": "22321",
+    "en": "Risk Management",
+    "desc": "Becoming invisible has a chance to remove your own poison."
+  },
+  {
+    "id": "22332",
+    "en": "Force Grip",
+    "desc": "Grab the target, restraining both of you from moving, attacking, or using skills. \n\n[Nen Enhancement]: Allows skill usage while restraining the target."
+  },
+  {
+    "id": "22336",
+    "en": "Heaven's Step",
+    "desc": "null"
+  },
+  {
+    "id": "22365",
+    "en": "Heavy Shot (Reduced Cooldown)",
+    "desc": "Skill cooldown is reduced."
+  },
+  {
+    "id": "22382",
+    "en": "Stigma II (Increased Range)",
+    "desc": "Skill range is increased."
+  },
+  {
+    "id": "22387",
+    "en": "Increased HP Regeneration",
+    "desc": "Increases the amount of natural HP recovery."
+  },
+  {
+    "id": "22390",
+    "en": "Devastating Sting (Far Shot)",
+    "desc": "Deals additional damage to targets further than 5m."
+  },
+  {
+    "id": "22393",
+    "en": "Bloody Thorn (Increased Range)",
+    "desc": "Explosion range increases."
+  },
+  {
+    "id": "22401",
+    "en": "Special Yo-Yo Mastery",
+    "desc": "Increases auto attack damage, multistrike chance, and Yo-Yo range when used."
+  },
+  {
+    "id": "22460",
+    "en": "Cimetiere's Scream (Reduced Cooldown)",
+    "desc": "Skill cooldown is reduced."
+  },
+  {
+    "id": "22464",
+    "en": "Bubble's Fortune",
+    "desc": "Madrigal's most fortunate guide you!"
+  },
+  {
+    "id": "22526",
+    "en": "Infusion (Reduced Penalty)",
+    "desc": "Attack penalty is reduced."
+  },
+  {
+    "id": "22540",
+    "en": "Asylum DEF High Bless",
+    "desc": "The Asylum shields you from harm! Your defense rises by 5% under its eerie protection."
+  },
+  {
+    "id": "22548",
+    "en": "Templar's Call",
+    "desc": "Pull your target towards yourself."
+  },
+  {
+    "id": "22586",
+    "en": "Staggering Strike (Increased Knockdown Chance)",
+    "desc": "Chance to knock down the target increases."
+  },
+  {
+    "id": "22618",
+    "en": "Maelstrom Strike (Quick Stun)",
+    "desc": "Skill cooldown is reduced."
+  },
+  {
+    "id": "22629",
+    "en": "Aether Rend (Reduced Cooldown)",
+    "desc": "Skill cooldown is reduced."
+  },
+  {
+    "id": "22643",
+    "en": "Condor Dive (Reduced Cooldown)",
+    "desc": "Skill cooldown is reduced."
+  },
+  {
+    "id": "22648",
+    "en": "Devastating Sting (Party Buff)",
+    "desc": "Buff applies to party members within range, excluding yourself."
+  },
+  {
+    "id": "22653",
+    "en": "Trap: Blast",
+    "desc": "Deploy a trap that pushes the target away."
+  },
+  {
+    "id": "22665",
+    "en": "Rush Attack (Ankle Strike)",
+    "desc": "Movement speed is reduced."
+  },
+  {
+    "id": "22697",
+    "en": "Stigma III (Reduced Cooldown)",
+    "desc": "Skill cooldown is reduced."
+  },
+  {
+    "id": "22706",
+    "en": "Incinerate",
+    "desc": "Incinerate your target, dealing damage and burning them. If used on a burning target, they take extra damage. Burned enemies also hurt nearby enemies, but do not burn them."
+  },
+  {
+    "id": "22741",
+    "en": "Trap: Debuff (Reduced Cooldown)",
+    "desc": "Skill cooldown is reduced."
+  },
+  {
+    "id": "22750",
+    "en": "Nen Overflow (MP Retention)",
+    "desc": "Skill damage is increased."
+  },
+  {
+    "id": "22764",
+    "en": "Enhanced Blinkpool",
+    "desc": "Movement speed is temporarily increased after using Blinkpool."
+  },
+  {
+    "id": "22768",
+    "en": "Lillith's Gaze",
+    "desc": "Gaze upon your target, slowing them down and forcing them to move towards you."
+  },
+  {
+    "id": "22793",
+    "en": "Chimera's Curse (Full charge debuff increase)",
+    "desc": "Mutation chance when fully charged is 100%."
+  },
+  {
+    "id": "22799",
+    "en": "Initiating Strike (Initiating Strike)",
+    "desc": "Attack your enemy using a strike. If the target is currently knocked down, you will dash forward to quickly close the gap. \n\n[Nen Enhancement]: Grants you tenacity when used."
+  },
+  {
+    "id": "22829",
+    "en": "Stigma I (Stigma I)",
+    "desc": "Swift piercing attack on a single target in a straight line. Applies a stack of Stigma. If used on a target with 5 Stigma stacks, the attack will piercing all enemies."
+  },
+  {
+    "id": "22832",
+    "en": "Cimetiere's Scream (Debuff Chance)",
+    "desc": "Silence chance is increased."
+  },
+  {
+    "id": "22839",
+    "en": "Critical Stab (Increased Damage)",
+    "desc": "Increase the trade-off of stats."
+  },
+  {
+    "id": "22866",
+    "en": "Maelstrom Strike (Enhance Stun)",
+    "desc": "The chance to stun increases."
+  },
+  {
+    "id": "22921",
+    "en": "Heaven's Step",
+    "desc": "null"
+  },
+  {
+    "id": "22922",
+    "en": "Asylum Boss DMG Low Curse",
+    "desc": "The Asylum twists your strikes. Damage dealt to bosses is reduced by 5%."
+  },
+  {
+    "id": "23021",
+    "en": "Gale (Increased Duration)",
+    "desc": "Skill duration is increased."
+  },
+  {
+    "id": "23026",
+    "en": "Divinecross (Increased Duration)",
+    "desc": "Skill duration is increased."
+  },
+  {
+    "id": "23038",
+    "en": "Lillith's Gaze (Slowing)",
+    "desc": "Slowing effect is increased."
+  },
+  {
+    "id": "23043",
+    "en": "Asylum Speed High Curse",
+    "desc": "The Asylum binds your limbs in dread. Speed is reduced by 10%."
+  },
+  {
+    "id": "23051",
+    "en": "Ignite (Increased Spread Damage)",
+    "desc": "Damage reduction when used on a burning target is reduced."
+  },
+  {
+    "id": "23059",
+    "en": "Reduced Cooldown (Reduced Cooldown)",
+    "desc": "Skill cooldown is reduced."
+  },
+  {
+    "id": "23074",
+    "en": "Zephyr's Grace",
+    "desc": "Gain shields when you use Gale or Gust."
+  },
+  {
+    "id": "23087",
+    "en": "Asylum Boss Incoming Curse",
+    "desc": "The Asylum exposes your weaknesses. Damage received from bosses is increased by 5%."
+  },
+  {
+    "id": "23144",
+    "en": "Harlequin's Greeting (CC Attack)",
+    "desc": "Chance to stun when used while invisible."
+  },
+  {
+    "id": "23150",
+    "en": "Trap: DoT (Reduced Cooldown)",
+    "desc": "Skill cooldown is reduced."
+  },
+  {
+    "id": "23153",
+    "en": "Hexe's Lament (Hexe's Lament)",
+    "desc": "Deal damage in a region around your target, with a chance to Jinx enemies hit, removing their ability to critically hit. When fully charged, the skill duration is increased, and hits more frequently."
+  },
+  {
+    "id": "23176",
+    "en": "Incinerate (Reduced Cooldown)",
+    "desc": "Skill cooldown is reduced."
+  },
+  {
+    "id": "23202",
+    "en": "Cimetiere's Scream (Reduced Cooldown)",
+    "desc": "Skill cooldown is reduced."
+  },
+  {
+    "id": "23204",
+    "en": "Lillith's Gaze (Sure Gaze)",
+    "desc": "Probability is increased."
+  },
+  {
+    "id": "23212",
+    "en": "Force Grip",
+    "desc": "Grab the target, restraining both of you from moving, attacking, or using skills. \n\n[Nen Enhancement]: Allows skill usage while restraining the target."
+  },
+  {
+    "id": "23231",
+    "en": "Aura Bomb",
+    "desc": "Channel energy from your surroundings for a long period of time, and target it towards a selected area for great damage."
+  },
+  {
+    "id": "23237",
+    "en": "Lillith's Gaze (Reduced Cooldown)",
+    "desc": "Skill cooldown is reduced."
+  },
+  {
+    "id": "23268",
+    "en": "Ignite (Increased Elemental)",
+    "desc": "Damage is increased."
+  },
+  {
+    "id": "23344",
+    "en": "Leg Attack (Leg Attack)",
+    "desc": "Attack a single target with a chance to knock them down. \n\n[Nen Enhancement]: Increase your block rate when used."
+  },
+  {
+    "id": "23362",
+    "en": "Asylum Speed Low Bless",
+    "desc": "A blessing from beyond: +5% speed granted under Asylum’s watchful eye."
+  },
+  {
+    "id": "23379",
+    "en": "Asylum Boss DMG High Curse",
+    "desc": "Your blows grow weaker against the mighty. Boss damage drops by 10% under the curse."
+  },
+  {
+    "id": "23428",
+    "en": "Bloody Thorn (Bloody Thorn)",
+    "desc": "Knocks back and causes bleeding with an explosion. Charging increases range."
+  },
+  {
+    "id": "23447",
+    "en": "Gale (Increased Suffocate Chance)",
+    "desc": "Suffocate stack chance is increased."
+  },
+  {
+    "id": "23460",
+    "en": "Force Grip (Reduced Cooldown)",
+    "desc": "Skill cooldown is reduced."
+  },
+  {
+    "id": "23475",
+    "en": "Celestial Barrier (Duration Increase)",
+    "desc": "Skill duration is increased."
+  },
+  {
+    "id": "23493",
+    "en": "Gale (Increased Elemental)",
+    "desc": "Damage is increased."
+  },
+  {
+    "id": "23505",
+    "en": "Swampy Area",
+    "desc": "Create a swamp at the selected area, slowing movement speed and dealing damage. Enemies in the swamp cannot use movement skills."
+  },
+  {
+    "id": "23507",
+    "en": "Range Extension (Bubble's Blessing)",
+    "desc": "Casts an aura that reduces the caster's movement speed while increasing allies’ magic attack and critical damage."
+  },
+  {
+    "id": "23522",
+    "en": "Aether Rend",
+    "desc": "Remove a number of Disable and Weaken debuffs from your target up to the number of Malefic Detonation and Damnation Surge stacks available. This skill consumes all stacks of both skills. The damage of this skill scales with Debuff and Weaken effect on you."
+  },
+  {
+    "id": "23553",
+    "en": "Gloria Patri (Range Increase)",
+    "desc": "Skill range is increased."
+  },
+  {
+    "id": "23562",
+    "en": "Increased Healing (Increased Healing)",
+    "desc": "Healing is increased."
+  },
+  {
+    "id": "23594",
+    "en": "Flow of Salvation (Flow of Salvation)",
+    "desc": "Breath the flow of salvation into your target, healing them and flowing to nearby targets if they are allies, or dealing damage otherwise."
+  },
+  {
+    "id": "23695",
+    "en": "Staggering Strike",
+    "desc": "Attack a single target with a chance to knock them down. \n\n[Nen Enhancement]: Increase your block rate when used."
+  },
+  {
+    "id": "23702",
+    "en": "Stigma II (Stigma II)",
+    "desc": "Launch a chain of blades towards your target which binds onto them, spinning and attacking enemies around them, then chaining to another nearby target. Has a chance to apply a stack of Stigma. If used on a target with 5 stacks, will steal HP through hits."
+  },
+  {
+    "id": "23731",
+    "en": "Shield Crush",
+    "desc": "Swing your shield to stun enemies with a certain chance."
+  },
+  {
+    "id": "23738",
+    "en": "Asylum Elemental High Bless",
+    "desc": "The Asylum grants you a 10% boost to all elemental damage types."
+  },
+  {
+    "id": "23754",
+    "en": "Diamond Body",
+    "desc": "Grab the target, restraining both of you from moving, attacking, or using skills. \n\n[Nen Enhancement]: Allows skill usage while restraining the target."
+  },
+  {
+    "id": "23825",
+    "en": "Asylum All Stats High Curse",
+    "desc": "The Asylum crushes your essence. All base stats are reduced by 10."
+  },
+  {
+    "id": "23832",
+    "en": "Templar's Call (Ankle Slice)",
+    "desc": "Bind the pulled target."
+  },
+  {
+    "id": "23837",
+    "en": "Heaven's Step (Effect Increase)",
+    "desc": "The hymn's effects are increased."
+  },
+  {
+    "id": "23850",
+    "en": "Blaze Eater",
+    "desc": "The damage you take from burning enemies is decreased."
+  },
+  {
+    "id": "23855",
+    "en": "Storm Strike (Fatal Strike)",
+    "desc": "Successful follow-up hits increased damage is increased further."
+  },
+  {
+    "id": "23896",
+    "en": "Four Strikes",
+    "desc": "Your auto attacks apply stacks, which pop at 4 stacks to deal extra damage."
+  },
+  {
+    "id": "23897",
+    "en": "Toxic Assault (Increased Toxins)",
+    "desc": "Skill cooldown increases, but the effect of poison increases."
+  },
+  {
+    "id": "23925",
+    "en": "Asylum Attack Low Bless",
+    "desc": "The Asylum sharpens your resolve as your attack power increases by 5% with otherworldly force."
+  },
+  {
+    "id": "23954",
+    "en": "Trap: Binding (Increased Range)",
+    "desc": "The activation range of the trap increases."
+  },
+  {
+    "id": "23957",
+    "en": "Trap: DoT (Increased Range)",
+    "desc": "Range of the trap increases."
+  },
+  {
+    "id": "23968",
+    "en": "Celestial Barrier",
+    "desc": "Chant a hymn which provides nearby allies and yourself with elemental resistance. While chanting, using other skills will cancel chanting. The effect of the hymn increases as you keep chanting."
+  },
+  {
+    "id": "24001",
+    "en": "Ire of Iblis (Increased Effect)",
+    "desc": "Skill scaling is improved."
+  },
+  {
+    "id": "24005",
+    "en": "Stone Pillar (Increased Explosion Range)",
+    "desc": "Skill range is increased."
+  },
+  {
+    "id": "24019",
+    "en": "Gust (Increased Duration)",
+    "desc": "Skill duration is increased."
+  },
+  {
+    "id": "24020",
+    "en": "Cross of Blood (Knockback)",
+    "desc": "Knock back the enemy hit by the explosion."
+  },
+  {
+    "id": "24036",
+    "en": "Flow of Salvation",
+    "desc": "Breath the flow of salvation into your target, healing them and flowing to nearby targets if they are allies, or dealing damage otherwise."
+  },
+  {
+    "id": "24046",
+    "en": "Staggering Strike (Reduced Cooldown)",
+    "desc": "Skill cooldown is reduced."
+  },
+  {
+    "id": "24047",
+    "en": "Touch of Rhisis (Touch of Rhisis)",
+    "desc": "Casts an aura that reduces movement speed but increases allies’ defense and block rate."
+  },
+  {
+    "id": "24072",
+    "en": "Kyrie Eleison (Duration Increase)",
+    "desc": "Skill duration is increased."
+  },
+  {
+    "id": "24074",
+    "en": "Soul of Rhisis (Duration Increase)",
+    "desc": "Skill duration is increased."
+  },
+  {
+    "id": "24083",
+    "en": "Stigma II (Increased Lifesteal)",
+    "desc": "Health stolen in enhanced effect is increased by 10%."
+  },
+  {
+    "id": "24113",
+    "en": "Power Palm (Nen Mastery)",
+    "desc": "Has a chance to grant additional Nen stacks."
+  },
+  {
+    "id": "24116",
+    "en": "Tidal Omen",
+    "desc": "Freeze your target in a water bubble, stealing health from them."
+  },
+  {
+    "id": "24172",
+    "en": "Asylum Boss Incoming Bless",
+    "desc": "The Asylum veils you in shadow. Damage taken from bosses is reduced by 5%."
+  },
+  {
+    "id": "24175",
+    "en": "Trap: AoE",
+    "desc": "Deploy a trap that deals damage in the designated area."
+  },
+  {
+    "id": "24192",
+    "en": "Nen Storage",
+    "desc": "Nen-consuming skills may consume only half the required stacks."
+  },
+  {
+    "id": "24196",
+    "en": "Stigma II (Increased Lifesteal)",
+    "desc": "Health stolen in enhanced effect is increased by 10%."
+  },
+  {
+    "id": "24203",
+    "en": "Hellfire",
+    "desc": "A blast of hellfire shoots in front of you, dealing tick damage while burning enemies in the line of fire."
+  },
+  {
+    "id": "24216",
+    "en": "Power Palm (Cooldown reduction)",
+    "desc": "Skill cooldown is reduced."
+  },
+  {
+    "id": "24239",
+    "en": "Power Palm (Power Palm)",
+    "desc": "Attack your target, gaining Nen stacks. \n\n[Nen Enhancement]: This skill has a chance to knock the enemy down. If used during the duration of Force Grip, you will strike multiple times."
+  },
+  {
+    "id": "24369",
+    "en": "Asylum Elemental High Curse",
+    "desc": "The Asylum disrupts your connection to the elements. Your elemental power drops by 10%."
+  },
+  {
+    "id": "24384",
+    "en": "Clear Reflection",
+    "desc": "When Nen charge reaches 20, your critical hits will be more lucky, always dealing maximum damage at maximum level."
+  },
+  {
+    "id": "24395",
+    "en": "Meditate (Deep Meditation)",
+    "desc": "Skill duration is increased."
+  },
+  {
+    "id": "24408",
+    "en": "Speed Increase",
+    "desc": "Your movement speed is also increased."
+  },
+  {
+    "id": "24411",
+    "en": "Trap: AoE (Proficient Traps)",
+    "desc": "Maximum number of traps you can place increases."
+  },
+  {
+    "id": "24412",
+    "en": "Kyrie Eleison",
+    "desc": "null"
+  },
+  {
+    "id": "24436",
+    "en": "Touch of Rhisis (Duration Increase)",
+    "desc": "Skill duration is increased."
+  },
+  {
+    "id": "24466",
+    "en": "Harlequin's Charge",
+    "desc": "Gather strength to perform a powerful charging attack against a single enemy."
+  },
+  {
+    "id": "24475",
+    "en": "Lillith's Gaze (Reduced Cooldown)",
+    "desc": "Skill cooldown is reduced."
+  },
+  {
+    "id": "24487",
+    "en": "Pit",
+    "desc": "You have stepped on a trap."
+  },
+  {
+    "id": "24555",
+    "en": "Harlequin's Greeting (Shadow Attack)",
+    "desc": "If used while invisible, subsequent normal attacks will always be critical hits, and the skill's cooldown will be reduced."
+  },
+  {
+    "id": "24565",
+    "en": "Condor Dive (Slowing)",
+    "desc": "The movement speed of all enemies hit by the skill is reduced."
+  },
+  {
+    "id": "24621",
+    "en": "Trap: Debuff (Crowd Controller)",
+    "desc": "Chance of getting status effects increases."
+  },
+  {
+    "id": "24624",
+    "en": "Hammer of Judgement (Increased Range)",
+    "desc": "Skill range is increased."
+  },
+  {
+    "id": "24641",
+    "en": "Toxic Cloud (Gas Cloud)",
+    "desc": "In addition to poison damage, the cloud may blind targets, reducing their hit rate."
+  },
+  {
+    "id": "24646",
+    "en": "Stigma II (Increased Lifesteal)",
+    "desc": "Health stolen in enhanced effect is increased by 10%."
+  },
+  {
+    "id": "24716",
+    "en": "Petrify",
+    "desc": "You are immobilized, physical damage taken is reduced, while magical damage taken is increased."
+  },
+  {
+    "id": "24725",
+    "en": "Toxic Analogy",
+    "desc": "Reduces damage taken from poisoned enemies."
+  },
+  {
+    "id": "24726",
+    "en": "Lillith's Gaze (Lillith's Gaze)",
+    "desc": "Gaze upon your target, slowing them down and forcing them to move towards you."
+  },
+  {
+    "id": "24731",
+    "en": "Rush Attack (Deep Impact)",
+    "desc": "Has a chance to stun enemies."
+  },
+  {
+    "id": "24751",
+    "en": "Soul of Rhisis",
+    "desc": "null"
+  },
+  {
+    "id": "24760",
+    "en": "Asylum DEF Low Curse",
+    "desc": "Your defense falters under the weight of the Asylum's curse. It is reduced by 2%."
+  },
+  {
+    "id": "24815",
+    "en": "Diamond Body (Diamond Body)",
+    "desc": "Grab the target, restraining both of you from moving, attacking, or using skills. \n\n[Nen Enhancement]: Allows skill usage while restraining the target."
+  },
+  {
+    "id": "24848",
+    "en": "Meditate (Nen Mastery)",
+    "desc": "You can move slowly while using the skill."
+  },
+  {
+    "id": "24896",
+    "en": "Ire of Iblis (Range Extension)",
+    "desc": "Skill range is increased."
+  },
+  {
+    "id": "24912",
+    "en": "Asylum Attack High Curse",
+    "desc": "The Asylum saps your aggression. Attack power falls by 10%."
+  },
+  {
+    "id": "24926",
+    "en": "Alter Ego (Reduced Cooldown)",
+    "desc": "Skill cooldown is reduced."
+  },
+  {
+    "id": "24928",
+    "en": "Asylum All Stats Low Bless",
+    "desc": "The Asylum grants unnatural harmony. Your base stats increase by 10 as if guided by unseen forces."
+  },
+  {
+    "id": "24941",
+    "en": "Cross of Blood (Knockback)",
+    "desc": "Knock back the enemy hit by the explosion."
+  },
+  {
+    "id": "24968",
+    "en": "Stigma II (Increased Range)",
+    "desc": "Skill range is increased."
+  },
+  {
+    "id": "25024",
+    "en": "Malefic Detonation (Increased Effect)",
+    "desc": "Maximum number of stacks is increased to 8 at maximum level."
+  },
+  {
+    "id": "25046",
+    "en": "Gust",
+    "desc": "Spawn a gust of wind that pushes back nearby enemies, increases magic resistance, and ranged block chance."
+  },
+  {
+    "id": "25078",
+    "en": "Toxic Fury",
+    "desc": "Inflict poison on yourself to increase your power at the cost of defense."
+  },
+  {
+    "id": "25146",
+    "en": "Asylum Speed High Bless",
+    "desc": "The Asylum whispers power. 10% more speed surges through you."
+  },
+  {
+    "id": "25153",
+    "en": "EVA Storm (Raging Storm)",
+    "desc": "Strike interval is shorter."
+  },
+  {
+    "id": "25224",
+    "en": "Asylum Boss DMG Low Bless",
+    "desc": "Empowered by the Asylum’s presence, your strikes deal 5% more damage to bosses."
+  },
+  {
+    "id": "25233",
+    "en": "Master of Toxins",
+    "desc": "Increase your damage against poisoned enemies."
+  },
+  {
+    "id": "25260",
+    "en": "Devastating Sting (Nearby Shot)",
+    "desc": "Deals additional damage to targets within 3m."
+  },
+  {
+    "id": "25264",
+    "en": "Left Handed",
+    "desc": "Sub-weapon attacks deal increased damage with normal attacks."
+  },
+  {
+    "id": "25289",
+    "en": "Stigma III",
+    "desc": "Slam down on the target with both of your weapons, dealing damage around them. Applies a stack of Stigma. If used on a target with 5 stacks of Stigma, they will be silenced."
+  },
+  {
+    "id": "25295",
+    "en": "Fire Counter",
+    "desc": "Increases your water mastery."
+  },
+  {
+    "id": "25318",
+    "en": "Critical Stab",
+    "desc": "Your critical chance is lowered, but critical damage is increased."
+  },
+  {
+    "id": "25319",
+    "en": "Electric Counter",
+    "desc": "Increases your earth mastery."
+  },
+  {
+    "id": "25325",
+    "en": "Kyrie Eleison (Effect Increase)",
+    "desc": "The hymn's effects are increased."
+  },
+  {
+    "id": "25339",
+    "en": "Soul of Rhisis",
+    "desc": "null"
+  },
+  {
+    "id": "25375",
+    "en": "Celestial Barrier (Effect Increase)",
+    "desc": "The hymn's effects are increased."
+  },
+  {
+    "id": "25389",
+    "en": "Staggering Strike (Staggering Strike)",
+    "desc": "Attack a single target with a chance to knock them down. \n\n[Nen Enhancement]: Increase your block rate when used."
+  },
+  {
+    "id": "25397",
+    "en": "Celestial Barrier (Range Increase)",
+    "desc": "Skill range is increased."
+  },
+  {
+    "id": "25411",
+    "en": "Hexe's Lament (Debuff increase)",
+    "desc": "Probability is increased."
+  },
+  {
+    "id": "25431",
+    "en": "Suffocation",
+    "desc": "You are suffocating. Once you reach 5 stacks, you will be slept, stunned, or paralyzed at random."
+  },
+  {
+    "id": "25441",
+    "en": "Chimera's Curse (Full Charge Time Decrease)",
+    "desc": "Charging time is decreased."
+  },
+  {
+    "id": "25452",
+    "en": "Gloria Patri",
+    "desc": "null"
+  },
+  {
+    "id": "25507",
+    "en": "Initiating Strike (Speed Reduction)",
+    "desc": "Target's movement speed is reduced."
+  },
+  {
+    "id": "25508",
+    "en": "Stigma III (Increased Range)",
+    "desc": "Skill range is increased."
+  },
+  {
+    "id": "25539",
+    "en": "Feeble Arms",
+    "desc": "Monsters take less damages from you but have higher drop rates."
+  },
+  {
+    "id": "25603",
+    "en": "Auto Attack Stacks",
+    "desc": "null"
+  },
+  {
+    "id": "25605",
+    "en": "Asylum HP Low Bless",
+    "desc": "The Asylum bestows a 5% hp boost, filling you with eerie strength."
+  },
+  {
+    "id": "25640",
+    "en": "Hymn - Damage Reduction",
+    "desc": "While a hymn is being chanted, gain extra damage reduction for yourself."
+  },
+  {
+    "id": "25645",
+    "en": "Bloody Rush (Bloody Release)",
+    "desc": "Attack range increases but rush distance decreases."
+  },
+  {
+    "id": "25650",
+    "en": "Sky Splitter (Defensive Stance)",
+    "desc": "Applies a defensive penalty to the target."
+  },
+  {
+    "id": "25687",
+    "en": "Last One Standing (Reduce HP Penalty)",
+    "desc": "Amount of HP consumed per second is reduced."
+  },
+  {
+    "id": "25696",
+    "en": "Nen Mastery (Nen Mastery)",
+    "desc": "Attack your target, gaining Nen stacks. \n\n[Nen Enhancement]: This skill has a chance to knock the enemy down. If used during the duration of Force Grip, you will strike multiple times."
+  },
+  {
+    "id": "25708",
+    "en": "Toxic Assault",
+    "desc": "Perform a multi-hit combo on the target. Each hit has a chance to inflict poison."
+  },
+  {
+    "id": "25738",
+    "en": "Blessing of the Wise (Area Increase)",
+    "desc": "Skill range is increased."
+  },
+  {
+    "id": "25765",
+    "en": "Nen Overflow (Nen Afterimage)",
+    "desc": "10 Nen stacks up even when this skill used."
+  },
+  {
+    "id": "25792",
+    "en": "Flow of Salvation (Reduced Cooldown)",
+    "desc": "Skill cooldown is reduced."
+  },
+  {
+    "id": "25806",
+    "en": "Asylum HP High Bless",
+    "desc": "A hp increase of 10% wraps around you like a spectral embrace."
+  },
+  {
+    "id": "25814",
+    "en": "Advanced Trap",
+    "desc": "Increases your traps’ range."
+  },
+  {
+    "id": "25829",
+    "en": "Power Palm (Increased Effect)",
+    "desc": "Damage is increased."
+  },
+  {
+    "id": "25847",
+    "en": "Sacrifice (Increased Duration)",
+    "desc": "Skill duration is increased."
+  },
+  {
+    "id": "25904",
+    "en": "Toxic Assault (Reduced Cooldown)",
+    "desc": "Skill cooldown is reduced."
+  },
+  {
+    "id": "25910",
+    "en": "Initiating Strike",
+    "desc": "Attack your enemy using a strike. If the target is currently knocked down, you will dash forward to quickly close the gap. \n\n[Nen Enhancement]: Grants you tenacity when used."
+  },
+  {
+    "id": "25935",
+    "en": "Hellfire (Increased Range)",
+    "desc": "Skill range is increased."
+  },
+  {
+    "id": "25940",
+    "en": "Ambidextrous",
+    "desc": "You become more comfortable using both of your hands simultaneously."
+  },
+  {
+    "id": "25950",
+    "en": "Force Grip (Diamond Body)",
+    "desc": "While grabbing an enemy, the damage you take is reduced."
+  },
+  {
+    "id": "25970",
+    "en": "Shocked",
+    "desc": "You are shocked and receive extra electric damage."
+  },
+  {
+    "id": "25992",
+    "en": "Divinecross (Increased Multiplier)",
+    "desc": "Up to 100% of the recorded hit is replicated."
+  },
+  {
+    "id": "26034",
+    "en": "Bubble's Blessing (Bubble's Blessing)",
+    "desc": "Casts an aura that greatly reduces the caster's movement speed while increasing allies’ magic attack, critical damage, and attack. Cannot be used with other auras at the same time."
+  },
+  {
+    "id": "26063",
+    "en": "Entangling Roots",
+    "desc": "Fire a root in front of you, binding the first enemy hit in place. If the enemy bound is affected by Stone Pillar or Swampy Area, they are Petrified, increasing the magic damage they receive and reducing the physical damage they receive, and stunning them."
+  },
+  {
+    "id": "26095",
+    "en": "Critical Stab (Reduced Penalty)",
+    "desc": "Critical Chance penalty is reduced."
+  },
+  {
+    "id": "26114",
+    "en": "Cimetiere's Scream (Range Increase)",
+    "desc": "Skill range is increased."
+  },
+  {
+    "id": "26116",
+    "en": "Enhanced Magical Defense",
+    "desc": "Increases magic defense when HP is low."
+  },
+  {
+    "id": "26124",
+    "en": "Hymn - Perfect Performance",
+    "desc": "Hymns that are chanted to completion will have their cooldowns reduced."
+  },
+  {
+    "id": "26148",
+    "en": "Stigma III (Stigma III)",
+    "desc": "Slam down on the target with both of your weapons, dealing damage around them. Applies a stack of Stigma. If used on a target with 5 stacks of Stigma, they will be silenced."
+  },
+  {
+    "id": "26153",
+    "en": "Tidal Omen (Increased Damage)",
+    "desc": "Damage is increased."
+  },
+  {
+    "id": "26267",
+    "en": "Asylum All Stats Low Curse",
+    "desc": "The curse fractures your inner balance. All base stats fall by 5."
+  },
+  {
+    "id": "26276",
+    "en": "Staggering Strike",
+    "desc": "Attack a single target with a chance to knock them down. \n\n[Nen Enhancement]: Increase your block rate when used."
+  },
+  {
+    "id": "26280",
+    "en": "Trap: AoE (Reduced Cooldown)",
+    "desc": "Skill cooldown is reduced."
+  },
+  {
+    "id": "26300",
+    "en": "Trap: Debuff",
+    "desc": "Deploy a trap that deals damage with a 15% chance to slow down targets."
+  },
+  {
+    "id": "26325",
+    "en": "Flow of Salvation (Increased Healing)",
+    "desc": "Healing is increased."
+  },
+  {
+    "id": "26343",
+    "en": "Bubble's Blessing (Increased Effect)",
+    "desc": "Skill scaling is improved."
+  },
+  {
+    "id": "26390",
+    "en": "Gust (Increased Range)",
+    "desc": "Skill range is increased."
+  },
+  {
+    "id": "26426",
+    "en": "Asylum HP Low Curse",
+    "desc": "A curse from the Asylum weakens your vitality. Your max HP is reduced by 5%."
+  },
+  {
+    "id": "26461",
+    "en": "Range Extension (Ire of Iblis)",
+    "desc": "Casts an aura that greatly reduces movement speed but increases allies’ damage reduction and critical resistance. Cannot be used with other auras at the same time."
+  },
+  {
+    "id": "26481",
+    "en": "Divinecross (Reduced PvP Cooldown)",
+    "desc": "Cooldown is reduced in PvP."
+  },
+  {
+    "id": "26495",
+    "en": "Gale",
+    "desc": "Suffocate stack chance is increased."
+  },
+  {
+    "id": "26511",
+    "en": "Toxic Fury (Maintain Addiction)",
+    "desc": "Defense debuff effect from skill usage is reduced."
+  },
+  {
+    "id": "26517",
+    "en": "Sleeping",
+    "desc": "You are sleeping, and will be awaken once you take damage."
+  },
+  {
+    "id": "26573",
+    "en": "Ice Shard (Increased Duration)",
+    "desc": "Skill duration is increased."
+  },
+  {
+    "id": "26580",
+    "en": "Swift Hands",
+    "desc": "Your action speed increases when using non-magical skills."
+  },
+  {
+    "id": "26622",
+    "en": "Tempest Barrage (Range Increase)",
+    "desc": "Skill range is increased."
+  },
+  {
+    "id": "26636",
+    "en": "Ire of Iblis",
+    "desc": "Casts an aura that reduces movement speed but increases allies’ damage reduction and critical resistance. Can be re-cast to cancel."
+  },
+  {
+    "id": "26656",
+    "en": "Forced Critical Hit",
+    "desc": "Your next auto attack is guaranteed to be a critical hit."
+  },
+  {
+    "id": "26673",
+    "en": "Wind Counter",
+    "desc": "Increases your fire mastery."
+  },
+  {
+    "id": "26707",
+    "en": "Cimetiere's Scream (Debuff Chance)",
+    "desc": "Silence chance is increased."
+  },
+  {
+    "id": "26750",
+    "en": "Gloria Patri",
+    "desc": "Chant a hymn which heals nearby allies and yourself periodically. While chanting, using other skills will cancel chanting. The effect of the hymn increases as you keep chanting."
+  },
+  {
+    "id": "26789",
+    "en": "Ignite (Ignite)",
+    "desc": "Ignite your target, dealing damage and burning them. If used on a burning target, the damage is reduced but the target is stunned. Burned enemies also hurt nearby enemies, but do not burn them."
+  },
+  {
+    "id": "26796",
+    "en": "Cimetiere's Scream",
+    "desc": "Invoke the spirit of Cimetiere for a short period on the target area, dealing damage to the vicinity with a chance to silence."
+  },
+  {
+    "id": "26803",
+    "en": "Toxic Cloud (Extended Range)",
+    "desc": "Skill range is increased."
+  },
+  {
+    "id": "26821",
+    "en": "Bloody Rush (Enhanced Dash)",
+    "desc": "Attack all enemies on the path and give additional bleed damage."
+  },
+  {
+    "id": "26861",
+    "en": "Blessing of the Wise (Stun Resistance)",
+    "desc": "Grants stun immunity for the duration of the buff."
+  },
+  {
+    "id": "26936",
+    "en": "Asylum Speed Low Curse",
+    "desc": "A subtle curse slows your movements. Your speed decreases by 5%."
+  },
+  {
+    "id": "26987",
+    "en": "Repelling Shot (Reduced Cooldown)",
+    "desc": "Skill cooldown is reduced."
+  },
+  {
+    "id": "27036",
+    "en": "Stigma I (Increased Range)",
+    "desc": "Skill range is increased."
+  },
+  {
+    "id": "27050",
+    "en": "Stigma II (Reduced Cooldown)",
+    "desc": "Skill cooldown is reduced."
+  },
+  {
+    "id": "27076",
+    "en": "Templar's Call (Strong Embrace)",
+    "desc": "The chance to pull your target increases in PvP."
+  },
+  {
+    "id": "27116",
+    "en": "Trap: AoE (Increased Range)",
+    "desc": "Skill's damage range increases."
+  },
+  {
+    "id": "27120",
+    "en": "Gloria Patri (Duration Increase)",
+    "desc": "Skill duration is increased."
+  },
+  {
+    "id": "27124",
+    "en": "Increased Knockdown Chance (Increased Knockdown Chance)",
+    "desc": "Attack a single target with a chance to knock them down. \n\n[Nen Enhancement]: Increase your block rate when used."
+  },
+  {
+    "id": "27147",
+    "en": "Trap: DoT",
+    "desc": "Deploy a trap that deals continuous damage."
+  },
+  {
+    "id": "27153",
+    "en": "Force Grip (Group Binding)",
+    "desc": "You can grab all enemies within range with a chance."
+  },
+  {
+    "id": "27184",
+    "en": "Increased Elemental (Ignite)",
+    "desc": "Damage is increased."
+  },
+  {
+    "id": "27193",
+    "en": "Yo-Yo Storm",
+    "desc": "Spin your yo-yos in place to continuously attack all nearby enemies."
+  },
+  {
+    "id": "27218",
+    "en": "Cimetiere's Scream (Range Increase)",
+    "desc": "Skill range is increased."
+  },
+  {
+    "id": "27249",
+    "en": "Trap: Binding (Reduced Cooldown)",
+    "desc": "Skill cooldown is reduced."
+  },
+  {
+    "id": "27371",
+    "en": "Entangling Roots (Nature's Grasp)",
+    "desc": "Fire additional roots in a cone in front of you."
+  },
+  {
+    "id": "27374",
+    "en": "Devastating Sting",
+    "desc": "Increases damage dealt by normal attacks."
+  },
+  {
+    "id": "27408",
+    "en": "Reduced Cooldown (Ignite)",
+    "desc": "Skill cooldown is reduced."
+  },
+  {
+    "id": "27441",
+    "en": "Malefic Detonation (Cooldown reduction)",
+    "desc": "Skill cooldown is reduced."
+  },
+  {
+    "id": "27499",
+    "en": "Initiating Strike (Nen Mastery)",
+    "desc": "Has a chance to grant additional Nen stacks."
+  },
+  {
+    "id": "27520",
+    "en": "Reduced Cooldown (Reduced Cooldown)",
+    "desc": "Grab the target, restraining both of you from moving, attacking, or using skills. \n\n[Nen Enhancement]: Allows skill usage while restraining the target."
+  },
+  {
+    "id": "27524",
+    "en": "Aqua Veil",
+    "desc": "The damage you take from enemies affected by water skills is decreased."
+  },
+  {
+    "id": "27559",
+    "en": "Heavy Shot",
+    "desc": "Knocks back the target with an arrow."
+  },
+  {
+    "id": "27575",
+    "en": "Hellfire (Increased Elemental)",
+    "desc": "Damage is increased."
+  },
+  {
+    "id": "27591",
+    "en": "Debuff Damage Reduction",
+    "desc": "Damage taken from enemies with debuffs is decreased."
+  },
+  {
+    "id": "27594",
+    "en": "Bloody Thorn (Blood Penetration)",
+    "desc": "Give additional bleeding damage to all enemies hit by the skill."
+  },
+  {
+    "id": "27643",
+    "en": "Celestial Barrier",
+    "desc": "null"
+  },
+  {
+    "id": "27644",
+    "en": "Bloody Rush",
+    "desc": "Rush forward, causing slicing and bleeding the first enemy hit."
+  },
+  {
+    "id": "27653",
+    "en": "Ice Shard (Reduced Cooldown)",
+    "desc": "Skill cooldown is reduced."
+  },
+  {
+    "id": "27670",
+    "en": "Ice Shard",
+    "desc": "Lock yourself in ice, becoming invulnerable and deal damage to surrounding enemies. You cannot use items or skills while frozen."
+  },
+  {
+    "id": "27674",
+    "en": "Sky Splitter (Reduce Cooldown)",
+    "desc": "Skill cooldown is reduced."
+  },
+  {
+    "id": "27717",
+    "en": "Asylum All Stats High Bless",
+    "desc": "The Asylum bestows a 10% all boost, filling you with eerie strength."
+  },
+  {
+    "id": "27745",
+    "en": "Staggering Strike (Leg Attack)",
+    "desc": "Nen Enhanced strikes will also reduce movement speed."
+  },
+  {
+    "id": "27773",
+    "en": "Blood Armor",
+    "desc": "Damage reduction increases as HP decreases."
+  },
+  {
+    "id": "27780",
+    "en": "Heavy Shot (Group Knockback)",
+    "desc": "Pushes back enemies within the area along with the target."
+  },
+  {
+    "id": "27820",
+    "en": "Blessing of the Wise (DoT Resistance)",
+    "desc": "Grants resistance to damage over time effects during the duration of the buff."
+  },
+  {
+    "id": "27864",
+    "en": "Execution of Justice (Faction Collapse)",
+    "desc": "Distance you can push enemies increases."
+  },
+  {
+    "id": "27878",
+    "en": "Meditate (Adamantine Body)",
+    "desc": "Damage reduction rate increases while meditating."
+  },
+  {
+    "id": "27888",
+    "en": "Stone Pillar",
+    "desc": "Disrupt the ground, summoning a stone pillar which hurts enemies and lowers their movement speed. After the duration of the pillar, it explodes, dealing extra damage to nearby enemies."
+  },
+  {
+    "id": "27890",
+    "en": "Condor Dive",
+    "desc": "Unleashes an area attack within the designated range."
+  },
+  {
+    "id": "27897",
+    "en": "Marked Prey",
+    "desc": "Normal attack critical damage increases against enemies affected by the Pit debuff from being caught in a trap."
+  },
+  {
+    "id": "27910",
+    "en": "Hammer of Judgement (Sanctuary Area)",
+    "desc": "Leaves a healing area behind."
+  },
+  {
+    "id": "27920",
+    "en": "Storm Strike",
+    "desc": "Perform a lower-body strike on the target. If the target becomes knocked down from the strike, it is able to be re-casted, dealing increased damage."
+  },
+  {
+    "id": "27954",
+    "en": "Paralyzed",
+    "desc": "You are paralyzed, physical damage is increased and magical damage is decreased."
+  },
+  {
+    "id": "27972",
+    "en": "Special Yo-Yo Mastery (Range)",
+    "desc": "Yo-Yo range increases, but auto attack damage decreases."
+  },
+  {
+    "id": "27979",
+    "en": "Barrage",
+    "desc": "Normal attacks have a chance to fire double arrows."
+  },
+  {
+    "id": "28001",
+    "en": "Damnation Surge",
+    "desc": "Track the number of Weaken type debuffs you apply, multiplying the bonuses given."
+  },
+  {
+    "id": "28012",
+    "en": "Increased Spread Damage (Ignite)",
+    "desc": "Damage reduction when used on a burning target is reduced."
+  },
+  {
+    "id": "28013",
+    "en": "Asylum DEF Low Bless",
+    "desc": "The Asylum bestows a 2% def boost, filling you with eerie strength."
+  },
+  {
+    "id": "28029",
+    "en": "Nen Release",
+    "desc": "Remove all your Nen stacks at a cost of power."
+  },
+  {
+    "id": "28051",
+    "en": "Chimera's Curse (Chimera's Curse)",
+    "desc": "Use Chimera's spirit to curse your target, dealing damage and mutating them into an Aibatt. While mutated, they cannot attack. When fully charged, this skill has a 30% higher chance of success."
+  },
+  {
+    "id": "28088",
+    "en": "Gloria Patri",
+    "desc": "null"
+  },
+  {
+    "id": "28118",
+    "en": "Bubble's Blessing",
+    "desc": "Casts an aura that reduces the caster's movement speed while increasing allies’ magic attack and critical damage. Can be re-cast to cancel."
+  },
+  {
+    "id": "28141",
+    "en": "Maelstrom Strike (Increased Range)",
+    "desc": "The skill's range increases."
+  },
+  {
+    "id": "28163",
+    "en": "Force Grip (Force Grip)",
+    "desc": "Grab the target, restraining both of you from moving, attacking, or using skills. \n\n[Nen Enhancement]: Allows skill usage while restraining the target."
+  },
+  {
+    "id": "28178",
+    "en": "Harlequin's Charge (Harlequin's Charge)",
+    "desc": "Gather strength to perform a powerful charging attack against a single enemy."
+  },
+  {
+    "id": "28192",
+    "en": "Death's Rush",
+    "desc": "The God of Death gazes upon you."
+  },
+  {
+    "id": "28211",
+    "en": "Ire of Iblis (Ire of Iblis)",
+    "desc": "Casts an aura that greatly reduces movement speed but increases allies’ damage reduction, critical resistance, and element resistance. Cannot be used with other auras at the same time."
+  },
+  {
+    "id": "28231",
+    "en": "Asylum Boss DMG High Bless",
+    "desc": "An intense force surges through you! Bosses now suffer 10% more damage from your wrath."
+  },
+  {
+    "id": "28269",
+    "en": "Group Binding",
+    "desc": "Grab the target, restraining both of you from moving, attacking, or using skills. \n\n[Nen Enhancement]: Allows skill usage while restraining the target."
+  },
+  {
+    "id": "28281",
+    "en": "Sky Splitter",
+    "desc": "Split the skies using your two handed weapon, dealing damage to your target. Requires a two handed weapon."
+  },
+  {
+    "id": "28287",
+    "en": "Stone Pillar (Reduced Duration)",
+    "desc": "Skill duration is reduced."
+  },
+  {
+    "id": "28292",
+    "en": "Lillith's Gaze (Sure Gaze)",
+    "desc": "Probability is increased."
+  },
+  {
+    "id": "28309",
+    "en": "Execution of Justice (Leap of Faith)",
+    "desc": "The leap distance increases."
+  },
+  {
+    "id": "28319",
+    "en": "EVA Storm (Increased Duration)",
+    "desc": "Skill duration is increased."
+  },
+  {
+    "id": "28328",
+    "en": "Hellfire (Increased Duration)",
+    "desc": "Skill duration is increased."
+  },
+  {
+    "id": "28337",
+    "en": "Stigma II",
+    "desc": "Launch a chain of blades towards your target which binds onto them, spinning and attacking enemies around them, then chaining to another nearby target. Has a chance to apply a stack of Stigma. If used on a target with 5 stacks, will steal HP through hits."
+  },
+  {
+    "id": "28371",
+    "en": "Swampy Area (Reduced Cooldown)",
+    "desc": "Skill cooldown is reduced."
+  },
+  {
+    "id": "28377",
+    "en": "Divinecross",
+    "desc": "Curse your target with divine power, recording the highest hit taken and replicating up to 75% of it upon expiry. This debuff can be expired early if pressed again."
+  },
+  {
+    "id": "28393",
+    "en": "Shield Mastery",
+    "desc": "Increases defense when wearing a shield."
+  },
+  {
+    "id": "28409",
+    "en": "Condor Dive (Range Extension)",
+    "desc": "Skill range is increased."
+  },
+  {
+    "id": "28410",
+    "en": "Bloody Thorn",
+    "desc": "Knocks back and causes bleeding with an explosion. Charging increases range."
+  },
+  {
+    "id": "28431",
+    "en": "Asylum Elemental Low Bless",
+    "desc": "Imbues your attacks with the power of all elements, increasing elemental damage by 5%."
+  },
+  {
+    "id": "28433",
+    "en": "Range Increase",
+    "desc": "null"
+  },
+  {
+    "id": "28489",
+    "en": "Water Counter",
+    "desc": "Increases your electric mastery."
+  },
+  {
+    "id": "28494",
+    "en": "Increased Effect (Increased Effect)",
+    "desc": "Attack your target, gaining Nen stacks. \n\n[Nen Enhancement]: This skill has a chance to knock the enemy down. If used during the duration of Force Grip, you will strike multiple times."
+  },
+  {
+    "id": "28507",
+    "en": "Shield Crush (Increased Range)",
+    "desc": "The skill's range increases."
+  },
+  {
+    "id": "28514",
+    "en": "Grinder's Blessing",
+    "desc": "Madrigal's elites guide you!"
+  },
+  {
+    "id": "28521",
+    "en": "Reduced Cooldown",
+    "desc": "Grab the target, restraining both of you from moving, attacking, or using skills. \n\n[Nen Enhancement]: Allows skill usage while restraining the target."
+  },
+  {
+    "id": "28529",
+    "en": "Master of Sword",
+    "desc": "Reduces Slayer skill cooldowns and increases critical chance. Scales with number of swords equipped."
+  },
+  {
+    "id": "28536",
+    "en": "Soul of Rhisis (Range Increase)",
+    "desc": "Skill range is increased."
+  },
+  {
+    "id": "28558",
+    "en": "Celestial Barrier",
+    "desc": "null"
+  },
+  {
+    "id": "28562",
+    "en": "Asylum Attack High Bless",
+    "desc": "The Asylum bestows a 10% attack boost, filling you with eerie strength."
+  },
+  {
+    "id": "28564",
+    "en": "Nen Sphere (Continuous Shooting)",
+    "desc": "Consumes additional Nen to attempt an extra attack."
+  },
+  {
+    "id": "28569",
+    "en": "Harlequin's Greeting (CC Attack)",
+    "desc": "Perform a quick step, teleporting behind your target with a swift attack."
+  },
+  {
+    "id": "28585",
+    "en": "Tidal Omen (Increased Recovery)",
+    "desc": "Stolen health is increased."
+  },
+  {
+    "id": "28602",
+    "en": "Stigma I (Cooldown reduction)",
+    "desc": "Skill cooldown is reduced."
+  },
+  {
+    "id": "28679",
+    "en": "Infusion",
+    "desc": "Infuse any elemental skills you use with your weapon's applied element, overriding the skill's element."
+  },
+  {
+    "id": "28735",
+    "en": "Toxic Assault (Increased Chance)",
+    "desc": "The chance to inflict poison status increases with each hit."
+  },
+  {
+    "id": "28769",
+    "en": "Execution of Justice (Hero's Emergence)",
+    "desc": "Skill range is increased."
+  },
+  {
+    "id": "28773",
+    "en": "Heaven's Step",
+    "desc": "Chant a hymn which provides nearby allies and yourself with increased evasion and blocking power. While chanting, using other skills will cancel chanting. The effect of the hymn increases as you keep chanting."
+  },
+  {
+    "id": "28858",
+    "en": "Meditate",
+    "desc": "Enter a meditative state that reduces damage taken, shortens natural HP recovery time, and increases healing effects. Can be re-cast to cancel."
+  },
+  {
+    "id": "28859",
+    "en": "Swampy Area (Increased Elemental)",
+    "desc": "Damage is increased."
+  },
+  {
+    "id": "28863",
+    "en": "Trap: Debuff (Proficient Traps)",
+    "desc": "Maximum number of traps you can place increases."
+  },
+  {
+    "id": "28870",
+    "en": "Agility",
+    "desc": "Movement speed temporarily increases after leaving invisibility."
+  },
+  {
+    "id": "28911",
+    "en": "Tenacity",
+    "desc": "Debuffs applied on you do not last as long."
+  },
+  {
+    "id": "28920",
+    "en": "Last One Standing (Damage Reduction)",
+    "desc": "Incoming damage is greatly reduced instead of reflected."
+  },
+  {
+    "id": "28926",
+    "en": "Entangling Roots (Grasping Roots)",
+    "desc": "Roots will go through more enemies."
+  },
+  {
+    "id": "29011",
+    "en": "Soul of Rhisis",
+    "desc": "null"
+  },
+  {
+    "id": "29013",
+    "en": "Auto Attack Stacks",
+    "desc": "null"
+  },
+  {
+    "id": "29029",
+    "en": "Heaven's Step (Critical Resistance)",
+    "desc": "Increases critical resistance."
+  },
+  {
+    "id": "29035",
+    "en": "Trap: Blast (Reduced Cooldown)",
+    "desc": "Skill cooldown is reduced."
+  },
+  {
+    "id": "29057",
+    "en": "Heavy Shot (Increased Knockback)",
+    "desc": "The distance over which the target is knocked back increases."
+  },
+  {
+    "id": "29063",
+    "en": "Barrage (Reduced Cooldown)",
+    "desc": "Skill cooldown is reduced."
+  },
+  {
+    "id": "29071",
+    "en": "Chimera's Curse (Full charge duration increase)",
+    "desc": "Skill duration when fully charged is increased."
+  },
+  {
+    "id": "29077",
+    "en": "Bloody Thorn (Critical Hit)",
+    "desc": "Damage increases."
+  },
+  {
+    "id": "29097",
+    "en": "Malefic Detonation (Increased Duration)",
+    "desc": "Skill duration is increased."
+  },
+  {
+    "id": "29119",
+    "en": "Increased HP Recovery",
+    "desc": "Gain additional HP recovery when restoring it with items or skills."
+  },
+  {
+    "id": "29144",
+    "en": "Stigma",
+    "desc": "null"
+  },
+  {
+    "id": "29153",
+    "en": "Stigma III (Reduced Cooldown)",
+    "desc": "Skill cooldown is reduced."
+  },
+  {
+    "id": "29174",
+    "en": "Chimera's Curse (Full Charge Time Decrease)",
+    "desc": "Charging time is decreased."
+  },
+  {
+    "id": "29193",
+    "en": "Tempest Barrage",
+    "desc": "Creates a sword aura that damages nearby enemies and increases defense."
+  },
+  {
+    "id": "29201",
+    "en": "EVA Storm",
+    "desc": "Become surrounded by storm clouds, periodically striking a nearby enemy with lightning. Lightning strikes always shock targets. Strikes that hit shocked targets always deal maximum damage."
+  },
+  {
+    "id": "29226",
+    "en": "Initiating Strike",
+    "desc": "Attack your enemy using a strike. If the target is currently knocked down, you will dash forward to quickly close the gap. \n\n[Nen Enhancement]: Grants you tenacity when used."
+  },
+  {
+    "id": "29238",
+    "en": "Celestial Barrier",
+    "desc": "null"
+  },
+  {
+    "id": "29260",
+    "en": "Stigma III (Stigma III)",
+    "desc": "Slam down on the target with both of your weapons, dealing damage around them. Applies a stack of Stigma. If used on a target with 5 stacks of Stigma, they will be silenced."
+  },
+  {
+    "id": "29303",
+    "en": "Initiating Strike (Nen Enhancement)",
+    "desc": "When cast as an enhanced attack, reduces the target's attack and defense additionally."
+  },
+  {
+    "id": "29316",
+    "en": "Bloody Thorn (Critical Hit)",
+    "desc": "Damage increases."
+  },
+  {
+    "id": "29364",
+    "en": "Concentration [Nen] (Mind Enhancement)",
+    "desc": "Magic damage increases per Nen stack."
+  },
+  {
+    "id": "29397",
+    "en": "Templar's Call (Multi-capture)",
+    "desc": "Multiple enemies surrounding the selected target can also be pulled."
+  },
+  {
+    "id": "29481",
+    "en": "Infusion (Increased Duration)",
+    "desc": "Skill duration is increased."
+  },
+  {
+    "id": "29491",
+    "en": "Storm Slash (Airborne)",
+    "desc": "Whirlwind moves forward, lifting enemies into the air."
+  },
+  {
+    "id": "29518",
+    "en": "Asylum Boss Incoming Bless",
+    "desc": "A protective force from the Asylum dampens the fury of bosses. You receive 10% less damage from them."
+  },
+  {
+    "id": "29528",
+    "en": "Toxic Cloud",
+    "desc": "Throw a vial of toxins at an area, creating a mist of poison which inflicts damage and has a chance to poison targets nearby."
+  },
+  {
+    "id": "29549",
+    "en": "Bloody Thorn (Increased Range)",
+    "desc": "Explosion range increases."
+  },
+  {
+    "id": "29562",
+    "en": "Toxic Fury (No Pain No Gain)",
+    "desc": "Defense reduction rate is fixed at 60%, but enhances the skill effect."
+  },
+  {
+    "id": "29580",
+    "en": "Shield Crush (Forceful Attack)",
+    "desc": "Skill damage increases proportionally to the shield's defense."
+  },
+  {
+    "id": "29607",
+    "en": "Stone Pillar (Reduced Cooldown)",
+    "desc": "Skill cooldown is reduced."
+  },
+  {
+    "id": "29632",
+    "en": "Gloria Patri",
+    "desc": "null"
+  },
+  {
+    "id": "29644",
+    "en": "Bloody Rush (Strong Impact)",
+    "desc": "Stuns the target on impact."
+  },
+  {
+    "id": "29692",
+    "en": "Kyrie Eleison",
+    "desc": "Chant a hymn which provides nearby allies and yourself with increased vital regeneration powers. While chanting, using other skills will cancel chanting. The effect of the hymn increases as you keep chanting."
+  },
+  {
+    "id": "29718",
+    "en": "Critical Stab (Reduced Cooldown)",
+    "desc": "Skill cooldown is reduced."
+  },
+  {
+    "id": "29797",
+    "en": "Master of Axe",
+    "desc": "Increases attack power. Scaled with number of axes equipped."
+  },
+  {
+    "id": "29824",
+    "en": "Nen Enhancement (Nen Enhancement)",
+    "desc": "Attack your enemy using a strike. If the target is currently knocked down, you will dash forward to quickly close the gap. \n\n[Nen Enhancement]: Grants you tenacity when used."
+  },
+  {
+    "id": "29843",
+    "en": "Gust",
+    "desc": "Spawn a gust of wind that pushes back nearby enemies, increases magic resistance, and ranged block chance."
+  },
+  {
+    "id": "29902",
+    "en": "Sacrifice (Sacrifice of Sharing)",
+    "desc": "Gain shields yourself as well."
+  },
+  {
+    "id": "29907",
+    "en": "Enhanced Blinkpool",
+    "desc": "Movement speed is temporarily increased after using Blinkpool."
+  },
+  {
+    "id": "29953",
+    "en": "Flow of Salvation (Flow of Salvation)",
+    "desc": "Damage is increased."
+  },
+  {
+    "id": "29959",
+    "en": "Enhanced HP Recovery",
+    "desc": "Improve the effectiveness of healing received when low on health."
+  },
+  {
+    "id": "29978",
+    "en": "EVA Storm (Hurricane)",
+    "desc": "The skill's maximum targets is increased."
+  },
+  {
+    "id": "29981",
+    "en": "Bubble's Blessing (Duration Increase)",
+    "desc": "Skill duration is increased."
+  }
+]

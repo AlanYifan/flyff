@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>清除IndexedDB缓存</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 800px;
+      margin: 50px auto;
+      padding: 20px;
+      background-color: #f5f5f5;
+    }
+    .container {
+      background-color: white;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    h1 {
+      color: #333;
+      margin-bottom: 20px;
+    }
+    .info {
+      background-color: #e3f2fd;
+      padding: 15px;
+      border-left: 4px solid #2196f3;
+      margin-bottom: 20px;
+    }
+    .warning {
+      background-color: #fff3e0;
+      padding: 15px;
+      border-left: 4px solid #ff9800;
+      margin-bottom: 20px;
+    }
+    button {
+      background-color: #4caf50;
+      color: white;
+      padding: 12px 24px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 16px;
+      margin-right: 10px;
+    }
+    button:hover {
+      background-color: #45a049;
+    }
+    button:disabled {
+      background-color: #cccccc;
+      cursor: not-allowed;
+    }
+    #result {
+      margin-top: 20px;
+      padding: 15px;
+      border-radius: 4px;
+      display: none;
+    }
+    .success {
+      background-color: #d4edda;
+      color: #155724;
+      border: 1px solid #c3e6cb;
+    }
+    .error {
+      background-color: #f8d7da;
+      color: #721c24;
+      border: 1px solid #f5c6cb;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>清除IndexedDB缓存</h1>
+    
+    <div class="info">
+      <strong>说明：</strong>此页面用于清除游戏数据的IndexedDB缓存，以便重新生成应用字段筛选的数据。
+    </div>
+    
+    <div class="warning">
+      <strong>注意：</strong>清除缓存后，下次加载游戏时需要重新下载和处理所有数据，可能会增加首次加载时间。
+    </div>
+    
+    <button id="clearBtn" onclick="clearCache()">清除IndexedDB缓存</button>
+    <button id="rebuildBtn" onclick="rebuildDatabase()">重建IndexedDB数据库</button>
+    <button id="reloadBtn" onclick="reloadPage()" disabled>重新加载页面</button>
+    
+    <div id="result"></div>
+  </div>
+
+  <script>
+    async function clearCache() {
+      const clearBtn = document.getElementById('clearBtn');
+      const resultDiv = document.getElementById('result');
+      const reloadBtn = document.getElementById('reloadBtn');
+      
+      clearBtn.disabled = true;
+      clearBtn.textContent = '正在清除...';
+      resultDiv.style.display = 'none';
+      
+      try {
+        // 删除 FLYFFGameDataCache 数据库
+        await new Promise((resolve, reject) => {
+          const request = indexedDB.deleteDatabase('FLYFFGameDataCache');
+          
+          request.onsuccess = () => {
+            console.log('FLYFFGameDataCache 数据库已删除');
+            resolve();
+          };
+          
+          request.onerror = () => {
+            console.error('删除 FLYFFGameDataCache 数据库失败:', request.error);
+            reject(request.error);
+          };
+          
+          request.onblocked = () => {
+            console.warn('删除数据库被阻止，请关闭其他标签页');
+          };
+        });
+        
+        // 删除 FlyFFGameDataCache 数据库（备用名称）
+        await new Promise((resolve, reject) => {
+          const request = indexedDB.deleteDatabase('FlyFFGameDataCache');
+          
+          request.onsuccess = () => {
+            console.log('FlyFFGameDataCache 数据库已删除');
+            resolve();
+          };
+          
+          request.onerror = () => {
+            console.warn('FlyFFGameDataCache 数据库不存在或删除失败');
+            resolve();
+          };
+        });
+        
+        resultDiv.className = 'success';
+        resultDiv.textContent = '✅ IndexedDB缓存已成功清除！';
+        resultDiv.style.display = 'block';
+        
+        reloadBtn.disabled = false;
+      } catch (error) {
+        console.error('清除缓存失败:', error);
+        resultDiv.className = 'error';
+        resultDiv.textContent = '❌ 清除缓存失败: ' + error.message;
+        resultDiv.style.display = 'block';
+        
+        clearBtn.disabled = false;
+        clearBtn.textContent = '清除IndexedDB缓存';
+      }
+    }
+    
+    function reloadPage() {
+      window.location.href = 'http://localhost:3000/main';
+    }
+
+    async function rebuildDatabase() {
+      const rebuildBtn = document.getElementById('rebuildBtn');
+      const resultDiv = document.getElementById('result');
+      const reloadBtn = document.getElementById('reloadBtn');
+      
+      rebuildBtn.disabled = true;
+      rebuildBtn.textContent = '正在重建...';
+      resultDiv.style.display = 'none';
+      
+      try {
+        console.log('开始重建IndexedDB数据库...');
+        
+        // 删除 FLYFFGameDataCache 数据库
+        await new Promise((resolve, reject) => {
+          const request = indexedDB.deleteDatabase('FLYFFGameDataCache');
+          
+          request.onsuccess = () => {
+            console.log('FLYFFGameDataCache 数据库已删除');
+            resolve();
+          };
+          
+          request.onerror = () => {
+            console.error('删除 FLYFFGameDataCache 数据库失败:', request.error);
+            reject(request.error);
+          };
+          
+          request.onblocked = () => {
+            console.warn('删除数据库被阻止，请关闭其他标签页');
+          };
+        });
+        
+        // 删除 FlyFFGameDataCache 数据库（备用名称）
+        await new Promise((resolve, reject) => {
+          const request = indexedDB.deleteDatabase('FlyFFGameDataCache');
+          
+          request.onsuccess = () => {
+            console.log('FlyFFGameDataCache 数据库已删除');
+            resolve();
+          };
+          
+          request.onerror = () => {
+            console.warn('FlyFFGameDataCache 数据库不存在或删除失败');
+            resolve();
+          };
+        });
+        
+        // 等待2秒，确保数据库完全删除
+        await new Promise(resolve => setTimeout(resolve, 2000));
+        
+        console.log('IndexedDB数据库已重建');
+        
+        resultDiv.className = 'success';
+        resultDiv.textContent = '✅ IndexedDB数据库已成功重建！';
+        resultDiv.style.display = 'block';
+        
+        reloadBtn.disabled = false;
+      } catch (error) {
+        console.error('重建数据库失败:', error);
+        resultDiv.className = 'error';
+        resultDiv.textContent = '❌ 重建数据库失败: ' + error.message;
+        resultDiv.style.display = 'block';
+        
+        rebuildBtn.disabled = false;
+        rebuildBtn.textContent = '重建IndexedDB数据库';
+      }
+    }
+  </script>
+</body>
+</html>
