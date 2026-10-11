@@ -1,0 +1,239 @@
+class audio {
+    // 添加静态属性来存储音量设置
+    static backgroundMusicVolume = 0.5;
+    static sfxVolume = 0.5;
+    /**
+     * 播放背景音乐
+     * @param {string} musicType - 音乐类型 ('map' 或 'battle')
+     * @param {string} mapName - 地图名称
+     */
+    static playMusic(musicType, mapName) {
+        if (!mapName) {
+            mapName = document.getElementById('currentMap').textContent;
+        }
+
+        let musicUrl;
+        if (musicType === 'map') {
+            musicUrl = mapMusicMapping[mapName];
+        } else if (musicType === 'battle') {
+            musicUrl = battleMusicMapping[mapName];
+        } else {
+            console.error('Invalid music type:', musicType);
+            return;
+        }
+
+        if (!musicUrl) {
+            console.error('Music URL not found for map:', mapName);
+            return;
+        }
+
+        const mapMusic = document.getElementById('mapMusic');
+        // 设置音乐类型标记
+        mapMusic.dataset.type = musicType;
+
+        // 如果音乐未改变，则直接返回
+        if (mapMusic.src === musicUrl && !mapMusic.paused) {
+            return;
+        }
+
+        mapMusic.src = musicUrl;
+        mapMusic.loop = true;
+
+        // 播放新音乐
+        mapMusic.play().catch(error => {
+            console.error('播放音乐时发生错误:', error);
+        });
+
+        currentMusicType = musicType;
+        isMusicPlaying = true;
+    }
+
+    /**
+     * 播放背景音乐（通用方法）
+     * @param {string} musicUrl - 音乐文件URL
+     * @param {boolean} loop - 是否循环播放
+     * @returns {HTMLAudioElement} 返回创建的音频对象
+     */
+    static playBackgroundMusic(musicUrl, loop = true) {
+        const mapMusic = document.getElementById('mapMusic');
+        if (!mapMusic) {
+            console.error('背景音乐元素不存在');
+            return null;
+        }
+
+        // 设置音乐音量
+        const backgroundMusicVolume = document.getElementById('volumeControl')?.value || 0.5;
+        mapMusic.volume = backgroundMusicVolume;
+
+        // 设置音乐源和循环
+        mapMusic.src = musicUrl;
+        mapMusic.loop = loop;
+
+        // 播放音乐
+        mapMusic.play().catch(error => {
+            console.error('播放背景音乐时发生错误:', error);
+        });
+
+        // 添加自定义属性以便识别
+        mapMusic.dataset.type = 'background';
+
+        return mapMusic;
+    }
+
+    /**
+     * 播放音效
+     * @param {string} audioUrl - 音效文件链接
+     * @returns {HTMLAudioElement} 返回创建的音频对象
+     */
+    static useSoundEffect(audioUrl) {
+        // 使用类的静态属性而不是可能未定义的全局变量
+        const sfxVolume = document.getElementById('sfxVolumeControl')?.value || audio.sfxVolume;
+        const audioElement = new Audio(audioUrl);
+        audioElement.volume = sfxVolume; // 应用音效音量
+        audioElement.play().catch(error => {
+            console.error('播放音效时发生错误:', error);
+        });
+
+        // 添加自定义属性以便识别
+        audioElement.dataset.type = 'sfx';
+
+        return audioElement; // 返回音频对象以便后续控制
+    }
+
+    // 初始化音量控制
+    static initializeVolumeControl() {
+        // 初始化背景音乐音量
+        const backgroundMusicVolumeControl = document.getElementById('volumeControl');
+        if (backgroundMusicVolumeControl) {
+            // 尝试从本地存储获取保存的音量设置
+            const savedBgmVolume = localStorage.getItem('backgroundMusicVolume');
+            if (savedBgmVolume !== null) {
+                audio.backgroundMusicVolume = parseFloat(savedBgmVolume);
+            }
+
+            backgroundMusicVolumeControl.value = audio.backgroundMusicVolume;
+            backgroundMusicVolumeControl.addEventListener('input', () => {
+                audio.backgroundMusicVolume = parseFloat(backgroundMusicVolumeControl.value);
+
+                // 更新当前播放的背景音乐音量
+                const mapMusic = document.getElementById('mapMusic');
+                if (mapMusic) {
+                    mapMusic.volume = audio.backgroundMusicVolume;
+                }
+
+                // 保存设置到本地存储
+                localStorage.setItem('backgroundMusicVolume', audio.backgroundMusicVolume);
+            });
+        }
+
+        // 音效音量控制
+        const sfxVolumeControl = document.getElementById('sfxVolumeControl');
+        if (sfxVolumeControl) {
+            // 尝试从本地存储获取保存的音量设置
+            const savedSfxVolume = localStorage.getItem('sfxVolume');
+            if (savedSfxVolume !== null) {
+                audio.sfxVolume = parseFloat(savedSfxVolume);
+            }
+
+            sfxVolumeControl.value = audio.sfxVolume;
+            sfxVolumeControl.addEventListener('input', () => {
+                audio.sfxVolume = parseFloat(sfxVolumeControl.value);
+
+                // 更新所有现有音效的音量
+                document.querySelectorAll('audio').forEach(audioElement => {
+                    if (audioElement.dataset.type === 'sfx') {
+                        audioElement.volume = audio.sfxVolume;
+                    }
+                });
+
+                // 保存设置到本地存储
+                localStorage.setItem('sfxVolume', audio.sfxVolume);
+            });
+        }
+    }
+
+    /**
+     * 停止当前播放的音乐
+     */
+    static stopMusic() {
+        const mapMusic = document.getElementById('mapMusic');
+        if (mapMusic) {
+            mapMusic.pause();
+            mapMusic.currentTime = 0;
+            // 清除音乐类型标记
+            delete mapMusic.dataset.type;
+        }
+    }
+
+    /**
+     * 停止所有正在播放的音效
+     */
+    static stopSoundEffect() {
+        const sounds = document.getElementsByTagName('audio');
+        for (let i = 0; i < sounds.length; i++) {
+            if (sounds[i].id !== 'mapMusic' && sounds[i].dataset.type === 'sfx') {
+                sounds[i].pause();
+                sounds[i].currentTime = 0;
+            }
+        }
+    }
+
+    static setMusicVolume(volume) {
+        if (volume < 0) volume = 0;
+        if (volume > 1) volume = 1;
+
+        audio.backgroundMusicVolume = volume;
+
+        // 更新当前播放的背景音乐音量
+        const mapMusic = document.getElementById('mapMusic');
+        if (mapMusic) {
+            mapMusic.volume = volume;
+        }
+
+        // 保存设置到本地存储
+        localStorage.setItem('backgroundMusicVolume', volume);
+    }
+    /**
+     * 设置音效音量
+     * @param {number} volume - 音量值 (0.0 到 1.0)
+     */
+    static setSoundVolume(volume) {
+        if (volume < 0) volume = 0;
+        if (volume > 1) volume = 1;
+
+        audio.sfxVolume = volume;
+
+        // 保存设置到本地存储
+        localStorage.setItem('sfxVolume', volume);
+    }
+
+    /**
+     * 设置特效音量
+     * @param {number} volume - 音量值 (0.0 到 1.0)
+     */
+    static setEffectsVolume(volume) {
+        if (volume < 0) volume = 0;
+        if (volume > 1) volume = 1;
+
+        // 如果有怪物音效管理器，也更新其音量
+        if (typeof MonsterSoundManager !== 'undefined') {
+            MonsterSoundManager.monsterSfxVolume = volume;
+            localStorage.setItem('monsterSfxVolume', volume);
+        }
+    }
+
+}
+
+
+// 确保在页面加载时初始化音量控制
+document.addEventListener('DOMContentLoaded', () => {
+    audio.initializeVolumeControl();
+});
+
+document.body.addEventListener("click", function (event) {
+    // 检查点击事件的目标元素是否为BUTTON标签
+    if (event.target.tagName === "BUTTON") {
+        // 播放预定义的按钮点击音效
+        audio.useSoundEffect('../sound/InfClick.wav');
+    }
+});
